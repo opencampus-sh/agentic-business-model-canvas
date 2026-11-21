@@ -15,11 +15,12 @@
 ### 1. Practice 👤
 <!-- Which kind of work does the skillset support, for whom, and why with an agent? What goes wrong today when people do it with an agent and no skills? -->
 <!-- print: Which work, for whom, why with an agent? | What goes wrong without skills? -->
-*Entwurf:* Teams im Kurs „Become a Changemaker“ (opencampus.sh) entwickeln mit einem Agenten das Geschäftsmodell ihres Impact-Startups (Solution Design: Nutzer:innen vs. Kund:innen, Value Proposition Canvas, Social Business Model Canvas, MVP), ohne dass der Agent ihnen die Entscheidungen abnimmt.
+Teams im Kurs „Become a Changemaker“ (opencampus.sh) entwickeln mit einem Agenten ihr Impact-Startup von der Problemanalyse bis zum getesteten Geschäftsmodell: Problem und Ursachen (5 Whys, Folgen, Problembaum), Zielgruppe und Problem-Interviews, Lösungshypothesen, Nutzer:innen vs. Kund:innen, Value Proposition Canvas, Social Business Model Canvas, MVP-Tests der kritischen Annahmen, Ergebnisse zurück ins Canvas (Lean-Schleife). Finanzierung, Rechtsform und Pitch werden nur verlinkt.
 
 ### 2. Users 👤
 <!-- Who runs the skills: role, domain knowledge, experience with agents, language, setting (course, team, alone). The weakest user the skillset still serves. Link PERSONAS.md. -->
 <!-- print: Who runs the skills, knowing what? | The weakest user we still serve -->
+Die Teams selbst (allein oder im Team, Kurs im eigenen Tempo, 1–2 Wochen pro Thema); Coaches später optional. Agenten: Claude Code, OpenCode oder Codex. Arbeitsablage: ein Ordner mit Markdown-Dateien, Notion-Teamseite als optionaler Export. Personas: Annahmen, bis die Kursleitung sie bestätigt (siehe `PERSONAS.md`).
 
 ### 3. Outcomes 👤
 <!-- What good work looks like when the skillset is used: the artefacts and decisions it should lead to. What it deliberately does not do. -->
