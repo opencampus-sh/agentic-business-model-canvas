@@ -40,10 +40,10 @@ Reference skills used by the others: {{list}}.
 
 ```bash
 # Editable copies in your project (any agent; needs Node.js 22.20 or newer)
-npx skills@latest add steffen74/agentic-business-model-canvas
+npx skills@latest add opencampus-sh/agentic-business-model-canvas
 
 # Claude Code plugin
-claude plugin marketplace add steffen74/agentic-business-model-canvas
+claude plugin marketplace add opencampus-sh/agentic-business-model-canvas
 claude plugin install agentic-business-model-canvas@agentic-business-model-canvas
 ```
 

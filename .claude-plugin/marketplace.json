@@ -2,7 +2,7 @@
   "name": "agentic-business-model-canvas",
   "owner": {
     "name": "Steffen Brandt",
-    "url": "https://github.com/steffen74"
+    "url": "https://github.com/opencampus-sh"
   },
   "description": "Agentic Business Model Canvas skills as an installable plugin.",
   "plugins": [
