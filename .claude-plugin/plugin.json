@@ -1,0 +1,16 @@
+{
+  "name": "agentic-business-model-canvas",
+  "version": "0.1.0",
+  "description": "{{One sentence from the README, in the skillset's language.}}",
+  "author": {
+    "name": "Steffen Brandt",
+    "url": "https://github.com/steffen74"
+  },
+  "repository": "https://github.com/steffen74/agentic-business-model-canvas",
+  "license": "MIT",
+  "keywords": ["skills", "canvas", "{{domain keywords}}"],
+  "skills": [
+    "./skills/show-canvas",
+    "./skills/setup-model"
+  ]
+}

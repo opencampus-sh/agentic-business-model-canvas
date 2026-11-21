@@ -1,0 +1,17 @@
+{
+  "name": "agentic-business-model-canvas",
+  "owner": {
+    "name": "Steffen Brandt",
+    "url": "https://github.com/steffen74"
+  },
+  "description": "Agentic Business Model Canvas skills as an installable plugin.",
+  "plugins": [
+    {
+      "name": "agentic-business-model-canvas",
+      "source": "./",
+      "description": "{{One sentence, in the skillset's language.}}",
+      "category": "{{category}}",
+      "keywords": ["skills", "canvas", "{{domain keyword}}"]
+    }
+  ]
+}
