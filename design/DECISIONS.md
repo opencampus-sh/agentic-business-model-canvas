@@ -17,7 +17,7 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Context:** Wie lernen Teams das Skillset kennen? (K1–K4; Matt Pococks Repo hat `docs/` pro Skill und einen `teach`-Skill, aber keinen Kurs.)
 - **Decision:** Ein Selbstlern-Kurs in `course/` mit sechs Einheiten (0 Einrichten und Canvas lesen, 1 Problem, 2 Interviews, 3 Annahme oder Beleg, 4 Von der Lösung zum Modell, 5 Testen und entscheiden), jede mit Ziel, kurzem Leseteil, Übung am Mensa-Retter-Fall (Startzustand und Lösung aus dem Dry-Run) und Transfer aufs eigene Projekt. Gebaut mit Agentic Course Creation, nach dem Dry-Run. Skill-Seiten nach Matts Muster später. `model-retro` (Gruppe 4) ist freigegeben.
 - **Reason:** Für die schwächste Nutzerin hilft ein geführter Weg mit Übung mehr als Referenzseiten; Einheit 0 schließt die Lücke, wo die Installation des Agenten erklärt wird; der Dry-Run liefert das Übungsmaterial.
-- **Alternatives:** nur Skill-Seiten; Kurs als Einheit im Changemaker-Handbuch; ein Lern-Skill `/tour-model`.
+- **Alternatives:** nur Skill-Seiten; Kurs als Einheit im Changemaker-Handbuch; ein Lern-Skill („tour-model“, nicht gebaut).
 - **Canvas:** 2, 3
 
 ## 2026-11-22: Expert:innen-Aussagen und Feedback zur Idee in Interviews
