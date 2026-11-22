@@ -12,6 +12,14 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-22: Expert:innen-Aussagen und Feedback zur Idee in Interviews
+
+- **Context:** `/draft-skill`, Gruppe 3 (G5, G6).
+- **Decision:** Aussagen von Expert:innen und Stakeholdern werden in Leitfaden und Auswertung als schwächerer Beleg über die Zielgruppe gekennzeichnet, aber nicht ausgeschlossen. Feedback zur Idee am Ende eines Problem-Interviews ist erlaubt und zählt nicht als Beleg. Gruppe 3 (`to-interview-guide`, `log-evidence`, `map-solutions`, `review-model`) ist freigegeben.
+- **Reason:** Das Handbuch erlaubt Expert:innen, wenn die Zielgruppe nicht erreichbar ist; Teams werden ihre Idee kaum verschweigen, die Problem-Belege bleiben trotzdem sauber.
+- **Alternatives:** Expert:innen gleichwertig oder ausgeschlossen; Idee im Interview ganz verbieten.
+- **Canvas:** 5, 6
+
 ## 2026-11-22: Fragen pro Runde und Mindestanforderung an Schwellen
 
 - **Context:** `/draft-skill`, Gruppe 2 (G3, G4).

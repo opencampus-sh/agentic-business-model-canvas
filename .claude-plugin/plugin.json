@@ -23,6 +23,7 @@
     "./skills/grill-solution",
     "./skills/log-evidence",
     "./skills/map-solutions",
+    "./skills/model-retro",
     "./skills/review-model",
     "./skills/setup-model",
     "./skills/show-canvas",

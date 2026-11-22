@@ -2,7 +2,7 @@
 
 Wie das Skillset läuft: der Prozess, die Skills, die ihn tragen, und die Dateien, die sie im Projektordner eines Teams teilen.
 
-> **Status:** entschieden (2026-11-22). Gruppen 1–2 freigegeben, Gruppe 3 entworfen.
+> **Status:** entschieden (2026-11-22). Gruppen 1–3 freigegeben, Gruppe 4 entworfen.
 
 ## Process
 
@@ -49,7 +49,7 @@ Schritte 4–9 wiederholen sich in jeder Lean-Schleife. `/ask-model` empfiehlt d
 | `to-model` | produce | ja | `CANVAS.md`, `ASSUMPTIONS.md`, `SOLUTIONS.md` | `MODEL.md`, `ASSUMPTIONS.md`, `CANVAS.md` | 6, 7 | drafted | `to-spec` |
 | `to-tests` | plan | ja | `ASSUMPTIONS.md`, `CANVAS.md`, `MODEL.md` | `TESTS.md`, `CANVAS.md` | 4, 9 | drafted | `to-experiments` (DS), `to-spec` |
 | `review-model` | review | ja | alle Projektdateien | `DECISIONS.md`, `CANVAS.md` | 8, 11 | drafted | `code-review`, `review-unit` |
-| `model-retro` | retro | ja | `SIGNALS.md`, alle Projektdateien | Projektdateien nach Wahl, `CANVAS.md` | 10, 11 | planned | `retro`, `course-retro` |
+| `model-retro` | retro | ja | `SIGNALS.md`, alle Projektdateien | Projektdateien nach Wahl, `CANVAS.md` | 10, 11 | drafted | `retro`, `course-retro` |
 | `evidence-checks` | checks reference | nein | – | – | 8 | drafted | `course-checks`, `data-checks` |
 | `assumptions` | boundary reference | nein | – | – | 6 | drafted | `assumed-knowledge`, `leakage` |
 

@@ -67,6 +67,8 @@ Domain-Canvas: **Agentic Business Model Canvas** (`skills/setup-model/templates/
 ### 8. Checks 🤖
 <!-- What the users' work must pass before it counts (domain checks), and what the skillset itself must pass before release (conventions, dry run). Where each expected value comes from. -->
 <!-- print: Checks on the users' work | Checks on the skillset itself -->
+- **Arbeit der Teams:** Katalog in `evidence-checks` (14 Checks), davon 7 automatisch in `check_project.py` (Verweise, Status, Quellen, Belege nur aus eigenen Interviews/Tests, Testkarten mit Schwelle, Schwellen vor Ergebnissen, mindestens 3 Interviews).
+- **Skillset selbst:** `check_skillset.py` (alle grün seit 2026-11-22); Dry-Run am Beispielfall Mensa-Retter vor dem ersten Release.
 
 ---
 
@@ -75,6 +77,7 @@ Domain-Canvas: **Agentic Business Model Canvas** (`skills/setup-model/templates/
 ### 9. Skills 🤖
 <!-- The skill list with roles, canvas blocks and status (planned, drafted, dry-run, released). Link SKILL-MAP.md. -->
 <!-- print: Skills, roles, canvas blocks | Planned · drafted · dry-run · released -->
+12 vom Team aufgerufene Skills und 2 Referenz-Skills, alle *drafted*; Gruppen 1–3 freigegeben, Gruppe 4 (`model-retro`) zur Freigabe. Siehe `SKILL-MAP.md`.
 
 ### 10. Dry-run signals 🤖
 <!-- Dry runs on the example case before release; feedback and retros from real use after. Link SIGNALS.md. -->

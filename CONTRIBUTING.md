@@ -6,7 +6,7 @@ Feedback from real use is the most valuable contribution. Useful issues describe
 - a situation where a skill led the agent astray, with what happened and what you expected,
 - a canvas block that was unclear or missing in practice.
 
-{{The retro skill}} drafts such issues for you, including the proposed change to a skill.
+`/model-retro` drafts such issues for you, including the proposed change to a skill.
 
 ## Conventions for skills
 

@@ -11,6 +11,7 @@ Several skills in this repository follow the structure, and in places the wordin
 | `grill-problem`, `grill-solution` | `grilling`, `grill-with-docs` (über `grill-course`) |
 | `to-model`, `to-tests` | `to-spec` (über `to-course-plan` und `to-experiments`) |
 | `review-model` | `code-review` (über `review-unit`) |
+| `model-retro` | `retro` (über `course-retro`) |
 
 Those portions are used under the following license:
 

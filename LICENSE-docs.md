@@ -1,6 +1,6 @@
 # License for the canvas and documentation
 
-The Agentic Business Model Canvas (everything in `canvas/`), the templates in `skills/setup-model/templates/`, the documentation (`README.md`, `docs/`) and the design files (`design/`) are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**{{, unless design/SOURCES.md requires a share-alike license for adapted material: then name it here and say which files it covers}}.
+The Agentic Business Model Canvas (everything in `canvas/`), the templates in `skills/setup-model/templates/`, the documentation (`README.md`, `docs/`) and the design files (`design/`) are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**, with one exception: `skills/setup-model/templates/MODEL.md` (Social Business Model Canvas, after the handout by SEEd / Campus Business Box e.V., a variation of the Business Model Canvas by Strategyzer.com, CC BY-SA 3.0) is licensed under **CC BY-SA 4.0** (https://creativecommons.org/licenses/by-sa/4.0/).
 
 You may share and adapt them for any purpose, including commercially, as long as you give appropriate credit, link to the license and indicate if changes were made.
 
