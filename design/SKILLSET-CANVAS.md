@@ -3,7 +3,7 @@
 **Skillset:** Agentic Business Model Canvas
 **Maintainers:** Steffen Brandt
 **Language:** de
-**Version:** 2026-11-21
+**Version:** 2026-11-22
 
 > Owners: 👤 maintainer decides · 🤖 agent drafts, maintainer approves.
 > Keep each block short. Details go in the files in `design/`; decisions go in `design/DECISIONS.md`.
@@ -62,6 +62,7 @@ Nicht: Texte, die das Team als eigene Arbeit abgibt; die Idee bewerten oder ausw
 ### 7. Process and stop points 👤
 <!-- The domain process as steps, each ending at a stop point where the user decides. Loops back from signals. The domain canvas the skillset gives its users. Link SKILL-MAP.md. -->
 <!-- print: Steps, each ending at a stop point | Loops back from signals -->
+Domain-Canvas: **Agentic Business Model Canvas** (`skills/setup-model/templates/CANVAS.md`, 11 Blöcke in den Spalten Problem & Wirkung, Geschäftsmodell, Testen & Lernen; Grenze ist Block 6 „Annahmen“). Das Social Business Model Canvas liegt als Begleitdatei `MODEL.md` daneben. Prozess und Stop-Points folgen in `/to-skill-map`.
 
 ### 8. Checks 🤖
 <!-- What the users' work must pass before it counts (domain checks), and what the skillset itself must pass before release (conventions, dry run). Where each expected value comes from. -->

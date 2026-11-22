@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 1188 840" font-family="Helvetica, Arial, sans-serif">
+<title>Agentic Business Model Canvas</title>
+<desc>template-sha256:de2aef9b5f4c</desc>
+<rect x="0" y="0" width="1188" height="840" fill="#FFFFFF"/>
+<text x="30" y="58" font-size="26" font-weight="700" fill="#2C2C2A">Agentic Business Model Canvas</text>
+<text x="30" y="82" font-size="13" fill="#5F5E5A">Der Agent fragt und prüft, das Team entscheidet – getestet wird, bevor es zählt.</text>
+<text x="640" y="50" font-size="11" fill="#5F5E5A">Team</text><line x1="640" y1="78" x2="869" y2="78" stroke="#B4B2A9" stroke-width="1"/>
+<text x="899" y="50" font-size="11" fill="#5F5E5A">Idee</text><line x1="899" y1="78" x2="1128" y2="78" stroke="#B4B2A9" stroke-width="1"/>
+<text x="30" y="112" font-size="15" font-weight="700" fill="#2C2C2A">Problem &amp; Wirkung</text>
+<rect x="30" y="125" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="151" font-size="14" font-weight="700" fill="#3C3489">1  Herausforderung &amp; Vision</text>
+<rect x="266" y="136" width="118" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="325.0" y="150" font-size="11" text-anchor="middle" fill="#3C3489">Team entscheidet</text>
+<text x="44" y="173" font-size="11.5" fill="#534AB7">Welches Problem, aus wessen Sicht?</text>
+<text x="44" y="189" font-size="11.5" fill="#534AB7">Welche Veränderung, welche Vision?</text>
+<rect x="30" y="270" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="296" font-size="14" font-weight="700" fill="#3C3489">2  Nutzer:innen &amp; Kund:innen</text>
+<rect x="266" y="281" width="118" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="325.0" y="295" font-size="11" text-anchor="middle" fill="#3C3489">Team entscheidet</text>
+<text x="44" y="318" font-size="11.5" fill="#534AB7">Wer ist betroffen, wer nutzt, wer zahlt?</text>
+<text x="44" y="334" font-size="11.5" fill="#534AB7">Bei wem entsteht die Wirkung?</text>
+<rect x="30" y="416" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="442" font-size="17" font-weight="700" fill="#3C3489">3  Lösung &amp; Wertangebot</text>
+<rect x="266" y="426" width="118" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="325.0" y="440" font-size="11" text-anchor="middle" fill="#3C3489">Team entscheidet</text>
+<text x="44" y="464" font-size="11.5" fill="#534AB7">Eure Idee in wenigen Sätzen</text>
+<text x="44" y="480" font-size="11.5" fill="#534AB7">Was verbessert sich, für wen?</text>
+<rect x="30" y="561" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="44" y="587" font-size="17" font-weight="700" fill="#3C3489">4  Erfolgskriterien</text>
+<rect x="266" y="572" width="118" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="325.0" y="586" font-size="11" text-anchor="middle" fill="#3C3489">Team entscheidet</text>
+<text x="44" y="609" font-size="11.5" fill="#534AB7">Woran merkt ihr, dass es wirkt?</text>
+<text x="44" y="625" font-size="11.5" fill="#534AB7">Was muss wahr sein, damit es trägt?</text>
+<text x="412" y="112" font-size="15" font-weight="700" fill="#2C2C2A">Geschäftsmodell</text>
+<rect x="412" y="125" width="364" height="133" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="426" y="151" font-size="17" font-weight="700" fill="#085041">5  Wissen &amp; Recherche</text>
+<rect x="660" y="136" width="106" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/><text x="713.0" y="150" font-size="11" text-anchor="middle" fill="#085041">Agent entwirft</text>
+<text x="426" y="173" font-size="11.5" fill="#0F6E56">Interviews, bestehende Lösungen, Recherche</text>
+<text x="426" y="189" font-size="11.5" fill="#0F6E56">Jede Aussage mit Quelle</text>
+<rect x="412" y="270" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="426" y="296" font-size="17" font-weight="700" fill="#3C3489">6  Annahmen</text>
+<rect x="648" y="281" width="118" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="707.0" y="295" font-size="11" text-anchor="middle" fill="#3C3489">Team entscheidet</text>
+<text x="426" y="318" font-size="11.5" fill="#534AB7">Annahme · recherchiert · belegt – mit Quelle</text>
+<text x="426" y="334" font-size="11.5" fill="#534AB7">Welche Annahmen sind kritisch?</text>
+<rect x="412" y="416" width="364" height="133" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="426" y="442" font-size="17" font-weight="700" fill="#3C3489">7  Geschäftsmodell</text>
+<rect x="648" y="426" width="118" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="707.0" y="440" font-size="11" text-anchor="middle" fill="#3C3489">Team entscheidet</text>
+<text x="426" y="464" font-size="11.5" fill="#534AB7">Social Business Model Canvas in MODEL.md</text>
+<text x="426" y="480" font-size="11.5" fill="#534AB7">Wer zahlt, wofür, was kostet es?</text>
+<rect x="412" y="561" width="364" height="133" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="426" y="587" font-size="17" font-weight="700" fill="#085041">8  Checks</text>
+<rect x="660" y="572" width="106" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/><text x="713.0" y="586" font-size="11" text-anchor="middle" fill="#085041">Agent entwirft</text>
+<text x="426" y="609" font-size="11.5" fill="#0F6E56">Annahme oder Beleg? Mind. 3 Interviews</text>
+<text x="426" y="625" font-size="11.5" fill="#0F6E56">Schwelle vor dem Test, keine Widersprüche</text>
+<text x="794" y="112" font-size="15" font-weight="700" fill="#2C2C2A">Testen &amp; Lernen</text>
+<rect x="794" y="125" width="364" height="133" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="808" y="151" font-size="17" font-weight="700" fill="#085041">9  Tests &amp; MVP</text>
+<rect x="1042" y="136" width="106" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/><text x="1095.0" y="150" font-size="11" text-anchor="middle" fill="#085041">Agent entwirft</text>
+<text x="808" y="173" font-size="11.5" fill="#0F6E56">Was, wie, mit wem, bis wann?</text>
+<text x="808" y="189" font-size="11.5" fill="#0F6E56">Messgröße und Schwelle vorher festlegen</text>
+<rect x="794" y="270" width="364" height="133" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="808" y="296" font-size="17" font-weight="700" fill="#085041">10  Ergebnisse &amp; Signale</text>
+<rect x="1042" y="281" width="106" height="20" rx="10" fill="#FFFFFF" stroke="#0F6E56" stroke-width="0.8"/><text x="1095.0" y="295" font-size="11" text-anchor="middle" fill="#085041">Agent entwirft</text>
+<text x="808" y="318" font-size="11.5" fill="#0F6E56">Was haben Tests und Feedback gezeigt?</text>
+<text x="808" y="334" font-size="11.5" fill="#0F6E56">Was ist belegt, was widerlegt?</text>
+<rect x="794" y="416" width="364" height="278" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="808" y="442" font-size="16" font-weight="700" fill="#3C3489">11  Lernen &amp; Entscheiden</text>
+<rect x="1030" y="426" width="118" height="20" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="0.8"/><text x="1089.0" y="440" font-size="11" text-anchor="middle" fill="#3C3489">Team entscheidet</text>
+<text x="808" y="464" font-size="11.5" fill="#534AB7">Weitermachen, anpassen oder Pivot?</text>
+<text x="808" y="480" font-size="11.5" fill="#534AB7">Was testet ihr als Nächstes?</text>
+<rect x="30" y="710" width="555" height="80" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="1"/><text x="44" y="734" font-size="15" font-weight="700" fill="#444441">Offene Fragen</text><text x="44" y="752" font-size="11.5" fill="#5F5E5A">Wer klärt es, bis wann?</text>
+<rect x="603" y="710" width="555" height="80" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="1"/><text x="617" y="734" font-size="15" font-weight="700" fill="#444441">Entscheidungslog</text><text x="617" y="752" font-size="11.5" fill="#5F5E5A">Datum · Entscheidung · Begründung · Alternativen</text>
+<rect x="30" y="802" width="14" height="14" rx="3" fill="#EEEDFE" stroke="#534AB7"/><text x="50" y="813" font-size="11.5" fill="#2C2C2A">Team entscheidet</text><rect x="191" y="802" width="14" height="14" rx="3" fill="#E1F5EE" stroke="#0F6E56"/><text x="211" y="813" font-size="11.5" fill="#2C2C2A">Agent entwirft, Team bestätigt</text>
+<text x="1158" y="813" font-size="10.5" text-anchor="end" fill="#5F5E5A">Agentic Business Model Canvas v0.1 · CC BY 4.0 · github.com/opencampus-sh/agentic-business-model-canvas</text>
+</svg>

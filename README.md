@@ -14,9 +14,9 @@ This repository encodes a different habit: **{{the habit, in the domain's words:
 
 ### 1. The canvas
 
-{{One paragraph: blocks, columns, owners.}} In a project the canvas lives as `{{CANVAS file}}`. A printable version is in [`canvas/`](canvas/).
+{{One paragraph: blocks, columns, owners.}} In a project the canvas lives as `CANVAS.md`. A printable version is in [`canvas/`](canvas/).
 
-[![{{Canvas name}}](canvas/{{slug}}-canvas.svg)](canvas/{{slug}}-canvas.pdf)
+[![Agentic Business Model Canvas](canvas/agentic-business-model-canvas.svg)](canvas/agentic-business-model-canvas.pdf)
 
 ### 2. The process
 

@@ -12,6 +12,14 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-22: Das Agentic Business Model Canvas
+
+- **Context:** `/design-canvas`, Entscheidungen C1–C2.
+- **Decision:** 11 Blöcke in drei Spalten (Problem & Wirkung: Herausforderung & Vision, Nutzer:innen & Kund:innen, Lösung & Wertangebot, Erfolgskriterien; Geschäftsmodell: Wissen & Recherche 🤖, Annahmen 👤 als Grenze, Geschäftsmodell, Checks 🤖; Testen & Lernen: Tests & MVP 🤖, Ergebnisse & Signale 🤖, Lernen & Entscheiden). Das Social Business Model Canvas wird nicht nachgebaut, sondern liegt als Begleitdatei `MODEL.md` daneben; Block 7 verweist darauf. Weitere Begleitdateien (Richtung, endgültig in `/to-skill-map`): `PROBLEM.md`, `INTERVIEWS.md`, `ASSUMPTIONS.md`, `TESTS.md`, `DECISIONS.md`, `SIGNALS.md`. Block 11 heißt „Lernen & Entscheiden“ statt „Entscheidungen & nächste Schritte“ (passt ins gedruckte Canvas).
+- **Reason:** Das agentische Canvas ordnet Entscheidungen, Belege und Tests; die Fachmethode bleibt unverändert neben ihm (Lizenz M3, Passung zum Kurs M4). Getrennte Dateien bleiben für die schwächste Nutzerin überschaubar.
+- **Alternatives:** Die zehn SBMC-Felder als Blöcke des Canvas; weniger, größere Begleitdateien.
+- **Canvas:** 7
+
 ## 2026-11-22: Quellen, Lizenzen und Fassung des Social Business Model Canvas
 
 - **Context:** `/map-sources`, Entscheidungen M1–M8.
