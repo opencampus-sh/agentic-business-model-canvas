@@ -19,7 +19,11 @@
     "./skills/ask-model",
     "./skills/assumptions",
     "./skills/evidence-checks",
+    "./skills/grill-problem",
+    "./skills/grill-solution",
     "./skills/setup-model",
-    "./skills/show-canvas"
+    "./skills/show-canvas",
+    "./skills/to-model",
+    "./skills/to-tests"
   ]
 }

@@ -8,6 +8,8 @@ Several skills in this repository follow the structure, and in places the wordin
 |---|---|
 | `setup-model` | `setup-matt-pocock-skills` (über `setup-course`) |
 | `ask-model` | `ask-matt` (über `ask-course`) |
+| `grill-problem`, `grill-solution` | `grilling`, `grill-with-docs` (über `grill-course`) |
+| `to-model`, `to-tests` | `to-spec` (über `to-course-plan` und `to-experiments`) |
 
 Those portions are used under the following license:
 

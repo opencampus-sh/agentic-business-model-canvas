@@ -12,6 +12,14 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-22: Vierter Status „widerlegt“ und Kategorien im Register
+
+- **Context:** `/draft-skill`, Gruppe 1 (G1, G2).
+- **Decision:** Das Register kennt vier Status: *Annahme*, *recherchiert*, *belegt*, *widerlegt*. Widerlegte Annahmen bleiben stehen. Kategorien: Problem, Zielgruppe, Lösung, Wertangebot, Zahlungsbereitschaft, Kanal, Partner, Kosten, Wirkung. Gruppe 1 (`setup-model`, `ask-model`, `assumptions`, `evidence-checks`) ist freigegeben.
+- **Reason:** Eine widerlegte Annahme ist ein Ergebnis (Lean Startup); die Kategorien folgen den Feldern des Social Business Model Canvas.
+- **Alternatives:** drei Status, widerlegte Annahmen löschen; keine Kategorien.
+- **Canvas:** 6
+
 ## 2026-11-22: Bisherige Ergebnisse statt Notion-Skill
 
 - **Context:** `/to-skill-map`, S3. Das Handbuch lässt die Teams in Notion dokumentieren.
