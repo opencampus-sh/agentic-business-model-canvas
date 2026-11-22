@@ -10,6 +10,7 @@ Several skills in this repository follow the structure, and in places the wordin
 | `ask-model` | `ask-matt` (über `ask-course`) |
 | `grill-problem`, `grill-solution` | `grilling`, `grill-with-docs` (über `grill-course`) |
 | `to-model`, `to-tests` | `to-spec` (über `to-course-plan` und `to-experiments`) |
+| `review-model` | `code-review` (über `review-unit`) |
 
 Those portions are used under the following license:
 

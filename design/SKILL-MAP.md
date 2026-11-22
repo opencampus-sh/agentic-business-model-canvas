@@ -2,7 +2,7 @@
 
 Wie das Skillset läuft: der Prozess, die Skills, die ihn tragen, und die Dateien, die sie im Projektordner eines Teams teilen.
 
-> **Status:** entschieden (2026-11-22). Gruppe 1 freigegeben, Gruppe 2 entworfen.
+> **Status:** entschieden (2026-11-22). Gruppen 1–2 freigegeben, Gruppe 3 entworfen.
 
 ## Process
 
@@ -42,13 +42,13 @@ Schritte 4–9 wiederholen sich in jeder Lean-Schleife. `/ask-model` empfiehlt d
 | `ask-model` | router | ja | `CANVAS.md`, Register, Tests | – | – | drafted | `ask-course`, `ask-matt` |
 | `show-canvas` | core | ja | `CANVAS.md`, `DECISIONS.md` | `build/canvas.html` | alle | drafted (core) | Kern |
 | `grill-problem` | grill | ja | `CANVAS.md`, `PROBLEM.md`, `ASSUMPTIONS.md` | `PROBLEM.md`, `ASSUMPTIONS.md`, `CANVAS.md`, `DECISIONS.md` | 1, 2, 6 | drafted | `grilling`, `grill-course` |
-| `to-interview-guide` | produce | ja | `PROBLEM.md`, `ASSUMPTIONS.md` | `INTERVIEWS.md` (Leitfaden) | 5 | planned | – |
-| `log-evidence` | inventory | ja | `INTERVIEWS.md`, `TESTS.md`, `ASSUMPTIONS.md` | `ASSUMPTIONS.md`, `INTERVIEWS.md` (Auswertung), `TESTS.md` (Ergebnis), `PROBLEM.md`, `SIGNALS.md`, `CANVAS.md` | 5, 6, 10 | planned | – |
-| `map-solutions` | inventory | ja | `PROBLEM.md`, `CANVAS.md` | `SOLUTIONS.md`, `ASSUMPTIONS.md`, `CANVAS.md` | 5, 6 | planned | `map-resources` |
+| `to-interview-guide` | produce | ja | `PROBLEM.md`, `ASSUMPTIONS.md` | `INTERVIEWS.md` (Leitfaden) | 5 | drafted | – |
+| `log-evidence` | inventory | ja | `INTERVIEWS.md`, `TESTS.md`, `ASSUMPTIONS.md` | `ASSUMPTIONS.md`, `INTERVIEWS.md` (Auswertung), `TESTS.md` (Ergebnis), `PROBLEM.md`, `SIGNALS.md`, `CANVAS.md` | 5, 6, 10 | drafted | – |
+| `map-solutions` | inventory | ja | `PROBLEM.md`, `CANVAS.md` | `SOLUTIONS.md`, `ASSUMPTIONS.md`, `CANVAS.md` | 5, 6 | drafted | `map-resources` |
 | `grill-solution` | grill | ja | alle Projektdateien | `CANVAS.md`, `ASSUMPTIONS.md`, `DECISIONS.md` | 1–4, 6 | drafted | `grilling`, `grill-course` |
 | `to-model` | produce | ja | `CANVAS.md`, `ASSUMPTIONS.md`, `SOLUTIONS.md` | `MODEL.md`, `ASSUMPTIONS.md`, `CANVAS.md` | 6, 7 | drafted | `to-spec` |
 | `to-tests` | plan | ja | `ASSUMPTIONS.md`, `CANVAS.md`, `MODEL.md` | `TESTS.md`, `CANVAS.md` | 4, 9 | drafted | `to-experiments` (DS), `to-spec` |
-| `review-model` | review | ja | alle Projektdateien | `DECISIONS.md`, `CANVAS.md` | 8, 11 | planned | `code-review`, `review-unit` |
+| `review-model` | review | ja | alle Projektdateien | `DECISIONS.md`, `CANVAS.md` | 8, 11 | drafted | `code-review`, `review-unit` |
 | `model-retro` | retro | ja | `SIGNALS.md`, alle Projektdateien | Projektdateien nach Wahl, `CANVAS.md` | 10, 11 | planned | `retro`, `course-retro` |
 | `evidence-checks` | checks reference | nein | – | – | 8 | drafted | `course-checks`, `data-checks` |
 | `assumptions` | boundary reference | nein | – | – | 6 | drafted | `assumed-knowledge`, `leakage` |

@@ -21,8 +21,12 @@
     "./skills/evidence-checks",
     "./skills/grill-problem",
     "./skills/grill-solution",
+    "./skills/log-evidence",
+    "./skills/map-solutions",
+    "./skills/review-model",
     "./skills/setup-model",
     "./skills/show-canvas",
+    "./skills/to-interview-guide",
     "./skills/to-model",
     "./skills/to-tests"
   ]

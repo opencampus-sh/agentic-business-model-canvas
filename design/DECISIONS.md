@@ -12,6 +12,14 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-22: Fragen pro Runde und Mindestanforderung an Schwellen
+
+- **Context:** `/draft-skill`, Gruppe 2 (G3, G4).
+- **Decision:** Die Grill-Skills stellen höchstens fünf Fragen pro Runde. `/to-tests` meldet eine Schwelle, die jedes Ergebnis erfüllen würde, als Problem. Gruppe 2 (`grill-problem`, `grill-solution`, `to-model`, `to-tests`) ist freigegeben.
+- **Reason:** Die schwächste Nutzerin verliert bei langen Fragerunden den Überblick; eine Schwelle ohne Trennschärfe ist keine Schwelle (Erweiterung von M6).
+- **Alternatives:** die ganze Front pro Runde (Matt Pococks `grilling`); keine Prüfung der Schwellenhöhe.
+- **Canvas:** 4, 9
+
 ## 2026-11-22: Vierter Status „widerlegt“ und Kategorien im Register
 
 - **Context:** `/draft-skill`, Gruppe 1 (G1, G2).
