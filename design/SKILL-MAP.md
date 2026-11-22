@@ -28,3 +28,10 @@ Every file in *Read by* must have a writer. The skillset's section of the projec
 
 | Term | Meaning | Identifier | Source |
 |---|---|---|---|
+| Annahme | Aussage, die das Team vermutet, ohne Beleg | `assumption` | Handbuch, Lean Startup |
+| recherchiert | Aussage aus Desk-Research mit Quelle; belegt kein Bedürfnis | `researched` | Entscheidung 2026-11-21 |
+| belegt | Aussage, gestützt durch Interview, Test oder MVP-Ergebnis des Teams | `evidenced` | Handbuch, Lean Startup |
+| Nutzer:innen | profitieren direkt von der Lösung | – | Handbuch, Nutzer:innen vs. Kund:innen |
+| Kund:innen | bezahlen oder ermöglichen die Umsetzung | – | Handbuch, Nutzer:innen vs. Kund:innen |
+| kritische Annahme | Annahme, auf der andere aufbauen und die zuerst getestet werden muss | – | Handbuch, Lösungs-Hypothesen |
+

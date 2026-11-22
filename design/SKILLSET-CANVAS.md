@@ -25,10 +25,18 @@ Die Teams selbst (allein oder im Team, Kurs im eigenen Tempo, 1–2 Wochen pro T
 ### 3. Outcomes 👤
 <!-- What good work looks like when the skillset is used: the artefacts and decisions it should lead to. What it deliberately does not do. -->
 <!-- print: What does good work look like? | What the skillset does not do -->
+Am Ende hat ein Team: (1) Problembeschreibung mit Problembaum (Ursachen, Folgen); (2) konkrete Zielgruppe und mindestens 3 ausgewertete Problem-Interviews; (3) kurze Vision; (4) Lösungshypothesen mit markierten kritischen Annahmen; (5) geklärte Rollen von Nutzer:innen und Kund:innen (wer zahlt, bei wem entsteht Wirkung); (6) Value Proposition Canvas und Social Business Model Canvas, jeder Eintrag als *Annahme*, *recherchiert* oder *belegt* markiert; (7) Testplan für die kritischen Annahmen und MVP-Ergebnisse, eingearbeitet ins Canvas; (8) Entscheidungslog.
+
+Nicht: Texte, die das Team als eigene Arbeit abgibt; die Idee bewerten oder auswählen; Finanzplan, Rechtsform, Pitch-Deck.
 
 ### 4. Evidence 👤
 <!-- How users and maintainers know an outcome is reached: criteria for each artefact, signals from real use. Every outcome has evidence. -->
 <!-- print: Criteria for each outcome | Which signals from real use? -->
+- Jeder Canvas-Eintrag hat Status (*Annahme* · *recherchiert* · *belegt*) und Quelle (Interview Nr., Test, Link).
+- Mindestens 3 ausgewertete Interviews (Handbuch).
+- Jede kritische Annahme hat einen Test mit vorher festgelegtem Erfolgskriterium.
+- Value Proposition Canvas und Social Business Model Canvas widersprechen sich nicht (z. B. Wertangebot passt zu den Pains).
+- Aus echter Nutzung: Feedback der Kursleitung zu Canvases, die mit dem Skillset entstanden sind.
 
 ---
 
@@ -45,6 +53,11 @@ Die Teams selbst (allein oder im Team, Kurs im eigenen Tempo, 1–2 Wochen pro T
 ### 6. Judgement boundary 👤
 <!-- The line between what the agent does (facts, legwork, drafts, checks) and what the user decides. Which decisions must never be taken by the agent? Where would an agent typically cross the line in this domain? -->
 <!-- print: Agent: facts, legwork, drafts, checks | User: every trade-off. Where it slips? -->
+- **Agent macht:** Fragen stellen, strukturieren, Konsistenz zwischen den Canvases prüfen, Annahmen markieren, Interview-Notizen des Teams clustern.
+- **Agent entwirft, Team bestätigt:** Interviewleitfaden, Hypothesen-Formulierungen, Recherche zu bestehenden Lösungen und SWOT (mit Quellen), Testplan.
+- **Team entscheidet:** Problem, Zielgruppe, welche Bedürfnisse echt sind, Wertangebot, wer zahlt und Erlösmodell, welche Annahmen kritisch sind, Pivot oder weitermachen.
+- **Nie:** Interview-Aussagen, Zitate oder Zahlungsbereitschaften erfinden; Ideen als gut oder schlecht bewerten; einen Canvas-Block ohne Input des Teams füllen. Desk-Research ist *recherchiert*, nie Beleg für ein Bedürfnis.
+- **Typische Grenzüberschreitung:** Der Agent füllt das Canvas mit plausiblen Annahmen, die wie Erkenntnisse aussehen. Zentraler Check: **Annahme vs. Beleg**.
 
 ### 7. Process and stop points 👤
 <!-- The domain process as steps, each ending at a stop point where the user decides. Loops back from signals. The domain canvas the skillset gives its users. Link SKILL-MAP.md. -->
@@ -75,6 +88,8 @@ Die Teams selbst (allein oder im Team, Kurs im eigenen Tempo, 1–2 Wochen pro T
 ## Open questions
 <!-- Parking lot. Each item names who resolves it, by when. -->
 <!-- print: Who resolves it, by when? -->
+- Personas bestätigen: Fragenliste an die Kursleitung (`design/QUESTIONS-COURSE-LEAD.md`). Steffen leitet weiter, vor `/dry-run`.
+- Lizenzen der Canvases und des Handbuchs (siehe `SOURCES.md`). Steffen bzw. Campus Business Box e.V., vor `/design-canvas`.
 
 ## Decision log
 <!-- See design/DECISIONS.md. -->

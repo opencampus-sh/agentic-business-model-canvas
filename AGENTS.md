@@ -8,7 +8,7 @@ Instructions for agents working on this repository (the skills themselves, not a
 - New skills under `skills/` are also added to the `skills` list in `.claude-plugin/plugin.json`.
 - The canvas template is the single source of the canvas; regenerate the printed canvas from it (command below) whenever it changes.
 - Files listed in `.skillset-core.json` come from the core of the Agentic Skillset Builder; change verbatim ones there, then sync with `/sync-core`.
-- {{Visibility rule, e.g.: never put content of a real project (participants' ideas, names, numbers) into this public repository.}}
+- This repository is public-facing material: never put content of a real team (ideas, interview notes, names, numbers) into it. Real projects live in the teams' own folders.
 
 ## Agentic skillset builder
 

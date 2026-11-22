@@ -12,6 +12,22 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-21: Ergebnisse, Belege, Entscheidungsgrenze und schwächste Nutzerin
+
+- **Context:** `/grill-practice`, Runde 2 (Q4–Q9).
+- **Decision:** Name bleibt „Agentic Business Model Canvas“. Ergebnisse, Belege und Entscheidungsgrenze wie in Block 3, 4 und 6 des Skillset Canvas; zentraler Check „Annahme vs. Beleg“ mit drei Status (*Annahme*, *recherchiert*, *belegt*). Die schwächste Nutzerin hat keine BWL- und kaum Agent-Erfahrung; das Skillset setzt einen laufenden Agenten voraus, die Installation gehört in den Kurs. Personas werden mit einer Fragenliste von der Kursleitung bestätigt.
+- **Reason:** Das Social Business Model Canvas ist das zentrale Ergebnis, die Problemanalyse speist seine ersten Blöcke. Ohne Status pro Eintrag sieht ein vom Agenten gefülltes Canvas fertig aus, obwohl es nur Annahmen enthält.
+- **Alternatives:** Umbenennung (z. B. `agentic-impact-startup`); nur zwei Status (Annahme/belegt); Installation des Agenten im Skillset.
+- **Canvas:** 2, 3, 4, 6
+
+## 2026-11-21: Rechteinhaber und Sichtbarkeit
+
+- **Context:** Repository unter `opencampus-sh`.
+- **Decision:** Rechteinhaber ist Campus Business Box e.V. (opencampus.sh). Keine Inhalte echter Teams im Skillset-Repo.
+- **Reason:** Träger von opencampus.sh; das Repo kann öffentlich werden.
+- **Alternatives:** Steffen Brandt als Person.
+- **Canvas:** 5
+
 ## 2026-11-21: Zuschnitt, Nutzende und Arbeitsumgebung
 
 - **Context:** `/grill-practice`, Runde 1 (Q1–Q3).

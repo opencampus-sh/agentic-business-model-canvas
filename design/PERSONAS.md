@@ -1,15 +1,25 @@
 # Personas
 
-The people who run the skills of this skillset. `/dry-run` plays each persona with exactly the knowledge state written here, so write what they know, have and have done, not who they are.
+Die Menschen, die die Skills ausführen. `/dry-run` spielt jede Persona mit genau dem hier beschriebenen Wissensstand.
 
-<!--
-## <short name>: <role in one line>
+> **Status:** Annahmen auf Basis des Handbuchs, noch nicht von der Kursleitung bestätigt (`QUESTIONS-COURSE-LEAD.md`).
 
-- **Setting:** where and why they use the skillset (course, team, alone), how much time they have
-- **Domain knowledge:** what they know of the method and the field, and what not
-- **Agent experience:** which agent, whether they have used skills, whether they read Markdown files
-- **Has:** accounts, tools, files, an idea or project at a given stage
-- **Language:** reading and speaking
-- **Typical failure without the skillset:** what goes wrong when they use an agent on their own
-- **Source:** where this persona comes from (registrations, a real cohort, an assumption)
--->
+## Lena: Teilnehmerin ohne BWL, zum ersten Mal mit Agent (schwächste Nutzerin)
+
+- **Setting:** Kurs „Become a Changemaker“ im eigenen Tempo, 1–2 Wochen pro Thema, neben Studium oder Job; Team aus drei Personen, sie führt meist die Skills aus.
+- **Domain knowledge:** kennt Begriffe wie „Zielgruppe“ aus dem Alltag; Business Model Canvas, Hypothesen, MVP nur aus dem Handbuch; unterscheidet Nutzer:innen und Kund:innen noch nicht.
+- **Agent experience:** hat Claude Code (oder OpenCode, Codex) im Kurs installiert bekommen und ein paar Prompts geschrieben; hat noch nie einen Skill aufgerufen; liest Markdown, schreibt es ungern.
+- **Has:** eine Idee, Ergebnisse aus Kapitel 1–3 in Notion, einen leeren Projektordner, Zugang zu potenziellen Interviewpartner:innen.
+- **Language:** Deutsch.
+- **Typical failure without the skillset:** bittet den Agenten „Füll mir das Business Model Canvas aus“, bekommt ein überzeugend klingendes Canvas voller erfundener Annahmen und hält es für fertig.
+- **Source:** Annahme (Handbuch: Zielgruppe, Arbeitsweise, Notion-Teamseite).
+
+## Jonas: Teilnehmer mit Gründungs- und Tech-Erfahrung
+
+- **Setting:** wie Lena; arbeitet allein.
+- **Domain knowledge:** kennt das klassische Business Model Canvas und Lean Startup; neu ist ihm die Wirkungsperspektive (gesellschaftliche Herausforderung und Veränderung).
+- **Agent experience:** nutzt Claude Code täglich, hat Skills installiert.
+- **Has:** eine ausgearbeitete Lösungsidee, noch keine Interviews.
+- **Language:** Deutsch, liest Englisch.
+- **Typical failure without the skillset:** springt direkt zur Lösung und zum Erlösmodell und überspringt Problemanalyse und Interviews.
+- **Source:** Annahme.
