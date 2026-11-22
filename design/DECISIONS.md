@@ -12,6 +12,14 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-22: Bisherige Ergebnisse statt Notion-Skill
+
+- **Context:** `/to-skill-map`, S3. Das Handbuch lässt die Teams in Notion dokumentieren.
+- **Decision:** Kein Notion-Skill. `/setup-model` fragt allgemein nach bisherigen Ergebnissen (Notion-Export, Dokument, Notizen), liest Markdown und Text ein und überträgt jede Aussage als *Annahme* mit Quelle ins Register. Für den Weg zurück lassen sich die Markdown-Dateien in Notion importieren.
+- **Reason:** Teams steigen mitten im Kurs ein; nichts daran ist Notion-spezifisch. Ob Notion für Abgaben nötig ist, klärt Frage 16 an die Kursleitung.
+- **Alternatives:** Notion-Connector oder Export-Skill.
+- **Canvas:** 5, 6
+
 ## 2026-11-22: Skill-Liste, Rollengruppen und automatischer Check
 
 - **Context:** `/to-skill-map`, Entscheidungen S1, S2, S4, S5.

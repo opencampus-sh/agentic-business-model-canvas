@@ -1,16 +1,25 @@
 {
   "name": "agentic-business-model-canvas",
   "version": "0.1.0",
-  "description": "{{One sentence from the README, in the skillset's language.}}",
+  "description": "Canvas, Prozess und Agent-Skills für das Geschäftsmodell eines Impact-Startups: Der Agent fragt, recherchiert und prüft, das Team entscheidet, und jede Annahme wird getestet, bevor sie zählt.",
   "author": {
     "name": "Campus Business Box e.V. (opencampus.sh)",
     "url": "https://github.com/opencampus-sh"
   },
   "repository": "https://github.com/opencampus-sh/agentic-business-model-canvas",
   "license": "MIT",
-  "keywords": ["skills", "canvas", "{{domain keywords}}"],
+  "keywords": [
+    "skills",
+    "canvas",
+    "social-entrepreneurship",
+    "business-model",
+    "lean-startup"
+  ],
   "skills": [
-    "./skills/show-canvas",
-    "./skills/setup-model"
+    "./skills/ask-model",
+    "./skills/assumptions",
+    "./skills/evidence-checks",
+    "./skills/setup-model",
+    "./skills/show-canvas"
   ]
 }

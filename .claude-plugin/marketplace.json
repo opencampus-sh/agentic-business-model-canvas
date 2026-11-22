@@ -9,9 +9,9 @@
     {
       "name": "agentic-business-model-canvas",
       "source": "./",
-      "description": "{{One sentence, in the skillset's language.}}",
-      "category": "{{category}}",
-      "keywords": ["skills", "canvas", "{{domain keyword}}"]
+      "description": "Canvas, Prozess und Agent-Skills für das Geschäftsmodell eines Impact-Startups: Der Agent fragt, recherchiert und prüft, das Team entscheidet, und jede Annahme wird getestet, bevor sie zählt.",
+      "category": "education",
+      "keywords": ["skills", "canvas", "social-entrepreneurship"]
     }
   ]
 }

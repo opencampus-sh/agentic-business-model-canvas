@@ -6,14 +6,38 @@ Several skills in this repository follow the structure, and in places the wordin
 
 | Skill here | Adapted from |
 |---|---|
-{{one row per skill with an "Adapted from" entry in design/SKILL-MAP.md}}
+| `setup-model` | `setup-matt-pocock-skills` (über `setup-course`) |
+| `ask-model` | `ask-matt` (über `ask-course`) |
 
 Those portions are used under the following license:
 
 ```
-{{MIT license text of mattpocock/skills, as in the Agentic Skillset Builder's NOTICE.md}}
+MIT License
+
+Copyright (c) 2026 Matt Pocock
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 ## Domain sources
 
-{{One entry per adopted or adapted source from design/SOURCES.md: what was taken, from where, under which license, with the attribution the license asks for.}}
+- **Social Business Model Canvas** (`skills/setup-model/templates/MODEL.md`): nach dem Handout von SEEd – Social Entrepreneurship Education, c/o Campus Business Box e.V. (https://seed.schule/lehrmaterial/), einer Variante des Business Model Canvas von Strategyzer.com (CC BY-SA 3.0). Die Vorlage steht unter CC BY-SA 4.0.
+- **Value Proposition Canvas**: Strategyzer.com und Strategyzer AG (Copyright). Wird nur verlinkt, nicht übernommen.
+- **Kurshandbuch „Become a Changemaker“** (https://opencampus.gitbook.io/changemaker/), Campus Business Box e.V.: Ablauf, Methoden (5 Whys, Folgen, Problembaum, Problem-Interviews, Vision, SWOT, Lösungs-Hypothesen, Nutzer:innen vs. Kund:innen, MVP) in eigenen Worten.
+- **Lean Startup** (Eric Ries) und **Lean Impact** (Ann Mei Chang): Methoden, auf die das Handbuch aufbaut.

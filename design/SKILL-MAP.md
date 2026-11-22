@@ -2,7 +2,7 @@
 
 Wie das Skillset läuft: der Prozess, die Skills, die ihn tragen, und die Dateien, die sie im Projektordner eines Teams teilen.
 
-> **Status:** S1, S2, S4, S5 entschieden (2026-11-22); S3 (Notion) offen.
+> **Status:** entschieden (2026-11-22). Gruppe 1 entworfen.
 
 ## Process
 
@@ -38,8 +38,8 @@ Schritte 4–9 wiederholen sich in jeder Lean-Schleife. `/ask-model` empfiehlt d
 
 | Skill | Role | User-invoked | Reads | Writes | Canvas blocks | Status | Adapted from |
 |---|---|---|---|---|---|---|---|
-| `setup-model` | setup | ja | Projektordner, Notion-Export | alle Projektdateien, Abschnitt in `AGENTS.md` | alle | planned | `setup-course`, `setup-matt-pocock-skills` |
-| `ask-model` | router | ja | `CANVAS.md`, Register, Tests | – | – | planned | `ask-course`, `ask-matt` |
+| `setup-model` | setup | ja | Projektordner, Notion-Export | alle Projektdateien, Abschnitt in `AGENTS.md` | alle | drafted | `setup-course`, `setup-matt-pocock-skills` |
+| `ask-model` | router | ja | `CANVAS.md`, Register, Tests | – | – | drafted | `ask-course`, `ask-matt` |
 | `show-canvas` | core | ja | `CANVAS.md`, `DECISIONS.md` | `build/canvas.html` | alle | drafted (core) | Kern |
 | `grill-problem` | grill | ja | `CANVAS.md`, `PROBLEM.md`, `ASSUMPTIONS.md` | `PROBLEM.md`, `ASSUMPTIONS.md`, `CANVAS.md`, `DECISIONS.md` | 1, 2, 6 | planned | `grilling`, `grill-course` |
 | `to-interview-guide` | produce | ja | `PROBLEM.md`, `ASSUMPTIONS.md` | `INTERVIEWS.md` (Leitfaden) | 5 | planned | – |
@@ -50,8 +50,8 @@ Schritte 4–9 wiederholen sich in jeder Lean-Schleife. `/ask-model` empfiehlt d
 | `to-tests` | plan | ja | `ASSUMPTIONS.md`, `CANVAS.md`, `MODEL.md` | `TESTS.md`, `CANVAS.md` | 4, 9 | planned | `to-experiments` (DS), `to-spec` |
 | `review-model` | review | ja | alle Projektdateien | `DECISIONS.md`, `CANVAS.md` | 8, 11 | planned | `code-review`, `review-unit` |
 | `model-retro` | retro | ja | `SIGNALS.md`, alle Projektdateien | Projektdateien nach Wahl, `CANVAS.md` | 10, 11 | planned | `retro`, `course-retro` |
-| `evidence-checks` | checks reference | nein | – | – | 8 | planned | `course-checks`, `data-checks` |
-| `assumptions` | boundary reference | nein | – | – | 6 | planned | `assumed-knowledge`, `leakage` |
+| `evidence-checks` | checks reference | nein | – | – | 8 | drafted | `course-checks`, `data-checks` |
+| `assumptions` | boundary reference | nein | – | – | 6 | drafted | `assumed-knowledge`, `leakage` |
 
 ## Files in a project
 
