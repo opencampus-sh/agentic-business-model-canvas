@@ -2,7 +2,7 @@
 
 Wie das Skillset läuft: der Prozess, die Skills, die ihn tragen, und die Dateien, die sie im Projektordner eines Teams teilen.
 
-> **Status:** Entwurf aus `/to-skill-map`, wartet auf die Entscheidungen S1–S5.
+> **Status:** S1, S2, S4, S5 entschieden (2026-11-22); S3 (Notion) offen.
 
 ## Process
 

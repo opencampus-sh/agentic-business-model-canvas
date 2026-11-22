@@ -28,3 +28,4 @@ Wir bauen ein Skillset, mit dem Teams im Kurs ihr Impact-Startup mit einem KI-Ag
 13. Unter welcher Lizenz steht das Handbuch selbst? Darf es im Skillset adaptiert werden?
 14. Das Handbuch zeigt eine ältere Fassung des SEEd-Handouts; wollt ihr auf die aktuelle Fassung („Makeover 12.1.26“) umstellen?
 15. Hinweise aus der Quellenanalyse: Vision steht nach den Interviews, soll aber „sehr früh“ entstehen; mehrere Seiten sprechen noch von „letzter Woche“; „SBMC“ steht für Social und Sustainable; SEEd-Handout und -Playbook haben keinen Strategyzer-Vermerk (Business Model Canvas: CC BY-SA 3.0, Quellenangabe Pflicht).
+16. Das Handbuch lässt die Teams in Notion dokumentieren. Braucht ihr die Notion-Seiten für Abgaben oder Feedback, oder reicht ein Ordner mit Markdown-Dateien, den Teams bei Bedarf in Notion importieren?

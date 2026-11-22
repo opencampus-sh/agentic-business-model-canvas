@@ -12,6 +12,14 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-22: Skill-Liste, Rollengruppen und automatischer Check
+
+- **Context:** `/to-skill-map`, Entscheidungen S1, S2, S4, S5.
+- **Decision:** 12 vom Team aufgerufene Skills (`setup-model`, `ask-model`, `show-canvas`, `grill-problem`, `to-interview-guide`, `log-evidence`, `map-solutions`, `grill-solution`, `to-model`, `to-tests`, `review-model`, `model-retro`) und 2 Referenz-Skills (`evidence-checks`, `assumptions`); `log-evidence` für Interviews und Testergebnisse gemeinsam. Keine Walk-through-Rolle. Automatischer Check `check_project.py` im Skill `evidence-checks` (Annahmen-IDs existieren, Status gültig, kritische Annahmen haben Testkarte mit Schwelle, mindestens 3 Interviews ausgewertet). Rollengruppen: (1) Setup, Router, Referenzen; (2) Grill und Plan; (3) Produzieren und Prüfen; (4) Retro.
+- **Reason:** Beide Belegarten fließen ins Annahmen-Register; ein simuliertes Gegenüber würde simulierte Antworten wie Belege aussehen lassen; ein Skript ist der billigste verlässliche Check; die Referenzen definieren Grenze und Checks, auf die sich alle anderen stützen.
+- **Alternatives:** getrennte Skills für Interviews und Tests; ein Walk-through-Skill aus Sicht von Interviewpersonen; nur manuelle Checks; Referenzen zuletzt (Builder-Standard).
+- **Canvas:** 8, 9
+
 ## 2026-11-22: Das Agentic Business Model Canvas
 
 - **Context:** `/design-canvas`, Entscheidungen C1–C2.
