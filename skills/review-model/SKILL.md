@@ -31,7 +31,7 @@ Am Ende drei Wege, jeweils mit dem, was dafür und dagegen spricht:
 - **Anpassen:** einzelne Annahmen sind widerlegt, die Richtung trägt; was sich in Canvas und Modell ändert, und die nächsten Tests gehören dazu. → danach `/to-model`, dann `/to-tests`.
 - **Neu ansetzen (Pivot):** eine Annahme ist widerlegt, auf der die Idee steht; wohin der Blick geht. → danach `/grill-solution` (Lösung, Zielgruppe, wer zahlt) oder `/grill-problem` (das Problem selbst).
 
-Ist etwas widerlegt, steht „Weiter testen“ nicht zur Wahl, ohne dass das Team erklärt, warum die Widerlegung nichts ändert.
+Ist etwas widerlegt, steht „Weiter testen“ nicht zur Wahl, ohne dass das Team erklärt, warum die Widerlegung nichts ändert. Ist eine **kritische** Annahme widerlegt, ist „Anpassen“ nur dann ein Weg, wenn eine engere Ersatz-Annahme durch eigene Interviews oder Tests gestützt ist (nenne sie); sonst ist es ein Pivot.
 
 ## Entscheidungen
 

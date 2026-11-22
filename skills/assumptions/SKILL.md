@@ -22,6 +22,7 @@ Die **Grenze** des Canvas (Block 6) trennt, was das Team weiß, von dem, was es 
 - **Allgemeine Aussage über die Zielgruppe** („Einrichtungen wollen abends warmes Essen“): *belegt* erst, wenn ein Test mit vorher festgelegter Schwelle es zeigt. Mehrere passende Interviews machen sie wahrscheinlicher, aber nicht belegt.
 - **Beobachtetes Verhalten im Test** („zwei Einrichtungen nahmen an drei Tagen Essen an“): *belegt* als Beobachtung, mit Test-ID. Ob eine allgemeinere Annahme damit belegt ist, entscheidet die Schwelle der Testkarte.
 - **Antwort Dritter auf eure Anfrage** (Mail, Gespräch, Absage): zählt wie eine Interview-Aussage. Was die Organisation über **sich selbst** sagt („Bezahlen können wir dafür nichts“, „Förderung bis 5.000 €, Antrag bis März“), kann *belegt* oder *widerlegt* sein, mit Test- oder Interview-ID. Absichten unter Bedingungen („machen wir gern mit, wenn …“) bleiben *Annahme*.
+- **Ablehnung für die eigene Organisation** („würde bei uns eher nicht passen“): zählt wie jede Aussage über sich selbst – sie kann eine eng formulierte Annahme über diese Organisation *widerlegen*, aber nicht die allgemeine Annahme über die Zielgruppe.
 - **Nichts gefunden:** Dass eine Recherche keinen Treffer hatte, ist kein Fakt. Es bleibt *Annahme* mit Datum und Suchbegriffen als Quelle.
 
 ## Regeln
@@ -36,6 +37,8 @@ Die **Grenze** des Canvas (Block 6) trennt, was das Team weiß, von dem, was es 
 - **Kritisch entscheidet das Team.** Der Agent schlägt vor, welche Annahmen kritisch sind (andere bauen darauf auf; wenn sie fällt, fällt die Idee), das Team entscheidet.
 - **„Füll es einfach aus“.** Bittet das Team, Canvas oder Modell auszufüllen, erkläre in einem Satz, warum du das nicht tust (es entstünden lauter Annahmen, die wie Wissen aussehen), und biete an: Das Team erzählt in eigenen Worten, du ordnest, fragst nach und trägst ein.
 - **Widerlegt bleibt sichtbar.** Eine widerlegte Annahme wird nicht gelöscht; sie ist ein Ergebnis.
+- **Ersetzen statt verbiegen.** Wird eine Annahme nur teilweise widersprochen („landet im Müll“ – tatsächlich: Biogasanlage), leg eine neue, genauere Zeile an und schreib in die Quelle der alten „ersetzt durch A…“. Zitiert wird danach nur die neue.
+- **IDs einzeln.** Nenne IDs im Text einzeln (`[A13] [A14]`), keine Bereiche wie `[A13]–[A25]`.
 
 ## Wie sich ungeprüfte Annahmen einschleichen
 

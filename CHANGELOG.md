@@ -12,6 +12,7 @@
   - `/setup-model` legt `CLAUDE.md` an, erfragt die Sichtbarkeit ohne Remote, führt Dubletten zusammen; neue Abschnitte *Problem-Hypothesen* und *Noch offen* in `PROBLEM.md`; Kategorien *Beziehung* und *Aktivitäten*.
   - `/review-model`: klare Abgrenzung zwischen „weiter testen“ und „anpassen“, Folgeskill je Weg, Erklärung von „blockierend“. `/model-retro` schreibt Skill-Vorschläge in `SKILL-PROPOSALS.md`.
   - Jeder schreibende Skill bietet am Ende einen Commit an.
+- Korrekturen aus dem zweiten, gezielten Dry-Run: Testkarten auf *läuft* (*Ausgewertet: teilweise*) werden weiter verfolgt und von `check_project.py` gemeldet; teilweise widersprochene Annahmen werden ersetzt („ersetzt durch A…“); Pivot-Regel bei widerlegter kritischer Annahme; ⚠️-Zeile im Canvas für widerlegte Annahmen; IDs einzeln statt als Bereich.
 - `/model-retro`: aus Signalen werden Korrekturen, Checks, Canvas-Änderungen und Vorschläge für das Skillset.
 - Skills für Interviews, Belege, bestehende Lösungen und Review: `/to-interview-guide`, `/log-evidence`, `/map-solutions`, `/review-model`.
 - Skills für Problem, Lösung, Modell und Tests: `/grill-problem`, `/grill-solution`, `/to-model` (Social Business Model Canvas mit Verweisen ins Register), `/to-tests` (Testkarten mit Schwelle vor dem Test).

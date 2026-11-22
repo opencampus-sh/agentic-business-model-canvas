@@ -24,7 +24,7 @@ Warte auf die Antworten, schreib sie auf (unten), berechne die Front neu und ste
 
 **Eigene Worte zuerst.** Bei allem, was das Team verantwortet (Problem, Vision, Lösung, Wertangebot), fragst du zuerst nach den Worten des Teams und machst erst danach einen Vorschlag, falls es keine findet. Übernimmt das Team deinen Wortlaut unverändert, halte das in `DECISIONS.md` fest („Formulierung vom Agenten vorgeschlagen, vom Team übernommen“).
 
-**„Weiß ich nicht“** ist eine gültige Antwort: Schreib den Punkt unter *Noch offen* in `PROBLEM.md` (er wird in den Interviews geprüft) und betrachte ihn für diese Runde als geklärt. Erfinde keine Antwort und bohre nicht weiter.
+**„Weiß ich nicht“** ist eine gültige Antwort: Schreib den Punkt unter *Noch offen* in `PROBLEM.md` (das ist die Quelle; er wird in den Interviews geprüft) und betrachte ihn für diese Runde als geklärt. Unter **Offene Fragen** im Canvas steht nur ein Verweis („siehe *Noch offen* in `PROBLEM.md`“) mit wer und bis wann. Erfinde keine Antwort und bohre nicht weiter.
 
 **Fakten findest du, Entscheidungen trifft das Team.** Deine Empfehlung ist ein Vorschlag zum Formulieren, kein Inhalt: Was das Problem ist und wen es trifft, weiß das Team – oder es weiß es noch nicht, dann ist es eine Annahme. Erfinde keine Betroffenen, Zahlen oder Erfahrungen. Recherche (Schritt 2 der 5 Whys) bietest du an; was du findest, kommt mit Link als *recherchiert* ins Register.
 

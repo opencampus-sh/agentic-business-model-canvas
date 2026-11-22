@@ -17,7 +17,7 @@ Für jede kritische Annahme mit Status *Annahme* (und jede, die das Team zusätz
 - **Bis wann:** ein Datum.
 - **Messgröße:** was gezählt oder beobachtet wird.
 - **Voraussetzung:** welcher Test vorher bestanden sein muss (z. B. die Freigabe vor der Probe-Lieferung), oder „keine“.
-- **Schwelle:** ab wann die Annahme als belegt gilt. Schlag eine Schwelle mit Begründung vor; festlegen tut sie das Team, **bevor** getestet wird. Übernimmt eine Schwelle eine Zahl, die noch als offene Frage oder vorläufig im Canvas steht, frag ausdrücklich, ob das ganze Team sie beschlossen hat; sonst bleibt die Karte offen, bis es so weit ist.
+- **Schwelle:** ab wann die Annahme als belegt gilt. Schlag eine Schwelle mit Begründung vor; festlegen tut sie das Team, **bevor** getestet wird. Übernimmt eine Schwelle eine Zahl, die noch als offene Frage oder vorläufig im Canvas steht, frag ausdrücklich, ob das ganze Team sie beschlossen hat, und halte in `DECISIONS.md` fest, wer das bestätigt hat; sonst bleibt die Karte offen, bis es so weit ist.
 - **Status:** geplant. **Ausgewertet:** nein.
 
 Dann prüfst du den Plan als Ganzes und listest als Probleme:

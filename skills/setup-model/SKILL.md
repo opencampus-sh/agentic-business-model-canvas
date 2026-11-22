@@ -28,7 +28,7 @@ Fasse zusammen, was da ist und was fehlt. Dann frage in dieser Reihenfolge, je e
 
 - Kopiere alle Dateien aus [`templates/`](templates/) in den Projektordner. Überschreibe nie eine bestehende Datei; melde sie stattdessen.
 - Fülle im Canvas den Kopf (Team, Idee, Version mit heutigem Datum).
-- **Bisherige Ergebnisse:** Übertrage jede Aussage daraus als Zeile ins Annahmen-Register, mit Status *Annahme* und der Quelle (z. B. „Notion-Export, Seite Problem-Hypothesen“). Lade dazu `assumptions`. Schlag die Kategorie vor, lass *Kritisch* und *Test* leer; fast gleiche Aussagen werden eine Zeile mit beiden Quellen. Interview-Notizen kommen wörtlich unter *Notizen* in `INTERVIEWS.md`, mit *Ausgewertet: nein*. Nichts davon wird zu *belegt*: Das entscheidet erst `/log-evidence` mit dem Team. Liste die übernommenen IDs in Block 6 des Canvas; schreibe keine Aussage ins Canvas, die nicht im Register steht (die Kopfzeile mit Team und Idee ist davon ausgenommen).
+- **Bisherige Ergebnisse:** Übertrage jede Aussage daraus als Zeile ins Annahmen-Register, mit Status *Annahme* und der Quelle (z. B. „Notion-Export, Seite Problem-Hypothesen“). Lade dazu `assumptions`. Schlag die Kategorie vor, lass *Kritisch* und *Test* leer; fast gleiche Aussagen werden eine Zeile mit beiden Quellen, im Wortlaut einer der beiden (nicht neu formuliert). Interview-Notizen kommen wörtlich unter *Notizen* in `INTERVIEWS.md`, mit *Ausgewertet: nein*. Nichts davon wird zu *belegt*: Das entscheidet erst `/log-evidence` mit dem Team. Liste die übernommenen IDs in Block 6 des Canvas; schreibe keine Aussage ins Canvas, die nicht im Register steht (die Kopfzeile mit Team und Idee ist davon ausgenommen).
 - Ergänze in `.gitignore` (falls Git) die Zeile `build/`.
 - Gibt es kein `CLAUDE.md`, lege es mit der einen Zeile `@AGENTS.md` an, damit Claude Code die Regeln in jeder Sitzung liest (andere Agenten lesen `AGENTS.md` direkt).
 - Füge diesen Abschnitt in `AGENTS.md` ein (lege die Datei an, wenn nötig):
@@ -48,4 +48,4 @@ Fasse zusammen, was da ist und was fehlt. Dann frage in dieser Reihenfolge, je e
 
 Erkläre den Abschnitt in einem Satz („Hier steht, wo eure Dateien liegen und welche Regeln ich in jeder Sitzung befolge“) und lass das Team den Inhalt bestätigen, nicht den Wortlaut.
 
-Fertig, wenn alle Dateien existieren, jede übernommene Aussage im Register steht und das Team den Abschnitt in `AGENTS.md` bestätigt hat. Schlage vor zu committen (falls Git), dann `/grill-problem`.
+Fertig, wenn alle Dateien existieren, jede übernommene Aussage im Register steht und das Team den Abschnitt in `AGENTS.md` bestätigt hat. Schlage vor zu committen (falls Git), samt der installierten Skills (z. B. `.claude/skills/`), damit alle im Team dieselbe Version nutzen – persönliche Einstellungen wie `.claude/settings.local.json` nicht. Dann `/grill-problem`.

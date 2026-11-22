@@ -11,7 +11,7 @@ Mach aus dem, was das Team gehört und gemessen hat, Einträge im Annahmen-Regis
 ## 1. Was ist neu?
 
 - **Interviews:** alle Abschnitte `### I…` mit *Ausgewertet: nein*.
-- **Tests:** alle Testkarten mit Ergebnis und *Ausgewertet: nein*.
+- **Tests:** alle Testkarten mit Ergebnis und *Ausgewertet: nein* oder *teilweise*, und alle Karten mit *Status: läuft* (frag, ob die offene Bedingung inzwischen erfüllt ist).
 - **Im Chat eingefügt:** Fügt das Team Notizen oder Ergebnisse in den Chat ein, übertrage sie zuerst wörtlich in die Datei – Interviews als `### I<n> · <Datum> · <Rolle>` mit *Ausgewertet: nein*, Testergebnisse in das Feld *Ergebnis* der passenden Karte – und lass bestätigen, dass du sie richtig zugeordnet hast. Fehlt ein Datum oder ist die Karte unklar, frag.
 
 Gibt es nichts Neues, sag es und schlage den nächsten Schritt vor, wie `/ask-model` es täte. Fehlt eine Notiz, die das Team erwähnt, bitte darum; schreib sie nie aus dem Gedächtnis des Teams oder aus deiner Vorstellung.
@@ -27,14 +27,15 @@ Gibt es nichts Neues, sag es und schlage den nächsten Schritt vor, wie `/ask-mo
 ## 3. Tests auswerten
 
 - Fehlt im Ergebnis eine Messgröße der Karte, frag danach.
-- Hatte die Karte eine *Voraussetzung*, die noch nicht bestanden ist, sag es: Das Ergebnis gilt dann nur unter Vorbehalt.
+- Hatte die Karte eine *Voraussetzung*, die noch nicht bestanden ist, sag es. Kann das Ergebnis an der fehlenden Voraussetzung liegen, bleibt die Annahme offen; sonst schlag den Status vor und schreib den Vorbehalt in die Quelle.
 - Vergleich das Ergebnis mit der Schwelle der Karte, wörtlich. Hatte die Karte keine Schwelle, oder wurde sie erst nach dem Test eingetragen (prüfe den Git-Verlauf von `TESTS.md`, wenn es ihn gibt), sag es: Dann ist das Ergebnis ein Signal, kein Beleg.
 - Vorschlag: *belegt*, wenn die Schwelle erreicht ist; *widerlegt*, wenn nicht; offen, wenn der Test zu klein war, abgebrochen wurde oder das Ergebnis an eine noch offene Bedingung geknüpft ist (dann bleibt die Karte auf *läuft*). Will das Team die Schwelle nach dem Ergebnis ändern, gilt: nie einen Check lockern, damit er besteht – mit geänderter Schwelle ist das Ergebnis nur noch ein Signal.
 - Beobachtungen aus dem Test, die nicht die Annahme der Karte betreffen, kommen als eigene Zeilen ins Register (siehe *Wann etwas belegt ist* in `assumptions`).
+- Bleibt eine Karte auf *läuft*, setz *Ausgewertet: teilweise*; ausgewertet ist sie erst, wenn die Bedingung erfüllt oder gefallen ist.
 
 ## 4. Stop-Point
 
-Zeig eine Tabelle der vorgeschlagenen Änderungen: Annahme (ID, Aussage), bisheriger Status, vorgeschlagener Status, Belege (IDs, kurzes Zitat aus der Notiz oder Ergebnis gegen Schwelle), Bedenken. Darunter neue Annahmen und Ergänzungen am Problembaum. Zeig die Tabelle in Abschnitten von höchstens fünf Zeilen, die vorgeschlagenen *belegt*- und *widerlegt*-Zeilen zuerst, und lass jeden Abschnitt bestätigen, bevor der nächste kommt. Ein pauschales „passt“ für mehrere Abschnitte setzt nie *belegt* oder *widerlegt*: Frag bei diesen Zeilen einzeln nach. Das Team entscheidet jede Zeile; im Zweifel bleibt der Status, wie er ist.
+Zeig eine Tabelle der vorgeschlagenen Änderungen: Annahme (ID, Aussage), bisheriger Status, vorgeschlagener Status, Belege (IDs, kurzes Zitat aus der Notiz oder Ergebnis gegen Schwelle), Bedenken. Neue Zeilen, die als *belegt* vorgeschlagen werden, gehören in die Tabelle; darunter neue Annahmen und Ergänzungen am Problembaum. Zeig die Tabelle in Abschnitten von höchstens fünf Zeilen, die vorgeschlagenen *belegt*- und *widerlegt*-Zeilen zuerst, und lass jeden Abschnitt bestätigen, bevor der nächste kommt. Ein pauschales „passt“ für mehrere Abschnitte setzt nie *belegt* oder *widerlegt*: Frag bei diesen Zeilen einzeln nach; eine Antwort, die die IDs ausdrücklich nennt („A13 bis A17 ja, A18 nein“), zählt als einzelne Bestätigung. Das Team entscheidet jede Zeile; im Zweifel bleibt der Status, wie er ist.
 
 ## 5. Schreiben
 
@@ -44,6 +45,6 @@ Zeig eine Tabelle der vorgeschlagenen Änderungen: Annahme (ID, Aussage), bisher
 - `PROBLEM.md`: bestätigte Ergänzungen am Problembaum.
 - `SIGNALS.md`: ein datierter Eintrag pro Auswertung (Quelle *Interview* oder *Test*, was herauskam, Zahl der Änderungen, Überraschungen).
 - Canvas: Block 5 (was ihr jetzt wisst), Block 6 (Stand der kritischen Annahmen – ersetze den alten Stand, statt anzuhängen), Block 10 (Ergebnisse und Überraschungen), jeweils mit IDs; Block 1, wenn sich der Problembaum geändert hat.
-- Wurde eine Annahme *widerlegt*, die in `MODEL.md` oder in Block 2 oder 7 steht, ändere diese Stellen nicht selbst, sondern markiere sie für das Team und `/review-model` (`check_project.py` meldet sie unter *widerlegt*).
+- Wurde eine Annahme *widerlegt* oder ersetzt, ändere die Stellen, die sie zitieren, nicht selbst: Füge in jedem Canvas-Block, der die ID nennt, eine Zeile `⚠️ [A…] widerlegt (T…) – prüfen` hinzu; `MODEL.md` bleibt unverändert, `check_project.py` meldet sie unter *widerlegt*, `/review-model` und `/to-model` klären sie mit dem Team.
 
 Fertig, wenn alles Neue ausgewertet ist, jede Änderung vom Team bestätigt und eingetragen ist und `check_project.py` keine FEHLER meldet. Schlage vor zu committen (falls Git), dann den nächsten Schritt: nach Interviews `/map-solutions` oder `/grill-solution`, nach Tests `/review-model`.

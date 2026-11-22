@@ -35,6 +35,7 @@ Frag in **Runden**, wie in `/grill-problem`: die ganze Front einer Runde, nummer
 ## Schreib mit
 
 - Jede neue Aussage kommt zuerst ins Register (`ASSUMPTIONS.md`), mit Kategorie und Status *Annahme*, außer eine eigene Quelle stützt sie. Was das Team als kritisch entscheidet, bekommt *Kritisch: ja*.
+- Die Beschreibung der Lösung und des Wertangebots ist eine Entscheidung des Teams und steht ohne ID; die Aussagen, auf denen sie beruht, stehen als Lösungs-Hypothesen mit ID darunter.
 - Block 1 bekommt die Vision (ohne ID, sie ist eine Entscheidung) und die gewünschte Veränderung, Block 2 Nutzer:innen, Kund:innen und den Fall, Block 3 Lösung, Wertangebot und die Lösungs-Hypothesen (als IDs), Block 4 die Erfolgskriterien, Block 6 die Liste der kritischen Annahmen – alle Aussagen über die Welt mit ihren IDs.
 - Jede Wahl zwischen Alternativen kommt in `DECISIONS.md`. Offenes kommt unter **Offene Fragen**.
 

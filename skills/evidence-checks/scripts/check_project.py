@@ -135,23 +135,27 @@ def main():
     if bad_pre:
         report("FEHLER", "voraussetzung", "Voraussetzung gibt es nicht: " + ", ".join(bad_pre))
     unevaluated = [t for t, body in tests.items()
-                   if field(body, "Ergebnis") and not field(body, "Ausgewertet").lower().startswith("ja")]
+                   if field(body, "Ergebnis") and not field(body, "Ausgewertet").lower().startswith("ja")
+                   and not field(body, "Status").lower().startswith("läuft")]
+    running = [t for t, body in tests.items() if field(body, "Status").lower().startswith("läuft")]
     today = datetime.date.today().isoformat()
     overdue = [t for t, body in tests.items()
                if not field(body, "Ergebnis") and (d := re.search(r"\d{4}-\d{2}-\d{2}", field(body, "Bis wann")))
                and d.group(0) < today]
-    if unevaluated or overdue:
+    if unevaluated or overdue or running:
         report("OFFEN", "ergebnisse", "; ".join(
             ([f"noch nicht ausgewertet: {', '.join(unevaluated)} (/log-evidence)"] if unevaluated else []) +
+            ([f"läuft (Bedingung offen): {', '.join(running)}"] if running else []) +
             ([f"überfällig ohne Ergebnis: {', '.join(overdue)}"] if overdue else [])))
     else:
         report("OK", "ergebnisse", "alle Ergebnisse ausgewertet, keine Karte überfällig")
 
     # 6. Refuted assumptions still used in MODEL.md.
-    refuted = {r.get("id", "") for r in rows if r.get("status", "").lower() == "widerlegt"}
+    refuted = {r.get("id", "") for r in rows if r.get("status", "").lower() == "widerlegt"
+               or "ersetzt durch" in r.get("quelle", "").lower()}
     used = sorted(set(ID.findall(re.sub(r"`[^`]*`", "", read(root, "MODEL.md") or ""))) & refuted)
     report("OFFEN" if used else "OK", "widerlegt",
-           f"widerlegte Annahmen in MODEL.md: {', '.join(used)} – prüfen, ob das Feld noch darauf aufbaut" if used
+           f"widerlegte oder ersetzte Annahmen in MODEL.md: {', '.join(used)} – prüfen, ob das Feld noch darauf aufbaut" if used
            else "keine widerlegte Annahme in MODEL.md")
 
     # 7. At least three evaluated interviews (handbook).
