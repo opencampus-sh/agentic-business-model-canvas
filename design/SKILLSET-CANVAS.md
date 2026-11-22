@@ -93,6 +93,7 @@ Domain-Canvas: **Agentic Business Model Canvas** (`skills/setup-model/templates/
 <!-- Parking lot. Each item names who resolves it, by when. -->
 <!-- print: Who resolves it, by when? -->
 - Personas bestätigen: Fragenliste an die Kursleitung (`design/QUESTIONS-COURSE-LEAD.md`). Steffen leitet weiter, vor `/dry-run`.
+- Kurs in `course/` mit Agentic Course Creation bauen (nach dem Dry-Run). Steffen + Agent.
 - Lizenzen der Canvases und des Handbuchs (siehe `SOURCES.md`). Steffen bzw. Campus Business Box e.V., vor `/design-canvas`.
 
 ## Decision log
