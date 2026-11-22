@@ -41,12 +41,15 @@ Woher die Fachlogik des Skillsets kommt. Eine Regel in einem Skill, die sich wed
 
 ## What is adopted
 
-*Vorschläge, bis die Entscheidungen von `/map-sources` getroffen sind.*
+*Stand nach den Entscheidungen vom 2026-11-22 (M1–M8).*
 
 | Element | From | How | Note |
 |---|---|---|---|
 | Prozessschritte und Reihenfolge | S1 | übernommen als Ablauf, eigene Worte | Lizenz von S1 klären |
-| Leitfragen der Canvas-Felder | S1, S2–S5 | in eigenen Worten | keine Abbildungen übernehmen |
+| Social Business Model Canvas (10 Felder, Leitfragen) | S3, S11 | adaptiert als Begleitdatei, CC BY-SA 4.0 | Quellenangabe SEEd/Campus Business Box e.V. und Strategyzer.com |
+| Value Proposition Canvas | S2 | nur verlinkt | Copyright Strategyzer AG |
+| Business Model Canvas, Sustainable Business Model Canvas | S4, S5 | nur verlinkt | |
+| Testkriterien vor dem Test | S6, S7, Entscheidung M6 | eigene Regel | |
 | Problembaum, 5 Whys, Folgen, SWOT | S1 | adaptiert | allgemeine Methoden |
 | Bauen–Messen–Lernen, MVP, kritische Annahmen | S1, S6, S7 | adaptiert | |
 | Status Annahme/recherchiert/belegt | Entscheidung 2026-11-21 | eigene Regel | Lücke in S1 |

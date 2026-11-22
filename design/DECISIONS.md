@@ -12,6 +12,22 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-22: Quellen, Lizenzen und Fassung des Social Business Model Canvas
+
+- **Context:** `/map-sources`, Entscheidungen M1–M8.
+- **Decision:**
+  - M1: Handbuch, Starterkitchen-Text und SEEd-Material gehören (sehr wahrscheinlich) dem Campus Business Box e.V.; der e.V. soll die Adaption im Skillset erlauben, idealerweise mit einer offenen Lizenz. Bis dahin: eigene Worte, Verweise.
+  - M2: Value Proposition Canvas (Copyright Strategyzer AG) wird nur verlinkt, mit Quellenangabe; keine Vorlage im Skillset. Erlaubnis bei Strategyzer kann parallel angefragt werden.
+  - M3: Agentisches Canvas unter CC BY 4.0; die Vorlage des Social Business Model Canvas als eigene Begleitdatei unter CC BY-SA 4.0, mit „SEEd / Campus Business Box e.V., nach dem Business Model Canvas von Strategyzer.com“. Strategyzer wird informiert.
+  - M4: Aktuelle SEEd-Fassung (10 Felder, Leitfragen „Makeover 12.1.26“) plus Playbook-Regel: sind Kund:innen und Nutzer:innen verschieden, werden Wertversprechen und Zielgruppe für beide ausgefüllt.
+  - M5: Business Model Canvas und Sustainable Business Model Canvas nur verlinkt.
+  - M6: Jede kritische Annahme bekommt vor dem Test Messgröße und Schwelle; „mindestens 2 Personen“ aus dem Handbuch bleibt Untergrenze.
+  - M7: Reihenfolge wie im Handbuch (Vision nach den Interviews).
+  - M8: SWOT bestehender Lösungen dabei; USP und „Zielsetzung & KPIs“ nur verlinkt.
+- **Reason:** Ein Träger für alle eigenen Quellen; Strategyzer-Bedingungen (VPC-Adaptionen und Software nur mit Erlaubnis, BMC-Varianten CC BY-SA mit Quellenangabe); Passung zum Kurs.
+- **Alternatives:** siehe Stop-Point von `/map-sources` (Erlaubnis bei Strategyzer; alles CC BY-SA; Handbuch-Fassung mit „neun“ Bausteinen; klassisches Business Model Canvas; Vision nach vorn).
+- **Canvas:** 5, 7
+
 ## 2026-11-21: Ergebnisse, Belege, Entscheidungsgrenze und schwächste Nutzerin
 
 - **Context:** `/grill-practice`, Runde 2 (Q4–Q9).
