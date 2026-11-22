@@ -1,0 +1,13 @@
+e5ffc9c Korrektur: Ergebnis T1 eingetragen, Vorlagen-Kommentar wiederhergestellt
+fcb600b Retro Runde 1: Zahler korrigiert, Checks, Skill-Vorschläge (model-retro)
+ddaca00 Review nach Testrunde 1: Anpassen (review-model)
+9103f05 Testergebnisse T1–T5 ausgewertet (log-evidence)
+cc0b085 Testplan T1–T5 mit Schwellen (to-tests)
+b6b2eda Geschäftsmodell (to-model)
+a1353b4 Lösung geschärft (grill-solution)
+8d68940 Bestehende Lösungen (map-solutions)
+d005f6b Interviews I1–I4 ausgewertet (log-evidence)
+ef3b1ed Interview-Leitfaden (to-interview-guide)
+7a1d9df Problem geschärft (grill-problem)
+a68f9fb Projekt angelegt (setup-model), Notion-Export übernommen
+39dba5c leerer Projektordner
