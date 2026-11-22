@@ -41,5 +41,7 @@ Schritte 8–11 wiederholen sich in jeder Testrunde. Ein Pivot führt zurück zu
 | `TESTS.md` | Testkarten mit Schwelle und Ergebnis | `/to-tests`, Team, `/log-evidence` |
 | `DECISIONS.md` | Entscheidungen mit Begründung und Alternativen | alle Skills an Stop-Points |
 | `SIGNALS.md` | Ergebnisse, Überraschungen, Feedback | `/log-evidence`, `/review-model`, `/model-retro` |
+| `SKILL-PROPOSALS.md` | Vorschläge für das Skillset (Satz in einfacher Sprache plus Diff), zum Einreichen als Issue | `/model-retro` |
+| `CLAUDE.md` | eine Zeile `@AGENTS.md`, damit Claude Code die Regeln liest | `/setup-model` |
 
 `/setup-model` trägt alle Dateien in einen Abschnitt der `AGENTS.md` ein, damit jeder Skill sie findet.

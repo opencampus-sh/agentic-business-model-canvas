@@ -12,6 +12,14 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-22: Korrekturen aus dem Dry-Run und weitere Reihenfolge
+
+- **Context:** `/review-skillset` nach dem Dry-Run vom 2026-11-22 (R1–R3).
+- **Decision:** Alle Korrekturpakete P1–P7 werden umgesetzt (eigene Worte zuerst; Definition von *belegt*; Eingaben im Chat; Freigaben in kleinen Schritten; Konsistenz nach Belegen mit neuen Checks; Testkarten; kleinere Lücken). P8 geht als Builder-Regel in die Rollen-Skelette, zusammen mit Kurs und GitHub-Pages-Workflow. Reihenfolge: Korrekturen → gezielter zweiter Dry-Run der geänderten Schritte → `/review-skillset` (Urteil, Sichtbarkeit) → Recap von Agentic Course Creation mit dem Builder (Kern, `design/`, Builder-Regeln) → Kurs mit Agentic Course Creation → Release `v0.1.0`.
+- **Reason:** Alle Befunde trafen die schwächste Nutzerin oder die Grenze Annahme/Beleg; Course Creation soll den Kurs erst bauen, wenn es selbst auf dem Stand des Builders ist.
+- **Alternatives:** nur die bremsenden Befunde korrigieren; Kurs mit Course Creation im heutigen Stand.
+- **Canvas:** 8, 10, 11
+
 ## 2026-11-22: Ein Kurs im Skillset-Repo
 
 - **Context:** Wie lernen Teams das Skillset kennen? (K1–K4; Matt Pococks Repo hat `docs/` pro Skill und einen `teach`-Skill, aber keinen Kurs.)

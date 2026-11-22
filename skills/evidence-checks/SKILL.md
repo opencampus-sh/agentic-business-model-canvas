@@ -24,8 +24,14 @@ Ein Geschäftsmodell scheitert leise: Ein Canvas voller plausibler Annahmen sieh
 | *belegt* und *widerlegt* verweisen auf ein eigenes Interview (`I…`) oder einen eigenen Test (`T…`), das bzw. der existiert | `INTERVIEWS.md`, `TESTS.md` | automatisch |
 | Jede kritische Annahme mit Status *Annahme* hat eine Testkarte mit Schwelle | `TESTS.md` | automatisch |
 | Ein Test mit Ergebnis hatte seine Schwelle vorher (Schwelle ist ausgefüllt, Ergebnis nennt den Vergleich) | `TESTS.md`, Git-Verlauf | automatisch (Schwelle vorhanden) und beim Review (Reihenfolge) |
+| Jede Testkarte prüft genau eine Annahme (eine Schwelle pro Annahme) | `TESTS.md` | automatisch |
+| Jede *Voraussetzung* einer Karte verweist auf eine existierende andere Karte | `TESTS.md` | automatisch |
+| Jedes Testergebnis ist ausgewertet; keine Karte ist über *Bis wann* ohne Ergebnis | `TESTS.md` | automatisch |
+| Keine widerlegte Annahme trägt noch ein Feld von `MODEL.md` | Register, `MODEL.md` | automatisch (meldet zur Prüfung) |
 | Mindestens drei Interviews sind ausgewertet | `INTERVIEWS.md` (Handbuch) | automatisch |
-| Eine *belegte* Aussage stimmt mit dem Wortlaut der Notiz überein | Notizen in `INTERVIEWS.md` | beim Auswerten |
+| Eine *belegte* Aussage stimmt mit dem Wortlaut der Notiz überein und ist auf die befragte Person bzw. Organisation bezogen | Notizen in `INTERVIEWS.md` | beim Auswerten |
+| Eine *recherchierte* Aussage steht wirklich in der verlinkten Quelle | die Quelle | beim Eintragen |
+| Block 1, 2, 6 und 7 des Canvas passen zum aktuellen Stand von Register, `PROBLEM.md` und `MODEL.md` | Projektdateien | beim Auswerten und beim Review |
 | Interviews fragen nach Erlebtem, nicht nach der Idee (kein Pitch, keine Suggestivfragen) | Leitfaden, Notizen | beim Auswerten |
 | Zahlungsbereitschaft ist nur durch ein Angebot, eine Zusage oder Bezahlung belegt, nicht durch eine Umfrage | `TESTS.md` | beim Review |
 | Canvas und Modell widersprechen sich nicht (z. B. Wertangebot passt zu Problem und Zielgruppe; wer im Modell zahlt, steht in Block 2) | `CANVAS.md`, `MODEL.md` | beim Review |
@@ -40,4 +46,4 @@ python3 <Pfad dieses Skills>/scripts/check_project.py            # im Projektord
 python3 <Pfad dieses Skills>/scripts/check_project.py <Ordner>
 ```
 
-Es liest `ASSUMPTIONS.md`, `CANVAS.md`, `PROBLEM.md`, `MODEL.md`, `INTERVIEWS.md` und `TESTS.md` und meldet jede Prüfung als **OK**, **OFFEN** (noch nicht so weit, z. B. weniger als drei Interviews) oder **FEHLER** (eine Regel ist verletzt). Bei einem FEHLER endet es mit Exit-Code 1. Formate, die es erwartet: Register als Tabelle mit den Spalten `ID | Aussage | Kategorie | Status | Quelle | Kritisch | Test`; Interviews als `### I1 · …` mit der Zeile `- **Ausgewertet:** ja`; Testkarten als `### T1: …` mit den Zeilen `- **Annahme:**`, `- **Schwelle:**`, `- **Ergebnis:**`.
+Es liest `ASSUMPTIONS.md`, `CANVAS.md`, `PROBLEM.md`, `MODEL.md`, `INTERVIEWS.md` und `TESTS.md` und meldet jede Prüfung als **OK**, **OFFEN** (noch nicht so weit, z. B. weniger als drei Interviews) oder **FEHLER** (eine Regel ist verletzt). Bei einem FEHLER endet es mit Exit-Code 1. Formate, die es erwartet: Register als Tabelle mit den Spalten `ID | Aussage | Kategorie | Status | Quelle | Kritisch | Test`; Interviews als `### I1 · …` mit der Zeile `- **Ausgewertet:** ja`; Testkarten als `### T1: …` mit den Zeilen `- **Annahme:**`, `- **Voraussetzung:**`, `- **Bis wann:**`, `- **Schwelle:**`, `- **Ergebnis:**`, `- **Ausgewertet:**`.

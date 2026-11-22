@@ -12,9 +12,17 @@ Die **Grenze** des Canvas (Block 6) trennt, was das Team weiß, von dem, was es 
 | Status | Bedeutung | Quelle |
 |---|---|---|
 | Annahme | Das Team vermutet es. | keine nötig; woher die Vermutung kommt, wenn bekannt |
-| recherchiert | Steht so in einer Recherche (Statistik, Studie, Website eines Anbieters). Zeigt, was es gibt; belegt kein Bedürfnis der Zielgruppe. | Link, Abrufdatum |
-| belegt | Ein eigenes Interview oder ein eigener Test des Teams stützt es, gemessen an der vorher festgelegten Schwelle. | Interview-ID (`I2`) oder Test-ID (`T1`) |
+| recherchiert | Steht so in einer Quelle, die du geöffnet und geprüft hast (Statistik, Studie, Website eines Anbieters). Zeigt, was es gibt; belegt kein Bedürfnis der Zielgruppe. | Link, Abrufdatum |
+| belegt | Eigene Interviews oder Tests des Teams stützen es (siehe *Wann etwas belegt ist*). | Interview-ID (`I2`) oder Test-ID (`T1`) |
 | widerlegt | Ein eigenes Interview oder ein eigener Test hat es nicht bestätigt. | Interview- oder Test-ID |
+
+## Wann etwas belegt ist
+
+- **Aussage aus einem Interview:** Was die Person über ihr **eigenes Erleben, Tun oder ihre eigene Lage** sagt, kann *belegt* sein – eng formuliert, auf diese Person bzw. Organisation bezogen („In der Tagesstätte aus I2 gibt es abends kein Essen“), im Wortlaut der Notiz. Dafür braucht es keine Schwelle. Was sie über andere vermutet, über die Zukunft meint oder über eure Idee sagt, bleibt *Annahme* (mit „Hinweis aus I2“ als Quelle).
+- **Allgemeine Aussage über die Zielgruppe** („Einrichtungen wollen abends warmes Essen“): *belegt* erst, wenn ein Test mit vorher festgelegter Schwelle es zeigt. Mehrere passende Interviews machen sie wahrscheinlicher, aber nicht belegt.
+- **Beobachtetes Verhalten im Test** („zwei Einrichtungen nahmen an drei Tagen Essen an“): *belegt* als Beobachtung, mit Test-ID. Ob eine allgemeinere Annahme damit belegt ist, entscheidet die Schwelle der Testkarte.
+- **Antwort Dritter auf eure Anfrage** (Mail, Gespräch, Absage): zählt wie eine Interview-Aussage. Was die Organisation über **sich selbst** sagt („Bezahlen können wir dafür nichts“, „Förderung bis 5.000 €, Antrag bis März“), kann *belegt* oder *widerlegt* sein, mit Test- oder Interview-ID. Absichten unter Bedingungen („machen wir gern mit, wenn …“) bleiben *Annahme*.
+- **Nichts gefunden:** Dass eine Recherche keinen Treffer hatte, ist kein Fakt. Es bleibt *Annahme* mit Datum und Suchbegriffen als Quelle.
 
 ## Regeln
 
@@ -22,8 +30,11 @@ Die **Grenze** des Canvas (Block 6) trennt, was das Team weiß, von dem, was es 
 - **Der Agent erfindet nichts.** Keine Interview-Aussagen, Zitate, Zahlungsbereitschaften, Nutzerzahlen oder Marktgrößen ohne Quelle. Wo eine Zahl fehlt, schreibe die Lücke als Annahme ins Register und frage.
 - **Recherche ist kein Beleg für ein Bedürfnis.** Die Zahl der Tafeln in Deutschland, mit Quelle, kann *recherchiert* sein; „Tafeln wollen Mensa-Essen“ bleibt *Annahme*, bis Tafeln es sagen oder tun.
 - **Ein Interview belegt, was die Person erlebt und tut, nicht, was sie in Zukunft tun würde.** „Würdet ihr das nutzen?“ – „Ja“ ist kein Beleg für Nutzung oder Zahlungsbereitschaft. Das belegt erst ein Test (Zusage, Vorbestellung, Bezahlung).
-- **Kein Text ohne ID.** Im Canvas, in `PROBLEM.md` und `MODEL.md` steht jede Aussage mit ihrer ID, z. B. `[A4]`. Neue Aussagen kommen zuerst ins Register.
+- **Kein Text ohne ID.** Im Canvas, in `PROBLEM.md` und `MODEL.md` steht jede Aussage über die Welt mit ihrer ID, z. B. `[A4]`. Neue Aussagen kommen zuerst ins Register.
+- **Ziele sind keine Aussagen.** Vision, Erfolgskriterien und Schwellen sind Entscheidungen des Teams: Sie stehen im Canvas und in `DECISIONS.md`, ohne ID. Eine Zahl, die das Team noch nicht beschlossen hat („schreib erstmal zwei“), ist eine offene Frage, keine Entscheidung.
+- **Quellen öffnen.** Bevor du etwas *recherchiert* einträgst, öffne die Quelle und prüfe, dass die Aussage dort steht. Ein Suchergebnis allein reicht nicht.
 - **Kritisch entscheidet das Team.** Der Agent schlägt vor, welche Annahmen kritisch sind (andere bauen darauf auf; wenn sie fällt, fällt die Idee), das Team entscheidet.
+- **„Füll es einfach aus“.** Bittet das Team, Canvas oder Modell auszufüllen, erkläre in einem Satz, warum du das nicht tust (es entstünden lauter Annahmen, die wie Wissen aussehen), und biete an: Das Team erzählt in eigenen Worten, du ordnest, fragst nach und trägst ein.
 - **Widerlegt bleibt sichtbar.** Eine widerlegte Annahme wird nicht gelöscht; sie ist ein Ergebnis.
 
 ## Wie sich ungeprüfte Annahmen einschleichen

@@ -7,6 +7,7 @@
 Ausgabe je Prüfung: OK, OFFEN (noch nicht so weit) oder FEHLER (Regel verletzt). Exit-Code 1 bei einem FEHLER.
 Nur Standardbibliothek.
 """
+import datetime
 import pathlib
 import re
 import sys
@@ -124,7 +125,36 @@ def main():
     report("FEHLER" if no_threshold else "OK", "schwellen",
            f"Ergebnis ohne Schwelle: {', '.join(no_threshold)}" if no_threshold else f"{len(tests)} Testkarten geprüft")
 
-    # 5. At least three evaluated interviews (handbook).
+    # 5. One assumption per card; prerequisites exist; results evaluated; overdue cards.
+    multi = [t for t, body in tests.items() if len(re.findall(r"\bA\d+\b", field(body, "Annahme"))) > 1]
+    report("FEHLER" if multi else "OK", "eine-annahme",
+           f"Karten mit mehr als einer Annahme (eine Schwelle pro Annahme): {', '.join(multi)}" if multi
+           else "jede Karte prüft eine Annahme")
+    bad_pre = [f"{t}: {ref}" for t, body in tests.items()
+               for ref in re.findall(r"\bT\d+\b", field(body, "Voraussetzung")) if ref not in tests or ref == t]
+    if bad_pre:
+        report("FEHLER", "voraussetzung", "Voraussetzung gibt es nicht: " + ", ".join(bad_pre))
+    unevaluated = [t for t, body in tests.items()
+                   if field(body, "Ergebnis") and not field(body, "Ausgewertet").lower().startswith("ja")]
+    today = datetime.date.today().isoformat()
+    overdue = [t for t, body in tests.items()
+               if not field(body, "Ergebnis") and (d := re.search(r"\d{4}-\d{2}-\d{2}", field(body, "Bis wann")))
+               and d.group(0) < today]
+    if unevaluated or overdue:
+        report("OFFEN", "ergebnisse", "; ".join(
+            ([f"noch nicht ausgewertet: {', '.join(unevaluated)} (/log-evidence)"] if unevaluated else []) +
+            ([f"überfällig ohne Ergebnis: {', '.join(overdue)}"] if overdue else [])))
+    else:
+        report("OK", "ergebnisse", "alle Ergebnisse ausgewertet, keine Karte überfällig")
+
+    # 6. Refuted assumptions still used in MODEL.md.
+    refuted = {r.get("id", "") for r in rows if r.get("status", "").lower() == "widerlegt"}
+    used = sorted(set(ID.findall(re.sub(r"`[^`]*`", "", read(root, "MODEL.md") or ""))) & refuted)
+    report("OFFEN" if used else "OK", "widerlegt",
+           f"widerlegte Annahmen in MODEL.md: {', '.join(used)} – prüfen, ob das Feld noch darauf aufbaut" if used
+           else "keine widerlegte Annahme in MODEL.md")
+
+    # 7. At least three evaluated interviews (handbook).
     done = [i for i, body in interviews.items() if field(body, "Ausgewertet").lower().startswith("ja")]
     report("OK" if len(done) >= 3 else "OFFEN", "interviews",
            f"{len(done)} von mindestens 3 Interviews ausgewertet ({len(interviews)} notiert)")

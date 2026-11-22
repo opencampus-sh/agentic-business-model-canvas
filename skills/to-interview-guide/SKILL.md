@@ -11,8 +11,8 @@ Bereite einen Leitfaden vor, mit dem das Team herausfindet, wie die Zielgruppe d
 ## 1. Zweck und Auswahl
 
 - **Wofür:** Standard sind die Problem-Hypothesen aus `/grill-problem`. Wurde mit dem Befehl eine Annahme oder ein Test genannt (z. B. „für T2“), dann für diese. Gibt es schon einen Leitfaden, frag, ob ihr ihn überarbeitet oder einen zweiten anlegt.
-- **Welche Annahmen:** Liste die Register-Einträge (mit ID), die die Interviews prüfen sollen; die kritischen zuerst.
-- **Wen:** Personen aus der Zielgruppe in `PROBLEM.md`, idealerweise mindestens drei. Ist die Zielgruppe nicht erreichbar, Expert:innen oder Stakeholder – dann sag dazu, dass deren Aussagen über die Zielgruppe weniger belegen als die der Betroffenen selbst.
+- **Welche Annahmen:** Liste die Register-Einträge (mit ID), die die Interviews prüfen sollen, die kritischen zuerst, und die Punkte unter *Noch offen* in `PROBLEM.md`.
+- **Wen:** Personen aus der Zielgruppe in `PROBLEM.md`, idealerweise mindestens drei. Fragt das Team verschiedene Gruppen (z. B. Einrichtungen und Mensa), bekommt jede Gruppe einen eigenen Teil des Leitfadens. Ist die Zielgruppe nicht erreichbar, Expert:innen oder Stakeholder – dann sag dazu, dass deren Aussagen über die Zielgruppe weniger belegen als die der Betroffenen selbst.
 
 ## 2. Entwurf
 
@@ -29,6 +29,6 @@ Prüf jede Frage, bevor du sie zeigst: Fragt sie nach Erlebtem oder nach einer M
 
 ## 3. Stop-Point
 
-Zeig den Leitfaden und zu jeder Frage, welche Annahme sie prüft. Das Team passt an und bestätigt; es entscheidet auch, wen es fragt. Halte das in `DECISIONS.md` fest. Block 5 des Canvas bekommt einen Satz: welcher Leitfaden, für welche Annahmen, mit wem.
+Zeig den Leitfaden und zu jeder Frage, welche Annahme (ID) oder welchen offenen Punkt sie prüft. Das Team passt an und bestätigt; es entscheidet auch, wen es fragt. Halte das in `DECISIONS.md` fest. Block 5 des Canvas bekommt einen Satz: welcher Leitfaden, für welche Annahmen, mit wem.
 
-Fertig, wenn der bestätigte Leitfaden in `INTERVIEWS.md` steht und jede Frage einer Annahme zugeordnet ist. Sag dem Team, dass jetzt es dran ist: Interviews führen, Notizen eintragen, dann `/log-evidence`.
+Fertig, wenn der bestätigte Leitfaden in `INTERVIEWS.md` steht und jede Frage einer Annahme oder einem offenen Punkt zugeordnet ist. Schlage vor zu committen (falls Git). Sag dem Team, dass jetzt es dran ist: Interviews führen, Notizen in `INTERVIEWS.md` eintragen oder später in den Chat einfügen, dann `/log-evidence`.

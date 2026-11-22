@@ -21,3 +21,9 @@ Ursachen
 
 ## Zielgruppe
 <!-- Wer ist direkt betroffen? Untergruppen? So konkret wie möglich. -->
+
+## Problem-Hypothesen
+<!-- Die Aussagen, die ihr in Interviews prüfen wollt, als Liste von IDs aus dem Register, z. B. [A5], [A6]. -->
+
+## Noch offen
+<!-- Was ihr noch nicht wisst (z. B. „Warum gibt es abends kein Essen? – wissen wir noch nicht“). Diese Punkte prüft ihr in den Interviews. -->

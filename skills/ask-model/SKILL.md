@@ -24,6 +24,8 @@ Sonst führe den Check aus (`check_project.py`, Pfad steht in `AGENTS.md`) und l
 | Alle Tests der aktuellen Runde haben ein Ergebnis, aber Block 11 ist für diese Runde leer | `/review-model` |
 | Ein Review oder eine Testrunde ist abgeschlossen, oder etwas ist schiefgegangen | `/model-retro` |
 
+„Leer“ heißt: Die Datei oder der Block enthält nur Text aus der Vorlage (Überschriften, Kommentare). Hat das Team Notizen oder Ergebnisse nur in den Chat geschrieben, empfiehl `/log-evidence`: Es überträgt sie zuerst in die Datei.
+
 Wenn zwei Zeilen passen, empfiehl die obere. Fehler aus dem Check (z. B. eine Aussage ohne Register-Eintrag) gehen vor: Dann empfiehl den Skill, der die betroffene Datei schreibt.
 
 Beschreibt das Team eine Situation, statt zu fragen („wir haben morgen drei Interviews“), ordne sie der Tabelle zu. Empfiehl nie einen Skill, der für das Team etwas tut, das nur das Team tun kann: Interviews führen, testen, entscheiden.

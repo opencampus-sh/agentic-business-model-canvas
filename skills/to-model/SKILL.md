@@ -15,13 +15,13 @@ Bevor du ein Feld füllst, zeig dem Team eine Tabelle: die zehn Felder von `MODE
 - die Register-Einträge, die es schon gibt (mit ID und Status),
 - die **Lücken**: Felder, zu denen noch nichts im Register steht. Für die ersten drei Felder und die Kund:innengruppen kommt alles aus dem Canvas; Aktivitäten, Partner, Beziehung, Kanäle, Einnahmen und Kosten sind oft neu.
 
-Für jede Lücke stellst du eine Frage, mit Vorschlägen als Optionen, und deine Empfehlung. Vorschläge sind Formulierungshilfen: Was das Team dort einträgt, ist seine Entscheidung und zunächst eine Annahme. Erfinde keine Preise, Kosten, Partner oder Zahlen.
+Für jede Lücke stellst du eine Frage. Frag in Runden von höchstens vier Fragen und sag, wie viele Runden noch kommen. Frag zuerst nach den Worten des Teams; Optionen nennen nur **Arten** (z. B. „eine Stiftung, Spenden, ein Auftrag einer Einrichtung“), nie bestimmte Organisationen, Preise oder Beträge, und sind als Beispiele markiert. Was das Team einträgt, ist seine Entscheidung und zunächst eine Annahme. Erfinde keine Preise, Kosten, Partner oder Zahlen. Antwortet das Team ohne Zahl, wo es um eine Zahl geht („ist ja nicht viel“), wird daraus eine offene Frage im Canvas, keine Register-Zeile.
 
 **Stop-Point:** Das Team beantwortet die Fragen und bestätigt die Gliederung.
 
 ## 2. Schreiben
 
-- Fülle `MODEL.md` Feld für Feld, so einfach wie möglich, ohne Details, die das Team nicht genannt hat. Jede Aussage steht mit ihrer ID, z. B. `[A12]`. Neue Aussagen kommen zuerst ins Register (Status *Annahme*, Kategorie passend zum Feld).
+- Fülle `MODEL.md` Feld für Feld, so einfach wie möglich, ohne Details, die das Team nicht genannt hat. Jede Aussage steht mit ihrer ID, z. B. `[A12]`; die Vision im Feld *Gesellschaftliche Veränderung* steht ohne ID mit Verweis auf Block 1. Neue Aussagen kommen zuerst ins Register (Status *Annahme*), mit der Kategorie zum Feld: Herausforderung → Problem, Veränderung → Wirkung, Lösung → Lösung oder Wertangebot, Schlüsselaktivitäten → Aktivitäten, Schlüsselpartner:innen → Partner, Kund:innengruppen → Zielgruppe, Kund:innenbeziehung → Beziehung, Kanäle → Kanal, Einnahmequellen → Zahlungsbereitschaft, Kostenstruktur → Kosten.
 - Sind Nutzer:innen und Kund:innen verschieden (Block 2), füllst du *Lösung* und *Kund:innengruppen* für beide getrennt aus.
 - Lass den Quellenvermerk am Ende von `MODEL.md` stehen.
 - Block 7 des Canvas bekommt nur die Kernentscheidungen: Wer zahlt, wofür, woher kommen die Einnahmen, was sind die größten Kosten – mit IDs.
@@ -36,4 +36,4 @@ Führe `check_project.py` aus und prüfe zusätzlich die Review-Checks aus `evid
 
 Zeig die Funde zuerst, jeweils mit einem Vorschlag, und frag als Auswahlfragen mit Kontext (was und wo, warum es wichtig ist, Optionen mit Folgen, Empfehlung zuerst). Halte Entscheidungen in `DECISIONS.md` fest.
 
-Fertig, wenn alle zehn Felder gefüllt sind oder als offene Frage im Canvas stehen, jede Aussage eine ID hat, `check_project.py` keine FEHLER meldet und das Team das Modell bestätigt hat. Schlage dann `/to-tests` vor.
+Fertig, wenn alle zehn Felder gefüllt sind oder als offene Frage im Canvas stehen, jede Aussage eine ID hat, `check_project.py` keine FEHLER meldet und das Team das Modell bestätigt hat. Schlage vor zu committen (falls Git), dann `/to-tests`.

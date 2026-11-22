@@ -6,9 +6,9 @@ Ihr führt die Interviews selbst. Der Agent bereitet den Leitfaden vor und werte
 <!-- Wird von /to-interview-guide geschrieben: Ziel, welche Annahmen ihr prüfen wollt, offene Fragen, Nachfragen. -->
 
 ## Notizen
-<!-- Pro Interview ein Abschnitt. Notiert, was die Person gesagt hat, möglichst wörtlich; keine Namen.
+<!-- Pro Interview ein Abschnitt. Notiert, was die Person gesagt hat, möglichst wörtlich; keine Namen. Ihr könnt Notizen auch in den Chat einfügen – der Agent überträgt sie dann hierher.
 
-### I1 · JJJJ-MM-TT · <Rolle, z. B. Leitung einer Tafel>
+Überschrift: ### I1 · JJJJ-MM-TT · <Rolle, z. B. Leitung einer Tafel>
 
 - **Ausgewertet:** nein
 - …

@@ -23,10 +23,10 @@ Eine nummerierte Liste, jeder Punkt mit Beleg und Empfehlung, in diesen Kategori
 - **Jetzt korrigieren:** Einträge in Register, Canvas, Modell oder Tests, die nicht mehr stimmen. Formuliere die Änderung genau.
 - **Check:** die Prüfung, die es gefunden hätte, mit Typ (automatisch, beim Auswerten, durch das Team). Eine Prüfung für dieses Projekt kommt in Block 8 des Canvas.
 - **Canvas und Modell:** Blöcke oder Felder, die sich als falsch herausgestellt haben.
-- **Skill-Regel:** eine Änderung an einem Skill dieses Skillsets (z. B. eine neue typische Grenzüberschreitung in `assumptions`, eine neue Prüfung in `evidence-checks` oder `check_project.py`). Lieber ein Check als eine Regel. Schreib sie als Diff gegen die Skill-Datei und schlage vor, sie als Issue im Repository des Skillsets einzureichen (https://github.com/opencampus-sh/agentic-business-model-canvas), damit andere Teams profitieren – ohne Inhalte eures Projekts.
+- **Skill-Regel:** eine Änderung an einem Skill dieses Skillsets (z. B. eine neue typische Grenzüberschreitung in `assumptions`, eine neue Prüfung in `evidence-checks` oder `check_project.py`). Lieber ein Check als eine Regel. Schreib jede in `SKILL-PROPOSALS.md` im Projektordner: zuerst ein Satz in einfacher Sprache (was sich ändern soll und warum), dann das Diff gegen die Skill-Datei. Schlage vor, die Datei als Issue im Repository des Skillsets einzureichen (https://github.com/opencampus-sh/agentic-business-model-canvas), damit andere Teams profitieren – ohne Inhalte eures Projekts. Das Team muss das Diff nicht verstehen, um zu entscheiden; der Satz reicht.
 
 ## 4. Anwenden
 
 Wende nur an, was das Team auswählt. Setz in `SIGNALS.md` bei jedem Signal den Status, ergänze Block 11 im Canvas (was ihr jetzt ändert, was in der nächsten Runde) und halte Entscheidungen in `DECISIONS.md` fest. Führe `check_project.py` aus.
 
-Fertig, wenn jeder ausgewählte Punkt in seiner Datei steht, jedes Signal einen Status hat und `check_project.py` keine FEHLER meldet. Schlage den nächsten Schritt vor, wie `/ask-model` es täte.
+Fertig, wenn jeder ausgewählte Punkt in seiner Datei steht, jedes Signal einen Status hat und `check_project.py` keine FEHLER meldet. Schlage vor zu committen (falls Git), dann den nächsten Schritt, wie `/ask-model` es täte.
