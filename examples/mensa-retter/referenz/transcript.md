@@ -535,7 +535,7 @@ OK      interviews    4 von mindestens 3 Interviews ausgewertet (4 notiert)
 *Agent entwirft die drei SWOTs in `SOLUTIONS.md`, jeden Punkt markiert mit (Q) = aus der Quelle oder (E) = Einschätzung.*
 
 **Agent:**
-> Die SWOTs stehen in `SOLUTIONS.md`. Die Einschätzungen (E) sind mein Entwurf – bitte prüft sie, z. B. „foodsharing könnte eher Partner als Konkurrenz sein“ oder „das Mobil kocht vor Ort und braucht deshalb keine Kühlkette für fertige Speisen“.
+> Die SWOTs stehen in `SOLUTIONS.md`. Die Einschätzungen (E) sind mein Entwurf – bitte prüft sie. *(Im veröffentlichten Übungsmaterial sind die Einschätzungen zu realen Initiativen entfernt.)*
 >
 > Jetzt zum Fazit, und zuerst eure Sicht: **Welche Lücke seht ihr** – Gruppen, die niemand erreicht, Orte, Zeiten, Schwächen, die alle teilen? Und was heißt das für eure Idee?
 

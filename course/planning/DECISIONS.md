@@ -12,6 +12,14 @@ Ein Eintrag pro Entscheidung, die neueste oben. Das Team entscheidet; der Agent 
 - **Canvas:** betroffene Blöcke
 -->
 
+## 2026-11-23: Keine Bewertungen realer Initiativen im Übungsmaterial
+
+- **Kontext:** Im Referenzlauf hat `/map-solutions` echte Kieler Angebote recherchiert und SWOT-Einschätzungen entworfen (E1).
+- **Entscheidung:** Namen, Links und Fakten aus den Quellen (Q) bleiben; die Einschätzungen (E) sind in allen Übungsständen und im Transkript entfernt und durch „vom Team einzuschätzen“ ersetzt.
+- **Begründung:** Die Übung zeigt weiterhin Recherche mit Quellen; opencampus veröffentlicht keine ungeprüften Bewertungen realer Initiativen.
+- **Alternativen:** Einschätzungen behalten und als fiktiv markieren; Organisationen durch fiktive ersetzen.
+- **Canvas:** 7
+
 ## 2026-11-23: Übungsmaterial, Transfer, Installationswege
 
 - **Kontext:** Stop-Points von `/map-resources` und `/to-course-plan` (D1–D4).
