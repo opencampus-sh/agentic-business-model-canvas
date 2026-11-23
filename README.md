@@ -75,6 +75,23 @@ claude plugin install agentic-business-model-canvas@agentic-business-model-canva
 
 Dann, einmal pro Projekt: `/setup-model`. Danach hilft `/ask-model` weiter.
 
+### Skills aufrufen
+
+Die Skills heißen überall gleich, aber jeder Agent ruft sie anders auf:
+
+| Agent | Aufruf | Beispiel |
+|---|---|---|
+| Claude Code (Skills im Projekt) | Schrägstrich | `/setup-model` |
+| Claude Code (als Plugin) | Schrägstrich mit Plugin-Name | `/agentic-business-model-canvas:setup-model` |
+| OpenCode | `@` im Prompt | `@setup-model` |
+| Codex | `$` im Prompt, oder `/skills` | `$setup-model` |
+
+In diesem README und in den Skills steht die Claude-Code-Form `/name`.
+
+### Kurs
+
+Ein Selbstlernkurs (etwa 7 Stunden) führt in sechs Einheiten durch Einrichtung und Arbeit mit dem Skillset, am fiktiven Fall Mensa-Retter: [`course/docs/`](course/docs/).
+
 ## Quellen und Lizenzen
 
 - Skills: [MIT](LICENSE). Mehrere Skills folgen der Struktur von [Matt Pococks Skills](https://github.com/mattpocock/skills) (MIT); siehe [NOTICE.md](NOTICE.md).

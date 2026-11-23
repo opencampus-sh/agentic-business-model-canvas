@@ -29,7 +29,7 @@ Wo jede Ressource des Kurses liegt, wer sie sieht und welche Kopie die Quelle is
 
 | Einheit | Planung | Kursseite | Übung (Start / Lösung) | Selbstcheck | Status |
 |---|---|---|---|---|---|
-| 0 | `PLAN.md` | `docs/0-einrichten.md` | eigener leerer Ordner | auf der Seite | geplant |
+| 0 | `PLAN.md` | `docs/0-einrichten.md` | eigener leerer Ordner | auf der Seite | Entwurf |
 | 1 | `PLAN.md` | `docs/1-problem.md` | Referenzlauf: nach `/setup-model` → nach `/grill-problem` | auf der Seite | geplant |
 | 2 | `PLAN.md` | `docs/2-interviews.md` | Referenzlauf: nach `/grill-problem` → nach `/log-evidence` (Interviews) | auf der Seite | geplant |
 | 3 | `PLAN.md` | `docs/3-annahme-oder-beleg.md` | Referenzlauf: Register nach der Auswertung | auf der Seite | geplant |
