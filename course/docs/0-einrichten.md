@@ -82,7 +82,7 @@ claude plugin install agentic-business-model-canvas@agentic-business-model-canva
 Starte Claude Code wieder mit `claude`. Tippst du `/`, erscheinen die Befehle des Skillsets, zum Beispiel `/agentic-business-model-canvas:setup-model`.
 
 !!! note "Kurze und lange Form"
-    Im Kurs schreiben wir die kurze Form, zum Beispiel `/setup-model`. Als Plugin heißt derselbe Befehl `/agentic-business-model-canvas:setup-model`. Tippe einfach `/setup` und wähle aus der Liste.
+    Im Kurs schreiben wir die kurze Form, zum Beispiel `/setup-model`. Als Plugin heißt derselbe Befehl `/agentic-business-model-canvas:setup-model`. Tippe einen Schrägstrich und die ersten Buchstaben, dann wählst du aus der Liste.
 
 ## 7. Das Projekt anlegen
 
