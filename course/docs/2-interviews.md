@@ -19,7 +19,63 @@ Eine Aussage über das eigene Erleben kann *belegt* sein – eng formuliert, auf
 
 ## Üben
 
-*(folgt aus dem Referenzlauf)*
+Die Übung hat zwei Teile: In Teil A schreibst du den Leitfaden, in Teil B wertest du Interviews aus. Die Interviews hat das fiktive Team schon geführt; die Notizen stehen im Startzustand von Teil B.
+
+### Startzustand
+
+- **Teil A:** Stand **03-nach-grill-problem** – Problem geschärft, noch kein Leitfaden: [03-nach-grill-problem.zip](https://github.com/opencampus-sh/agentic-business-model-canvas/raw/main/examples/mensa-retter/referenz/zip/03-nach-grill-problem.zip)
+- **Teil B:** Stand **04b-interviews-notiert** – Leitfaden fertig, vier Interviews in `INTERVIEWS.md` eingetragen, noch nicht ausgewertet: [04b-interviews-notiert.zip](https://github.com/opencampus-sh/agentic-business-model-canvas/raw/main/examples/mensa-retter/referenz/zip/04b-interviews-notiert.zip)
+
+Leg für jeden Teil einen neuen Ordner an (`mensa-retter-uebung-2a`, `mensa-retter-uebung-2b`), entpacke die ZIP-Datei hinein, öffne dort das Terminal und starte den Agenten – genauso wie in [Einheit 1](1-problem.md) unter „Übungsordner anlegen“.
+
+### Aufgabe
+
+**Teil A – Leitfaden (Ordner 2a)**
+
+1. Gib `/to-interview-guide` ein und lies den Entwurf. Achte darauf: Fragt jede Frage nach Erlebtem? Steht bei jeder, welche Annahme sie prüft?
+2. Antworte als Team: „Frage 7 mit der Skala find ich gut. Können wir bei der Mensa nicht direkt fragen, ob die das Essen abgeben würden?“ Wen ihr fragt: „Die Tafel, eine Tagesstätte, ein Jugendzentrum und den Küchenleiter in der Mensa. Gäste fragen wir erstmal nicht.“
+3. Lies, was der Agent zu deiner „Würdet ihr …?“-Frage sagt, und entscheide selbst.
+4. **Probier eigene Worte:** Schlag eine eigene Frage nach Erlebtem vor, zum Beispiel „Wann hat zuletzt jemand abends nach Essen gefragt?“ Wie ordnet der Agent sie zu?
+
+**Teil B – Auswertung (Ordner 2b)**
+
+1. Öffne `INTERVIEWS.md` und lies die vier Notizen. Findest du die Stelle, an der das Team die Idee doch vorgestellt hat?
+2. Gib `/log-evidence` ein. Auf die Frage nach Frage A-3: „Steht nicht in den Notizen, dann wohl nicht.“
+3. Der Agent zeigt Vorschläge in Abschnitten. Bei *belegt* nennst du jede ID einzeln, zum Beispiel: „A16 ja, A17 ja, A18 ja.“
+4. Lehn einen Vorschlag mit Grund ab. Das Team hat die Zeile über Snacks im Jugendzentrum abgelehnt: „Das mit den Snacks ist nicht unser Thema, uns geht's ums Abendessen.“
+5. **Probier es aus:** Schreib bei einem *belegt*-Abschnitt nur „passt“. Was macht der Agent?
+6. Bestätige die übrigen Abschnitte mit eigenen Worten. Bei der Annahme zur Kühlkette hat das Team geschrieben: „Ja, sehen wir auch so.“
+
+### So sieht es aus
+
+Aus dem Referenzlauf (fiktiv). In Teil A will Lena die Mensa direkt fragen. Der Agent:
+
+```text
+„Würdet ihr das Essen abgeben?“ ist eine Frage nach der Zukunft – darauf sagen die
+meisten höflich Ja, und es belegt nichts. Was ihr wirklich wissen wollt, steckt schon
+in B-4 bis B-6: was sie bisher daran hindert, ob schon mal jemand gefragt hat und wer
+darüber entscheidet. […] Lassen wir es so?
+```
+
+In Teil B fällt dem Agenten Interview I2 auf:
+
+```text
+In I2 habt ihr die Idee erklärt und gefragt, ob er sie nutzen würde. Sein „Ja klar,
+sofort, das wäre toll“ ist deshalb Feedback, kein Beleg.
+```
+
+### Vergleichen
+
+- Teil A: [Stand 04-nach-to-interview-guide](https://github.com/opencampus-sh/agentic-business-model-canvas/tree/main/examples/mensa-retter/referenz/stand/04-nach-to-interview-guide) – vor allem `INTERVIEWS.md`, Abschnitt *Leitfaden*.
+- Teil B: [Stand 05-nach-log-evidence-interviews](https://github.com/opencampus-sh/agentic-business-model-canvas/tree/main/examples/mensa-retter/referenz/stand/05-nach-log-evidence-interviews) – vor allem `ASSUMPTIONS.md` (A16 bis A30) und `INTERVIEWS.md`, Abschnitt *Auswertung*.
+
+Deine Fragen und Zeilen werden anders formuliert sein, die Nummern können sich verschieben. Das ist in Ordnung. Prüfe die Regeln:
+
+- [ ] Fragt der Leitfaden nach Erlebtem – keine Frage stellt eure Idee vor oder beginnt mit „Würdet ihr …?“
+- [ ] Steht bei jeder Leitfrage, welche Annahme sie prüft?
+- [ ] Ist „Ja klar, sofort“ aus I2 *kein* Beleg – A4 bleibt *Annahme*?
+- [ ] Ist jede *belegte* Zeile eng formuliert, auf eine Einrichtung bezogen („die Tagesstätte aus I2 …“), mit `I…` als Quelle?
+- [ ] Steht euer abgelehnter Vorschlag mit Grund in `DECISIONS.md`?
 
 ## Selbstcheck
 

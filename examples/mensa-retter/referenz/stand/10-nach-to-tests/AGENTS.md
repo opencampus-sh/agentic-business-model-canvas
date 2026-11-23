@@ -7,6 +7,6 @@
 - Problem: `PROBLEM.md`; Interviews: `INTERVIEWS.md`; bestehende Lösungen: `SOLUTIONS.md`
 - Geschäftsmodell: `MODEL.md` (Social Business Model Canvas, CC BY-SA 4.0, nach SEEd / Campus Business Box e.V. und Strategyzer.com)
 - Tests: `TESTS.md`; Entscheidungen: `DECISIONS.md`; Signale: `SIGNALS.md`; Vorschläge für das Skillset: `SKILL-PROPOSALS.md` (legt `/model-retro` bei Bedarf an)
-- Checks: `python3 .claude/skills/evidence-checks/scripts/check_project.py`
+- Checks: Skript `scripts/check_project.py` im Skill `evidence-checks` (der Agent findet den Pfad, wenn er den Skill lädt; „Führ bitte den Check aus“ genügt)
 - Sprache: Deutsch, du
 - Bisherige Ergebnisse: Notion-Export (`notion-export.md`, Seiten Problem und Problem-Hypothesen)

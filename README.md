@@ -67,6 +67,7 @@ Ein Team schreibt ins Modell „Einrichtungen zahlen eine Monatspauschale“. Dr
 ```bash
 # Bearbeitbare Kopien im Projektordner (jeder Agent; braucht Node.js 22.20 oder neuer)
 npx skills@latest add opencampus-sh/agentic-business-model-canvas
+# … mit -g für alle Projektordner auf diesem Rechner: npx skills@latest add -g opencampus-sh/agentic-business-model-canvas
 
 # Claude Code Plugin
 claude plugin marketplace add opencampus-sh/agentic-business-model-canvas

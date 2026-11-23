@@ -144,14 +144,14 @@ Leg einen zweiten Ordner für euer echtes Projekt an, wechsle hinein, starte den
 ??? info "OpenCode statt Claude Code"
     OpenCode lässt sich auch mit **kostenlosen Modellen** nutzen (laut [OpenCode Zen](https://opencode.ai/docs/zen) teils nur für begrenzte Zeit). Installation (macOS/Linux): `curl -fsSL https://opencode.ai/v2/install | bash` – für Windows gibt es einen Download auf [opencode.ai](https://opencode.ai/docs/). Start im Projektordner mit `opencode`, dann `/connect`, einen Anbieter wählen und mit `/models` ein Modell aussuchen.
 
-    Die Skills installierst du mit `npx skills@latest add opencampus-sh/agentic-business-model-canvas` (braucht [Node.js](https://nodejs.org) 22.20 oder neuer). **Aufruf in OpenCode:** mit `@` statt `/`, zum Beispiel `@setup-model`.
+    Die Skills installierst du mit `npx skills@latest add -g opencampus-sh/agentic-business-model-canvas` (braucht [Node.js](https://nodejs.org) 22.20 oder neuer); `-g` macht sie in allen Ordnern verfügbar, auch in den Übungsordnern. **Aufruf in OpenCode:** mit `@` statt `/`, zum Beispiel `@setup-model`.
 
     Quellen: [opencode.ai/docs](https://opencode.ai/docs/), [Skills](https://opencode.ai/docs/skills), abgerufen am 2026-11-23.
 
 ??? info "Codex statt Claude Code"
     Codex braucht ein ChatGPT-Konto; die Kommandozeile ist laut [OpenAI](https://developers.openai.com/codex/pricing) sicher ab ChatGPT Plus enthalten. Installation macOS/Linux: `curl -fsSL https://chatgpt.com/codex/install.sh | sh`; Windows (PowerShell): `powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"`. Start mit `codex`, dann „Sign in with ChatGPT“.
 
-    Die Skills installierst du mit `npx skills@latest add opencampus-sh/agentic-business-model-canvas` (Node.js 22.20 oder neuer). **Aufruf in Codex:** mit `$` statt `/`, zum Beispiel `$setup-model`.
+    Die Skills installierst du mit `npx skills@latest add -g opencampus-sh/agentic-business-model-canvas` (Node.js 22.20 oder neuer; `-g` für alle Ordner). **Aufruf in Codex:** mit `$` statt `/`, zum Beispiel `$setup-model`.
 
     Quellen: [Codex CLI](https://developers.openai.com/codex/cli), [Skills](https://developers.openai.com/codex/skills), abgerufen am 2026-11-23.
 
