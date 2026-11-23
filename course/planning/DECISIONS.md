@@ -12,6 +12,14 @@ Ein Eintrag pro Entscheidung, die neueste oben. Das Team entscheidet; der Agent 
 - **Canvas:** betroffene Blöcke
 -->
 
+## 2026-11-23: Werkzeuge, Aufwand und Abgleich mit den Skills
+
+- **Kontext:** `/review-unit` nach den Walk-throughs aller Einheiten (R1–R4).
+- **Entscheidung:** (R1) Einheit 0 prüft und installiert Python 3 und Git mit dem Agenten; die Skills haben einen Ausweg ohne Python (Canvas als Text, Handprüfung). (R2) Git ist Teil von Einheit 0; ohne Git hält der Agent das Datum der Schwelle in `DECISIONS.md` fest. (R3) Kürzen statt verlängern: `/map-solutions` (Einheit 4) und `/model-retro` (Einheit 5) optional, kürzere Vergleichslisten; neue Zeiten im Plan (gesamt etwa 7 h 20 min). (R4) Seiten an die aktuellen Skills angepasst, Referenzlauf ab Einheit 4 mit den aktuellen Skills neu, neuer Check vor jedem Release.
+- **Begründung:** Python fehlt auf frischen Windows-Rechnern und blockiert Lena; ein 9-Stunden-Kurs sprengt die Vorgabe; Lösungen müssen zeigen, was Lernende erleben.
+- **Alternativen:** Python nur im Kurs oder nur in den Skills; Rahmen auf 8–9 h anheben; nur Seiten anpassen.
+- **Canvas:** 4, 5, 6, 8
+
 ## 2026-11-23: Keine Bewertungen realer Initiativen im Übungsmaterial
 
 - **Kontext:** Im Referenzlauf hat `/map-solutions` echte Kieler Angebote recherchiert und SWOT-Einschätzungen entworfen (E1).

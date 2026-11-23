@@ -43,16 +43,16 @@ Jedes Ziel wird nachgewiesen; jedes Ergebnis dient einem Ziel.
 
 ## Aufwand
 
-Vorgabe: 6–8 Stunden gesamt (Block 2). Zielwerte pro Einheit, nachzurechnen, sobald die Seiten stehen (Lesezeit nach Wortzahl, Übung nach Schritten im Referenzlauf):
+Vorgabe: 6–8 Stunden gesamt (Block 2). Nachgerechnet am 2026-11-23 aus den Walk-throughs (Lesezeit nach Wortzahl bei 200 Wörtern/min, Übung nach Schritten und Fragerunden im Referenzlauf) und nach den Kürzungen aus R3:
 
-| Einheit | Lesen | Übung | Selbstcheck | Transfer | Summe (Ziel) |
-|---|---|---|---|---|---|
-| 0 | 10 | 40 (Installation) | 5 | – | 55 min |
-| 1 | 10 | 30 | 5 | 30 | 75 min |
-| 2 | 10 | 30 | 5 | 30 (+ eigene Interviews, außerhalb) | 75 min |
-| 3 | 15 | 20 | 5 | 20 | 60 min |
-| 4 | 10 | 35 | 5 | 30 | 80 min |
-| 5 | 10 | 30 | 5 | 30 (+ eigene Tests, außerhalb) | 75 min |
-| **Gesamt** | | | | | **7 h** |
+| Einheit | Lesen | Übung | Selbstcheck | Transfer | Summe | vorher geplant |
+|---|---|---|---|---|---|---|
+| 0 | 6 | 45 (Installation, Werkzeuge prüfen) | 5 | 10 | 65 min | 55 |
+| 1 | 6 | 30 | 5 | 30 | 70 min | 75 |
+| 2 | 5 | 45 (zwei Teile) | 5 | 20 (nur Leitfaden) | 75 min | 75 |
+| 3 | 6 | 25 | 5 | 20 | 55 min | 60 |
+| 4 | 6 | 40 (`/map-solutions` optional) | 5 | 30 | 80 min | 80 |
+| 5 | 6 | 45 (`/model-retro` optional) | 5 | 20 (nur Testkarte) | 75 min | 75 |
+| **Gesamt** | | | | | **7 h 20 min** | 7 h |
 
-Eigene Interviews und Tests gehören zum Changemaker-Kurs, nicht zu diesem Kurs, und sind nicht eingerechnet.
+Nicht eingerechnet: Handbuch-Kapitel 2–5 (gehören zum Changemaker-Kurs), eigene Interviews und Tests, optionale Schritte (`/map-solutions` etwa 20 min, `/model-retro` etwa 15 min).

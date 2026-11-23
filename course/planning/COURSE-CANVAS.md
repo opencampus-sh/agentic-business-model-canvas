@@ -45,7 +45,7 @@ Nicht Teil des Kurses: die Methoden selbst (5 Whys, Business Model Canvas, MVP �
 <!-- Fakten: Einheiten und Länge, Zeitbudget, Format, Plattformen, Werkzeuge und Kosten, vorhandenes Material, Lizenzen. -->
 
 ### 6. Vorwissen 👤
-Vorausgesetzt: Laptop mit Rechten zum Installieren, Internet, Changemaker-Handbuch bis einschließlich Kapitel 1 gelesen, ein Konto für den Agenten (Kosten und Bezug: offene Frage an die Kursleitung). Nicht vorausgesetzt: Terminal-Kenntnisse, Git, Markdown schreiben, BWL – Einheit 0 erklärt das Nötige. Agent im Detail: Claude Code; OpenCode und Codex in je einem Kasten.
+Vorausgesetzt: Laptop mit Rechten zum Installieren, Internet, Changemaker-Handbuch bis einschließlich Kapitel 1 gelesen, ein Konto für den Agenten (Kosten und Bezug: offene Frage an die Kursleitung). Nicht vorausgesetzt: Terminal-Kenntnisse, Python, Git, Markdown schreiben, BWL – Einheit 0 erklärt das Nötige und richtet Python und Git mit dem Agenten ein. Agent im Detail: Claude Code; OpenCode und Codex in je einem Kasten.
 <!-- Die Grenze: was alle Lernenden zu Beginn wissen, haben und können (Begriffe, Konten, Software, Ausstattung, Rechte). Alles andere wird vermittelt oder bereitgestellt, bevor es gebraucht wird. -->
 
 ### 7. Gestaltungsentscheidungen 👤
