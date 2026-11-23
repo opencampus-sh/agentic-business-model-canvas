@@ -12,6 +12,14 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-23: Urteil des Reviews und Sichtbarkeit
+
+- **Context:** `/review-skillset` nach zwei Dry-Runs (V1, V2, W1).
+- **Decision:** Release v0.1.0, nach dem Recap von Agentic Course Creation und dem Kurs. Das Repository wird mit dem Release öffentlich und bekommt dann eine GitHub-Pages-Seite (MkDocs Material, Workflow aus dem Kern des Builders).
+- **Reason:** Skills sind release-fähig; eine Seite ohne Kurs hilft den Teams noch wenig; alle Beispieldaten sind als fiktiv gekennzeichnet.
+- **Alternatives:** sofort öffentlich; privat bis zur Bestätigung durch die Kursleitung.
+- **Canvas:** 9, 11
+
 ## 2026-11-22: Korrekturen aus dem Dry-Run und weitere Reihenfolge
 
 - **Context:** `/review-skillset` nach dem Dry-Run vom 2026-11-22 (R1–R3).
