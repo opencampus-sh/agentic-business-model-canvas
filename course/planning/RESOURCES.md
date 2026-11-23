@@ -16,10 +16,24 @@ Wo jede Ressource des Kurses liegt, wer sie sieht und welche Kopie die Quelle is
 
 | Fakt | Quelle | Spiegel |
 |---|---|---|
-| <!-- z. B. Installationsbefehle --> | <!-- Datei --> | <!-- Dateien --> |
+| Installationsbefehle der Skills (`npx skills …`, `claude plugin …`) | `README.md` (Abschnitt Installation) | Kursseite Einheit 0 |
+| Installation der Agenten, Kosten, Konten | offizielle Seiten der Anbieter (Links mit Abrufdatum auf der Kursseite) | Kursseite Einheit 0 |
+| Skill-Namen und was sie tun | `skills/*/SKILL.md` (Frontmatter) | README-Tabelle, `docs/process.md`, Kursseiten |
+| Dateien im Projektordner | `skills/setup-model/templates/` | `docs/process.md`, Kursseiten |
+| Status-Begriffe (Annahme, recherchiert, belegt, widerlegt) | `skills/assumptions/SKILL.md` | Vorlage `ASSUMPTIONS.md`, `canvas/README.md`, Kursseiten |
+| Blöcke des Canvas | `skills/setup-model/templates/CANVAS.md` | `canvas/README.md`, gedrucktes Canvas, Kursseiten |
+| Übungs-Startzustände und Lösungen | Referenzlauf in `examples/mensa-retter/` (Git-Bundle, ein Commit pro Skill) | Kursseiten |
+| Methoden (5 Whys, Problembaum, SWOT, MVP …) | Kurshandbuch „Become a Changemaker“ | Kursseiten verlinken nur |
 
 ## Ressourcen pro Einheit
 
 | Einheit | Planung | Kursseite | Übung (Start / Lösung) | Selbstcheck | Status |
 |---|---|---|---|---|---|
-| <!-- 0 --> | <!-- PLAN.md --> | <!-- docs/... --> | <!-- examples/... --> | <!-- auf der Seite --> | <!-- Entwurf / geprüft / freigegeben --> |
+| 0 | `PLAN.md` | `docs/0-einrichten.md` | eigener leerer Ordner | auf der Seite | geplant |
+| 1 | `PLAN.md` | `docs/1-problem.md` | Referenzlauf: nach `/setup-model` → nach `/grill-problem` | auf der Seite | geplant |
+| 2 | `PLAN.md` | `docs/2-interviews.md` | Referenzlauf: nach `/grill-problem` → nach `/log-evidence` (Interviews) | auf der Seite | geplant |
+| 3 | `PLAN.md` | `docs/3-annahme-oder-beleg.md` | Referenzlauf: Register nach der Auswertung | auf der Seite | geplant |
+| 4 | `PLAN.md` | `docs/4-loesung-und-modell.md` | Referenzlauf: → nach `/to-model` | auf der Seite | geplant |
+| 5 | `PLAN.md` | `docs/5-testen-und-entscheiden.md` | Referenzlauf: → nach `/review-model` | auf der Seite | geplant |
+
+**Konflikt:** Die beiden Dry-Runs vom 2026-11-22 taugen nur teilweise als Übungsmaterial: Lauf 1 entstand mit den Skills vor den Korrekturen, Lauf 2 hat `/to-interview-guide`, `/map-solutions` und `/model-retro` übersprungen und Lena alles in den Chat schreiben lassen. Entscheidung siehe `DECISIONS.md`.
