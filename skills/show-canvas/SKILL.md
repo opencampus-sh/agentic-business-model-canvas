@@ -20,7 +20,9 @@ Liegt `DECISIONS.md` neben dem Canvas, liest das Skript es mit (sonst `--decisio
 
 Mit **live** nach dem Befehl: füge `--watch` hinzu und starte das Skript im Hintergrund. Es erzeugt die Seite bei jeder Änderung an Canvas oder Entscheidungslog neu, und die geöffnete Seite lädt sich alle paar Sekunden neu. Sag, wie man es beendet.
 
-Fertig, wenn die Seite existiert und der Pfad genannt ist (oder sie in einem Browser-Fenster offen ist, falls dein Agent eines hat).
+Ist `python3` nicht verfügbar, sag das in einem Satz, zeig stattdessen das Canvas selbst (die Blöcke der Reihe nach, leere markiert) und biete an, beim Installieren von Python 3 zu helfen.
+
+Fertig, wenn die Seite existiert und der Pfad genannt ist (oder sie in einem Browser-Fenster offen ist, falls dein Agent eines hat) – oder das Canvas als Text gezeigt wurde, weil Python fehlt.
 
 ## 2. Auf das Wichtigste hinweisen
 

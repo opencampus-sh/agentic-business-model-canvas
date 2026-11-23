@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Ohne Python: `/show-canvas` zeigt das Canvas als Text, und die Checks aus `evidence-checks` macht der Agent als Handprüfung (gefunden im Walk-through des Kurses).
 - Korrekturen aus dem Dry-Run vom 2026-11-22 (Fall Mensa-Retter):
   - Eigene Worte zuerst: Bei Problem, Vision, Lösung, Wertangebot und Fazit fragen die Skills zuerst nach den Worten des Teams; übernommene Agent-Formulierungen werden in `DECISIONS.md` vermerkt.
   - `assumptions` definiert, wann Interview-Aussagen, beobachtetes Verhalten und Antworten Dritter *belegt* sind; Ziele (Vision, Erfolgskriterien, Schwellen) sind keine Aussagen; Quellen müssen geöffnet werden; „nichts gefunden“ bleibt Annahme; Antwort auf „Füll es einfach aus“.
