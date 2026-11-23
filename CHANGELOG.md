@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Ein Test, der nicht gemacht wurde, bekommt den Status *nicht durchgeführt* mit *Grund*; `/log-evidence` fragt nach Grund und neuem Datum, `check_project.py` meldet solche Karten nicht als überfällig, aber die kritische Annahme als offen.
+- `/to-tests` schlägt eine Reihenfolge vor, wenn die Karten nicht in die Zeit des Teams passen; das Team wählt, welche jetzt dran sind.
+- Ersetzte Annahmen werden überall ersetzt (`assumptions`, `/grill-solution`); `check_project.py` meldet ersetzte IDs in `PROBLEM.md`. `/review-model` trägt Änderungen an *Kritisch* auch in Block 6 ein.
 - `check_project.py`: Ein Feld *Voraussetzung*, das mit „keine“ beginnt, nennt keine Voraussetzung, auch wenn darin eine Karte erwähnt ist; jede Voraussetzung wird nur einmal gemeldet (Fehlalarm im zweiten Referenzlauf, Vorschlag aus `/model-retro`).
 - Unter Windows rufen `/show-canvas` und die Checks Python als `python` oder `py` auf.
 - Ohne Python: `/show-canvas` zeigt das Canvas als Text, und die Checks aus `evidence-checks` macht der Agent als Handprüfung (gefunden im Walk-through des Kurses).

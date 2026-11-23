@@ -12,6 +12,14 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-23: Lücken aus dem zweiten Referenzlauf (L1–L4)
+
+- **Context:** Der zweite Referenzlauf (Stände 08–13) zeigte Lücken in den Skills; der Maintainer hat L1–L4 wie empfohlen entschieden.
+- **Decision:** L1 Status *nicht durchgeführt* mit *Grund* (Vorlage, `/log-evidence`, Check). L2 `/to-tests` schlägt eine Reihenfolge vor, wenn die Karten nicht in die Zeit passen. L3 ersetzte IDs werden überall ersetzt, der Check meldet sie in `PROBLEM.md`; `/review-model` aktualisiert Block 6. L4 kein Check für Teilnehmende außerhalb der Gruppe einer Annahme; Selbstcheck 5 in Einheit 5.
+- **Reason:** Jeder Fund kam als Signal im Lauf; L4 hat das fiktive Team als eigenen Fehler eingeordnet, der Agent hatte die Folge vorher genannt.
+- **Alternatives:** L4 als Regel in `/to-tests` (zählt nur passende Teilnehmende) – würde eine Teamentscheidung vorwegnehmen.
+- **Canvas:** Block 6, 8, 9
+
 ## 2026-11-23: Urteil des Reviews und Sichtbarkeit
 
 - **Context:** `/review-skillset` nach zwei Dry-Runs (V1, V2, W1).

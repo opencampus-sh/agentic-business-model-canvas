@@ -37,6 +37,6 @@ Ist etwas widerlegt, steht „Weiter testen“ nicht zur Wahl, ohne dass das Tea
 
 Die Wahl des Weges trifft das Team, ebenso jede Entscheidung über einen Befund mit mehr als einer vernünftigen Lösung. Stell sie als Auswahlfragen, mit dem Frage-Werkzeug deiner Umgebung, wenn es eines gibt, sonst nummeriert im Text. Jede Frage trägt ihren Kontext: was und wo; warum es wichtig ist; Einschränkungen (Entscheidungen, Belege); zwei bis vier Optionen mit Folgen; deine Empfehlung zuerst, markiert als *(Empfehlung)*. Frag den Weg zuletzt.
 
-Wende nur an, was das Team wählt. `MODEL.md` änderst du hier nicht; das macht `/to-model` im nächsten Schritt. Trag ein: den Weg und die Entscheidungen in `DECISIONS.md`, Block 11 (was ihr entschieden habt, was als Nächstes kommt) und Block 8 (Stand der Checks) im Canvas, einen Eintrag in `SIGNALS.md` (Quelle *Review*).
+Wende nur an, was das Team wählt. `MODEL.md` änderst du hier nicht; das macht `/to-model` im nächsten Schritt. Trag ein: den Weg und die Entscheidungen in `DECISIONS.md`, Block 11 (was ihr entschieden habt, was als Nächstes kommt) und Block 8 (Stand der Checks) im Canvas; ändert das Team *Kritisch* im Register, auch die Liste der kritischen Annahmen in Block 6; einen Eintrag in `SIGNALS.md` (Quelle *Review*).
 
 Fertig, wenn der Weg entschieden und eingetragen ist. Schlage vor zu committen (falls Git), dann `/model-retro`, danach den Skill, der zum gewählten Weg gehört.

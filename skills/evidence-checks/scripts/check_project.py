@@ -109,11 +109,14 @@ def main():
     untested = []
     for r in open_critical:
         cards = [t for t, body in tests.items() if re.search(rf"\b{r['id']}\b", field(body, "Annahme"))]
-        open_cards = [t for t in cards if not field(tests[t], "Ausgewertet").lower().startswith("ja")]
+        skipped = [t for t in cards if field(tests[t], "Status").lower().startswith("nicht durchgeführt")]
+        open_cards = [t for t in cards if t not in skipped and not field(tests[t], "Ausgewertet").lower().startswith("ja")]
         if not cards:
             untested.append(f"{r['id']}: keine Testkarte")
         elif not any(field(tests[t], "Schwelle") for t in cards):
             untested.append(f"{r['id']}: Testkarte ohne Schwelle")
+        elif not open_cards and skipped:
+            untested.append(f"{r['id']}: Test nicht durchgeführt ({', '.join(skipped)}) – neuer Test oder Entscheidung")
         elif not open_cards:
             untested.append(f"{r['id']}: Test ausgewertet, Annahme weiter offen – neuer Test oder Entscheidung")
     if not critical:
@@ -156,7 +159,8 @@ def main():
     running = [t for t, body in tests.items() if field(body, "Status").lower().startswith("läuft")]
     today = datetime.date.today().isoformat()
     overdue = [t for t, body in tests.items()
-               if not field(body, "Ergebnis") and (d := re.search(r"\d{4}-\d{2}-\d{2}", field(body, "Bis wann")))
+               if not field(body, "Ergebnis") and not field(body, "Status").lower().startswith("nicht durchgeführt")
+               and (d := re.search(r"\d{4}-\d{2}-\d{2}", field(body, "Bis wann")))
                and d.group(0) < today]
     if unevaluated or overdue or running:
         report("OFFEN", "ergebnisse", "; ".join(
@@ -169,10 +173,12 @@ def main():
     # 6. Refuted assumptions still used in MODEL.md.
     refuted = {r.get("id", "") for r in rows if r.get("status", "").lower() == "widerlegt"
                or "ersetzt durch" in r.get("quelle", "").lower()}
+    replaced = {r.get("id", "") for r in rows if "ersetzt durch" in r.get("quelle", "").lower()}
     used = sorted(set(ID.findall(re.sub(r"`[^`]*`", "", read(root, "MODEL.md") or ""))) & refuted)
-    report("OFFEN" if used else "OK", "widerlegt",
-           f"widerlegte oder ersetzte Annahmen in MODEL.md: {', '.join(used)} – prüfen, ob das Feld noch darauf aufbaut" if used
-           else "keine widerlegte Annahme in MODEL.md")
+    in_problem = sorted(set(ID.findall(re.sub(r"`[^`]*`", "", read(root, "PROBLEM.md") or ""))) & replaced)
+    found = ([f"widerlegte oder ersetzte Annahmen in MODEL.md: {', '.join(used)} – prüfen, ob das Feld noch darauf aufbaut"] if used else []) + \
+            ([f"ersetzte Annahmen in PROBLEM.md: {', '.join(in_problem)} – durch die neue ID ersetzen"] if in_problem else [])
+    report("OFFEN" if found else "OK", "widerlegt", "; ".join(found) or "keine widerlegte Annahme in MODEL.md, keine ersetzte in PROBLEM.md")
 
     # 7. At least three evaluated interviews (handbook).
     done = [i for i, body in interviews.items() if field(body, "Ausgewertet").lower().startswith("ja")]

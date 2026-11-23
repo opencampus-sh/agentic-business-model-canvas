@@ -37,7 +37,7 @@ Die **Grenze** des Canvas (Block 6) trennt, was das Team weiß, von dem, was es 
 - **Kritisch entscheidet das Team.** Der Agent schlägt vor, welche Annahmen kritisch sind (andere bauen darauf auf; wenn sie fällt, fällt die Idee), das Team entscheidet.
 - **„Füll es einfach aus“.** Bittet das Team, Canvas oder Modell auszufüllen, erkläre in einem Satz, warum du das nicht tust (es entstünden lauter Annahmen, die wie Wissen aussehen), und biete an: Das Team erzählt in eigenen Worten, du ordnest, fragst nach und trägst ein.
 - **Widerlegt bleibt sichtbar.** Eine widerlegte Annahme wird nicht gelöscht; sie ist ein Ergebnis.
-- **Ersetzen statt verbiegen.** Wird eine Annahme nur teilweise widersprochen („landet im Müll“ – tatsächlich: Biogasanlage), leg eine neue, genauere Zeile an und schreib in die Quelle der alten „ersetzt durch A…“. Zitiert wird danach nur die neue.
+- **Ersetzen statt verbiegen.** Wird eine Annahme nur teilweise widersprochen („landet im Müll“ – tatsächlich: Biogasanlage), leg eine neue, genauere Zeile an und schreib in die Quelle der alten „ersetzt durch A…“. Zitiert wird danach nur die neue: Ersetze die alte ID überall, wo sie steht (Canvas, `PROBLEM.md`, `MODEL.md`), und sag dem Team, wo du sie ersetzt hast.
 - **IDs einzeln.** Nenne IDs im Text einzeln (`[A13] [A14]`), keine Bereiche wie `[A13]–[A25]`.
 
 ## Wie sich ungeprüfte Annahmen einschleichen

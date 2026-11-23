@@ -28,7 +28,7 @@ Dann prüfst du den Plan als Ganzes und listest als Probleme:
 - Tests, die auf einer anderen, ungetesteten kritischen Annahme aufbauen (Reihenfolge);
 - Tests, die ein Angebot mit Preis oder Betrag brauchen, obwohl Preis oder Kosten noch als offene Frage im Canvas stehen (dann zuerst die Zahl klären, oder eine Zusage ohne Preis testen und sagen, was sie nicht zeigt);
 - Schwellen, die etwas anderes messen als die Annahme sagt (z. B. „Stiftung hält uns für förderfähig“ statt „Stiftung zahlt“);
-- ein Plan, der für das Team in der verfügbaren Zeit nicht machbar ist (frag nach der Zeit, schätze nicht).
+- ein Plan, der für das Team in der verfügbaren Zeit nicht machbar ist (frag nach der Zeit, schätze nicht). Passen die Karten nicht in die genannte Zeit, schlag eine Reihenfolge vor: zuerst die Annahmen, auf denen die meisten anderen aufbauen, dann die billigsten Tests. Das Team wählt, welche Karten jetzt dran sind; die übrigen bleiben *geplant* mit späterem *Bis wann*.
 
 ## 2. Stop-Point
 

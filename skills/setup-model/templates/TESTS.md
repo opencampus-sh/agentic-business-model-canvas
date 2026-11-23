@@ -15,7 +15,8 @@ Karte T?: <kurzer Titel>   ← als Überschrift: ### T1: <Titel>
 - **Messgröße:** was ihr zählt oder beobachtet
 - **Schwelle:** ab wann die Annahme als belegt gilt (z. B. „mindestens 3 von 5 Einrichtungen sagen verbindlich zu“)
 - **Ergebnis:** (nach dem Test) was herauskam, gemessen an der Schwelle
-- **Status:** geplant | läuft | abgeschlossen
+- **Status:** geplant | läuft | abgeschlossen | nicht durchgeführt
+- **Grund:** (nur wenn der Test nicht oder später gemacht wird) warum
 - **Ausgewertet:** nein
 -->
 

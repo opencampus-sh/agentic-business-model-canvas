@@ -32,6 +32,7 @@ Gibt es nichts Neues, sag es und schlage den nächsten Schritt vor, wie `/ask-mo
 - Vorschlag: *belegt*, wenn die Schwelle erreicht ist; *widerlegt*, wenn nicht; offen, wenn der Test zu klein war, abgebrochen wurde oder das Ergebnis an eine noch offene Bedingung geknüpft ist (dann bleibt die Karte auf *läuft*). Will das Team die Schwelle nach dem Ergebnis ändern, gilt: nie einen Check lockern, damit er besteht – mit geänderter Schwelle ist das Ergebnis nur noch ein Signal.
 - Beobachtungen aus dem Test, die nicht die Annahme der Karte betreffen, kommen als eigene Zeilen ins Register (siehe *Wann etwas belegt ist* in `assumptions`).
 - Bleibt eine Karte auf *läuft*, setz *Ausgewertet: teilweise*; ausgewertet ist sie erst, wenn die Bedingung erfüllt oder gefallen ist.
+- Sagt das Team, ein Test wurde nicht gemacht, schreib kein Ergebnis und schlag keinen Status für die Annahme vor: Frag nach dem Grund (Feld *Grund*) und ob es ein neues *Bis wann* gibt. Mit neuem Datum bleibt die Karte *geplant*; ohne wird sie *nicht durchgeführt*, und die Annahme braucht einen neuen Test oder eine Entscheidung des Teams.
 
 ## 4. Stop-Point
 

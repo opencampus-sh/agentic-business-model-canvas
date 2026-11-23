@@ -16,7 +16,7 @@ Everything that shows how the work is going: dry runs and checks before somethin
 - **What happened:** Läuft mit den aktuellen Skills durch, ohne FEHLER; drei echte Ablehnungen (A40 nicht kritisch, Jugendzentrum behalten, Probewoche parallel zur Freigabe), deren Folgen im Ergebnis sichtbar werden; Schwelle nicht gesenkt; Pivot nur bei „Wer zahlt?“. Funde: (1) Check *reihenfolge* liest T-Nummern hinter „keine (…)“ (Fehlalarm T4, T1 doppelt); (2) kein Status für einen nicht durchgeführten Test (T6); (3) `/to-tests` gibt bei sechs kritischen Annahmen und rund 4 Stunden pro Person und Woche keine Hilfe beim Priorisieren; (4) `/grill-solution` trägt die Ersetzung A4 → A36 nicht in `PROBLEM.md` nach; (5) `/review-model` ändert *Kritisch* im Register, Block 6 steht nicht in seiner Schreibliste; (6) keine Regel, wie Teilnehmende außerhalb der Gruppe der Annahme in der Schwelle zählen (vom Team abgelehnt: eigener Fehler).
 - **Who:** Runner-Agent mit Persona Lena
 - **Severity:** friction
-- **Status:** (1) fixed in `skills/evidence-checks/scripts/check_project.py`; (2)–(5) open; (6) bewusst kein Check (Entscheidung des fiktiven Teams, vom Maintainer zu bestätigen)
+- **Status:** (1) fixed in `check_project.py`; (2) fixed in Vorlage `TESTS.md`, `/log-evidence`, `check_project.py`; (3) fixed in `/to-tests`; (4) fixed in `assumptions`, `/grill-solution`, Check *widerlegt* (PROBLEM.md); (5) fixed in `/review-model`; (6) bewusst kein Check, Selbstcheck 5 in Einheit 5 (L4)
 
 ## 2026-11-23 · alle Skills · Referenzlauf für den Kurs
 

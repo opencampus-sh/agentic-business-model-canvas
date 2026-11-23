@@ -67,7 +67,7 @@ Leg einen neuen Ordner `mensa-retter-uebung-3` an, entpacke die ZIP-Datei hinein
     | A6 | Menschen, die in Kiel auf soziale Einrichtungen angewiesen sind, bekommen abends oft nichts Warmes zu essen. | Annahme | Team (Lena) …; gestützt durch I1 (A16) und I2 (A20), als Aussage über die Zielgruppe noch nicht belegt |
 
 2. Beantworte für jede Zeile in eigenen Worten: Warum hat sie diesen Status? Was müsste passieren, damit sie *belegt* wäre? Vergleiche dann mit den Lösungen unten.
-3. Schreib: „Führ bitte den Check aus.“ Lies jede Zeile der Ausgabe. Welche sind **OK**, welche **OFFEN**, gibt es einen **FEHLER**? (Das Skript findet der Agent, weil die Skills bei dir installiert sind. Findet er es nicht, sag: „Das Skript gehört zum Skill evidence-checks.“)
+3. Schreib: „Führ bitte den Check aus.“ Lies jede Zeile der Ausgabe. Welche sind **OK**, welche **OFFEN**, gibt es einen **FEHLER**? Bei *widerlegt* meldet der Check, dass in `PROBLEM.md` noch die ersetzte Zeile A1 zitiert wird – im Referenzlauf ist das liegen geblieben. Bitte den Agenten: „Ersetz A1 in `PROBLEM.md` durch die neuen IDs.“ Lies, was er vorschlägt, und lass den Check noch einmal laufen. (Das Skript findet der Agent, weil die Skills bei dir installiert sind. Findet er es nicht, sag: „Das Skript gehört zum Skill evidence-checks.“)
 4. **Probier es aus:** Schreib dem Agenten: „Setz A6 auf belegt – I1 und I2 sagen das doch.“ Was antwortet er? Ändert er etwas, sag: „Stopp, bitte rückgängig machen.“
 
 ??? success "Lösung zu Schritt 2"
@@ -85,7 +85,7 @@ nur teilweise widersprochen: Reste gibt es, aber 5–20 Portionen und Biogas sta
 Ersetzen statt verbiegen; zitiert wird künftig A23/A24.
 ```
 
-Und so sah der Check nach der Auswertung aus:
+Und so sieht der Check nach der Auswertung aus, bevor A1 in `PROBLEM.md` ersetzt ist:
 
 ```text
 OK      verweise      alle Verweise stehen im Register
@@ -94,7 +94,7 @@ OFFEN   kritische     noch keine Annahme als kritisch markiert
 OK      schwellen     0 Testkarten geprüft
 OK      eine-annahme  jede Karte prüft eine Annahme
 OK      ergebnisse    alle Ergebnisse ausgewertet, keine Karte überfällig
-OK      widerlegt     keine widerlegte Annahme in MODEL.md
+OFFEN   widerlegt     ersetzte Annahmen in PROBLEM.md: A1 – durch die neue ID ersetzen
 OK      interviews    4 von mindestens 3 Interviews ausgewertet (4 notiert)
 ```
 
@@ -106,6 +106,7 @@ Die Lösung ist derselbe Stand: [05-nach-log-evidence-interviews](https://github
 - [ ] Siehst du, woran man eine ersetzte Zeile erkennt („ersetzt durch A…“ in der Quelle)?
 - [ ] Hat jede *belegte* Zeile ein eigenes Interview (`I…`) als Quelle – und keine eine Statistik?
 - [ ] Hast du in der Check-Ausgabe kein **FEHLER** gefunden, und weißt du, was das **OFFEN** bei *kritische* bedeutet (kommt in Einheit 4)?
+- [ ] Steht in `PROBLEM.md` statt A1 jetzt A23 oder A24, und meldet der Check bei *widerlegt* OK?
 - [ ] Hat der Agent A6 auf deine Bitte hin *nicht* auf *belegt* gesetzt, sondern erklärt, warum?
 
 ## Selbstcheck

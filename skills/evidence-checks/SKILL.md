@@ -26,8 +26,8 @@ Ein Geschäftsmodell scheitert leise: Ein Canvas voller plausibler Annahmen sieh
 | Ein Test mit Ergebnis hatte seine Schwelle vorher (Schwelle ist ausgefüllt, Ergebnis nennt den Vergleich) | `TESTS.md`, Git-Verlauf | automatisch (Schwelle vorhanden) und beim Review (Reihenfolge) |
 | Jede Testkarte prüft genau eine Annahme (eine Schwelle pro Annahme) | `TESTS.md` | automatisch |
 | Jede *Voraussetzung* einer Karte verweist auf eine existierende andere Karte | `TESTS.md` | automatisch |
-| Jedes Testergebnis ist ausgewertet; keine Karte ist über *Bis wann* ohne Ergebnis | `TESTS.md` | automatisch |
-| Keine widerlegte Annahme trägt noch ein Feld von `MODEL.md` | Register, `MODEL.md` | automatisch (meldet zur Prüfung) |
+| Jedes Testergebnis ist ausgewertet; keine Karte ist über *Bis wann* ohne Ergebnis (außer *nicht durchgeführt*, mit Grund) | `TESTS.md` | automatisch |
+| Keine widerlegte Annahme trägt noch ein Feld von `MODEL.md`; keine ersetzte Annahme steht noch in `PROBLEM.md` | Register, `MODEL.md`, `PROBLEM.md` | automatisch (meldet zur Prüfung) |
 | Mindestens drei Interviews sind ausgewertet | `INTERVIEWS.md` (Handbuch) | automatisch |
 | Eine *belegte* Aussage stimmt mit dem Wortlaut der Notiz überein und ist auf die befragte Person bzw. Organisation bezogen | Notizen in `INTERVIEWS.md` | beim Auswerten |
 | Eine *recherchierte* Aussage steht wirklich in der verlinkten Quelle | die Quelle | beim Eintragen |
@@ -53,4 +53,4 @@ Unter Windows heißt Python meist `python` (oder `py`) statt `python3`; nimm, wa
 
 **Ohne Python:** Ist kein Python verfügbar, prüf die automatischen Regeln des Katalogs selbst anhand der Dateien, sag ausdrücklich, dass es eine Handprüfung ist, und biete an, beim Installieren von Python 3 zu helfen (Windows: `winget install Python.Python.3.12`; macOS: die Abfrage zu den Command Line Tools bestätigen).
 
-Es liest `ASSUMPTIONS.md`, `CANVAS.md`, `PROBLEM.md`, `MODEL.md`, `INTERVIEWS.md` und `TESTS.md` und meldet jede Prüfung als **OK**, **OFFEN** (noch nicht so weit, z. B. weniger als drei Interviews) oder **FEHLER** (eine Regel ist verletzt). Bei einem FEHLER endet es mit Exit-Code 1. Formate, die es erwartet: Register als Tabelle mit den Spalten `ID | Aussage | Kategorie | Status | Quelle | Kritisch | Test`; Interviews als `### I1 · …` mit der Zeile `- **Ausgewertet:** ja`; Testkarten als `### T1: …` mit den Zeilen `- **Annahme:**`, `- **Voraussetzung:**`, `- **Bis wann:**`, `- **Schwelle:**`, `- **Ergebnis:**`, `- **Ausgewertet:**`.
+Es liest `ASSUMPTIONS.md`, `CANVAS.md`, `PROBLEM.md`, `MODEL.md`, `INTERVIEWS.md` und `TESTS.md` und meldet jede Prüfung als **OK**, **OFFEN** (noch nicht so weit, z. B. weniger als drei Interviews) oder **FEHLER** (eine Regel ist verletzt). Bei einem FEHLER endet es mit Exit-Code 1. Formate, die es erwartet: Register als Tabelle mit den Spalten `ID | Aussage | Kategorie | Status | Quelle | Kritisch | Test`; Interviews als `### I1 · …` mit der Zeile `- **Ausgewertet:** ja`; Testkarten als `### T1: …` mit den Zeilen `- **Annahme:**`, `- **Voraussetzung:**`, `- **Bis wann:**`, `- **Schwelle:**`, `- **Ergebnis:**`, `- **Status:**`, `- **Ausgewertet:**` (und bei Bedarf `- **Grund:**`).
