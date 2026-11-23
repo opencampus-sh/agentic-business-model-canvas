@@ -12,7 +12,7 @@
 **`/review-model`** prüft euer Modell auf zwei Achsen – *Beleg* (was trägt?) und *Wirkung* (dient es den Betroffenen, trägt es sich?) – und legt drei Wege vor:
 
 - **Weiter testen** – nichts ist widerlegt, kritische Annahmen sind noch offen;
-- **Anpassen** – einzelne Annahmen sind widerlegt, die Richtung trägt;
+- **Anpassen** – einzelne Annahmen sind widerlegt, die Richtung ist durch eigene Interviews oder Tests gestützt;
 - **Neu ansetzen (Pivot)** – eine Annahme ist widerlegt, auf der die Idee steht.
 
 Den Weg wählt ihr. „Blockierend“ heißt im Review: klären, bevor ihr darauf weiterbaut – nicht aufhören.
@@ -31,11 +31,11 @@ Leg einen neuen Ordner `mensa-retter-uebung-5` an, entpacke die ZIP-Datei hinein
 
 ### Aufgabe
 
-1. **`/to-tests`.** Zeit und Frist – „Zusammen etwa zwölf Stunden pro Woche, bis zum 13. November.“ Der Agent nennt Probleme im Plan, je mit Empfehlung. Das Team hat geantwortet:
+1. **`/to-tests`.** Zeit und Frist – „Zusammen etwa zwölf Stunden pro Woche, in vier Wochen.“ Der Agent nennt Probleme im Plan, je mit Empfehlung. Das Team hat geantwortet:
     - Reihenfolge – „Ok, passt.“
     - Angebot mit Preis ans Studierendenwerk – **abgelehnt:** „Wir haben noch keinen Preis, Ahmet rechnet erst. Und ohne Freigabe von oben läuft gar nichts – da wollen wir nicht gleich mit einer Rechnung kommen.“
     - Schwelle für die Probewoche – „Wir drei haben 3 von 4 beschlossen.“
-2. Fragt der Agent, ob er die Karten committen soll: „Ja, bitte. Wenn hier noch kein Git ist, richte es ein.“ So steht fest, dass die Schwelle *vor* dem Ergebnis da war.
+2. Fragt der Agent, ob er die Karten committen soll: „Ja, bitte.“ So steht fest, dass die Schwelle *vor* dem Ergebnis da war. (Git hast du in [Einheit 0](0-einrichten.md) eingerichtet. Ohne Git funktioniert `/log-evidence` auch, kann die Reihenfolge aber nicht im Verlauf zeigen.)
 3. **`/log-evidence`.** Füg diese Ergebnisse in den Chat ein:
 
     ```text
@@ -89,7 +89,7 @@ Deine Karten, Sätze und Nummern werden anders aussehen; vielleicht wählst du s
     Offen: Die Zusage hängt an einer Bedingung. Die Karte bleibt auf *läuft*.
 
 ??? question "3. Eine kritische Annahme ist widerlegt, und keine engere Ersatz-Annahme ist durch eure Interviews oder Tests gestützt. Welcher Weg?"
-    Neu ansetzen (Pivot) – „Anpassen“ setzt voraus, dass eine engere Ersatz-Annahme belegt ist.
+    Neu ansetzen (Pivot) – „Anpassen“ setzt voraus, dass die Richtung durch eigene Interviews oder Tests gestützt ist.
 
 ??? question "4. Warum sollen die Testkarten vor dem Test committet werden?"
     Damit im Verlauf sichtbar ist, dass die Schwelle vor dem Ergebnis feststand. `/log-evidence` prüft das.

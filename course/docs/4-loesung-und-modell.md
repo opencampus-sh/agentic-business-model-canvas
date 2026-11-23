@@ -9,7 +9,9 @@
 2. **`/grill-solution`** klärt Vision, Lösung, Nutzer:innen und Kund:innen, Wertangebot, Erfolgskriterien und welche Annahmen **kritisch** sind – die, auf denen alles andere aufbaut. Für Vision, Lösung und Wertangebot fragt der Agent nach euren Worten, bevor er etwas vorschlägt. Bittet ihr ihn, „das Canvas einfach auszufüllen“, erklärt er, warum er das nicht tut, und bietet an zu ordnen, was ihr erzählt.
 3. **`/to-model`** baut euer Social Business Model Canvas (`MODEL.md`) in zehn Feldern. Er zeigt erst eine Gliederung mit den Lücken und fragt in kurzen Runden. Optionen nennen nur **Arten** („eine Stiftung, Spenden, ein Auftrag“), nie bestimmte Organisationen oder Beträge. Er rechnet nicht selbst.
 
-**Nutzer:innen und Kund:innen** sind im Social-Impact-Bereich oft nicht dieselben: Wer das Essen isst, zahlt nicht dafür. Dann füllt ihr *Lösung* und *Kund:innengruppen* für beide aus (Handbuch, Nutzer:innen vs. Kund:innen; SEEd-Playbook).
+**Nutzer:innen und Kund:innen** sind im Social-Impact-Bereich oft nicht dieselben: Wer das Essen isst, zahlt nicht dafür. Dann füllt ihr *Lösung* und *Kund:innengruppen* für beide aus (Handbuch, Nutzer:innen vs. Kund:innen; [SEEd-Playbook](https://seed.schule/lehrmaterial/)).
+
+Die **Vision** ist ein gesellschaftlicher Zielzustand in höchstens zwei Sätzen – wie die Welt aussieht, wenn das Problem gelöst ist, nicht eure Lösung.
 
 ## Woran ihr erkennt, dass der Agent eine Entscheidung vorwegnimmt
 
@@ -21,28 +23,28 @@ Dann sagt ihr: „Stopp – das entscheiden wir. Frag uns zuerst.“ Das ist kei
 
 ## Üben
 
-Du gehst mit dem fiktiven Team drei Schritte: bestehende Lösungen anschauen, die Lösung klären, das Modell bauen. Plane dafür gut eine halbe Stunde ein.
+Du gehst mit dem fiktiven Team zwei Schritte: die Lösung klären und das Modell bauen. Die bestehenden Lösungen hat das Team schon angeschaut; diesen Schritt kannst du am Ende optional selbst ausprobieren. Plane für die zwei Schritte etwa 45 Minuten ein.
 
 ### Startzustand
 
-Stand **05-nach-log-evidence-interviews** – Interviews ausgewertet, noch keine Lösung: [05-nach-log-evidence-interviews.zip](https://github.com/opencampus-sh/agentic-business-model-canvas/raw/main/examples/mensa-retter/referenz/zip/05-nach-log-evidence-interviews.zip)
+Stand **07-nach-map-solutions** – Interviews ausgewertet, bestehende Lösungen gesammelt, noch keine eigene Lösung: [07-nach-map-solutions.zip](https://github.com/opencampus-sh/agentic-business-model-canvas/raw/main/examples/mensa-retter/referenz/zip/07-nach-map-solutions.zip)
 
 Leg einen neuen Ordner `mensa-retter-uebung-4` an, entpacke die ZIP-Datei hinein, öffne dort das Terminal und starte den Agenten – wie in [Einheit 1](1-problem.md) unter „Übungsordner anlegen“.
 
 ### Aufgabe
 
-1. **`/map-solutions`.** Was kennt ihr schon? – „Die Tafel, die wir interviewt haben. Und eine Initiative, die Lebensmittel rettet, hab ich mal gehört.“ Der Agent sucht bestehende Lösungen in Kiel. Wähl aus, welche eine SWOT bekommen; das Team hat eine App weggelassen, die Reste an Leute mit Smartphone und Geld verkauft. Welche Lücke ihr seht – erst eure Worte: „Keiner bringt abends warmes Essen aus der Mensa zu den Einrichtungen. Wir brauchen keine eigene App, vielleicht arbeiten wir mit einer bestehenden Initiative zusammen.“
-2. **`/grill-solution`.** Bei der ersten Frage (Vision) probier zuerst: **„Kannst du das Canvas nicht einfach für uns ausfüllen?“** Lies die Antwort. Dann antworte als Team:
-    - Vision – „Dass niemand in Kiel abends hungrig bleiben muss.“
+1. **`/grill-solution`.** Bei der ersten Frage (Vision) probier zuerst: **„Kannst du das Canvas nicht einfach für uns ausfüllen?“** Lies die Antwort. Dann antworte als Team:
+    - Vision (ein Zielzustand, keine Lösung) – „Dass niemand in Kiel abends hungrig bleiben muss.“
     - Lösung – „Wir holen nachmittags übrig gebliebenes Essen in der Mensa ab, kühlen es und bringen es abends zu Einrichtungen, die abends Gäste haben. Ohne App, erstmal mit einer Messenger-Gruppe.“ Wer fährt? – „Die Einrichtungen holen ab, wenn sie können, sonst bringen wir es.“
     - Nutzer:innen und Kund:innen – „Die Einrichtungen sind unsere Kunden.“ Lies die Rückfrage; dann: „Dann das Studierendenwerk.“
     - Wertangebot – ein Satz je Gruppe. Erfolgskriterien – „Wenn die Einrichtungen regelmäßig abends was Warmes bekommen. Wie viele genau, müssen wir im Team besprechen.“
     - Kritische Annahmen – entscheidet selbst. Das Team hat die vier Vorschläge des Agenten übernommen.
-3. **`/to-model`.** Lies die Gliederung mit den Lücken. Dann:
+2. **`/to-model`.** Lies die Gliederung mit den Lücken. Dann:
     - Aktivitäten, Partner, Beziehung, Kanäle – „Abholen, in Kühlboxen packen, Temperatur aufschreiben, abends verteilen.“ „Eine feste Ansprechperson pro Einrichtung, damit's nicht einschläft.“ „Einrichtungen anrufen und vorbeigehen.“
-    - Einnahmen – „Das Studierendenwerk zahlt eine Pauschale. Wenn nicht, eine Stiftung. Wie viel, weiß ich nicht.“ Kosten – „Kühlboxen, Verpackungen, Fahrtkosten. Ist ja nicht viel.“ Wer klärt das? – „Ahmet, bis zum 13. November.“
+    - Einnahmen – „Das Studierendenwerk zahlt eine Pauschale. Wenn nicht, eine Stiftung. Wie viel, weiß ich nicht.“ Kosten – „Kühlboxen, Verpackungen, Fahrtkosten. Ist ja nicht viel.“ Wer klärt das? – „Ahmet, in zwei Wochen.“
     - Funde am Ende – lies jede Empfehlung und entscheide selbst.
-4. **Probier eigene Worte:** Formuliere Vision und Lösung so, wie *du* sie sagen würdest. Und achte auf vorweggenommene Entscheidungen (siehe oben). Siehst du eine, sag: „Stopp – das entscheiden wir.“
+3. **Probier eigene Worte:** Formuliere Vision und Lösung so, wie *du* sie sagen würdest. Und achte auf vorweggenommene Entscheidungen (siehe oben). Siehst du eine, sag: „Stopp – das entscheiden wir.“
+4. Optional: **`/map-solutions`** in einem eigenen Ordner mit [05-nach-log-evidence-interviews.zip](https://github.com/opencampus-sh/agentic-business-model-canvas/raw/main/examples/mensa-retter/referenz/zip/05-nach-log-evidence-interviews.zip) (etwa 25 Minuten; dein Agent braucht dafür die Websuche). Was kennt ihr schon? – „Die Tafel, die wir interviewt haben. Und eine Initiative, die Lebensmittel rettet, hab ich mal gehört.“ Der Agent sucht bestehende Lösungen in Kiel. Wähl aus, welche eine SWOT bekommen; das Team hat eine App weggelassen, die Reste an Leute mit Smartphone und Geld verkauft. Welche Lücke ihr seht – erst eure Worte: „Keiner bringt abends warmes Essen aus der Mensa zu den Einrichtungen. Wir brauchen keine eigene App, vielleicht arbeiten wir mit einer bestehenden Initiative zusammen.“
 
 ### So sieht es aus
 
@@ -80,7 +82,7 @@ Die Suche im Netz findet bei dir vielleicht andere Lösungen, und deine Sätze k
 
 ## Selbstcheck
 
-??? question "1. In `MODEL.md` steht unter Einnahmequellen: „Das Studierendenwerk zahlt 300 € im Monat [A6]“. A6 ist eine Annahme. Was fehlt?"
+??? question "1. In `MODEL.md` steht unter Einnahmequellen: „Das Studierendenwerk zahlt 300 € im Monat“, mit der ID einer Annahme. Was fehlt?"
     Woher die 300 € kommen. Hat das Team die Zahl nicht selbst genannt, gehört sie nicht ins Modell; ohne Zahl wird daraus eine offene Frage im Canvas.
 
 ??? question "2. Wer zahlt bei Mensa-Retter, und wer nutzt?"
@@ -94,4 +96,4 @@ Die Suche im Netz findet bei dir vielleicht andere Lösungen, und deine Sätze k
 
 ## Übertragen auf euer Projekt
 
-Ruft nacheinander `/map-solutions`, `/grill-solution` und `/to-model` auf. Notiert mindestens einmal, wenn ihr einen Vorschlag des Agenten abgelehnt habt, mit Grund – der Agent hält das in `DECISIONS.md` fest.
+Ruft nacheinander `/map-solutions`, `/grill-solution` und `/to-model` auf; `/map-solutions` braucht die Websuche eures Agenten. Notiert mindestens einmal, wenn ihr einen Vorschlag des Agenten abgelehnt habt, mit Grund – der Agent hält das in `DECISIONS.md` fest.
