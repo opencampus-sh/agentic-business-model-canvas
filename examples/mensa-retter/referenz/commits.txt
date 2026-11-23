@@ -1,0 +1,15 @@
+d089a10 2026-11-23 13 · model-retro · A42 korrigiert, fünf eigene Checks, zwei Vorschläge fürs Skillset
+87de9ed 2026-11-18 12 · review-model · Zwei-Achsen-Review, Weg: Anpassen
+12f16d9 2026-11-16 11 · log-evidence · Testrunde ausgewertet: A35, A36, A5 widerlegt, A42 belegt, T1 läuft
+2c8f4c8 2026-11-02 10 · to-tests · Testkarten T1–T5 mit Schwellen, vor dem Testen committet
+20694da 2026-10-30 9 · to-model · Social Business Model Canvas, Stiftung als Plan B, Beträge offen
+fce4bfb 2026-10-28 8 · grill-solution · Vision, Lösung ohne App, Nutzer:innen/Kund:innen, vier kritische Annahmen
+2965d26 2026-10-26 7 · map-solutions · Tafel, foodsharing und SattMissions-Mobil mit SWOT, Fazit des Teams
+846d345 2026-10-23 6 · ask-model · Wegweiser empfiehlt /map-solutions (keine Dateiänderung)
+c225eec 2026-10-23 5 · log-evidence · Interviews I1–I4 ausgewertet, A1 ersetzt, 12 Aussagen belegt
+f3d5921 2026-10-22 Interviews notiert
+0ad2957 2026-10-09 4 · to-interview-guide · Leitfaden für Einrichtungen und Mensa
+f2be492 2026-10-07 3 · grill-problem · Kernproblem, Warum-Kette, Folgen, Zielgruppe und Problem-Hypothesen
+2205b23 2026-10-05 2 · show-canvas · Canvas als Seite angesehen (build/, keine Dateiänderung)
+009fd04 2026-10-05 1 · setup-model · Projekt angelegt, Notion-Export ins Register übernommen
+8a53148 2026-11-23 leerer Projektordner
