@@ -12,6 +12,14 @@ Ein Eintrag pro Entscheidung, die neueste oben. Das Team entscheidet; der Agent 
 - **Canvas:** betroffene Blöcke
 -->
 
+## 2026-11-23: Lernende, Lernziele, Nachweis und Vorwissen
+
+- **Kontext:** `/grill-course`, Runde 1 (F1–F5).
+- **Entscheidung:** Personas Lena und Jonas, Gesamtzeit 6–8 Stunden; sechs Lernziele (Block 3), ohne die Methoden selbst; Nachweis über Selbstchecks, ein Ergebnis pro Einheit im eigenen Projekt und einen Abschluss-Check (Block 4); Claude Code ausführlich, OpenCode und Codex in je einem Kasten; vorausgesetzt werden Laptop mit Installationsrechten, Internet, Handbuch Kapitel 1 und ein Agent-Konto, nicht Terminal, Git oder Markdown. Alle Formulierungen vom Agenten vorgeschlagen, vom Autor übernommen.
+- **Begründung:** Zuschnitt des Skillsets (schwächste Nutzerin); die Methoden stehen im Handbuch; ein Agent im Detail hält Einheit 0 kurz.
+- **Alternativen:** alle drei Agenten gleich ausführlich; Installation nicht im Kurs.
+- **Canvas:** 2, 3, 4, 6
+
 ## 2026-11-23: Setup des Selbstlernkurses
 
 - **Kontext:** `/setup-course` (Agentic Course Creation), Abschnitte A–E.
