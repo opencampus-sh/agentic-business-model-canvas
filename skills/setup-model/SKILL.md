@@ -42,7 +42,7 @@ Fasse zusammen, was da ist und was fehlt. Dann frage in dieser Reihenfolge, je e
 - Geschäftsmodell: `MODEL.md` (Social Business Model Canvas, CC BY-SA 4.0, nach SEEd / Campus Business Box e.V. und Strategyzer.com)
 - Tests: `TESTS.md`; Entscheidungen: `DECISIONS.md`; Signale: `SIGNALS.md`; Vorschläge für das Skillset: `SKILL-PROPOSALS.md` (legt `/model-retro` bei Bedarf an)
 - Checks: `python3 <Pfad zum Skill evidence-checks>/scripts/check_project.py`
-- Sprache: Deutsch, du
+- Language: de (Gespräch auf Deutsch, du)
 - Bisherige Ergebnisse: <Quelle oder „keine“>
 ```
 

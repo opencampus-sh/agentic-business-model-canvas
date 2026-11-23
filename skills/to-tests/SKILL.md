@@ -26,6 +26,8 @@ Dann prüfst du den Plan als Ganzes und listest als Probleme:
 - Tests, die eine Annahme nur mit einer Meinung prüfen, wo Verhalten möglich wäre;
 - Schwellen, die so niedrig sind, dass jedes Ergebnis sie erfüllt;
 - Tests, die auf einer anderen, ungetesteten kritischen Annahme aufbauen (Reihenfolge);
+- Tests, die ein Angebot mit Preis oder Betrag brauchen, obwohl Preis oder Kosten noch als offene Frage im Canvas stehen (dann zuerst die Zahl klären, oder eine Zusage ohne Preis testen und sagen, was sie nicht zeigt);
+- Schwellen, die etwas anderes messen als die Annahme sagt (z. B. „Stiftung hält uns für förderfähig“ statt „Stiftung zahlt“);
 - ein Plan, der für das Team in der verfügbaren Zeit nicht machbar ist (frag nach der Zeit, schätze nicht).
 
 ## 2. Stop-Point

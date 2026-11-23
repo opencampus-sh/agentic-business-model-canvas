@@ -11,6 +11,13 @@ Everything that shows how the work is going: dry runs and checks before somethin
 - **Status:** open | fixed in <commit/file> | turned into check <name>
 -->
 
+## 2026-11-23 · alle Skills · Referenzlauf für den Kurs
+
+- **What happened:** vollständiger Lauf aller zwölf Skills mit den aktuellen Skills am Fall Mensa-Retter, Lena als gute Beispielnutzerin (eigene Worte, drei begründete Ablehnungen von Agent-Empfehlungen). Alle Stolperfallen abgefangen. Befunde: `Sprache:` statt `Language:` in `AGENTS.md`; ⚠️ auch in Block 10; Probewoche vor bestandener Voraussetzung ohne Check; Preisangebot empfohlen, obwohl die Kosten offen waren; „kritische OK“, obwohl der Test einer kritischen Annahme schon ausgewertet war; Review prüfte nicht, ob die Schwelle misst, was die Annahme sagt; lange Folge von Bestätigungsabschnitten. Zwei Vorschläge kamen vom fiktiven Team selbst über `/model-retro` (`SKILL-PROPOSALS.md`).
+- **Who:** Persona Lena (Referenzlauf)
+- **Severity:** friction
+- **Status:** fixed (siehe CHANGELOG); Lauf in `examples/mensa-retter/referenz/`
+
 ## 2026-11-23 · alle Skills · Recherche für den Kurs
 
 - **What happened:** Skills werden je nach Agent anders aufgerufen: Claude Code mit `/name` (als Plugin `/agentic-business-model-canvas:name`), OpenCode automatisch oder mit `@name` (kein Slash-Befehl), Codex mit `$name` oder `/skills`. README, Skills und `ask-model` schreiben überall `/name`. `disable-model-invocation: true` ist ein Claude-Code-Feld; OpenCode bewirbt Skills nur mit `description` und lädt sie dann ggf. automatisch.

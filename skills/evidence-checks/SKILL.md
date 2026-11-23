@@ -34,6 +34,9 @@ Ein Geschäftsmodell scheitert leise: Ein Canvas voller plausibler Annahmen sieh
 | Block 1, 2, 6 und 7 des Canvas passen zum aktuellen Stand von Register, `PROBLEM.md` und `MODEL.md` | Projektdateien | beim Auswerten und beim Review |
 | Interviews fragen nach Erlebtem, nicht nach der Idee (kein Pitch, keine Suggestivfragen) | Leitfaden, Notizen | beim Auswerten |
 | Zahlungsbereitschaft ist nur durch ein Angebot, eine Zusage oder Bezahlung belegt, nicht durch eine Umfrage | `TESTS.md` | beim Review |
+| Die Schwelle einer Karte misst, was die Annahme sagt (nicht etwas Schwächeres) | `TESTS.md`, Register | bei `/to-tests` und beim Review |
+| Kein Testergebnis, bevor die *Voraussetzung* der Karte abgeschlossen ist | `TESTS.md` | automatisch (*reihenfolge*, meldet zur Prüfung) |
+| Eine kritische Annahme, deren Test ausgewertet ist, bleibt nicht ohne Entscheidung auf *Annahme* | Register, `TESTS.md` | automatisch (*kritische*) |
 | Canvas und Modell widersprechen sich nicht (z. B. Wertangebot passt zu Problem und Zielgruppe; wer im Modell zahlt, steht in Block 2) | `CANVAS.md`, `MODEL.md` | beim Review |
 | Sind Nutzer:innen und Kund:innen verschieden, sind *Lösung* und *Kund:innengruppen* in `MODEL.md` für beide ausgefüllt | `MODEL.md` (SEEd-Playbook) | beim Review |
 | Die Vision beschreibt einen gesellschaftlichen Zielzustand, keine Lösung, in höchstens zwei Sätzen | Block 1 (Handbuch) | beim Review |

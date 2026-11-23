@@ -109,10 +109,13 @@ def main():
     untested = []
     for r in open_critical:
         cards = [t for t, body in tests.items() if re.search(rf"\b{r['id']}\b", field(body, "Annahme"))]
+        open_cards = [t for t in cards if not field(tests[t], "Ausgewertet").lower().startswith("ja")]
         if not cards:
             untested.append(f"{r['id']}: keine Testkarte")
         elif not any(field(tests[t], "Schwelle") for t in cards):
             untested.append(f"{r['id']}: Testkarte ohne Schwelle")
+        elif not open_cards:
+            untested.append(f"{r['id']}: Test ausgewertet, Annahme weiter offen – neuer Test oder Entscheidung")
     if not critical:
         report("OFFEN", "kritische", "noch keine Annahme als kritisch markiert")
     elif untested:
@@ -134,6 +137,13 @@ def main():
                for ref in re.findall(r"\bT\d+\b", field(body, "Voraussetzung")) if ref not in tests or ref == t]
     if bad_pre:
         report("FEHLER", "voraussetzung", "Voraussetzung gibt es nicht: " + ", ".join(bad_pre))
+    passed = {t for t, body in tests.items()
+              if field(body, "Status").lower().startswith("abgeschlossen") and field(body, "Ausgewertet").lower().startswith("ja")}
+    early = [f"{t} (vor {ref})" for t, body in tests.items() if field(body, "Ergebnis")
+             for ref in re.findall(r"\bT\d+\b", field(body, "Voraussetzung")) if ref in tests and ref != t and ref not in passed]
+    if early:
+        report("OFFEN", "reihenfolge", "Ergebnis, obwohl die Voraussetzung noch nicht abgeschlossen ist: " + ", ".join(early)
+               + " – Vorbehalt in der Quelle nennen (/log-evidence)")
     unevaluated = [t for t, body in tests.items()
                    if field(body, "Ergebnis") and not field(body, "Ausgewertet").lower().startswith("ja")
                    and not field(body, "Status").lower().startswith("läuft")]
