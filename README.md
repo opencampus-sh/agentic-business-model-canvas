@@ -4,6 +4,8 @@ Ein Canvas, ein Prozess und Agent-Skills, mit denen Teams ihr Impact-Startup von
 
 > Status: **v0.9, erste öffentliche Fassung** (1.0 nach den Rückmeldungen der Kursleitung). Entwickelt für den Kurs „[Become a Changemaker](https://opencampus.gitbook.io/changemaker/)“ von opencampus.sh. Gebaut mit dem [Agentic Skillset Builder](https://github.com/steffen74/agentic-skillset-builder); gleiche Canvas-Grammatik und Skill-Konventionen wie [Agentic Data Science](https://github.com/steffen74/agentic-data-science) und [Agentic Course Creation](https://github.com/steffen74/agentic-course-creation).
 
+**Website mit Kurs und Canvas:** https://opencampus-sh.github.io/agentic-business-model-canvas/
+
 ## Warum
 
 Ein Agent füllt ein Business Model Canvas in Sekunden. Was er nicht kann:
