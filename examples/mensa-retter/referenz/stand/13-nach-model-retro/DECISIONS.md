@@ -12,148 +12,148 @@ Ein Eintrag pro Entscheidung, die neueste oben. Das Team entscheidet; der Agent 
 - **Canvas:** betroffene Blöcke
 -->
 
-## 2026-11-23: Retro – was wir übernehmen
+## 2026-12-21: Was wir aus Runde 1 ändern
 
-- **Kontext:** `/model-retro` nach Testrunde und Review; elf Vorschläge in vier Kategorien.
-- **Entscheidung:** Übernommen: A42 zurück auf *Annahme* (ersetzt durch A48); fünf eigene Checks in Block 8; Skill-Vorschläge Nr. 1 (Check *reihenfolge* in `check_project.py`) und Nr. 2 (`to-tests`: kein Preisangebot ohne Preis) in `SKILL-PROPOSALS.md`. Abgelehnt: ein Skill-Vorschlag für `to-interview-guide` (eigene Zeile „nach Vorstellung der Idee“ in der Notizvorlage).
-- **Begründung:** „Das mit dem Pitch war unser Fehler, nicht der vom Skill. Im Leitfaden stand ja, dass wir die Idee nicht erzählen sollen.“ (Lena) – Stattdessen ein eigener Check durch das Team (Block 8). A42: „Stimmt, die haben ja noch nichts zugesagt.“
-- **Alternativen:** A42 belegt lassen (Review vom 2026-11-18, mit Vorbehalt); alle drei Skill-Vorschläge einreichen.
-- **Canvas:** 6, 8, 11
+- **Kontext:** `/model-retro` nach Review und Testrunde. Acht Vorschläge des Agenten (1 Korrektur, 3 Checks, 1 Canvas/Modell, 3 Skill-Regeln).
+- **Entscheidung:** Übernommen: Status der alten Signale und neues Datum für die Kostenfrage (Ahmet, 2027-01-15); Checks *Team-Zeit mitzählen*, *Strichliste je Messgröße*, *Wirkung mitzählen* in Block 8; Skill-Vorschläge 1 (Fehlalarm bei *reihenfolge*) und 2 (Status „nicht durchgeführt“) in `SKILL-PROPOSALS.md`, Jule reicht sie als Issue ein. Canvas und Modell ändert die nächste Runde (`/grill-solution`, `/to-model`). Nicht übernommen: Skill-Vorschlag 3 (Karte zählt nur Teilnehmende aus der Gruppe der Annahme).
+- **Begründung:** Zu Vorschlag 3: „Das war unser Fehler, nicht der vom Skill. Du hattest es ja gesagt.“ (Lena)
+- **Alternativen:** Vorschlag 3 übernehmen; keine neuen Checks, nur die Entscheidungen festhalten.
+- **Canvas:** 8, 11
 
-## 2026-11-18: Weg nach der ersten Testrunde: Anpassen
+## 2026-12-20: Weg nach Runde 1 – neu ansetzen bei „Wer zahlt?“
 
-- **Kontext:** `/review-model` nach T1–T5. Kritisch widerlegt: A35, A36, A5. Anpassen ist nur möglich, wenn für jede eine engere Ersatz-Annahme durch eigene Tests gestützt ist.
-- **Entscheidung:** Anpassen. Ersatz-Annahmen: A49 statt A35 (gestützt durch T2, A44); Stiftung statt Studierendenwerk als Geldgeber (A42/A48, T5); an Tagen ohne Selbstabholung liefert das Team (in T3 so geschehen, A46). Danach `/to-model`, dann `/to-tests`.
-- **Begründung:** „Die Richtung stimmt, zwei Einrichtungen wollen es ja. Nur das Geld und das Fahren müssen anders.“ (Lena)
-- **Alternativen:** Weiter testen (nicht möglich ohne Erklärung, warum drei Widerlegungen nichts ändern); Neu ansetzen mit `/grill-solution` (verworfen: die Ersatz-Annahmen sind durch eigene Tests gestützt).
+- **Kontext:** `/review-model` nach T1–T6. Widerlegt sind drei kritische Annahmen: A36, A37, A5. Für A36 gibt es eine engere, durch T1 gestützte Ersatz-Annahme (A45), für A37 eine durch T2 gestützte Beobachtung (A46); für A5 keine – A47 zeigt nur, dass eine Stiftung fördern *kann*.
+- **Entscheidung:** Neu ansetzen bei der Frage, wer zahlt (`/grill-solution` für Kund:innen und Einnahmen), danach `/to-model` und `/to-tests`. Problem, Vision und die zwei Einrichtungen bleiben.
+- **Begründung:** Empfehlung des Agenten nach der Regel aus `/review-model` („Anpassen“ nur mit gestützter Ersatz-Annahme). Lena: „Ok, dann neu ansetzen bei der Frage, wer zahlt. Die Einrichtungen bleiben.“
+- **Alternativen:** Anpassen (nicht zulässig, solange für A5 keine Ersatz-Annahme gestützt ist); weiter testen (nicht zulässig ohne Erklärung, warum die Widerlegungen nichts ändern); ganz neu ansetzen beim Problem (`/grill-problem`; das Problem selbst wurde nicht widerlegt).
+- **Canvas:** 2, 7, 11
+
+## 2026-12-20: Freigabe aktiv klären
+
+- **Kontext:** `/review-model`, Befund: Ohne Freigabe [A35] gibt es kein Essen; T3 läuft mit „wenn die Haftung geklärt ist“.
+- **Entscheidung:** Ahmet fragt beim Studierendenwerk nach, welche Haftungsregel es braucht, bis 2027-01-15. T3 läuft weiter.
+- **Begründung:** Empfehlung des Agenten, vom Team übernommen (Lena).
+- **Alternativen:** abwarten, bis sich das Studierendenwerk meldet.
 - **Canvas:** 11
 
-## 2026-11-18: Liefern an Tagen ohne Selbstabholung
+## 2026-12-20: A40 jetzt kritisch
 
-- **Kontext:** A36 widerlegt: Die Tafel konnte nur an 2 von 5 Tagen selbst abholen (A46); das Team hat an den anderen Tagen geliefert.
-- **Entscheidung:** Das Team liefert an Tagen, an denen eine Einrichtung nicht abholen kann; in der nächsten Runde wird getestet, wer diese Fahrten dauerhaft übernimmt (z. B. Ehrenamtliche von außen).
-- **Begründung:** Empfehlung des Agenten, vom Team übernommen; nur Einrichtungen zu beliefern, die selbst abholen, hätte die Tafel ausgeschlossen.
-- **Alternativen:** nur Einrichtungen, die selbst abholen (verworfen); nur an Abholtagen liefern (verworfen: dann bekäme die Tafel an 3 von 5 Tagen nichts).
-- **Canvas:** 3, 7, 11
+- **Kontext:** `/review-model`, Befund: Die Einrichtungen holen nicht selbst ab [A37 widerlegt]; das Team lieferte an 3 von 5 Tagen [A46]. Am 2026-11-26 hatte das Team A40 nicht als kritisch markiert („Ob wir Zeit haben, wissen wir doch selbst“).
+- **Entscheidung:** [A40] ist kritisch und bekommt im nächsten `/to-tests` eine Karte; foodsharing als Fahrer:innen [A44] kommt mit in den Test.
+- **Begründung:** Lena: „Ok, das mit der Zeit hätten wir doch testen sollen. Wir sind dreimal gefahren, das war echt viel.“
+- **Alternativen:** Das Team fährt weiter ohne Test; die Einrichtungen bitten, öfter selbst abzuholen.
+- **Canvas:** 6, 11
 
-## 2026-11-18: Stiftung: als Nächstes die Bewilligung testen
+## 2026-12-20: Mit den zwei Einrichtungen weiter
 
-- **Kontext:** A42 ist belegt, die Schwelle von T5 maß aber nur, ob ein Projekt wie unseres förderbar ist – nicht, ob die Stiftung zahlt.
-- **Entscheidung:** In der nächsten Runde eine neue, engere Annahme testen: Der Antrag bei der Stiftung aus T5 wird bewilligt (Antrag bis März). A42 bleibt belegt mit Vorbehalt.
-- **Begründung:** Empfehlung des Agenten, vom Team übernommen.
-- **Alternativen:** A42 als ausreichend belegt ansehen (verworfen: noch kein Euro zugesagt).
-- **Canvas:** 6, 7, 11
-
-## 2026-11-18: Nutzer:innen enger fassen
-
-- **Kontext:** T2: Die zwei Einrichtungen, die angenommen haben, haben abends Gäste und kochen abends nicht (A44); abgelehnt hat das Jugendzentrum, das selbst kocht (A27, A45).
-- **Entscheidung:** Nutzer:innen sind in der nächsten Runde Einrichtungen mit Abendgästen ohne eigenes Abendessen (A49); Jugendzentren nicht.
-- **Begründung:** Empfehlung des Agenten, vom Team übernommen.
-- **Alternativen:** weiter alle sozialen Einrichtungen ansprechen.
+- **Kontext:** `/review-model`, A36 widerlegt; belegt ist A45 (Tafel-Ausgabestelle und Tagesstätte nahmen an mindestens drei Tagen an). Ob die Tafel-Ausgabestelle abends Gäste hat, ist nicht bekannt (A16: Ausgabe zweimal pro Woche).
+- **Entscheidung:** Weiter mit diesen zwei Einrichtungen; das Team klärt, ob die Tafel-Ausgabestelle abends Gäste hat.
+- **Begründung:** Empfehlung des Agenten, vom Team übernommen (Lena).
+- **Alternativen:** neue Einrichtungen mit Abendgästen suchen und T1 wiederholen; beides.
 - **Canvas:** 2, 11
 
-## 2026-11-16: Schwelle von T2 bleibt bei 3 von 4
+## 2026-12-19: Auswertung der Tests T1–T5
 
-- **Kontext:** Ergebnis T2: 2 von 4 Einrichtungen. Lena fragte: „2 von 4 ist doch auch gut, können wir das nicht als belegt nehmen?“
-- **Entscheidung:** Die Schwelle bleibt; A35 ist widerlegt. Was die zwei Einrichtungen gemeinsam haben, steht als neue Annahme A49 im Register.
-- **Begründung:** Die Schwelle stand vor dem Test fest und wurde vom ganzen Team beschlossen (2026-11-02). Eine nach dem Ergebnis gesenkte Schwelle macht das Ergebnis nur noch zu einem Signal. „Ok, verstehe. Dann widerlegt, aber die zwei, die mitgemacht haben, sind ja auch was.“ (Lena)
-- **Alternativen:** Schwelle auf 2 von 4 senken und A35 als belegt eintragen (verworfen, s. o.).
-- **Canvas:** 6, 10
+- **Kontext:** `/log-evidence`. T1: 2 von 4 Einrichtungen bei Schwelle 3 von 4. Lena: „2 von 4 ist doch auch gut, können wir das nicht als belegt nehmen?“
+- **Entscheidung:** A36, A37 und A5 sind *widerlegt*, einzeln bestätigt. Belegt: A45, A46, A47. A35 und A39 bleiben *Annahme*, T3 und T5 laufen. T6 nicht durchgeführt, neu bis 2027-01-15.
+- **Begründung:** Die Schwelle stand vor dem Test fest; „nie einen Check lockern, damit er besteht“ – mit nachträglich gesenkter Schwelle wäre das Ergebnis nur ein Signal. Lena: „Ok, verstehe. Die Schwelle haben wir ja selbst vorher festgelegt. Dann widerlegt.“ Was die zwei Zusagen zeigen, steht als eigene Zeile A45.
+- **Alternativen:** A36 mit „2 von 4“ als belegt (nicht zulässig: Schwelle nach dem Ergebnis); A36 offen lassen und neu testen, weil das Jugendzentrum nicht zur Annahme passte (vom Agenten als Bedenken genannt, vom Team nicht gewählt).
+- **Canvas:** 5, 6, 10
 
-## 2026-11-02: Testplan T1–T5 und Reihenfolge
+## 2026-11-28: Jugendzentrum bleibt in der Probewoche
 
-- **Kontext:** `/to-tests` für die fünf kritischen Annahmen A37, A35, A36, A5, A42.
-- **Entscheidung:** Karten T1–T5 wie in `TESTS.md`. T1 (Freigabe) ist Voraussetzung für die Probewoche (T2, T3); T4 im selben Gespräch wie T1; T5 parallel. Alle bis 2026-11-13.
-- **Begründung:** Ohne Freigabe kein Essen für die Probewoche (I3: A25). Zeit: „Zusammen haben wir etwa zwölf Stunden pro Woche.“ (Lena) Die Probewoche ist damit machbar, wenn die Einrichtungen selbst abholen; sonst fährt das Team.
-- **Alternativen:** alle Tests gleichzeitig (verworfen: Probewoche ohne Freigabe).
+- **Kontext:** `/to-tests`, Karte T1. Der Agent wies darauf hin, dass das Jugendzentrum aus I4 nicht zu A36 gehört (keine Abendgäste, gekochtes Essen passt nicht [A27]; Entscheidung vom 2026-11-26: Jugendzentren sind keine Nutzer:innen) und T1 mit ihm etwas anderes misst als A36.
+- **Entscheidung:** Das Jugendzentrum wird trotzdem gefragt; T1 bleibt bei vier Einrichtungen und der Schwelle 3 von 4.
+- **Begründung:** „Das Jugendzentrum fragen wir trotzdem. Die kennen uns schon, und vielleicht sagen sie ja doch ja, wenn sie es mal probieren können.“ (Lena)
+- **Alternativen:** statt des Jugendzentrums eine weitere Einrichtung mit Abendgästen (Empfehlung des Agenten); nur Einrichtungen mit Abendgästen zählen.
 - **Canvas:** 9
 
-## 2026-11-02: Schwelle T2 „3 von 4 Einrichtungen“ vom ganzen Team beschlossen
+## 2026-11-28: Probewoche parallel zu Freigabe und Kühl-Check
 
-- **Kontext:** Die Schwelle übernimmt eine Zahl, die bisher als offene Frage im Canvas stand (wie viele Einrichtungen). Der Agent fragte, ob das ganze Team sie beschlossen hat.
-- **Entscheidung:** Mindestens 3 von 4 Einrichtungen nehmen an mindestens 3 von 5 Tagen Essen an.
-- **Begründung:** Lena hat Ahmet und Jule im Team-Chat gefragt; beide haben zugestimmt (2026-11-02). Bestätigt von: Lena, Ahmet, Jule.
-- **Alternativen:** 2 von 4 (vom Agenten als zu niedrig eingeschätzt: dann reicht fast jedes Ergebnis); 4 von 4 (Jugendzentrum hat in I4 schon abgewinkt).
-- **Canvas:** 4, 9
-
-## 2026-11-02: Kein schriftliches Preisangebot an das Studierendenwerk (T4)
-
-- **Kontext:** Der Agent empfahl für A5 ein schriftliches Angebot mit Preis (Verhalten statt Meinung).
-- **Entscheidung:** Abgelehnt. Wir fragen im Gespräch aus T1 konkret nach einer Kostenübernahme und notieren die Antwort wörtlich.
-- **Begründung:** „Wir haben noch keinen Preis, Ahmet rechnet erst. Und der Küchenleiter hat gesagt, ohne Freigabe von oben läuft gar nichts – da wollen wir nicht gleich mit einer Rechnung kommen.“ (Lena)
-- **Alternativen:** schriftliches Angebot mit Preis (Empfehlung des Agenten; stärkerer Test). Folge: Ein Ja im Gespräch wäre noch keine Zahlung; ein Nein über das eigene Budget zählt aber als Aussage der Organisation über sich selbst.
+- **Kontext:** `/to-tests`, Reihenfolge. Die Probewoche (T1, T2) baut auf zwei ungetesteten kritischen Annahmen auf: Freigabe und Haftung [A35] (T3) und Kühlen und Aufwärmen [A38] (T6).
+- **Entscheidung:** T1 und T2 laufen parallel zu T3 und T6, ohne Voraussetzung.
+- **Begründung:** „Die Freigabe dauert bestimmt Wochen, dann sind wir im Januar noch nicht weiter. Wir machen die Probewoche gleichzeitig.“ (Lena)
+- **Alternativen:** erst T3 und T6, dann die Probewoche (Empfehlung des Agenten). Folge der Entscheidung: Ein Ergebnis aus T1 zeigt, ob Einrichtungen das Essen annehmen; es zeigt nicht, dass die Mensa dauerhaft abgeben darf.
 - **Canvas:** 9
 
-## 2026-10-30: Stiftung als zweite Einnahmequelle, kritisch, und in Block 2
+## 2026-11-28: Testplan T1–T6 und Schwellen
 
-- **Kontext:** `/to-model`, Prüfung: Im Modell zahlt eine Stiftung, die in Block 2 nicht vorkam; mehrere Felder (Einnahmen, Kund:innen, Lösung) hängen an ihr, falls A5 fällt.
-- **Entscheidung:** A42 wird als kritisch markiert und in Block 2 als mögliche Kund:in ergänzt.
-- **Begründung:** Vorschlag des Agenten, vom Team übernommen: „Wenn das Studierendenwerk nicht zahlt, brauchen wir das.“ (Lena)
-- **Alternativen:** A42 nicht kritisch, nur als Notiz (verworfen: dann hätte das Modell bei einem Nein des Studierendenwerks keinen getesteten Plan B).
-- **Canvas:** 2, 6, 7
+- **Kontext:** `/to-tests` für die sechs kritischen Annahmen A36, A37, A35, A5, A39, A38.
+- **Entscheidung:** Sechs Karten mit den Schwellen in `TESTS.md`, alle bis 2026-12-18. Das Studierendenwerk wird ohne Betrag gefragt (T4), weil die Kosten offen sind; eine Zusage zeigt dann nicht, ob der Betrag die Kosten deckt. T5 zählt nur eine Förderzusage, nicht „förderfähig“.
+- **Begründung:** Schwellen vom Agenten vorgeschlagen und begründet, vom Team übernommen („ok, 3 von 4“, Lena). Zeit: Lena etwa 4 Stunden pro Woche, Ahmet und Jule ähnlich (Lena); „die Probewoche schaffen wir, wenn die Einrichtungen selbst abholen“.
+- **Alternativen:** T4 erst nach Ahmets Kostenrechnung mit Betrag (dann frühestens nach 2026-12-11).
+- **Canvas:** 9
 
-## 2026-10-30: Beträge offen lassen, Ahmet rechnet
+## 2026-11-28: „Regelmäßig“ heißt drei Abende pro Woche
 
-- **Kontext:** `/to-model`, Kosten „ist ja nicht viel“, Einnahmen ohne Betrag; ob die Einnahmen die Kosten decken, ist nicht zu sagen.
-- **Entscheidung:** Kosten und nötige Pauschale bzw. Förderung bleiben offene Fragen; Ahmet schätzt sie bis 2026-11-13.
-- **Begründung:** Ohne Zahlen kann niemand sagen, ob das Modell trägt; der Agent rechnet nicht selbst.
-- **Alternativen:** Schätzwerte jetzt eintragen (verworfen: niemand im Team kennt sie).
-- **Canvas:** 7
-
-## 2026-10-30: Gliederung des Social Business Model Canvas
-
-- **Kontext:** `/to-model`, Lücken in Aktivitäten, Partnern, Beziehung, Kanälen, Einnahmen und Kosten.
-- **Entscheidung:** Antworten des Teams wie in `MODEL.md` (A38–A43).
-- **Begründung:** Worte des Teams (Lena); die Beispiele des Agenten nannten nur Arten.
-- **Alternativen:** –
-- **Canvas:** 7
-
-## 2026-10-28: Kritische Annahmen
-
-- **Kontext:** `/grill-solution`, letzte Runde. Der Agent schlug vier Annahmen als kritisch vor, mit Begründung.
-- **Entscheidung:** Kritisch sind A35 (Einrichtungen nehmen an), A37 (Freigabe durch das Studierendenwerk), A36 (Einrichtungen holen selbst ab) und A5 (Studierendenwerk zahlt).
-- **Begründung:** Ohne Abnehmer, ohne Freigabe oder ohne Geld fällt die Idee; ohne Selbstabholung schafft das Team die Fahrten nicht („Wir haben jede:r nur ein paar Stunden pro Woche.“ – Lena). A30 (Kühlkette) ist eine Bedingung, die mit A36 und A37 mitgetestet wird.
-- **Alternativen:** A30 zusätzlich als kritisch (verworfen, s. o.).
-- **Canvas:** 6
-
-## 2026-10-28: Lösungs-Hypothesen
-
-- **Kontext:** `/grill-solution`.
-- **Entscheidung:** A35, A36, A37, A5 und A30 sind die Lösungs-Hypothesen.
-- **Begründung:** Formulierung vom Agenten vorgeschlagen, vom Team übernommen.
-- **Alternativen:** –
-- **Canvas:** 3
-
-## 2026-10-28: Erfolgskriterien (ohne Zahlen)
-
-- **Kontext:** `/grill-solution`, Block 4.
-- **Entscheidung:** Erfolg heißt: Einrichtungen, die abends Gäste haben, bekommen regelmäßig abends etwas Warmes. Das Modell trägt, wenn die Mensa mitmacht, die Abholung klappt und jemand die Kosten trägt. Zahlen (wie viele Einrichtungen, wie oft) sind noch offen.
-- **Begründung:** „Das müssen wir im Team besprechen.“ (Lena)
-- **Alternativen:** –
+- **Kontext:** `/to-tests`. Die Schwelle von T1 übernimmt die Zahl „drei Abende“, die in Block 4 nur als Vorschlag von Lena stand.
+- **Entscheidung:** Regelmäßig heißt: an mindestens drei Abenden pro Woche.
+- **Begründung:** Lena hat in der Team-Gruppe gefragt; Ahmet und Jule haben zugestimmt (bestätigt von Lena, Ahmet, Jule am 2026-11-28, laut Lena).
+- **Alternativen:** fünf Abende (jeden Werktag); zwei Abende.
 - **Canvas:** 4
 
-## 2026-10-28: Nutzer:innen und Kund:innen sind verschieden
+## 2026-11-26: A38 und A39 kritisch, A40 nicht
 
-- **Kontext:** Lena nannte die Einrichtungen zuerst „unsere Kunden“. Kund:innen sind aber, wer zahlt oder ermöglicht; die Tagesstätte aus I2 kann nicht zahlen (A22).
-- **Entscheidung:** Nutzer:innen sind die Einrichtungen, die Wirkung entsteht bei ihren Gästen; das Studierendenwerk ermöglicht (Freigabe, A37) und soll zahlen (A5). Fall: eine dritte Partei zahlt.
-- **Begründung:** A22; Notion-Hypothese A5.
-- **Alternativen:** Einrichtungen zahlen (für I2 widerspricht A22); eine Stiftung zahlt (offen, kommt in `/to-model`).
+- **Kontext:** `/to-model`, Prüfen. Der Agent schlug drei Annahmen als kritisch vor, auf denen mehrere Felder von `MODEL.md` aufbauen: [A38] Kühlen und Aufwärmen (Lösung, Aktivitäten, Kosten), [A39] Stiftung (Einnahmen – fällt A5, zahlt sonst niemand), [A40] das Team schafft Absprachen, Kühlkette und Einspringen neben dem Studium (Lösung, Aktivitäten, Beziehung, Kosten).
+- **Entscheidung:** A38 und A39 sind kritisch. A40 nicht.
+- **Begründung:** A38, A39: Vorschlag des Agenten übernommen. A40: „Ob wir Zeit haben, wissen wir doch selbst. Das müssen wir nicht testen.“ (Lena)
+- **Alternativen:** A40 als kritisch markieren und in der Probewoche mitmessen (Vorschlag des Agenten: wie oft das Team einspringt und wie viele Stunden es kostet).
+- **Canvas:** 6
+
+## 2026-11-26: Jugendzentren nicht bei den Nutzer:innen
+
+- **Kontext:** `/to-model`, Prüfen. Block 2 nennt als Betroffene auch Jugendliche in Jugendzentren [A14]; die Lösung richtet sich an Einrichtungen mit Abendgästen [A36], und für das Jugendzentrum aus I4 passt gekochtes Essen von außen nicht [A27].
+- **Entscheidung:** `MODEL.md` nennt als Nutzer:innen nur Einrichtungen mit Abendgästen; Block 2 bekommt den Hinweis, dass Jugendzentren nicht dazugehören.
+- **Begründung:** Empfehlung des Agenten, vom Team übernommen („ok, passt“, Lena).
+- **Alternativen:** Block 2 unverändert lassen (dann widersprechen sich Canvas und Modell).
 - **Canvas:** 2
 
-## 2026-10-28: Lösung – Abholen, kühlen, abends bringen, ohne App
+## 2026-11-26: Felder des Geschäftsmodells
 
-- **Kontext:** `/grill-solution`; Fazit aus `/map-solutions`.
-- **Entscheidung:** Wir holen nachmittags übrig gebliebenes Essen in der Mensa ab, kühlen es und bringen es abends zu Einrichtungen, die abends Gäste haben – oder sie holen es selbst ab. Erstmal mit einer Messenger-Gruppe.
-- **Begründung:** Lücke aus `SOLUTIONS.md`; die Interviews nennen Abholung und Kühlkette als Hürde, keine fehlende Vermittlung.
-- **Alternativen:** eigene App (A3, verworfen); nur bei foodsharing mitmachen (verworfen: „Mit foodsharing reden wir, aber erstmal probieren wir es selbst.“).
+- **Kontext:** `/to-model`, Gliederung. Lücken bei Aktivitäten, Partner:innen, Beziehung, Kanälen, Einnahmen und Kosten.
+- **Entscheidung:** Antworten des Teams wie in `MODEL.md` ([A40] bis [A44]); Beträge für Kosten und Einnahmen offen (Ahmet, bis 2026-12-11).
+- **Begründung:** Eigene Worte des Teams (Lena). Beträge kennt das Team noch nicht; der Agent rechnet nicht.
+- **Alternativen:** weitere Partner:innen (keine genannt); Einrichtungen zahlen einen Beitrag (verworfen 2026-11-24).
+- **Canvas:** 7
+
+## 2026-11-24: Kritische Annahmen
+
+- **Kontext:** `/grill-solution`, letzte Runde. Der Agent schlug vier Annahmen als kritisch vor, jeweils mit Begründung.
+- **Entscheidung:** Kritisch sind [A36] (Einrichtungen nehmen regelmäßig an), [A35] (Freigabe und Haftung), [A37] (Einrichtungen holen selbst ab) und [A5] (Studierendenwerk zahlt).
+- **Begründung:** Vorschlag des Agenten, vom Team übernommen („ok, passt, die vier“, Lena). Auf A36 baut alles auf; ohne A35 gibt es kein Essen; A37 trägt die Lösung („springen nur ein“), und I1 sagt, Abholen ist dort das Problem (A17); ohne A5 oder eine andere Quelle zahlt niemand.
+- **Alternativen:** [A39] (Stiftung) statt [A5] als kritisch; [A38] (Kühlen) zusätzlich – das Team ließ beide vorerst offen.
+- **Canvas:** 6
+
+## 2026-11-24: Erfolgskriterien
+
+- **Kontext:** `/grill-solution`, Block 4.
+- **Entscheidung:** Das Problem wird kleiner, wenn in mindestens zwei Einrichtungen abends regelmäßig etwas Warmes auf dem Tisch steht. Das Modell trägt, wenn die Mensa mitmacht und jemand anderes als die Einrichtungen Verpackung und Fahrten bezahlt. Wie oft „regelmäßig“ ist, ist offen (Vorschlag Lena: drei Abende pro Woche; mit Ahmet und Jule zu klären).
+- **Begründung:** Eigene Worte des Teams (Lena).
+- **Alternativen:** Erfolg an geretteten Portionen messen (vom Agenten als Art genannt; Lena: „Uns geht's um die Leute, nicht um die Portionen“).
+- **Canvas:** 4
+
+## 2026-11-24: Nutzer:innen, Kund:innen und Fall
+
+- **Kontext:** `/grill-solution`, Block 2.
+- **Entscheidung:** Nutzer:innen sind die Mitarbeitenden der Einrichtungen mit Abendgästen; die Wirkung entsteht bei deren Gästen. Kund:innen (zahlen oder ermöglichen) sind das Studierendenwerk und, falls es nicht zahlt, eine Stiftung. Fall: verschieden (eine dritte Partei zahlt). [A4] ist ersetzt durch die engere [A36].
+- **Begründung:** „Die Einrichtungen sicher nicht, die haben nichts.“ (Lena; vgl. A22) Fall: Empfehlung des Agenten, vom Team übernommen.
+- **Alternativen:** Einrichtungen zahlen einen kleinen Beitrag (I2 kann nicht, A22); Gäste zahlen (nicht gewollt).
+- **Canvas:** 2
+
+## 2026-11-24: Lösung – Einrichtungen holen ab, wir organisieren
+
+- **Kontext:** `/grill-solution`, Block 3. Lücke aus `SOLUTIONS.md`: warmes Essen am Abend aus der Mensa zu Einrichtungen mit Abendgästen.
+- **Entscheidung:** Lösung in den Worten des Teams (Block 3): Die Einrichtungen holen die Reste nach der Ausgabe in der Mensa ab und machen sie abends warm; das Team macht die Absprachen und springt ein, wenn keiner fahren kann. Wertangebot je Gruppe in eigenen Worten.
+- **Begründung:** „Jeden Abend selbst fahren schaffen wir nicht.“ (Lena)
+- **Alternativen:** Das Team liefert jeden Abend selbst (zu viel Zeit, Lena); eigene App (verworfen am 2026-10-26).
 - **Canvas:** 3
 
-## 2026-10-28: Vision
+## 2026-11-24: Vision und gewünschte Veränderung
 
 - **Kontext:** `/grill-solution`, Block 1.
-- **Entscheidung:** „Dass niemand in Kiel abends hungrig bleiben muss.“
-- **Begründung:** Formulierung des Teams (Lena).
-- **Alternativen:** –
+- **Entscheidung:** Vision: „Dass niemand in Kiel abends hungrig bleiben muss.“ Veränderung: Gäste sozialer Einrichtungen bekommen abends etwas Warmes; weniger Essen in der Biogasanlage ist eine Nebenwirkung, nicht das Ziel.
+- **Begründung:** Eigene Worte des Teams (Lena). Die Biogasanlage steht als Nebenwirkung, weil die Verschwendung laut Entscheidung vom 2026-10-07 der Anlass ist, nicht das Kernproblem.
+- **Alternativen:** weniger Verschwendung als gleichrangiges Ziel (verworfen, siehe 2026-10-07); Biogas ganz weglassen.
 - **Canvas:** 1
 
 ## 2026-10-26: Fazit der Recherche zu bestehenden Lösungen

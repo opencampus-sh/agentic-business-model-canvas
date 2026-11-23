@@ -35,6 +35,7 @@ Ursachen
 │   └── warum? – noch offen (in den Interviews nicht beantwortet)
 └── Spenden mit warmem Essen kommen nicht an oder versanden (ergänzt nach I1–I4)
     ├── Abholen ist schwierig: ein Transporter, zwei Fahrer:innen [A17]
+    │   └── in der Probewoche nur an 2 von 5 Tagen selbst abgeholt (ergänzt nach T2) [A46]
     ├── Annahme nur mit dokumentierter Kühlkette [A18]
     └── Kontakte zu Spendern schlafen ein [A21]
 ```

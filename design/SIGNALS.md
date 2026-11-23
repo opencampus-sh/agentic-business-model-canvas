@@ -11,6 +11,13 @@ Everything that shows how the work is going: dry runs and checks before somethin
 - **Status:** open | fixed in <commit/file> | turned into check <name>
 -->
 
+## 2026-11-23 · grill-solution bis model-retro · Referenzlauf 2 für den Kurs (ab Stand 07)
+
+- **What happened:** Läuft mit den aktuellen Skills durch, ohne FEHLER; drei echte Ablehnungen (A40 nicht kritisch, Jugendzentrum behalten, Probewoche parallel zur Freigabe), deren Folgen im Ergebnis sichtbar werden; Schwelle nicht gesenkt; Pivot nur bei „Wer zahlt?“. Funde: (1) Check *reihenfolge* liest T-Nummern hinter „keine (…)“ (Fehlalarm T4, T1 doppelt); (2) kein Status für einen nicht durchgeführten Test (T6); (3) `/to-tests` gibt bei sechs kritischen Annahmen und rund 4 Stunden pro Person und Woche keine Hilfe beim Priorisieren; (4) `/grill-solution` trägt die Ersetzung A4 → A36 nicht in `PROBLEM.md` nach; (5) `/review-model` ändert *Kritisch* im Register, Block 6 steht nicht in seiner Schreibliste; (6) keine Regel, wie Teilnehmende außerhalb der Gruppe der Annahme in der Schwelle zählen (vom Team abgelehnt: eigener Fehler).
+- **Who:** Runner-Agent mit Persona Lena
+- **Severity:** friction
+- **Status:** (1) fixed in `skills/evidence-checks/scripts/check_project.py`; (2)–(5) open; (6) bewusst kein Check (Entscheidung des fiktiven Teams, vom Maintainer zu bestätigen)
+
 ## 2026-11-23 · alle Skills · Referenzlauf für den Kurs
 
 - **What happened:** vollständiger Lauf aller zwölf Skills mit den aktuellen Skills am Fall Mensa-Retter, Lena als gute Beispielnutzerin (eigene Worte, drei begründete Ablehnungen von Agent-Empfehlungen). Alle Stolperfallen abgefangen. Befunde: `Sprache:` statt `Language:` in `AGENTS.md`; ⚠️ auch in Block 10; Probewoche vor bestandener Voraussetzung ohne Check; Preisangebot empfohlen, obwohl die Kosten offen waren; „kritische OK“, obwohl der Test einer kritischen Annahme schon ausgewertet war; Review prüfte nicht, ob die Schwelle misst, was die Annahme sagt; lange Folge von Bestätigungsabschnitten. Zwei Vorschläge kamen vom fiktiven Team selbst über `/model-retro` (`SKILL-PROPOSALS.md`).

@@ -29,11 +29,11 @@ Wo jede Ressource des Kurses liegt, wer sie sieht und welche Kopie die Quelle is
 
 | Einheit | Planung | Kursseite | Übung (Start / Lösung) | Selbstcheck | Status |
 |---|---|---|---|---|---|
-| 0 | `PLAN.md` | `docs/0-einrichten.md` | eigener leerer Ordner | auf der Seite | Entwurf |
-| 1 | `PLAN.md` | `docs/1-problem.md` | Referenzlauf: nach `/setup-model` → nach `/grill-problem` | auf der Seite | Entwurf |
-| 2 | `PLAN.md` | `docs/2-interviews.md` | Referenzlauf: nach `/grill-problem` → nach `/log-evidence` (Interviews) | auf der Seite | Entwurf |
-| 3 | `PLAN.md` | `docs/3-annahme-oder-beleg.md` | Referenzlauf: Register nach der Auswertung | auf der Seite | Entwurf |
-| 4 | `PLAN.md` | `docs/4-loesung-und-modell.md` | Referenzlauf: → nach `/to-model` | auf der Seite | Entwurf |
-| 5 | `PLAN.md` | `docs/5-testen-und-entscheiden.md` | Referenzlauf: → nach `/review-model` | auf der Seite | Entwurf |
+| 0 | `PLAN.md` | `docs/0-einrichten.md` | eigener leerer Ordner | auf der Seite | überarbeitet nach Walk-through |
+| 1 | `PLAN.md` | `docs/1-problem.md` | Referenzlauf: nach `/setup-model` → nach `/grill-problem` | auf der Seite | überarbeitet nach Walk-through |
+| 2 | `PLAN.md` | `docs/2-interviews.md` | Referenzlauf: nach `/grill-problem` → nach `/log-evidence` (Interviews) | auf der Seite | überarbeitet nach Walk-through |
+| 3 | `PLAN.md` | `docs/3-annahme-oder-beleg.md` | Referenzlauf: Register nach der Auswertung | auf der Seite | überarbeitet nach Walk-through |
+| 4 | `PLAN.md` | `docs/4-loesung-und-modell.md` | Referenzlauf: nach `/map-solutions` → nach `/to-model` (zweiter Lauf) | auf der Seite | überarbeitet nach Walk-through |
+| 5 | `PLAN.md` | `docs/5-testen-und-entscheiden.md` | Referenzlauf: nach `/to-model` → nach `/review-model`, optional `/model-retro` (zweiter Lauf) | auf der Seite | überarbeitet nach Walk-through |
 
 **Konflikt:** Die beiden Dry-Runs vom 2026-11-22 taugen nur teilweise als Übungsmaterial: Lauf 1 entstand mit den Skills vor den Korrekturen, Lauf 2 hat `/to-interview-guide`, `/map-solutions` und `/model-retro` übersprungen und Lena alles in den Chat schreiben lassen. Entscheidung siehe `DECISIONS.md`.

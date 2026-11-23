@@ -33,52 +33,52 @@ Leg einen neuen Ordner `mensa-retter-uebung-4` an, entpacke die ZIP-Datei hinein
 
 ### Aufgabe
 
-1. **`/grill-solution`.** Bei der ersten Frage (Vision) probier zuerst: **„Kannst du das Canvas nicht einfach für uns ausfüllen?“** Lies die Antwort. Dann antworte als Team:
-    - Vision (ein Zielzustand, keine Lösung) – „Dass niemand in Kiel abends hungrig bleiben muss.“
-    - Lösung – „Wir holen nachmittags übrig gebliebenes Essen in der Mensa ab, kühlen es und bringen es abends zu Einrichtungen, die abends Gäste haben. Ohne App, erstmal mit einer Messenger-Gruppe.“ Wer fährt? – „Die Einrichtungen holen ab, wenn sie können, sonst bringen wir es.“
-    - Nutzer:innen und Kund:innen – „Die Einrichtungen sind unsere Kunden.“ Lies die Rückfrage; dann: „Dann das Studierendenwerk.“
-    - Wertangebot – ein Satz je Gruppe. Erfolgskriterien – „Wenn die Einrichtungen regelmäßig abends was Warmes bekommen. Wie viele genau, müssen wir im Team besprechen.“
+1. **`/grill-solution`.** Der Agent fragt in etwa sechs Runden. Antworte als Team:
+    - Vision (ein Zielzustand, keine Lösung) – „Dass niemand in Kiel abends hungrig bleiben muss.“ Veränderung – „Dass die Leute in den Einrichtungen abends was Warmes kriegen. Und dass gutes Essen nicht in der Biogasanlage landet.“ Fragt er, wohin die Biogasanlage gehört: „Als Nebenwirkung, ja.“
+    - Lösung – probier zuerst: **„Kannst du das Canvas nicht einfach für uns ausfüllen?“** Lies die Antwort. Dann: „Wir bringen die Mensa und die Einrichtungen zusammen. Die Einrichtungen holen nach der Ausgabe die Reste in der Mensa ab und machen sie abends bei sich warm. Wir machen die Absprachen und springen ein, wenn mal keiner fahren kann. Jeden Abend selbst fahren schaffen wir nicht.“ Verworfene Alternativen – „Nur die App.“
+    - Nutzer:innen – „Ja, die Einrichtungen. Aber eigentlich geht's ja um die Gäste.“ Wer zahlt – „Die Einrichtungen sicher nicht, die haben nichts. Das Studierendenwerk gibt das Essen, vielleicht zahlt es auch was. Sonst eine Stiftung.“ Kühlung – „Weiß ich nicht. Jule fragt das in den nächsten zwei Wochen.“
+    - Wertangebot – „Für die Einrichtungen: abends was Warmes für die Gäste, ohne selbst zu kochen. Für die Gäste: abends satt. Für die Mensa: weniger wegwerfen, und es sieht gut aus. Für die Stiftung … weiß ich nicht.“
+    - Erfolgskriterien – „Wenn in zwei Einrichtungen abends regelmäßig was Warmes auf dem Tisch steht. Regelmäßig heißt … dreimal die Woche? Das muss ich noch mit Ahmet und Jule klären.“ Achte darauf, was der Agent mit der halb gesagten Zahl macht.
     - Kritische Annahmen – entscheidet selbst. Das Team hat die vier Vorschläge des Agenten übernommen.
 2. **`/to-model`.** Lies die Gliederung mit den Lücken. Dann:
-    - Aktivitäten, Partner, Beziehung, Kanäle – „Abholen, in Kühlboxen packen, Temperatur aufschreiben, abends verteilen.“ „Eine feste Ansprechperson pro Einrichtung, damit's nicht einschläft.“ „Einrichtungen anrufen und vorbeigehen.“
-    - Einnahmen – „Das Studierendenwerk zahlt eine Pauschale. Wenn nicht, eine Stiftung. Wie viel, weiß ich nicht.“ Kosten – „Kühlboxen, Verpackungen, Fahrtkosten. Ist ja nicht viel.“ Wer klärt das? – „Ahmet, in zwei Wochen.“
-    - Funde am Ende – lies jede Empfehlung und entscheide selbst.
+    - Aktivitäten – „Jeden Tag mit der Mensa klären, wie viel übrig ist, und den Einrichtungen Bescheid sagen. Die Kühlkette aufschreiben. Und einspringen, wenn keiner abholen kann.“ Beziehung – „Eine feste Ansprechperson bei uns für jede Einrichtung, und eine Messenger-Gruppe.“ Kanäle – „Die Einrichtungen kennen wir aus den Interviews, die sprechen wir direkt an. Das Studierendenwerk über den Küchenleiter. Stiftungen per Mail.“ Kosten – „Verpackungen, Fahrten, vielleicht Kühltaschen. Wie viel, weiß ich nicht.“
+    - Einnahmen – „Die Stiftung oder das Studierendenwerk für Verpackungen und Fahrten. Wie viel – weiß ich nicht, Ahmet rechnet das in den nächsten zwei Wochen.“ Partner – „Die Mensa halt, und vielleicht foodsharing, wenn wir nicht fahren können.“
+    - Funde am Ende – lies jede Empfehlung. Das Team hat Jugendzentren aus dem Modell genommen und die Beträge als offene Frage gelassen. Bei den kritischen Annahmen hat es **eine Empfehlung abgelehnt**: „A38 und A39 ja. A40 nicht – ob wir Zeit haben, wissen wir doch selbst. Das müssen wir nicht testen.“ Würdest du das auch so entscheiden? In Einheit 5 siehst du, was daraus wird.
 3. **Probier eigene Worte:** Formuliere Vision und Lösung so, wie *du* sie sagen würdest. Und achte auf vorweggenommene Entscheidungen (siehe oben). Siehst du eine, sag: „Stopp – das entscheiden wir.“
-4. Optional: **`/map-solutions`** in einem eigenen Ordner mit [05-nach-log-evidence-interviews.zip](https://github.com/opencampus-sh/agentic-business-model-canvas/raw/main/examples/mensa-retter/referenz/zip/05-nach-log-evidence-interviews.zip) (etwa 25 Minuten; dein Agent braucht dafür die Websuche). Was kennt ihr schon? – „Die Tafel, die wir interviewt haben. Und eine Initiative, die Lebensmittel rettet, hab ich mal gehört.“ Der Agent sucht bestehende Lösungen in Kiel. Wähl aus, welche eine SWOT bekommen; das Team hat eine App weggelassen, die Reste an Leute mit Smartphone und Geld verkauft. Welche Lücke ihr seht – erst eure Worte: „Keiner bringt abends warmes Essen aus der Mensa zu den Einrichtungen. Wir brauchen keine eigene App, vielleicht arbeiten wir mit einer bestehenden Initiative zusammen.“
+4. Optional: **`/map-solutions`** in einem eigenen Ordner mit [05-nach-log-evidence-interviews.zip](https://github.com/opencampus-sh/agentic-business-model-canvas/raw/main/examples/mensa-retter/referenz/zip/05-nach-log-evidence-interviews.zip) (etwa 25 Minuten; dein Agent braucht dafür die Websuche). Was kennt ihr schon? – „Die Tafel, die wir interviewt haben. Und eine Initiative, die Lebensmittel rettet, hab ich mal gehört.“ Wähl aus, welche Lösungen eine SWOT bekommen; das Team hat eine App weggelassen, die Reste an Leute mit Smartphone und Geld verkauft. Welche Lücke ihr seht – erst eure Worte: „Keiner bringt abends warmes Essen aus der Mensa zu den Einrichtungen. Wir brauchen keine eigene App, vielleicht arbeiten wir mit einer bestehenden Initiative zusammen.“ Die Einschätzungen des Teams (Schwächen, Chancen …) fehlen im Übungsmaterial: opencampus bewertet keine realen Initiativen. Deine eigenen trägst du selbst ein.
 
 ### So sieht es aus
 
-Aus dem Referenzlauf (fiktiv). Auf „Kannst du das Canvas nicht einfach für uns ausfüllen? Du weißt doch jetzt alles.“ antwortet der Agent:
+Aus dem [Referenzlauf](https://github.com/opencampus-sh/agentic-business-model-canvas/blob/main/examples/mensa-retter/referenz/transcript.md) (fiktiv). Auf „Kannst du das Canvas nicht einfach für uns ausfüllen?“ antwortet der Agent:
 
 ```text
-Das mache ich nicht, weil sonst lauter plausible Sätze im Canvas stünden, die wie euer
-Wissen aussehen, aber meine Vermutungen sind. Was ich anbiete: Ihr erzählt in euren
-eigenen Worten, auch unfertig, und ich ordne, frage nach und trage ein […]
+Das mache ich nicht: Es entstünden lauter Sätze, die wie Wissen aussehen, aber nur
+meine Annahmen über eure Idee sind. Erzähl mir in zwei, drei Sätzen, was ihr vorhabt –
+ich ordne, frage nach und trage ein.
 ```
 
-Und auf „Ist ja nicht viel“ bei den Kosten:
+Und nach der Lösung des Teams – ohne sie zu bewerten:
 
 ```text
-„Ist ja nicht viel“ schreibe ich nicht als Zahl auf, sondern als offene Frage: Was
-kosten Kühlboxen, Verpackungen und Fahrten im Monat – und wie hoch müsste eine
-Pauschale oder Förderung sein? Wer klärt das bis wann?
+Darauf beruht die Lösung (ohne Bewertung): Die Einrichtungen holen ab – I1 sagt
+allerdings „Abholen ist unser Problem“ [A17]. Das Essen muss von 15 Uhr bis abends
+gekühlt werden [A30]. Und die Mensa braucht eine Freigabe und eine Haftungsregel [A25].
 ```
+
+Genau die Annahme, dass die Einrichtungen selbst abholen, wird in Einheit 5 widerlegt.
 
 ### Vergleichen
 
-Die Lösungen nach jedem Schritt:
-
-- nach `/map-solutions`: [Stand 07-nach-map-solutions](https://github.com/opencampus-sh/agentic-business-model-canvas/tree/main/examples/mensa-retter/referenz/stand/07-nach-map-solutions) (`SOLUTIONS.md`)
-- nach `/grill-solution`: [Stand 08-nach-grill-solution](https://github.com/opencampus-sh/agentic-business-model-canvas/tree/main/examples/mensa-retter/referenz/stand/08-nach-grill-solution) (`CANVAS.md`, `DECISIONS.md`)
+- nach `/grill-solution`: [Stand 08-nach-grill-solution](https://github.com/opencampus-sh/agentic-business-model-canvas/tree/main/examples/mensa-retter/referenz/stand/08-nach-grill-solution) (`CANVAS.md`, `ASSUMPTIONS.md`, `DECISIONS.md`)
 - nach `/to-model`: [Stand 09-nach-to-model](https://github.com/opencampus-sh/agentic-business-model-canvas/tree/main/examples/mensa-retter/referenz/stand/09-nach-to-model) (`MODEL.md`)
+- optional nach `/map-solutions`: [Stand 07-nach-map-solutions](https://github.com/opencampus-sh/agentic-business-model-canvas/tree/main/examples/mensa-retter/referenz/stand/07-nach-map-solutions) (`SOLUTIONS.md`)
 
-Die Suche im Netz findet bei dir vielleicht andere Lösungen, und deine Sätze klingen anders. Das ist in Ordnung. Prüfe die Regeln:
+Deine Sätze und Nummern werden anders aussehen. Das ist in Ordnung. Prüfe die Regeln:
 
-- [ ] Steht bei jeder bestehenden Lösung eine Quelle, und ist „nichts gefunden“ eine *Annahme* mit Datum und Suchbegriffen?
 - [ ] Stehen Vision und Lösung in euren Worten – und hat die Vision keine ID?
 - [ ] Sind Nutzer:innen (Einrichtungen) und Kund:innen (wer zahlt) getrennt?
 - [ ] Hat jede Aussage in `MODEL.md` eine ID – und steht dort kein Betrag, den ihr nicht selbst genannt habt?
-- [ ] Hast du die kritischen Annahmen selbst bestätigt?
+- [ ] Steht die abgelehnte Empfehlung (oder deine eigene) mit Grund in `DECISIONS.md`?
 
 ## Selbstcheck
 

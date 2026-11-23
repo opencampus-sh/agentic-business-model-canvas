@@ -2,7 +2,7 @@
 
 **Team:** Mensa-Retter (Lena, Ahmet, Jule)
 **Idee:** Übrig gebliebenes Mensa-Essen abends an soziale Einrichtungen bringen.
-**Version:** 2026-10-28
+**Version:** 2026-11-24
 
 > Owners: 👤 Team entscheidet · 🤖 Agent entwirft, Team bestätigt.
 > Jeder Block bleibt kurz. Details stehen in den verlinkten Dateien; Entscheidungen in `DECISIONS.md`.
@@ -21,40 +21,39 @@
 **Folgen (vermutet):** hungrig schlafen oder nur Kaltes essen [A11], langfristig eher krank [A12].
 Problembaum in `PROBLEM.md`.
 
-**Vision:** Dass niemand in Kiel abends hungrig bleiben muss.
-**Veränderung, die wir bewirken wollen:** Einrichtungen, die abends Gäste haben, können ihnen etwas Warmes anbieten.
+**Vision (Team, eigene Worte):** Dass niemand in Kiel abends hungrig bleiben muss.
+**Gewünschte Veränderung:** Die Gäste sozialer Einrichtungen in Kiel bekommen abends etwas Warmes. Nebenwirkung: Weniger gutes Essen aus der Mensa geht in die Biogasanlage [A24].
 
 ### 2. Nutzer:innen & Kund:innen 👤
 <!-- Wer ist vom Problem betroffen? Wer nutzt eure Lösung, wer bezahlt oder ermöglicht sie? Bei wem entsteht die Wirkung? Sind Nutzer:innen und Kund:innen dieselben, verschieden, Teil der Wertschöpfungskette – oder nichts davon? -->
 <!-- print: Wer ist betroffen, wer nutzt, wer zahlt? | Bei wem entsteht die Wirkung? -->
 
-**Betroffen:** Menschen, die abends in soziale Einrichtungen in Kiel kommen – vermutet: Gäste von Tagesstätten für Wohnungslose und Tafel-Ausgabestellen [A14]; besonders hart trifft es wohnungslose Menschen [A13]. Jugendzentren passen nach I4 eher nicht [A27].
-
-**Nutzer:innen:** soziale Einrichtungen, die abends Gäste haben (z. B. Tagesstätte aus I2). **Wirkung** entsteht bei ihren Gästen.
-**Kund:innen (wer zahlt oder ermöglicht):** das Studierendenwerk – als Partner, das Essen freigibt [A37], und vermutlich als Zahler [A5]. Die Einrichtungen zahlen nicht (für I2 belegt: [A22]).
-**Fall:** Nutzer:innen und Kund:innen sind verschieden – eine dritte Partei zahlt.
+**Betroffen:** Menschen, die abends in soziale Einrichtungen in Kiel kommen – vermutet: Gäste von Tagesstätten für Wohnungslose, Tafel-Ausgabestellen, Jugendliche in Jugendzentren [A14]; besonders hart trifft es wohnungslose Menschen [A13].
+**Nutzer:innen:** Mitarbeitende von Einrichtungen, die abends Gäste haben: Sie nehmen das Essen an [A36], holen es in der Mensa ab [A37] und geben es abends aus.
+**Wirkung entsteht bei:** den Gästen dieser Einrichtungen.
+**Kund:innen (zahlen oder ermöglichen):** das Studierendenwerk, das die Reste abgibt [A35] und vielleicht etwas zahlt [A5]; sonst eine Stiftung [A39]. Die Einrichtungen zahlen nicht; die Tagesstätte aus I2 kann es nicht [A22].
+**Fall:** verschieden – eine dritte Partei zahlt bzw. ermöglicht.
 
 ### 3. Lösung & Wertangebot 👤
 <!-- Eure Lösungsidee in wenigen Sätzen (Produkt oder Dienstleistung). Was verbessert sich für Nutzer:innen, was für Kund:innen? Für die Passung zwischen Bedürfnissen und Angebot nutzt ihr das Value Proposition Canvas von Strategyzer.com. -->
 <!-- print: Eure Idee in wenigen Sätzen | Was verbessert sich, für wen? -->
 
-**Lösung (Team, 2026-10-28):** Wir holen nachmittags übrig gebliebenes Essen in der Mensa ab, kühlen es und bringen es abends zu Einrichtungen, die abends Gäste haben – oder die Einrichtungen holen es selbst ab. Ohne App, erstmal mit einer Messenger-Gruppe. Anders als Tafel, foodsharing und Foodmobil: warmes Essen am Abend, aus der Mensa, mit dokumentierter Kühlkette.
-
-**Wertangebot**
-- **Einrichtungen:** Sie haben abends etwas Warmes für ihre Gäste, ohne selbst zu kochen.
-- **Gäste:** ein warmes Abendessen.
-- **Studierendenwerk:** weniger Essen in der Biogasanlage, ein gutes Image.
-(Für eine ausführliche Passung: Value Proposition Canvas von Strategyzer.com.)
-
-**Lösungs-Hypothesen:** [A35] [A36] [A37] [A5] [A30]
+**Lösung (Team, eigene Worte):** „Wir bringen die Mensa und die Einrichtungen zusammen. Die Einrichtungen holen nach der Ausgabe die Reste in der Mensa ab und machen sie abends bei sich warm. Wir machen die Absprachen und springen ein, wenn mal keiner fahren kann.“
+**Anders als das, was es gibt:** warmes Essen am Abend, aus der Mensa, zu Einrichtungen mit Abendgästen; keine eigene App (Fazit in `SOLUTIONS.md`) [A34].
+**Wertangebot (Team, eigene Worte):**
+- Einrichtungen: abends was Warmes für die Gäste, ohne selbst zu kochen.
+- Gäste: abends satt.
+- Mensa / Studierendenwerk: weniger wegwerfen, „und es sieht gut aus“ [A29].
+- Stiftung: noch offen (siehe *Offene Fragen*).
+Für eine ausführliche Passung: [Value Proposition Canvas](https://www.strategyzer.com/library/value-proposition-canvas-a-tool-to-understand-what-customers-really-want) (Strategyzer.com).
+**Lösungs-Hypothesen:** [A36] Einrichtungen mit Abendgästen nehmen regelmäßig an · [A37] sie holen selbst ab · [A38] sie können bis abends kühlen und aufwärmen · [A35] Freigabe und Haftungsregel des Studierendenwerks · [A5] Studierendenwerk zahlt · [A39] eine Stiftung fördert.
 
 ### 4. Erfolgskriterien 👤
 <!-- Woran merkt ihr, dass das Problem kleiner wird? Was muss wahr sein, damit euer Modell trägt? Legt fest, was zählt, bevor ihr testet. -->
 <!-- print: Woran merkt ihr, dass es wirkt? | Was muss wahr sein, damit es trägt? -->
 
-**Woran wir merken, dass das Problem kleiner wird:** Einrichtungen, die abends Gäste haben, bekommen regelmäßig abends etwas Warmes von uns.
-**Was wahr sein muss, damit das Modell trägt:** Die Mensa macht mit (Freigabe), die Abholung klappt, und jemand bezahlt die Kosten.
-Wie viele Einrichtungen, wie oft: noch offen (siehe Offene Fragen).
+**Das Problem wird kleiner, wenn:** in mindestens zwei Einrichtungen abends regelmäßig etwas Warmes auf dem Tisch steht. Wie oft „regelmäßig“ ist, hat das Team noch nicht beschlossen (Vorschlag Lena: drei Abende pro Woche) – siehe *Offene Fragen*.
+**Das Modell trägt, wenn:** die Mensa mitmacht und jemand anderes als die Einrichtungen Verpackung und Fahrten bezahlt.
 
 ---
 
@@ -72,8 +71,7 @@ Bestehende Lösungen (`SOLUTIONS.md`): Kieler Tafel [A31], foodsharing Kiel [A32
 <!-- Alles, was ihr vermutet, steht im Annahmen-Register (ASSUMPTIONS.md) mit Status – Annahme, recherchiert oder belegt – und Quelle. Welche Annahmen sind kritisch, weil alles andere auf ihnen aufbaut? -->
 <!-- print: Annahme · recherchiert · belegt – mit Quelle | Welche Annahmen sind kritisch? -->
 
-**Kritisch (Team, 2026-10-28):** [A35] Einrichtungen nehmen das Essen an · [A37] Studierendenwerk gibt das Essen frei · [A36] Einrichtungen holen selbst ab · [A5] Studierendenwerk zahlt – alle Status *Annahme*.
-Weiter offen: Kernproblem allgemein [A6], Ursache [A7]. Belegt, aber nur für je eine Einrichtung bzw. die Mensa aus I3: [A16] [A17] [A18] [A20] [A22] [A23] [A25] [A27]. Ersetzt: [A1] durch [A23] [A24].
+**Stand 2026-11-24:** Kritisch (vom Team entschieden, alle noch *Annahme*): [A36] Einrichtungen mit Abendgästen nehmen regelmäßig an · [A35] Freigabe und Haftungsregel · [A37] Einrichtungen holen selbst ab · [A5] Studierendenwerk zahlt. Weitere offene: Kernproblem allgemein [A6], Ursache [A7], Kühlen und Aufwärmen [A38], Stiftung [A39]. Belegt, aber nur für je eine Einrichtung bzw. die Mensa aus I3: [A16] [A17] [A18] [A20] [A22] [A23] [A25] [A27]. Ersetzt: [A1] durch [A23] [A24]; [A4] durch [A36].
 
 ### 7. Geschäftsmodell 👤
 <!-- Euer Social Business Model Canvas (MODEL.md, nach SEEd / Campus Business Box e.V. und dem Business Model Canvas von Strategyzer.com). Hier nur die Kernentscheidungen: Wer zahlt? Woher kommen die Einnahmen? Was sind die größten Kosten? -->
@@ -107,8 +105,10 @@ Weiter offen: Kernproblem allgemein [A6], Ursache [A7]. Belegt, aber nur für je
 <!-- Was ist noch offen? Wer klärt es, bis wann? -->
 <!-- print: Wer klärt es, bis wann? -->
 
-- Siehe *Noch offen* in `PROBLEM.md` (u. a. warum es abends kein Personal gibt). – Lena, Ahmet, Jule, bis 2026-10-31.
-- Erfolgskriterien in Zahlen: Wie viele Einrichtungen sollen wie oft Essen bekommen? – ganzes Team, vor `/to-tests` (bis 2026-11-02).
+- Siehe *Noch offen* in `PROBLEM.md` (u. a. warum es abends kein Personal gibt, wie viel Essen übrig bleibt). – Lena, Ahmet, Jule, in den Interviews bis 2026-10-31.
+- Wo wird das Essen zwischen 15 Uhr und dem Abend gekühlt – in der Mensa oder in den Einrichtungen? [A30] [A38] – Jule, bis 2026-12-11.
+- Wie oft ist „regelmäßig“ im Erfolgskriterium (Vorschlag Lena: drei Abende pro Woche)? – ganzes Team, vor den Testkarten (`/to-tests`).
+- Was hat eine Stiftung davon (Wertangebot)? – Lena, bis 2026-12-11.
 
 ## Entscheidungslog
 <!-- Siehe DECISIONS.md. -->

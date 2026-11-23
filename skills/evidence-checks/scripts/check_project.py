@@ -133,14 +133,20 @@ def main():
     report("FEHLER" if multi else "OK", "eine-annahme",
            f"Karten mit mehr als einer Annahme (eine Schwelle pro Annahme): {', '.join(multi)}" if multi
            else "jede Karte prüft eine Annahme")
+    def prereqs(body):
+        """T-numbers a card waits for; a field starting with „keine“ names none (it may still mention cards)."""
+        text = field(body, "Voraussetzung")
+        if text.lower().startswith("keine"):
+            return []
+        return list(dict.fromkeys(re.findall(r"\bT\d+\b", text)))
     bad_pre = [f"{t}: {ref}" for t, body in tests.items()
-               for ref in re.findall(r"\bT\d+\b", field(body, "Voraussetzung")) if ref not in tests or ref == t]
+               for ref in prereqs(body) if ref not in tests or ref == t]
     if bad_pre:
         report("FEHLER", "voraussetzung", "Voraussetzung gibt es nicht: " + ", ".join(bad_pre))
     passed = {t for t, body in tests.items()
               if field(body, "Status").lower().startswith("abgeschlossen") and field(body, "Ausgewertet").lower().startswith("ja")}
     early = [f"{t} (vor {ref})" for t, body in tests.items() if field(body, "Ergebnis")
-             for ref in re.findall(r"\bT\d+\b", field(body, "Voraussetzung")) if ref in tests and ref != t and ref not in passed]
+             for ref in prereqs(body) if ref in tests and ref != t and ref not in passed]
     if early:
         report("OFFEN", "reihenfolge", "Ergebnis, obwohl die Voraussetzung noch nicht abgeschlossen ist: " + ", ".join(early)
                + " – Vorbehalt in der Quelle nennen (/log-evidence)")

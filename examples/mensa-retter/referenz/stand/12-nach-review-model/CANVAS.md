@@ -2,7 +2,7 @@
 
 **Team:** Mensa-Retter (Lena, Ahmet, Jule)
 **Idee:** Übrig gebliebenes Mensa-Essen abends an soziale Einrichtungen bringen.
-**Version:** 2026-11-18
+**Version:** 2026-12-20
 
 > Owners: 👤 Team entscheidet · 🤖 Agent entwirft, Team bestätigt.
 > Jeder Block bleibt kurz. Details stehen in den verlinkten Dateien; Entscheidungen in `DECISIONS.md`.
@@ -21,45 +21,46 @@
 **Folgen (vermutet):** hungrig schlafen oder nur Kaltes essen [A11], langfristig eher krank [A12].
 Problembaum in `PROBLEM.md`.
 
-**Vision:** Dass niemand in Kiel abends hungrig bleiben muss.
-**Veränderung, die wir bewirken wollen:** Einrichtungen, die abends Gäste haben, können ihnen etwas Warmes anbieten.
+**Vision (Team, eigene Worte):** Dass niemand in Kiel abends hungrig bleiben muss.
+**Gewünschte Veränderung:** Die Gäste sozialer Einrichtungen in Kiel bekommen abends etwas Warmes. Nebenwirkung: Weniger gutes Essen aus der Mensa geht in die Biogasanlage [A24].
 
 ### 2. Nutzer:innen & Kund:innen 👤
 <!-- Wer ist vom Problem betroffen? Wer nutzt eure Lösung, wer bezahlt oder ermöglicht sie? Bei wem entsteht die Wirkung? Sind Nutzer:innen und Kund:innen dieselben, verschieden, Teil der Wertschöpfungskette – oder nichts davon? -->
 <!-- print: Wer ist betroffen, wer nutzt, wer zahlt? | Bei wem entsteht die Wirkung? -->
 
-**Betroffen:** Menschen, die abends in soziale Einrichtungen in Kiel kommen – vermutet: Gäste von Tagesstätten für Wohnungslose und Tafel-Ausgabestellen [A14]; besonders hart trifft es wohnungslose Menschen [A13]. Jugendzentren passen nach I4 eher nicht [A27].
-
-**Nutzer:innen:** soziale Einrichtungen, die abends Gäste haben (z. B. Tagesstätte aus I2). **Wirkung** entsteht bei ihren Gästen.
-**Kund:innen (wer zahlt oder ermöglicht):** das Studierendenwerk – als Partner, das Essen freigibt [A37], und vermutlich als Zahler [A5]; falls es nicht zahlt, eine Stiftung [A42]. Die Einrichtungen zahlen nicht (für I2 belegt: [A22]).
-**Fall:** Nutzer:innen und Kund:innen sind verschieden – eine dritte Partei zahlt.
+**Betroffen:** Menschen, die abends in soziale Einrichtungen in Kiel kommen – vermutet: Gäste von Tagesstätten für Wohnungslose, Tafel-Ausgabestellen, Jugendliche in Jugendzentren [A14]; besonders hart trifft es wohnungslose Menschen [A13].
+**Nutzer:innen:** Mitarbeitende von Einrichtungen, die abends Gäste haben: Sie nehmen das Essen an [A36], holen es in der Mensa ab [A37] und geben es abends aus.
+**Wirkung entsteht bei:** den Gästen dieser Einrichtungen.
+**Kund:innen (zahlen oder ermöglichen):** das Studierendenwerk, das die Reste abgibt [A35] und vielleicht etwas zahlt [A5]; sonst eine Stiftung [A39]. Die Einrichtungen zahlen nicht; die Tagesstätte aus I2 kann es nicht [A22].
+**Nicht Nutzer:innen:** Jugendzentren – dort kommen die Jugendlichen nachmittags, und gekochtes Essen von außen passt nicht [A27] (entschieden 2026-11-26).
+**Fall:** verschieden – eine dritte Partei zahlt bzw. ermöglicht.
+⚠️ [A36] widerlegt (T1) – prüfen
+⚠️ [A37] widerlegt (T2) – prüfen
 ⚠️ [A5] widerlegt (T4) – prüfen
 
 ### 3. Lösung & Wertangebot 👤
 <!-- Eure Lösungsidee in wenigen Sätzen (Produkt oder Dienstleistung). Was verbessert sich für Nutzer:innen, was für Kund:innen? Für die Passung zwischen Bedürfnissen und Angebot nutzt ihr das Value Proposition Canvas von Strategyzer.com. -->
 <!-- print: Eure Idee in wenigen Sätzen | Was verbessert sich, für wen? -->
 
-**Lösung (Team, 2026-10-28):** Wir holen nachmittags übrig gebliebenes Essen in der Mensa ab, kühlen es und bringen es abends zu Einrichtungen, die abends Gäste haben – oder die Einrichtungen holen es selbst ab. Ohne App, erstmal mit einer Messenger-Gruppe. Anders als Tafel, foodsharing und Foodmobil: warmes Essen am Abend, aus der Mensa, mit dokumentierter Kühlkette.
-
-**Wertangebot**
-- **Einrichtungen:** Sie haben abends etwas Warmes für ihre Gäste, ohne selbst zu kochen.
-- **Gäste:** ein warmes Abendessen.
-- **Studierendenwerk:** weniger Essen in der Biogasanlage, ein gutes Image.
-(Für eine ausführliche Passung: Value Proposition Canvas von Strategyzer.com.)
-
-**Lösungs-Hypothesen:** [A35] [A36] [A37] [A5] [A30]
-⚠️ [A35] widerlegt (T2) – prüfen
-⚠️ [A36] widerlegt (T3) – prüfen
+**Lösung (Team, eigene Worte):** „Wir bringen die Mensa und die Einrichtungen zusammen. Die Einrichtungen holen nach der Ausgabe die Reste in der Mensa ab und machen sie abends bei sich warm. Wir machen die Absprachen und springen ein, wenn mal keiner fahren kann.“
+**Anders als das, was es gibt:** warmes Essen am Abend, aus der Mensa, zu Einrichtungen mit Abendgästen; keine eigene App (Fazit in `SOLUTIONS.md`) [A34].
+**Wertangebot (Team, eigene Worte):**
+- Einrichtungen: abends was Warmes für die Gäste, ohne selbst zu kochen.
+- Gäste: abends satt.
+- Mensa / Studierendenwerk: weniger wegwerfen, „und es sieht gut aus“ [A29].
+- Stiftung: noch offen (siehe *Offene Fragen*).
+Für eine ausführliche Passung: [Value Proposition Canvas](https://www.strategyzer.com/library/value-proposition-canvas-a-tool-to-understand-what-customers-really-want) (Strategyzer.com).
+**Lösungs-Hypothesen:** [A36] Einrichtungen mit Abendgästen nehmen regelmäßig an · [A37] sie holen selbst ab · [A38] sie können bis abends kühlen und aufwärmen · [A35] Freigabe und Haftungsregel des Studierendenwerks · [A5] Studierendenwerk zahlt · [A39] eine Stiftung fördert.
+⚠️ [A36] widerlegt (T1) – prüfen
+⚠️ [A37] widerlegt (T2) – prüfen
 ⚠️ [A5] widerlegt (T4) – prüfen
 
 ### 4. Erfolgskriterien 👤
 <!-- Woran merkt ihr, dass das Problem kleiner wird? Was muss wahr sein, damit euer Modell trägt? Legt fest, was zählt, bevor ihr testet. -->
 <!-- print: Woran merkt ihr, dass es wirkt? | Was muss wahr sein, damit es trägt? -->
 
-**Woran wir merken, dass das Problem kleiner wird:** Einrichtungen, die abends Gäste haben, bekommen regelmäßig abends etwas Warmes von uns.
-**Was wahr sein muss, damit das Modell trägt:** Die Mensa macht mit (Freigabe), die Abholung klappt, und jemand bezahlt die Kosten.
-**Für die Probewoche (Team, 2026-11-02):** mindestens 3 von 4 Einrichtungen nehmen an mindestens 3 von 5 Tagen Essen an.
-Wie viele Einrichtungen auf Dauer, wie oft: noch offen (siehe Offene Fragen).
+**Das Problem wird kleiner, wenn:** in mindestens zwei Einrichtungen abends regelmäßig – an mindestens drei Abenden pro Woche – etwas Warmes auf dem Tisch steht (drei Abende vom ganzen Team beschlossen 2026-11-28).
+**Das Modell trägt, wenn:** die Mensa mitmacht und jemand anderes als die Einrichtungen Verpackung und Fahrten bezahlt.
 
 ---
 
@@ -72,38 +73,31 @@ Wie viele Einrichtungen auf Dauer, wie oft: noch offen (siehe Offene Fragen).
 Interview-Leitfaden in `INTERVIEWS.md` (2026-10-09) für die Problem-Hypothesen [A6] [A7] [A11] [A4] [A1]: drei Einrichtungen (Tafel-Ausgabestelle, Tagesstätte, Jugendzentrum) und die Küchenleitung einer Mensa.
 Vier Interviews ausgewertet (I1–I4, nur Mitarbeitende, keine Gäste): Abends nichts Warmes in Tafel [A16] und Tagesstätte [A20]; Abholung und Kühlkette sind die Hürden [A17] [A18]; die Mensa aus I3 hat 5–20 Portionen übrig, die in die Biogasanlage gehen [A23] [A24], Abholung braucht Freigabe und Haftungsregel [A25].
 Bestehende Lösungen (`SOLUTIONS.md`): Kieler Tafel [A31], foodsharing Kiel [A32], SattMissions-Mobil [A33]. Lücke laut Team: warmes Essen am Abend aus Mensen zu Einrichtungen – gefunden haben wir dazu nichts [A34]; gemeinsam fehlt allen Ehrenamt bzw. sichere Finanzierung.
-Testrunde (T1–T5, bis 2026-11-13): Zwei Einrichtungen ohne eigenes Abendessen nahmen an [A44], das Jugendzentrum lehnte ab [A45]; die Tafel holte nur an 2 von 5 Tagen selbst ab [A46]; das Studierendenwerk zahlt nicht, höchstens Verpackungen [A47]; eine Stiftung fördert Ehrenamtsprojekte bis 5.000 € [A48]. Die Freigabe hängt an der Haftung (T1 läuft).
+**Nach den Tests (2026-12-19):** Zwei Einrichtungen – Tafel-Ausgabestelle und Tagesstätte – haben in der Probewoche an mindestens drei Tagen angenommen [A45]; die Tafel konnte nur an zwei Tagen selbst abholen, sonst lieferte das Team [A46]. Das Studierendenwerk zahlt nicht [A5], stellt höchstens Verpackungen [A48]; eine Freigabe gibt es erst, wenn die Haftung geklärt ist [A35]. Eine Stiftung fördert Ehrenamtsprojekte bis 5.000 €, Antrag bis März [A47].
 
 ### 6. Annahmen 👤
 <!-- Alles, was ihr vermutet, steht im Annahmen-Register (ASSUMPTIONS.md) mit Status – Annahme, recherchiert oder belegt – und Quelle. Welche Annahmen sind kritisch, weil alles andere auf ihnen aufbaut? -->
 <!-- print: Annahme · recherchiert · belegt – mit Quelle | Welche Annahmen sind kritisch? -->
 
-**Stand der kritischen Annahmen (2026-11-16, nach T1–T5):**
-- widerlegt: [A35] Einrichtungen nehmen an (T2: 2 von 4, Schwelle 3 von 4) · [A36] Einrichtungen holen selbst ab (T3) · [A5] Studierendenwerk zahlt (T4)
-- belegt: [A42] Stiftung kann fördern (T5; noch keine Zusage)
-- offen: [A37] Freigabe – T1 läuft, Bedingung „Haftung geklärt“
-- neu, gestützt durch T2: [A49] Einrichtungen ohne eigenes Abendessen nehmen an
-Weiter offen: Kernproblem allgemein [A6], Ursache [A7]. Ersetzt: [A1] durch [A23] [A24].
-⚠️ [A35] widerlegt (T2) – prüfen
-⚠️ [A36] widerlegt (T3) – prüfen
-⚠️ [A5] widerlegt (T4) – prüfen
+**Stand 2026-12-19:** Kritisch und **widerlegt**: [A36] Einrichtungen mit Abendgästen nehmen regelmäßig an (T1: 2 von 4, Schwelle 3 von 4) · [A37] Einrichtungen holen selbst ab (T2) · [A5] Studierendenwerk zahlt (T4). Kritisch und offen: [A35] Freigabe (T3 läuft: „wenn die Haftung geklärt ist“) · [A39] Stiftung (T5 läuft: Antrag bis März) · [A38] Kühlen und Aufwärmen (T6 nicht durchgeführt, neu bis 2027-01-15). Neu belegt: [A45] [A46] [A47]. Seit 2026-12-20 kritisch, noch ohne Testkarte: [A40] Team schafft Absprachen und Fahrten (vorher vom Team nicht als kritisch markiert). Weitere offene: Kernproblem allgemein [A6], Ursache [A7]. Ersetzt: [A1] durch [A23] [A24]; [A4] durch [A36].
+⚠️ [A36] widerlegt (T1) – prüfen
+⚠️ [A37] widerlegt (T2) – prüfen
+⚠️ [A5] widerlegt (T4) – prüfen Belegt, aber nur für je eine Einrichtung bzw. die Mensa aus I3: [A16] [A17] [A18] [A20] [A22] [A23] [A25] [A27]. Ersetzt: [A1] durch [A23] [A24]; [A4] durch [A36].
 
 ### 7. Geschäftsmodell 👤
 <!-- Euer Social Business Model Canvas (MODEL.md, nach SEEd / Campus Business Box e.V. und dem Business Model Canvas von Strategyzer.com). Hier nur die Kernentscheidungen: Wer zahlt? Woher kommen die Einnahmen? Was sind die größten Kosten? -->
 <!-- print: Social Business Model Canvas in MODEL.md | Wer zahlt, wofür, was kostet es? -->
 
-Social Business Model Canvas in `MODEL.md`.
-**Wer zahlt, wofür:** das Studierendenwerk eine Pauschale für die Abholung [A5]; falls nicht, eine Stiftung [A42]. Die Einrichtungen zahlen nicht ([A22] für I2).
-**Größte Kosten:** Kühlboxen, Verpackungen, Fahrten [A43].
-**Wie viel:** Einnahmen und Kosten in Euro sind offen (siehe Offene Fragen).
+**Wer zahlt, wofür:** das Studierendenwerk [A5] oder eine Stiftung [A39], für Verpackungen und Fahrten; nicht die Einrichtungen [A22].
 ⚠️ [A5] widerlegt (T4) – prüfen
+**Größte Kosten:** Verpackungen, Fahrten, vielleicht Kühltaschen [A43]; die Zeit des Teams ist nicht eingerechnet [A40]. Beträge offen.
+Details in `MODEL.md`.
 
 ### 8. Checks 🤖
 <!-- Was muss stimmen, bevor eine Aussage zählt? Jede Aussage im Canvas und im Modell steht im Annahmen-Register; mindestens drei Interviews sind ausgewertet; jeder Test hat vorher eine Schwelle; Canvas und Modell widersprechen sich nicht. -->
 <!-- print: Annahme oder Beleg? Mind. 3 Interviews | Schwelle vor dem Test, keine Widersprüche -->
 
-**Stand der Checks (Review 2026-11-18):** `check_project.py` ohne FEHLER; OFFEN: T1 läuft (Haftung), drei widerlegte Annahmen in `MODEL.md` (A35, A36, A5).
-Beim Review geprüft: Schwellen standen vor den Ergebnissen (Commit 2026-11-02); *belegte* Aussagen stimmen mit Notizen und Ergebnissen überein; Zahlungsbereitschaft: nur Aussagen, keine Zahlung (A5 widerlegt durch Aussage über sich selbst; A42 nur Förderbarkeit). Widerspruch Canvas–Modell: Studierendenwerk zahlt in Block 2/7 und `MODEL.md`, ist aber widerlegt – klärt `/to-model`.
+**Stand 2026-12-20 (`/review-model`):** `check_project.py` ohne FEHLER. Offen: `MODEL.md` baut noch auf den widerlegten [A36] [A37] [A5] (klärt `/to-model` nach `/grill-solution`); T3 und T5 laufen; [A40] ist neu kritisch und hat noch keine Testkarte. Schwellen standen vor den Ergebnissen (Commit 2026-11-28) ✔. Die Probewoche lief auf Entscheidung des Teams vor Freigabe (T3) und Kühl-Check (T6) – Vorbehalt in [A36]. Messlücke: Abholtage der Tagesstätte (T2) nicht notiert. Wirkung bei den Gästen (abends gegessen?) wurde nicht gemessen.
 
 ---
 
@@ -113,32 +107,36 @@ Beim Review geprüft: Schwellen standen vor den Ergebnissen (Commit 2026-11-02);
 <!-- Für jede kritische Annahme eine Testkarte (TESTS.md): Was testet ihr, wie (MVP, Interview, Angebot), mit wem, bis wann, mit welcher Messgröße und welcher Schwelle? -->
 <!-- print: Was, wie, mit wem, bis wann? | Messgröße und Schwelle vorher festlegen -->
 
-Testkarten in `TESTS.md` (2026-11-02), Schwellen vor dem Test festgelegt:
-- **T1** [A37] Freigabe: Studierendenwerk sagt die Freigabe zu, Haftung geregelt – bis 2026-11-06
-- **T2** [A35] Probewoche: mind. 3 von 4 Einrichtungen nehmen an mind. 3 von 5 Tagen an – nach T1, bis 2026-11-13
-- **T3** [A36] Selbst abholen: jede annehmende Einrichtung holt an mind. 4 von 5 Tagen selbst ab – nach T1, bis 2026-11-13
-- **T4** [A5] Studierendenwerk zahlt: konkrete Geldleistung mit Art und Größenordnung zugesagt – bis 2026-11-06
-- **T5** [A42] Stiftung: mind. 1 von 2 bestätigt schriftlich Förderbarkeit mit Betrag und Frist – bis 2026-11-13
-⚠️ [A35] widerlegt (T2) – prüfen
-⚠️ [A36] widerlegt (T3) – prüfen
+Testplan vom 2026-11-28, alle bis 2026-12-18 (Karten in `TESTS.md`, vor dem Testen committet):
+- **T1** Probewoche mit vier Einrichtungen – [A36] – Schwelle: mindestens 3 von 4 nehmen an mindestens 3 von 5 Tagen an
+- **T2** Selbst abholen in der Probewoche – [A37] – Schwelle: mindestens 2 Einrichtungen holen an mindestens 4 von 5 Tagen selbst ab
+- **T3** Gespräch Studierendenwerk: Freigabe – [A35] – Schwelle: schriftliche Freigabe mit Haftungsregel
+- **T4** Gespräch Studierendenwerk: Bezahlen – [A5] – Schwelle: Zusage, Geld zu zahlen (Betrag offen)
+- **T5** Anfrage bei zwei Stiftungen – [A39] – Schwelle: mindestens 1 von 2 sagt Förderung zu
+- **T6** Besuch: Kühlen und Aufwärmen – [A38] – Schwelle: mindestens 2 Einrichtungen zeigen Kühlplatz und Aufwärmmöglichkeit
+Die Probewoche läuft parallel zu T3 und T6 (Entscheidung des Teams).
+Stand 2026-12-19: T1, T2, T4 abgeschlossen; T3 und T5 laufen; T6 nicht durchgeführt, neu bis 2027-01-15.
+⚠️ [A36] widerlegt (T1) – prüfen
+⚠️ [A37] widerlegt (T2) – prüfen
 ⚠️ [A5] widerlegt (T4) – prüfen
 
 ### 10. Ergebnisse & Signale 🤖
 <!-- Was haben Tests, Interviews und Feedback gezeigt (SIGNALS.md)? Was hat euch überrascht? Welche Annahmen sind jetzt belegt oder widerlegt? -->
 <!-- print: Was haben Tests und Feedback gezeigt? | Was ist belegt, was widerlegt? -->
 
-**Interviews I1–I4 (2026-10-23):** Überrascht hat: weniger Reste als gedacht (5–20 Portionen) und Biogas statt Müll [A23] [A24]; der Tafel wären Fahrer:innen wichtiger als Essen [A19]; das Jugendzentrum passt nicht [A27]. Ersetzt: [A1].
+**Tests T1–T5 (2026-12-19):** Widerlegt nach den vorher festgelegten Schwellen: [A36] (2 von 4 Einrichtungen statt 3 von 4), [A37] (die Tafel holte nur an 2 von 5 Tagen selbst ab), [A5] (Studierendenwerk zahlt nichts). Belegt: Tafel-Ausgabestelle und Tagesstätte nahmen an mindestens drei Tagen an [A45]; das Team lieferte an drei Tagen selbst [A46]; eine Stiftung fördert bis 5.000 € [A47]. Überrascht hat: Das Studierendenwerk findet die Idee gut, zahlt aber nichts; das Team musste mehr fahren als geplant. Offen: Freigabe [A35] (T3), Stiftung [A39] (T5), Kühlen [A38] (T6 nicht gemacht).
 
-**Tests T1–T5 (2026-11-16):** Widerlegt: [A35] (2 von 4 statt 3 von 4), [A36] (Tafel holt an 2 von 5 Tagen selbst ab [A46]), [A5] (Studierendenwerk: „Bezahlen können wir dafür aber nichts“ [A47]). Belegt: [A42] mit [A48] (bis 5.000 €, Antrag bis März). Überraschend: Die zwei Einrichtungen ohne eigenes Abendessen haben beide angenommen [A44] – die Absagen kamen von einer Einrichtung, die in I4 schon abgewinkt hatte [A45], und einer, die nicht geantwortet hat. Offen: Freigabe [A37], T1 läuft (Haftung).
+**Interviews I1–I4 (2026-10-23):** Überrascht hat: weniger Reste als gedacht (5–20 Portionen) und Biogas statt Müll [A23] [A24]; der Tafel wären Fahrer:innen wichtiger als Essen [A19]; das Jugendzentrum passt nicht [A27]. Widerlegt ist noch nichts; ersetzt: [A1].
 
 ### 11. Lernen & Entscheiden 👤
 <!-- Weitermachen, anpassen oder neu ansetzen (Pivot)? Was ändert ihr im Canvas und im Modell? Was testet ihr als Nächstes? -->
 <!-- print: Weitermachen, anpassen oder Pivot? | Was testet ihr als Nächstes? -->
 
-**Review 2026-11-18 – Weg: Anpassen** (Team, siehe `DECISIONS.md`). Die Richtung trägt: Einrichtungen ohne eigenes Abendessen nehmen an [A49] [A44]; eine Stiftung kann fördern [A48].
-**Was sich ändert (mit `/to-model`):** Das Studierendenwerk ist Partner (Freigabe, Verpackungen [A47]), nicht Zahler; Geld soll von der Stiftung kommen. Nutzer:innen: Einrichtungen mit Abendgästen ohne eigene Abendküche. An Tagen, an denen eine Einrichtung nicht abholen kann, liefert das Team [A46].
-**Als Nächstes testen (mit `/to-tests`):** Haftungsregel und Freigabe [A37] (T1 läuft); Antrag bei der Stiftung bewilligt (statt nur förderbar); Einrichtungen wie in [A49] nehmen an, mit eigener Schwelle; wer an den Liefertagen fährt.
-**Vorher klären:** Kosten pro Monat und ob 5.000 € reichen (Ahmet, überfällig).
+**Runde 1 (Tests T1–T6), entschieden 2026-12-20:** **Neu ansetzen bei „Wer zahlt?“** – Problem und Zielgruppe bleiben, die Lösung wird enger.
+- Weiter mit den zwei Einrichtungen, die angenommen haben [A45]; klären, ob die Tafel-Ausgabestelle abends Gäste hat (bisher nur: Ausgabe zweimal pro Woche [A16]).
+- Fahren: Die Einrichtungen holen nicht selbst ab [A37]; das Team ist gefahren [A46]. [A40] (schafft das Team das?) ist jetzt kritisch; foodsharing als Fahrer:innen [A44] kommt in den nächsten Test.
+- Freigabe [A35]: Ahmet fragt beim Studierendenwerk nach, welche Haftungsregel es braucht – bis 2027-01-15 (T3 läuft).
+- Wer zahlt: Das Studierendenwerk zahlt nicht [A5]; eine Stiftung ist nur förderfähig [A47]. Mit `/grill-solution` klärt ihr, wer zahlt oder ob es mit Sachleistungen [A48] und Ehrenamt geht – dann `/to-model`, `/to-tests`.
 
 ---
 
@@ -146,9 +144,10 @@ Testkarten in `TESTS.md` (2026-11-02), Schwellen vor dem Test festgelegt:
 <!-- Was ist noch offen? Wer klärt es, bis wann? -->
 <!-- print: Wer klärt es, bis wann? -->
 
-- Siehe *Noch offen* in `PROBLEM.md` (u. a. warum es abends kein Personal gibt; was die Gäste selbst sagen). – Lena, Ahmet, Jule, neu bis 2026-12-15.
-- Erfolgskriterien auf Dauer: Wie viele Einrichtungen sollen wie oft Essen bekommen? (Für die Probewoche entschieden, siehe Block 4.) – ganzes Team, mit `/to-tests` in der nächsten Runde.
-- Was kosten Kühlboxen, Verpackungen und Fahrten im Monat, und reichen 5.000 € Förderung dafür? – Ahmet, überfällig (war 2026-11-13), neu bis 2026-11-27.
+- Siehe *Noch offen* in `PROBLEM.md` (u. a. warum es abends kein Personal gibt, wie viel Essen übrig bleibt). – Lena, Ahmet, Jule, in den Interviews bis 2026-10-31.
+- Wo wird das Essen zwischen 15 Uhr und dem Abend gekühlt – in der Mensa oder in den Einrichtungen? [A30] [A38] – Jule, bis 2026-12-11.
+- Was hat eine Stiftung davon (Wertangebot)? – Lena, bis 2026-12-11.
+- Was kosten Verpackungen, Fahrten und Kühltaschen pro Woche, und wie viel müsste jemand zahlen? [A43] – Ahmet, bis 2026-12-11.
 
 ## Entscheidungslog
 <!-- Siehe DECISIONS.md. -->

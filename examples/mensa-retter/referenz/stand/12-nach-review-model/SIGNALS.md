@@ -11,25 +11,18 @@ Alles, was zeigt, wie die Arbeit läuft: Prüfungen, bevor etwas zählt, und was
 - **Status:** offen | behoben in <Datei> | als Check <Name> aufgenommen
 -->
 
-## 2026-11-18 · Geschäftsmodell · Review
+## 2026-12-20 · Modell · Review
 
-- **Was passiert ist:** Review nach T1–T5: 5 blockierende Befunde (drei kritische Annahmen widerlegt und noch in `MODEL.md`; Freigabe offen, Probewoche lief ohne bestandene Voraussetzung; Finanzierung nicht gedeckt bzw. Kosten unbekannt; Lieferfahrten ohne Plan), 5 Hinweise. Weg: Anpassen. Die Kostenschätzung (fällig 2026-11-13) fehlt.
-- **Wer:** Team, Agent (Review)
-- **Schwere:** blockiert
-- **Status:** offen
-
-## 2026-11-16 · Tests · Test
-
-- **Was passiert ist:** T1–T5 ausgewertet. Drei kritische Annahmen widerlegt (A35: 2 von 4 Einrichtungen statt 3 von 4; A36: Tafel holt an 2 von 5 Tagen selbst ab; A5: Studierendenwerk zahlt nicht), eine belegt (A42, Stiftung kann fördern, noch keine Zusage), eine offen (A37, T1 läuft: Freigabe nur, „wenn die Haftung geklärt ist“). 5 neue belegte Beobachtungen (A44–A48), 1 neue Annahme (A49). Überraschung: Probewoche fand statt, obwohl die Voraussetzung T1 nicht bestanden war. Für T3 fehlt die Zahl der Selbstabholungen der Tagesstätte.
-- **Wer:** Studierendenwerk (Abteilungsleitung Hochschulgastronomie), vier Einrichtungen, zwei Stiftungen
-- **Schwere:** blockiert
-- **Status:** offen
-
-## 2026-11-16 · Tests · Sonstiges
-
-- **Was passiert ist:** Nach dem Ergebnis von T2 schlug das Team vor, die Schwelle von 3 von 4 auf 2 von 4 zu senken („2 von 4 ist doch auch gut, können wir das nicht als belegt nehmen?“). Die Schwelle blieb; A35 ist widerlegt.
+- **Was passiert ist:** `/review-model` nach Runde 1: 6 Befunde, davon 4 blockierend (MODEL.md baut auf drei widerlegten kritischen Annahmen; niemand zahlt belegt; Freigabe offen; Fahren ungeklärt) und 5 Hinweise (Reihenfolge der Tests, Messlücke T2, T6 nicht gemacht, Wirkung bei Gästen nicht gemessen, Fehlalarm *reihenfolge* bei T4). Weg: neu ansetzen bei „Wer zahlt?“. A40 vom Team nachträglich als kritisch markiert.
 - **Wer:** Team
-- **Schwere:** Hinweis
+- **Schwere:** blockiert
+- **Status:** offen
+
+## 2026-12-19 · Tests · Test
+
+- **Was passiert ist:** Testergebnisse zu T1–T5 ausgewertet (T6 nicht durchgeführt, neues Datum 2027-01-15). 3 kritische Annahmen widerlegt (A36, A37, A5), 3 neue *belegte* Zeilen (A45–A47), 1 neue Annahme (A48), Quellen von A27, A35, A39, A40 ergänzt; T3 und T5 laufen weiter (Bedingung offen). Die Schwellen standen vor den Ergebnissen fest (Commit vom 2026-11-28). Das Team schlug vor, T1 nachträglich mit „2 von 4“ als belegt zu zählen; nach Erklärung blieb es bei der Schwelle. Überraschungen: Das Studierendenwerk findet die Idee gut, zahlt aber nichts; die Tafel konnte nur an 2 von 5 Tagen abholen, das Team lieferte an 3 Tagen. Messlücke: Abholtage der Tagesstätte (T2) nicht notiert.
+- **Wer:** Leitung Tafel-Ausgabestelle, Sozialarbeiter Tagesstätte, Mitarbeiterin Jugendzentrum, eine weitere Einrichtung (ohne Antwort), Abteilungsleitung Hochschulgastronomie, zwei Stiftungen
+- **Schwere:** bremst
 - **Status:** offen
 
 ## 2026-10-23 · Problem · Interview

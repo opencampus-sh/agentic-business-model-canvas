@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- `check_project.py`: Ein Feld *Voraussetzung*, das mit „keine“ beginnt, nennt keine Voraussetzung, auch wenn darin eine Karte erwähnt ist; jede Voraussetzung wird nur einmal gemeldet (Fehlalarm im zweiten Referenzlauf, Vorschlag aus `/model-retro`).
 - Unter Windows rufen `/show-canvas` und die Checks Python als `python` oder `py` auf.
 - Ohne Python: `/show-canvas` zeigt das Canvas als Text, und die Checks aus `evidence-checks` macht der Agent als Handprüfung (gefunden im Walk-through des Kurses).
 - Korrekturen aus dem Dry-Run vom 2026-11-22 (Fall Mensa-Retter):

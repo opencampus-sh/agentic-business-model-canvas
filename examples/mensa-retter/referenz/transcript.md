@@ -2,7 +2,7 @@
 
 Fiktiver Beispielfall für den Selbstlernkurs. Lena (Studentin der Sozialen Arbeit, Team mit Ahmet und Jule) führt die Skills des Agentic Business Model Canvas in einem leeren, privaten Git-Repository aus. **Agent** = Claude Code, das die Skills liest und befolgt. Fragen des Agenten sind wörtlich wiedergegeben; Dateiinhalte stehen im Git-Verlauf.
 
-**Zeitachse.** Die Commits tragen die Daten der Geschichte (Projektstart 2026-10-05, Interviews 14.–22. Oktober, Tests bis 13. November, Retro am 2026-11-23). Der Agent hat jeweils das Datum der Sitzung als „heute“ verwendet. Die gezeigten Ausgaben von `check_project.py` sind mit diesem Sitzungsdatum als „heute“ erzeugt (sonst meldet der Check Karten mit *Bis wann* vor dem echten Ausführungsdatum als überfällig).
+**Zeitachse.** Die Commits tragen die Daten der Geschichte (Projektstart 2026-10-05, Interviews 14.–22. Oktober, Tests bis 18. Dezember, Retro am 2026-12-21). Die Schritte 8–13 sind ein zweiter Lauf ab Stand 07 mit den Skills vom 2026-11-23. Der Agent hat jeweils das Datum der Sitzung als „heute“ verwendet. Die gezeigten Ausgaben von `check_project.py` sind mit diesem Sitzungsdatum als „heute“ erzeugt, in den Schritten 8–13 mit dem echten Datum 2026-11-23 (sonst meldet der Check Karten mit *Bis wann* vor dem echten Ausführungsdatum als überfällig).
 
 | Nr. | Datum | Befehl |
 |---|---|---|
@@ -14,13 +14,13 @@ Fiktiver Beispielfall für den Selbstlernkurs. Lena (Studentin der Sozialen Arbe
 | 5 | 2026-10-23 | `/log-evidence` |
 | 6 | 2026-10-23 | `/ask-model` |
 | 7 | 2026-10-26 | `/map-solutions` |
-| 8 | 2026-10-28 | `/grill-solution` |
-| 9 | 2026-10-30 | `/to-model` |
-| 10 | 2026-11-02 | `/to-tests` |
-| – | bis 2026-11-13 | Team testet |
-| 11 | 2026-11-16 | `/log-evidence` |
-| 12 | 2026-11-18 | `/review-model` |
-| 13 | 2026-11-23 | `/model-retro` |
+| 8 | 2026-11-24 | `/grill-solution` |
+| 9 | 2026-11-26 | `/to-model` |
+| 10 | 2026-11-28 | `/to-tests` |
+| – | bis 2026-12-18 | Team testet |
+| 11 | 2026-12-19 | `/log-evidence` |
+| 12 | 2026-12-20 | `/review-model` |
+| 13 | 2026-12-21 | `/model-retro` |
 
 ---
 
@@ -564,109 +564,115 @@ OK      interviews    4 von mindestens 3 Interviews ausgewertet (4 notiert)
 
 ---
 
-## 8 · `/grill-solution` (2026-10-28)
+## Zwischen den Läufen
 
-**Lena:** /grill-solution
+Vor Schritt 8 wurden die Skills auf den Stand vom 2026-11-23 gebracht und die Einschätzungen (E) zu realen Initiativen aus `SOLUTIONS.md` entfernt (nicht Teil der Übung).
 
-*Agent liest `CANVAS.md`, `PROBLEM.md`, `ASSUMPTIONS.md`, `INTERVIEWS.md`, `SOLUTIONS.md`, `DECISIONS.md`; lädt `assumptions`. Voraussetzungen erfüllt: vier Interviews ausgewertet, `SOLUTIONS.md` gefüllt. Schon entschieden und nicht mehr gefragt: keine eigene App, foodsharing als möglicher Partner.*
+> **Hinweis zum Check *reihenfolge*.** In den Ausgaben unten meldet er für T4 und doppelt für T1 einen Fehlalarm: Das Skript las jede T-Nummer im Feld *Voraussetzung*, auch hinter „keine (…)“. Das Team hat es in der Retro als Vorschlag fürs Skillset notiert; seitdem gilt ein Feld, das mit „keine“ beginnt, als ohne Voraussetzung, und mit dem aktuellen Skript erscheint die Zeile nicht mehr.
 
-**Agent:**
-> Jetzt geht es darum, was ihr anbietet, für wen, wer zahlt und woran ihr Erfolg erkennt – und welche Annahmen das alles tragen. Die Voraussetzungen aus dem Handbuch sind erfüllt (vier Interviews, bestehende Lösungen). Es werden etwa fünf Runden.
->
-> **Runde 1 von etwa 5**
->
-> ❓ **F1** – **Vision:** Welche Veränderung in der Gesellschaft wollt ihr erreichen? Höchstens zwei Sätze, ein Zielzustand, den ihr allein nicht erreichen könnt – keine Lösung, kein Produkt. Oft beginnt sie mit „Wir wollen, dass …“.
->
-> ➡️ Hier zuerst eure Worte; ich helfe erst, wenn ihr keine findet.
+---
 
-**Lena:** Kannst du das Canvas nicht einfach für uns ausfüllen? Du weißt doch jetzt alles.
+## 8 · `/grill-solution` (2026-11-24)
 
-**Agent:**
-> Das mache ich nicht, weil sonst lauter plausible Sätze im Canvas stünden, die wie euer Wissen aussehen, aber meine Vermutungen sind. Was ich anbiete: Ihr erzählt in euren eigenen Worten, auch unfertig, und ich ordne, frage nach und trage ein – das geht schneller, als es klingt. Also: Was soll in Kiel anders sein, wenn ihr Erfolg habt?
+**Lena:** `/grill-solution`
 
-**Lena:** Ok. Dass niemand in Kiel abends hungrig bleiben muss.
+**Agent:** *(liest `CANVAS.md`, `PROBLEM.md`, `ASSUMPTIONS.md`, `INTERVIEWS.md`, `SOLUTIONS.md`, `DECISIONS.md`; lädt `assumptions`)*
+Voraussetzungen erfüllt: vier Interviews ausgewertet (I1–I4), `SOLUTIONS.md` hat drei Lösungen und euer Fazit. Ich frage in Runden – Vision → Lösung → Nutzer:innen und Kund:innen → Wertangebot → Erfolgskriterien und Lösungs-Hypothesen → kritische Annahmen. Das werden **etwa sechs Runden**, je höchstens fünf Fragen.
 
-**Agent:**
-> Das ist eine gute Vision: ein gesellschaftlicher Zielzustand, keine Lösung, ein Satz. Ich übernehme sie wörtlich in Block 1.
->
-> **Runde 2 von etwa 5** (danach noch drei)
->
-> ❓ **F2** – **Lösung:** Beschreibt eure Idee in wenigen Sätzen: Was macht ihr, für wen? Und was macht ihr anders als Tafel, foodsharing und das Foodmobil (Fazit in `SOLUTIONS.md`)?
->
-> ➡️ Eure Worte zuerst.
+### Runde 1 von 6
 
-**Lena:** Wir holen nachmittags übrig gebliebenes Essen in der Mensa ab, kühlen es und bringen es abends zu Einrichtungen, die abends Gäste haben. Ohne App, erstmal mit einer Messenger-Gruppe.
+> ❓ **F1** – **Vision**: Welchen Zustand in der Gesellschaft wollt ihr erreichen – auch wenn ihr ihn allein nie schafft? Höchstens zwei Sätze, in euren Worten. Keine Lösung und kein Produkt.
+> ➡️ Erst eure Worte; einen Vorschlag mache ich nur, wenn ihr keine findet.
+>
+> ❓ **F2** – **Gewünschte Veränderung**: Was ist für die Betroffenen anders, wenn eure Idee wirkt? In euren Worten.
+> ➡️ Wie bei F1: erst eure Worte.
 
-**Agent:**
-> Danke. Zwei Rückfragen, bevor ich es eintrage:
-> 1. Ihr sagt „wir bringen es“. Die Tafel-Ausgabestelle hat in I1 gesagt, Abholen sei ihr Problem [A17]; und die Mensa ist um 15 Uhr fertig [A26]. Wer fährt bei euch – jeden Abend?
-> 2. Ihr habt foodsharing als möglichen Partner genannt. Ist „nur bei foodsharing mitmachen“ eine Alternative, die ihr verworfen habt?
+**Lena:** F1: Dass niemand in Kiel abends hungrig bleiben muss. F2: Dass die Leute in den Einrichtungen abends was Warmes kriegen. Und dass gutes Essen nicht in der Biogasanlage landet.
 
-**Lena:** 1. Puh. Wir haben jede:r nur ein paar Stunden pro Woche. Dann: Die Einrichtungen holen ab, wenn sie können, sonst bringen wir es. 2. Mit foodsharing reden wir, aber erstmal probieren wir es selbst.
+**Agent:** Die Vision passt: ein Zielzustand, kein Produkt, ein Satz. Zu F2: Am 2026-10-07 habt ihr entschieden, dass die Verschwendung der *Anlass* ist, nicht das Kernproblem. Soll die Biogasanlage als Nebenwirkung in die Veränderung oder ganz raus?
 
-**Agent:**
-> Notiert – Lösung mit „oder die Einrichtungen holen es selbst ab“, App und „nur foodsharing“ als verworfene Alternativen in `DECISIONS.md`. Dass die Einrichtungen meistens selbst abholen, ist damit eine wichtige Annahme; dazu gleich mehr.
->
-> **Runde 3 von etwa 5** (danach noch zwei)
->
-> ❓ **F3** – **Nutzer:innen und Kund:innen:** Wer nutzt euer Angebot? Wer zahlt oder ermöglicht es? Bei wem entsteht die Wirkung? Und welcher Fall des Handbuchs trifft zu: (a) dieselben, (b) verschieden – eine dritte Partei zahlt, (c) die Zielgruppe ist Teil der Wertschöpfungskette, (d) keins davon?
->
-> ➡️ Ich vermute (b), aber sagt erst, wie ihr es seht.
+**Lena:** Als Nebenwirkung, ja.
 
-**Lena:** Die Einrichtungen sind unsere Kunden.
+*(eingetragen: Block 1 Vision und Veränderung, `DECISIONS.md`)*
 
-**Agent:**
-> Fast: Im Handbuch sind **Nutzer:innen** die, die euer Angebot nutzen – das sind die Einrichtungen, und die Wirkung entsteht bei ihren Gästen. **Kund:innen** sind die, die zahlen oder es möglich machen. Die Tagesstätte aus I2 hat gesagt: „Bezahlen können wir dafür nichts“ [A22]. Wer zahlt dann bei euch, wer ermöglicht es?
+### Runde 2 von 6
 
-**Lena:** Ah. Dann das Studierendenwerk, das stand ja auch in Notion. Und die geben ja das Essen.
+> ❓ **F3** – **Lösung**: Was macht ihr, in zwei, drei Sätzen? Euer Fazit in `SOLUTIONS.md`: Lücke ist warmes Essen am Abend aus der Mensa zu Einrichtungen mit Abendgästen; eigene App verfolgt ihr nicht. Was macht ihr anders als Tafel, foodsharing und SattMissions-Mobil?
+> ➡️ Erst eure Worte.
+>
+> ❓ **F4** – **Verworfene Alternativen**: Habt ihr außer der App noch andere Lösungen verworfen?
+> ➡️ Wenn ja, halte ich sie mit Grund fest; sonst bleibt es bei der App (`DECISIONS.md`, 2026-10-26).
 
-**Agent:**
-> Dann ist es Fall (b): Nutzer:innen (Einrichtungen) und Kund:innen (Studierendenwerk) sind verschieden. Das Studierendenwerk hat dabei zwei Rollen: Es gibt das Essen frei – laut I3 braucht es dafür „eine Freigabe von oben und eine Haftungsregel“ [A25] –, und es soll zahlen [A5]. Beides sind bisher Annahmen.
->
-> **Runde 4 von etwa 5** (danach noch eine)
->
-> ❓ **F4** – **Wertangebot, je Gruppe:** Was verbessert sich für die Einrichtungen, für ihre Gäste und für das Studierendenwerk? Stützt euch auf die Interviews (z. B. I2: „abends gibt es nichts. Da kommen trotzdem Leute und fragen“). Für eine ausführliche Passung gibt es das Value Proposition Canvas von Strategyzer.com.
->
-> ➡️ Eure Worte zuerst, ein Satz pro Gruppe reicht.
->
-> ❓ **F5** – **Erfolgskriterien:** Woran merkt ihr, dass das Problem kleiner wird? Und was muss wahr sein, damit euer Modell trägt? Am besten mit Zahlen (wie viele Einrichtungen, wie oft) – und festgelegt, bevor ihr testet.
->
-> ➡️ Wenn ihr Zahlen noch nicht zu dritt beschlossen habt, schreibe ich sie als offene Frage auf, nicht als Entscheidung.
+**Lena:** Kannst du das Canvas nicht einfach für uns ausfüllen?
 
-**Lena:** F4: Einrichtungen: Sie haben abends was Warmes für ihre Gäste, ohne selbst zu kochen. Gäste: ein warmes Abendessen. Studierendenwerk: weniger in die Biogasanlage und gutes Image. F5: Wenn die Einrichtungen regelmäßig abends was Warmes von uns bekommen. Und fürs Modell: Die Mensa macht mit, die Abholung klappt, und jemand bezahlt die Kosten. Wie viele genau, das müssen wir im Team besprechen.
+**Agent:** Das mache ich nicht: Es entstünden lauter Sätze, die wie Wissen aussehen, aber nur meine Annahmen über eure Idee sind. Erzähl mir in zwei, drei Sätzen, was ihr vorhabt – ich ordne, frage nach und trage ein.
 
-**Agent:**
-> Eingetragen, ohne Zahlen; „wie viele Einrichtungen, wie oft“ steht unter Offene Fragen – das ganze Team, vor `/to-tests`. Zum Wertangebot: „gutes Image“ für das Studierendenwerk ist bisher nur eine Vermutung des Küchenleiters [A29].
->
-> **Runde 5 von 5** (die letzte)
->
-> ❓ **F6** – **Lösungs-Hypothesen:** Aus Lösung, Gruppen und Wertangebot schlage ich diese prüfbaren Aussagen vor:
-> - [A35] Soziale Einrichtungen in Kiel, die abends Gäste haben, nehmen übrig gebliebenes Mensa-Essen an mehreren Abenden pro Woche an.
-> - [A36] Die Einrichtungen holen das Essen an den meisten Tagen selbst in der Mensa ab.
-> - [A37] Das Studierendenwerk gibt übrig gebliebenes Mensa-Essen zur Abholung frei und klärt die Haftung.
-> - [A5] Das Studierendenwerk würde für so einen Service bezahlen. (gibt es schon)
-> - [A30] Das Essen muss zwischen 15 Uhr und Abend gekühlt gelagert und mit dokumentierter Kühlkette übergeben werden. (gibt es schon)
->
-> ➡️ Übernehmen oder umformulieren.
->
-> ❓ **F7** – **Kritische Annahmen:** Kritisch ist, worauf andere Annahmen aufbauen und was die Idee kippt, wenn es fällt. Mein Vorschlag:
-> - **A35** – ohne Einrichtungen, die das Essen nehmen, gibt es keine Wirkung. Die Interviews stützen das nur schwach (I2 nach dem Pitch, I4 lehnt ab).
-> - **A37** – ohne Freigabe gibt es kein Essen; laut I3 geht ohne Freigabe nichts.
-> - **A36** – ihr habt nur wenige Stunden pro Woche; wenn ihr jeden Abend selbst fahren müsst, trägt die Lösung nicht.
-> - **A5** – ohne jemanden, der zahlt, sind Kühlung, Verpackung und Fahrten nicht gedeckt; bisher gibt es dazu keinen einzigen Hinweis.
->
-> A30 schlage ich nicht als kritisch vor: Es ist eine Bedingung, die ihr mit A36 und A37 mitprüft.
->
-> ➡️ Diese vier als kritisch markieren. Ihr entscheidet.
+**Lena:** Ok. Wir bringen die Mensa und die Einrichtungen zusammen. Die Einrichtungen holen nach der Ausgabe die Reste in der Mensa ab und machen sie abends bei sich warm. Wir machen die Absprachen und springen ein, wenn mal keiner fahren kann. Jeden Abend selbst fahren schaffen wir nicht. – F4: Nur die App.
 
-**Lena:** F6: ok, passt. F7: Ja, die vier.
+**Agent:** Ich trage das so ein. Darauf beruht die Lösung (ohne Bewertung): Die Einrichtungen holen ab – I1 sagt allerdings „Abholen ist unser Problem“ [A17]. Das Essen muss von 15 Uhr bis abends gekühlt werden [A30]. Und die Mensa braucht eine Freigabe und eine Haftungsregel [A25]. Daraus mache ich in Runde 5 Lösungs-Hypothesen.
 
-*Agent schreibt Register (A35–A37, Kritisch: ja bei A5, A35, A36, A37), Canvas Blöcke 1–4 und 6, Offene Fragen, sechs Einträge in `DECISIONS.md` (Vision, Lösung, Nutzer:innen/Kund:innen, Erfolgskriterien ohne Zahlen, Lösungs-Hypothesen – „Formulierung vom Agenten vorgeschlagen, vom Team übernommen“ –, kritische Annahmen).*
+### Runde 3 von 6
+
+> ❓ **F5** – **Nutzer:innen**: Wer nutzt euer Angebot direkt – wer nimmt das Essen an, holt es ab, gibt es aus? Und bei wem entsteht die Wirkung?
+> ➡️ Nutzer:innen sind die Mitarbeitenden der Einrichtungen; die Wirkung entsteht bei ihren Gästen. So steht es in euren Notizen (I1, I2).
+>
+> ❓ **F6** – **Wer zahlt oder ermöglicht?** Beispiele für Arten: der Lieferant selbst, eine Stiftung, Spenden, ein Auftrag einer Einrichtung. Was ihr wisst: Die Tagesstätte aus I2 kann nichts zahlen [A22]; ob das Studierendenwerk zahlt [A5], ist ungeprüft.
+> ➡️ Nennt, wen ihr euch vorstellt; es bleibt eine Annahme, bis ein Test es zeigt.
+>
+> ❓ **F7** – **Kühlung**: Wo wird das Essen zwischen 15 Uhr und abends gekühlt – in der Mensa, in den Einrichtungen, woanders?
+> ➡️ Wenn ihr es nicht wisst, kommt es unter *Offene Fragen*.
+
+**Lena:** F5: Ja, die Einrichtungen. Aber eigentlich geht's ja um die Gäste. F6: Die Einrichtungen sicher nicht, die haben nichts. Das Studierendenwerk gibt das Essen, vielleicht zahlt es auch was. Sonst eine Stiftung. F7: Weiß ich nicht. Jule fragt das bis zum 11. Dezember.
+
+### Runde 4 von 6
+
+> ❓ **F8** – **Fall**: Nutzer:innen (Einrichtungen) und Kund:innen (Studierendenwerk, Stiftung) sind verschieden. Optionen des Handbuchs: dieselben · verschieden (eine dritte Partei zahlt) · Zielgruppe in der Wertschöpfungskette · keins davon.
+> ➡️ **verschieden** – die Einrichtungen zahlen nicht, eine dritte Partei soll zahlen.
+>
+> ❓ **F9** – **Wertangebot je Gruppe**: Was verbessert sich – für die Einrichtungen, die Gäste, die Mensa bzw. das Studierendenwerk, eine Stiftung? In euren Worten. Für eine ausführliche Passung gibt es das Value Proposition Canvas von Strategyzer.com.
+> ➡️ Erst eure Worte.
+
+**Lena:** F8: ok, passt. F9: Für die Einrichtungen: abends was Warmes für die Gäste, ohne selbst zu kochen. Für die Gäste: abends satt. Für die Mensa: weniger wegwerfen, und es sieht gut aus. Für die Stiftung … weiß ich nicht.
+
+**Agent:** „Es sieht gut aus“ verweise ich auf [A29] (Vermutung des Küchenleiters aus I3). Stiftung kommt unter *Offene Fragen* – wer klärt es?
+
+**Lena:** Ich, bis 11. Dezember.
+
+### Runde 5 von 6
+
+> ❓ **F10** – **Erfolgskriterien**: Woran merkt ihr, dass das Problem kleiner wird? Und was muss wahr sein, damit euer Modell trägt? Beispiele für Arten: Zahl der Einrichtungen und Abende, gerettete Portionen, wer zahlt. Legt es fest, bevor ihr testet.
+> ➡️ Etwas Zählbares, das bei den Gästen ankommt (Einrichtungen × Abende), nicht bei der Mensa.
+>
+> ❓ **F11** – **Lösungs-Hypothesen**: Aus eurer Lösung werden prüfbare Aussagen. Mein Vorschlag fürs Register:
+> – A35 Das Studierendenwerk gibt die Abholung frei und regelt die Haftung.
+> – A36 Einrichtungen in Kiel, die abends Gäste haben, nehmen übrig gebliebenes Mensa-Essen regelmäßig an. *(ersetzt A4, enger)*
+> – A37 Die Einrichtungen holen das Essen nach der Ausgabe selbst in der Mensa ab.
+> – A38 Die Einrichtungen können das Essen bis zum Abend kühlen und dann aufwärmen.
+> – A39 Eine Stiftung fördert das Projekt.
+> – dazu das bestehende A5 (Studierendenwerk zahlt).
+> ➡️ Übernehmen; A4 bekommt „ersetzt durch A36“.
+
+**Lena:** F10: Wenn in zwei Einrichtungen abends regelmäßig was Warmes auf dem Tisch steht. Regelmäßig heißt … dreimal die Woche? Das muss ich noch mit Ahmet und Jule klären. Und tragen tut es, wenn die Mensa mitmacht und jemand anders als die Einrichtungen Verpackung und Fahrten bezahlt. Portionen zählen ist uns nicht so wichtig, uns geht's um die Leute, nicht um die Portionen. F11: Passt. A4 ersetzen ist ok.
+
+**Agent:** Die „drei Abende“ sind noch nicht vom ganzen Team beschlossen – ich schreibe sie als Vorschlag in Block 4 und als offene Frage, nicht als Kriterium.
+
+### Runde 6 von 6
+
+> ❓ **F12** – **Kritische Annahmen**: Welche fallen, und mit ihnen die Idee? Mein Vorschlag:
+> – **A36** – alles baut darauf, dass Einrichtungen das Essen regelmäßig nehmen; bisher nur „Ja klar, sofort“ nach dem Pitch (I2), kein Beleg.
+> – **A35** – ohne Freigabe gibt es kein Essen (I3: A25).
+> – **A37** – eure Lösung setzt darauf, dass ihr nur einspringt; I1 nennt Abholen das Problem (A17).
+> – **A5** – sonst zahlt niemand, was ihr für „trägt“ festgelegt habt.
+> ➡️ Diese vier. A38 und A39 bleiben vorerst offen, nicht kritisch.
+
+**Lena:** ok, passt, die vier.
+
+**Agent:** *(trägt ein: Register A35–A39, A4 ersetzt, *Kritisch: ja* bei A5, A35, A36, A37; Blöcke 1–4, 6, *Offene Fragen*; fünf Einträge in `DECISIONS.md`)*
 
 ```
 $ python3 .claude/skills/evidence-checks/scripts/check_project.py
 OK      verweise      alle Verweise stehen im Register
-OK      status        37 Einträge mit gültigem Status und Quelle
+OK      status        39 Einträge mit gültigem Status und Quelle
 OFFEN   kritische     A5: keine Testkarte; A35: keine Testkarte; A36: keine Testkarte; A37: keine Testkarte
 OK      schwellen     0 Testkarten geprüft
 OK      eine-annahme  jede Karte prüft eine Annahme
@@ -675,477 +681,440 @@ OK      widerlegt     keine widerlegte Annahme in MODEL.md
 OK      interviews    4 von mindestens 3 Interviews ausgewertet (4 notiert)
 ```
 
-**Agent:**
-> Keine Fehler; dass die kritischen Annahmen noch keine Testkarten haben, ist erwartet – das kommt mit `/to-tests`. Hier die Blöcke 1–4 und 6:
->
-> - **1:** Kernproblem [A6] … **Vision:** Dass niemand in Kiel abends hungrig bleiben muss.
-> - **2:** Nutzer:innen = Einrichtungen mit Abendgästen; Wirkung bei den Gästen; Kund:innen = Studierendenwerk (Freigabe [A37], zahlt vermutlich [A5]); Einrichtungen zahlen nicht ([A22] für I2). Fall: eine dritte Partei zahlt.
-> - **3:** Lösung in euren Worten; Wertangebot je Gruppe; Lösungs-Hypothesen [A35] [A36] [A37] [A5] [A30].
-> - **4:** Erfolg = regelmäßig abends Warmes; trägt, wenn Mensa mitmacht, Abholung klappt, jemand zahlt. Zahlen offen.
-> - **6:** Kritisch: A35, A37, A36, A5.
->
-> Passt das?
+Keine FEHLER. *OFFEN* bei *kritische* ist erwartet: Testkarten kommen mit `/to-tests`. *(zeigt Blöcke 1–4 und 6)* Passt das so?
 
-**Lena:** Ja.
+**Lena:** Ja, passt.
 
-**Agent:**
-> Dann schlage ich vor zu committen, dann `/to-model`.
+**Agent:** Dann schlage ich vor zu committen, danach `/to-model`.
 
-*Commit `8 · grill-solution · Vision, Lösung ohne App, Nutzer:innen/Kund:innen, vier kritische Annahmen`.*
+→ Commit `8 · grill-solution · Vision, Lösung, Nutzer:innen und Kund:innen, Wertangebot, Erfolgskriterien, vier kritische Annahmen`
 
 ---
 
-## 9 · `/to-model` (2026-10-30)
+## 9 · `/to-model` (2026-11-26)
 
-**Lena:** /to-model
+**Lena:** `/to-model`
 
-*Agent liest `CANVAS.md`, `ASSUMPTIONS.md`, `PROBLEM.md`, `SOLUTIONS.md`, `DECISIONS.md`; lädt `assumptions` und `evidence-checks`. Block 1–3 sind gefüllt.*
+**Agent:** *(liest `CANVAS.md`, `ASSUMPTIONS.md`, `PROBLEM.md`, `SOLUTIONS.md`, `DECISIONS.md`; lädt `assumptions` und `evidence-checks`; Block 1–3 sind gefüllt)*
 
-**Agent:**
-> Ich mache aus Canvas und Register euer Social Business Model Canvas. Zuerst die Gliederung – was es schon gibt und wo Lücken sind:
->
-> | Feld | Schon im Register | Lücke? |
-> |---|---|---|
-> | 1. Gesellschaftliche Herausforderung | A6 (Annahme), A7 (Annahme), A17, A18 (belegt) | – (aus Block 1) |
-> | 2. Gesellschaftliche Veränderung | Vision (Entscheidung, ohne ID) | – (aus Block 1) |
-> | 3. Lösung | A35 (Annahme), A24 (belegt), A29 (Annahme) | – (aus Block 3) |
-> | 4. Schlüsselaktivitäten | A30, A36 (Annahme) | **ja** – was ihr konkret tut |
-> | 5. Schlüsselpartner:innen | A37 (Annahme), A32 (recherchiert) | **ja** – wer außer dem Studierendenwerk |
-> | 6. Kund:innengruppen | A35, A14, A13, A5, A37 | – (aus Block 2) |
-> | 7. Kund:innenbeziehung | – (A21 als Hinweis) | **ja** |
-> | 8. Kanäle | – | **ja** |
-> | 9. Einnahmequellen | A5 (Annahme), A22 (belegt: I2 zahlt nicht) | **ja** – wofür, wie viel |
-> | 10. Kostenstruktur | – | **ja** |
->
-> Sechs Lücken, also zwei Runden.
->
-> **Runde 1 von 2**
->
-> ❓ **F1** – **Schlüsselaktivitäten:** Was müsst ihr tun, damit es funktioniert? *Beispiele für Arten: abholen, kühlen, dokumentieren, verteilen, koordinieren.*
->
-> ❓ **F2** – **Schlüsselpartner:innen:** Mit wem arbeitet ihr zusammen, wer liefert euch etwas zu – außer dem Studierendenwerk? *Beispiele für Arten: andere Initiativen, Vereine, Einrichtungen.*
->
-> ❓ **F3** – **Kund:innenbeziehung:** Wie haltet ihr den Kontakt zu den Einrichtungen, damit sie bleiben? (In I2 ist der Kontakt zum Hotel „eingeschlafen“ [A21].) *Beispiele: persönliche Ansprechperson, feste Zeiten, eine Gruppe.*
->
-> ❓ **F4** – **Kanäle:** Wie erreicht ihr Einrichtungen und Studierendenwerk – wo begegnen sie euch? *Beispiele: Telefon, Besuch, E-Mail, über Bekannte.*
+### 1. Gliederung
 
-**Lena:** F1: Essen abholen, in Kühlboxen packen, Temperatur aufschreiben, abends verteilen, die Messenger-Gruppe organisieren. F2: Die Mensa halt, die Einrichtungen, vielleicht foodsharing, die könnten mit abholen oder uns Tipps geben. F3: Eine feste Ansprechperson pro Einrichtung, damit's nicht einschläft wie beim Hotel. F4: Einrichtungen anrufen und vorbeigehen. Studierendenwerk über den Küchenleiter.
+| Feld | Was schon im Register steht | Lücke |
+|---|---|---|
+| 1 Gesellschaftliche Herausforderung | A6, A7 (Annahme); A16, A17, A18, A20, A21 (belegt) | – |
+| 2 Gesellschaftliche Veränderung | Vision aus Block 1 (Entscheidung, ohne ID); A24 (belegt) | – |
+| 3 Lösung | Lösung aus Block 3 (Entscheidung); A36, A37, A38 (Annahme); Studierendenwerk: A24 (belegt), A29 (Annahme) | Wertangebot Stiftung (steht als offene Frage) |
+| 4 Schlüsselaktivitäten | A37, A38, A30 (Annahme); A18, A26 (belegt) | Was tut ihr selbst? |
+| 5 Schlüsselpartner:innen | A35 (Annahme), A25 (belegt), A32 (recherchiert) | Wer noch? |
+| 6 Kund:innengruppen | Nutzer:innen A36; Kund:innen A5, A39; Betroffene A13, A14 | – |
+| 7 Kund:innenbeziehung | A21 (belegt: Kontakt eingeschlafen) | Wie haltet ihr den Kontakt? |
+| 8 Kanäle | – | Lücke |
+| 9 Einnahmequellen | A5, A39 (Annahme); A22 (belegt) | wofür, wie viel? |
+| 10 Kostenstruktur | – | Lücke |
 
-**Agent:**
-> Eingetragen als A38 (Aktivitäten), A39 (foodsharing als Partner), A40 (Ansprechperson), A41 (Kanäle) – alles *Annahme*. Die Einrichtungen sind eure Nutzer:innen, die stehen schon im Feld 6.
->
-> **Runde 2 von 2**
->
-> ❓ **F5** – **Einnahmequellen:** Wer zahlt wofür, und wie viel? *Beispiele für Arten: ein Auftrag oder eine Pauschale, eine Stiftung, Spenden, öffentliche Förderung.*
->
-> ❓ **F6** – **Kostenstruktur:** Welche Kosten habt ihr – einmalig und laufend – und welche sind am größten?
+Sechs Lücken, also **zwei Runden** (4 + 2 Fragen).
 
-**Lena:** F5: Das Studierendenwerk zahlt eine Pauschale für die Abholung. Wenn nicht, eine Stiftung. Wie viel, weiß ich nicht. F6: Kühlboxen, Verpackungen, Fahrtkosten. Ist ja nicht viel.
+### Runde 1 von 2
 
-**Agent:**
-> „Ist ja nicht viel“ schreibe ich nicht als Zahl auf, sondern als offene Frage: Was kosten Kühlboxen, Verpackungen und Fahrten im Monat – und wie hoch müsste eine Pauschale oder Förderung sein? Wer klärt das bis wann?
+> ❓ **F1** – **Schlüsselaktivitäten**: Was müsst ihr selbst regelmäßig tun, damit es läuft? In euren Worten.
+> ❓ **F2** – **Kund:innenbeziehung**: Bei der Tagesstätte ist der Kontakt zum Hotel nach drei Wochen eingeschlafen [A21]. Wie haltet ihr den Kontakt zu Einrichtungen und Mensa? Beispiele für Arten: feste Ansprechperson, regelmäßiges Treffen, Gruppe im Messenger.
+> ❓ **F3** – **Kanäle**: Wie erreicht ihr Einrichtungen, Studierendenwerk und Stiftung? Beispiele für Arten: persönlich, über Kontakte, per Mail, über eine Webseite.
+> ❓ **F4** – **Kostenstruktur**: Was kostet Geld? Wenn ihr Beträge kennt, nennt sie; sonst wird es eine offene Frage.
+> ➡️ Bei allen vier: eure Worte; ich ergänze nichts.
 
-**Lena:** Ahmet, der kann das. Bis zum 13. November.
+**Lena:** F1: Jeden Tag mit der Mensa klären, wie viel übrig ist, und den Einrichtungen Bescheid sagen. Die Kühlkette aufschreiben. Und einspringen, wenn keiner abholen kann. F2: Eine feste Ansprechperson bei uns für jede Einrichtung, und eine Messenger-Gruppe. F3: Die Einrichtungen kennen wir aus den Interviews, die sprechen wir direkt an. Das Studierendenwerk über den Küchenleiter. Stiftungen per Mail. F4: Verpackungen, Fahrten, vielleicht Kühltaschen. Wie viel, weiß ich nicht.
 
-**Agent:**
-> Notiert. Und die Stiftung: Was hätte sie davon, euch zu fördern? Das braucht ihr fürs Feld *Lösung*, weil sie dann eine eurer Kund:innen wäre.
+### Runde 2 von 2
 
-**Lena:** Die wollen ja Projekte fördern, die was bewirken. Ein Ehrenamtsprojekt halt.
+> ❓ **F5** – **Einnahmequellen**: Wer zahlt wofür, und wie viel? Bisher: Studierendenwerk [A5] oder Stiftung [A39], nicht die Einrichtungen [A22].
+> ➡️ Wenn ihr keine Beträge habt: offene Frage mit wer und bis wann.
+> ❓ **F6** – **Schlüsselpartner:innen**: Mit wem arbeitet ihr außer dem Studierendenwerk zusammen, wer liefert euch etwas zu? Beispiele für Arten: Lieferant, eine Initiative mit Fahrer:innen, eine Einrichtung als Pilot.
+> ➡️ Eure Worte.
 
-**Agent:**
-> Dann steht die Gliederung. Passt sie so – kann ich `MODEL.md` schreiben?
+**Lena:** F5: Die Stiftung oder das Studierendenwerk für Verpackungen und Fahrten. Wie viel – weiß ich nicht, Ahmet rechnet das bis 11. Dezember. F6: Die Mensa halt, und vielleicht foodsharing, wenn wir nicht fahren können.
+
+**Agent:** Dann schreibe ich daraus neue Zeilen fürs Register (alle *Annahme*): A40 Team schafft Absprachen, Kühlkette und Einspringen neben dem Studium · A41 feste Ansprechperson und Messenger-Gruppe halten den Kontakt · A42 Kanäle · A43 größte Kosten · A44 foodsharing fährt, wenn ihr nicht könnt. Beträge kommen als offene Frage ins Canvas (Ahmet, bis 2026-12-11). Gliederung so bestätigt?
 
 **Lena:** Ja.
 
-*Agent schreibt `MODEL.md` (alle zehn Felder mit IDs; Lösung und Kund:innengruppen für Nutzer:innen und Kund:innen getrennt; Quellenvermerk bleibt), Register A38–A43, Block 7 im Canvas, offene Fragen zu Beträgen. Dann prüft er.*
+### 2. Schreiben
+
+*(füllt `MODEL.md` Feld für Feld mit IDs; Lösung und Kund:innengruppen getrennt für Nutzer:innen und Kund:innen; Quellenvermerk bleibt; Block 7 mit Wer zahlt / größte Kosten)*
+
+### 3. Prüfen
 
 ```
 $ python3 .claude/skills/evidence-checks/scripts/check_project.py
 OK      verweise      alle Verweise stehen im Register
-OK      status        43 Einträge mit gültigem Status und Quelle
+OK      status        44 Einträge mit gültigem Status und Quelle
 OFFEN   kritische     A5: keine Testkarte; A35: keine Testkarte; A36: keine Testkarte; A37: keine Testkarte
 …
 ```
 
-**Agent:**
-> Keine Fehler. Drei Funde aus den Review-Checks, je mit Vorschlag:
+Drei Funde:
+
+> ❓ **P1** – **Canvas und Modell widersprechen sich (Block 2 ↔ Kund:innengruppen)**: Block 2 nennt Jugendliche in Jugendzentren als Betroffene [A14]. Eure Lösung richtet sich an Einrichtungen mit Abendgästen [A36], und das Jugendzentrum aus I4 sagt, gekochtes Essen von außen passt nicht [A27].
+> – **(Empfehlung)** Im Modell nur Einrichtungen mit Abendgästen; in Block 2 ein Hinweis, dass Jugendzentren nicht dazugehören. Folge: Canvas und Modell passen zusammen.
+> – Block 2 unverändert. Folge: Der Widerspruch bleibt, `/review-model` meldet ihn wieder.
 >
-> **1. Wer zahlt, steht nicht vollständig in Block 2.** *Was und wo:* Im Modell (Feld 9) zahlt notfalls eine Stiftung [A42]; in Block 2 des Canvas steht nur das Studierendenwerk. *Warum wichtig:* Canvas und Modell sollen sich nicht widersprechen. *Optionen:* (a) Stiftung in Block 2 als mögliche Kund:in ergänzen *(Empfehlung)* – dann passt beides zusammen; (b) Stiftung aus dem Modell nehmen – dann hängt alles am Studierendenwerk.
+> ❓ **P2** – **Tragen die Einnahmen die Kosten?** Kosten (Verpackungen, Fahrten, Kühltaschen [A43]) und Einnahmen haben noch keine Beträge. Ich rechne nicht – steht als offene Frage (Ahmet, 2026-12-11). Passt das?
 >
-> **2. Eine Annahme, auf der viel aufbaut, ist nicht kritisch.** *Was und wo:* A42 (Stiftung fördert) trägt Feld 3, 6 und 9, sobald das Studierendenwerk nicht zahlt. *Warum wichtig:* Bisher gibt es keinen einzigen Hinweis, dass das Studierendenwerk zahlt [A5]. *Optionen:* (a) A42 als kritisch markieren *(Empfehlung)* – dann bekommt sie eine Testkarte; (b) nicht kritisch – dann gibt es keinen geprüften Plan B.
->
-> **3. Ob die Einnahmen die Kosten decken, ist nicht zu sagen.** *Was und wo:* Feld 9 und 10 haben keine Beträge. *Warum wichtig:* Ein Modell ohne Zahlen kann tragen oder nicht – das weiß noch niemand. Ich rechne das nicht selbst. *Optionen:* (a) als offene Frage stehen lassen, Ahmet klärt bis 13.11. *(Empfehlung)*; (b) jetzt Schätzungen eintragen – die würden aussehen wie Wissen.
+> ❓ **P3** – **Nicht markierte Annahmen, auf denen mehrere Felder stehen**:
+> – **A38** Einrichtungen kühlen und wärmen auf – trägt Lösung, Aktivitäten, Kosten (Kühltaschen). **(Empfehlung: kritisch)**
+> – **A39** Stiftung fördert – fällt A5, zahlt sonst niemand (Einnahmen). **(Empfehlung: kritisch)**
+> – **A40** Ihr schafft Absprachen, Kühlkette und Einspringen neben dem Studium – trägt Lösung („springen ein“), Aktivitäten, Beziehung (Ansprechperson) und, unbezahlt, die Kosten. **(Empfehlung: kritisch; in der Probewoche mitzählen, wie oft ihr einspringt und wie viele Stunden es kostet.)**
+> Das Team entscheidet.
 
-**Lena:** 1a, 2a – wenn das Studierendenwerk nicht zahlt, brauchen wir das. 3a.
+**Lena:** P1: ok, passt. P2: Ja. P3: A38 und A39 ja. A40 nicht – ob wir Zeit haben, wissen wir doch selbst. Das müssen wir nicht testen.
 
-*Agent markiert A42 als kritisch, ergänzt Block 2 und 6, hält drei Entscheidungen in `DECISIONS.md` fest (Gliederung, Beträge offen, Stiftung).*
-
-**Agent:**
-> Erledigt. Das Modell steht in `MODEL.md`; jede Aussage hat ihre ID, Beträge sind offene Fragen. Fünf kritische Annahmen brauchen jetzt Testkarten. Ich schlage vor zu committen, dann `/to-tests`.
-
-**Lena:** Ok.
-
-*Commit `9 · to-model · Social Business Model Canvas, Stiftung als Plan B, Beträge offen`.*
-
----
-
-## 10 · `/to-tests` (2026-11-02)
-
-**Lena:** /to-tests
-
-*Agent liest `ASSUMPTIONS.md`, `CANVAS.md` (Block 4 und 6), `MODEL.md`, `TESTS.md` (leer), `DECISIONS.md`; lädt `assumptions` und `evidence-checks`. Kritisch und offen: A35, A36, A37, A5, A42.*
-
-**Agent:**
-> Ich entwerfe für jede eurer fünf kritischen Annahmen eine Testkarte – eine Karte pro Annahme, mit eigener Schwelle. Bevorzugt Tests, die Verhalten zeigen, nicht Meinungen. Zuerst eine Frage, damit ich den Plan nicht größer mache, als ihr schaffen könnt: **Wie viel Zeit habt ihr zusammen pro Woche, und bis wann soll die Testrunde fertig sein?**
-
-**Lena:** Zusammen etwa zwölf Stunden pro Woche. Bis zum 13. November, da ist Ahmet auch mit den Kosten fertig.
-
-**Agent:**
-> Danke. Hier zuerst die **Probleme**, die ich im Plan sehe, jeweils mit Empfehlung – danach die Karten.
->
-> 1. **Reihenfolge.** Die Probewoche (T2, T3) braucht Essen aus der Mensa – und laut I3 geht ohne „Freigabe von oben und eine Haftungsregel“ nichts [A25]. ➡️ Das Gespräch mit dem Studierendenwerk (T1) zuerst; T1 ist *Voraussetzung* von T2 und T3.
-> 2. **T4 (Studierendenwerk zahlt) nur mit einer Meinung prüfen.** Die Frage „Würden Sie dafür zahlen?“ beantwortet man höflich. ➡️ Ein schriftliches Angebot mit Preis schicken und schauen, ob es angenommen wird – das zeigt Verhalten.
-> 3. **Die Schwelle für T2 übernimmt eine offene Zahl.** „Wie viele Einrichtungen“ steht noch als offene Frage im Canvas. Ich schlage vor: *mindestens 3 von 4 Einrichtungen nehmen an mindestens 3 von 5 Tagen an* – niedriger (z. B. 2 von 4) würde fast jedes Ergebnis erfüllen. ➡️ Bitte bestätigt ausdrücklich, ob ihr **zu dritt** diese Zahl beschlossen habt; sonst bleibt die Karte offen.
-> 4. **Zeit.** Wenn die Einrichtungen nicht selbst abholen (T3), fahrt ihr eine Woche lang jeden Abend. ➡️ Plant dafür Stunden ein, bevor ihr startet.
-> 5. **T5 (Stiftung) hat eine eher niedrige Schwelle** (1 von 2). ➡️ Ok für einen ersten Schritt, aber eine Bestätigung der Förderbarkeit ist noch keine Zusage.
->
-> *(Agent zeigt die fünf Karten T1–T5 – Wortlaut wie in `TESTS.md`.)*
->
-> | Karte | Annahme | Test | Schwelle |
-> |---|---|---|---|
-> | T1 | A37 Freigabe | Gespräch mit Abteilungsleitung Hochschulgastronomie + Küchenleiter | Freigabe zugesagt, ohne offene Bedingung (Haftung geregelt) |
-> | T2 | A35 Einrichtungen nehmen an | Probewoche mit 4 Einrichtungen | mind. 3 von 4 nehmen an mind. 3 von 5 Tagen an |
-> | T3 | A36 selbst abholen | dieselbe Probewoche, pro Tag notieren, wer abholt | jede annehmende Einrichtung holt an mind. 4 von 5 Tagen selbst ab |
-> | T4 | A5 Studierendenwerk zahlt | schriftliches Angebot mit Preis | Angebot angenommen |
-> | T5 | A42 Stiftung | Anfrage an 2 Stiftungen | mind. 1 von 2 bestätigt schriftlich Förderbarkeit mit Betrag und Frist |
->
-> Ihr entscheidet: welche Tests, welche Reihenfolge, welche Schwellen.
-
-**Lena:** 1: ok, passt. 2: Nee, das Angebot mit Preis machen wir nicht. Wir haben noch keinen Preis, Ahmet rechnet erst. Und der Küchenleiter hat gesagt, ohne Freigabe von oben läuft gar nichts – da wollen wir nicht gleich mit einer Rechnung kommen. Wir fragen im Gespräch einfach, ob die was übernehmen. 3: Moment, ich frag Ahmet und Jule im Chat. … Beide sagen ja, 3 von 4. 4: Ok. 5: Lassen wir so. Bei T2: Wir fragen auch das Jugendzentrum, vielleicht ja doch.
-
-**Agent:**
-> Verstanden, ich halte die Ablehnung mit eurer Begründung in `DECISIONS.md` fest. Damit T4 trotzdem möglichst viel zeigt, formuliere ich die Karte so: Ihr fragt im Gespräch **konkret**, ob das Studierendenwerk einen Teil der Kosten übernimmt (Pauschale, Material oder Fahrten), und schreibt die Antwort wörtlich auf. Schwelle: *Das Studierendenwerk sagt eine konkrete Geldleistung zu und nennt Art und Größenordnung.* Der Haken: Ein „Ja“ im Gespräch ist noch keine Zahlung. Ein „Nein, dafür haben wir kein Geld“ zählt dagegen voll, weil die Organisation das über sich selbst sagt. Ok so?
-
-**Lena:** Ja, ok.
-
-**Agent:**
-> Und die Zahl „3 von 4“ halte ich als Beschluss von euch dreien fest (Lena, Ahmet, Jule, 2026-11-02); in Block 4 steht sie als Kriterium für die Probewoche.
-
-*Agent schreibt `TESTS.md` (T1–T5, Status geplant, Ausgewertet nein), Spalte *Test* im Register, Block 9 (Liste der Tests mit Annahme und Schwelle), Block 4, Offene Fragen, drei Einträge in `DECISIONS.md` (Testplan und Reihenfolge; Schwelle T2 vom ganzen Team; kein Preisangebot – Empfehlung des Agenten abgelehnt).*
+**Agent:** Verstanden – A40 bleibt eine Annahme, aber nicht kritisch; ich halte die Entscheidung mit eurem Grund und meinem Vorschlag als Alternative in `DECISIONS.md` fest. *(trägt ein: A38, A39 *Kritisch: ja*; Block 2 Hinweis; Block 6 neuer Stand; drei Einträge in `DECISIONS.md`)*
 
 ```
 $ python3 .claude/skills/evidence-checks/scripts/check_project.py
 OK      verweise      alle Verweise stehen im Register
-OK      status        43 Einträge mit gültigem Status und Quelle
-OK      kritische     5 offene kritische Annahmen haben eine Testkarte mit Schwelle
-OK      schwellen     5 Testkarten geprüft
+OK      status        44 Einträge mit gültigem Status und Quelle
+OFFEN   kritische     A5: keine Testkarte; A35: keine Testkarte; A36: keine Testkarte; A37: keine Testkarte; A38: keine Testkarte; A39: keine Testkarte
+OK      schwellen     0 Testkarten geprüft
 OK      eine-annahme  jede Karte prüft eine Annahme
 OK      ergebnisse    alle Ergebnisse ausgewertet, keine Karte überfällig
 OK      widerlegt     keine widerlegte Annahme in MODEL.md
 OK      interviews    4 von mindestens 3 Interviews ausgewertet (4 notiert)
 ```
 
-**Agent:**
-> *kritische* und *eine-annahme* sind OK. Bitte committet die Karten **jetzt**, bevor ihr testet: So bleibt im Git-Verlauf sichtbar, dass die Schwellen vor den Ergebnissen feststanden.
->
-> Dann seid ihr dran: zuerst das Gespräch mit dem Studierendenwerk (T1, T4), dann die Probewoche (T2, T3), parallel die Stiftungen (T5). Ergebnisse tragt ihr in `TESTS.md` ein oder fügt sie in den Chat ein – danach `/log-evidence`.
+Keine FEHLER; alle zehn Felder gefüllt, Beträge als offene Frage. *(zeigt `MODEL.md`)* Bestätigt ihr das Modell?
 
-**Lena:** Mach den Commit.
+**Lena:** Ja, passt.
 
-*Commit `10 · to-tests · Testkarten T1–T5 mit Schwellen, vor dem Testen committet`.*
+**Agent:** Dann committen, danach `/to-tests`.
 
----
-
-## Zwischen den Skills: Testrunde (2.–13. November)
-
-Das Team führt das Gespräch mit dem Studierendenwerk, die Probewoche und die Anfragen an zwei Stiftungen durch. Die Ergebnisse schreibt Lena nicht in die Datei, sondern fügt sie beim nächsten Befehl in den Chat ein.
+→ Commit `9 · to-model · Social Business Model Canvas in zehn Feldern, A38 und A39 kritisch, A40 vom Team nicht`
 
 ---
 
-## 11 · `/log-evidence` (2026-11-16)
+## 10 · `/to-tests` (2026-11-28)
 
-**Lena:** /log-evidence – hier unsere Ergebnisse:
+**Lena:** `/to-tests`
 
-> **Gespräch mit dem Studierendenwerk (Abteilungsleitung Hochschulgastronomie):** „Finden wir gut, machen wir gern mit, wenn die Haftung geklärt ist. Bezahlen können wir dafür aber nichts, höchstens Verpackungen stellen.“
+**Agent:** *(liest `ASSUMPTIONS.md`, `CANVAS.md` Block 4 und 6, `MODEL.md`, `TESTS.md`, `DECISIONS.md`; lädt `assumptions` und `evidence-checks`)*
+Sechs kritische Annahmen mit Status *Annahme*: A36, A37, A35, A5, A39, A38. Ich entwerfe sechs Karten, eine pro Annahme: T1 Probewoche (A36), T2 Selbst abholen in derselben Woche (A37), T3 Freigabe (A35) und T4 Bezahlen (A5) im selben Gespräch mit dem Studierendenwerk, T5 Anfrage bei zwei Stiftungen (A39), T6 Besuch vor Ort: Kühlen und Aufwärmen (A38). Bevor ich die Karten zeige, die Probleme im Plan – jeweils mit Empfehlung:
+
+> ❓ **P1** – **Reihenfolge**: Die Probewoche (T1, T2) setzt voraus, dass die Mensa abgeben darf [A35] und die Einrichtungen kühlen können [A38] – beides ungetestet und kritisch.
+> – **(Empfehlung)** Erst T3 und T6, dann die Probewoche (Voraussetzung T3, T6 in T1 und T2). Folge: sauberer Beleg, aber die Probewoche rückt nach hinten.
+> – Parallel. Folge: T1 zeigt, ob Einrichtungen annehmen, aber nicht, dass die Mensa dauerhaft abgeben darf.
 >
-> **Probewoche:** Vier Einrichtungen wurde angeboten, eine Woche lang abends übrig gebliebenes Mensa-Essen zu bringen. Zwei haben zugesagt und es an mindestens drei Tagen angenommen (Tafel-Ausgabestelle, Tagesstätte). Eine hat abgelehnt (Jugendzentrum: „passt nicht zu uns“), eine hat nicht geantwortet. Die Tafel konnte nur zwei von fünf Tagen selbst abholen; an den anderen Tagen hat das Team geliefert.
+> ❓ **P2** – **Mit wem in T1**: Ihr nennt vier Einrichtungen, darunter das Jugendzentrum aus I4. Am 2026-11-26 habt ihr entschieden, dass Jugendzentren nicht zu euren Nutzer:innen gehören: Die Jugendlichen kommen nachmittags, gekochtes Essen von außen passt nicht [A27]. Mit ihm misst T1 etwas anderes als A36 (Einrichtungen *mit Abendgästen*).
+> – **(Empfehlung)** Statt des Jugendzentrums eine weitere Einrichtung mit Abendgästen.
+> – Jugendzentrum bleibt. Folge: Bei einer Schwelle „3 von 4“ müssen alle drei anderen zusagen, wenn es absagt.
 >
-> **Stiftungen:** Eine hat geantwortet: Förderung für Ehrenamtsprojekte bis 5.000 € möglich, Antrag bis März. Die andere hat nicht geantwortet.
-
-*Agent liest `ASSUMPTIONS.md`, `INTERVIEWS.md`, `TESTS.md`, `PROBLEM.md`, `CANVAS.md`, `SIGNALS.md`; lädt `assumptions` und `evidence-checks`. Karten T1–T5 haben noch kein Ergebnis.*
-
-**Agent:**
-> Danke! Ich übertrage die Ergebnisse zuerst wörtlich in `TESTS.md`, ins Feld *Ergebnis* der passenden Karte. So würde ich zuordnen:
+> ❓ **P3** – **Bezahlen ohne Betrag (T4)**: Kosten und Beträge sind offen (Ahmet, 2026-12-11).
+> – **(Empfehlung)** Im Gespräch eine Zusage ohne Betrag erfragen; die Karte sagt, was sie nicht zeigt (ob der Betrag die Kosten deckt).
+> – Bis 2026-12-11 warten und mit Betrag fragen.
 >
-> | Ergebnis | Karte(n) |
-> |---|---|
-> | Gespräch Studierendenwerk | **T1** (Freigabe) und **T4** (zahlt) – derselbe Wortlaut in beiden Karten |
-> | Probewoche | **T2** (nehmen an) und **T3** (holen selbst ab) – derselbe Wortlaut in beiden Karten |
-> | Stiftungen | **T5** |
+> ❓ **P4** – **Was T5 misst**: „Die Stiftung hält uns für förderfähig“ wäre schwächer als A39 („fördert“). Wisst ihr, wann Stiftungen entscheiden?
+> ➡️ Schwelle: Förderzusage, nicht „förderfähig“. Wenn bis 2026-12-18 nur eine Auskunft kommt, bleibt die Karte offen.
 >
-> Stimmt die Zuordnung? Und zwei Rückfragen zu Messgrößen, die im Ergebnis fehlen:
-> 1. **T3** zählt pro Einrichtung, an wie vielen Tagen sie selbst abgeholt hat. Für die Tafel steht es da (2 von 5). Wie oft hat die **Tagesstätte** selbst abgeholt?
-> 2. **T5** verlangt eine **schriftliche** Bestätigung. Kam die Antwort der Stiftung schriftlich, und als Antwort auf eure Anfrage zu eurem Projekt?
-
-**Lena:** Zuordnung stimmt. 1: Haben wir nicht aufgeschrieben. Weiß ich nicht genau. 2: Ja, per Mail, als Antwort auf unsere Anfrage.
-
-**Agent:**
-> Ok. Bei T3 ändert die fehlende Zahl nichts am Ergebnis, weil die Schwelle für *jede* annehmende Einrichtung gilt und die Tafel sie schon verfehlt – ich notiere aber, dass sie fehlt.
+> ❓ **P5** – **Machbarkeit**: Wie viel Zeit habt ihr in den nächsten drei Wochen? Ich schätze das nicht.
 >
-> Zwei Dinge, bevor ich Status vorschlage:
->
-> - **Voraussetzung nicht bestanden.** T2 und T3 hatten T1 (Freigabe) als Voraussetzung. T1 ist nicht bestanden: „machen wir gern mit, **wenn die Haftung geklärt ist**“ ist eine Zusage unter Bedingung – T1 bleibt auf *läuft*. Kann das Ergebnis der Probewoche an der fehlenden Freigabe liegen? Die Absage („passt nicht zu uns“) und die fehlende Antwort hängen nicht daran, und die Tafel konnte aus eigenen Gründen nicht abholen. Ich schlage deshalb trotzdem einen Status vor und schreibe den Vorbehalt in die Quelle.
-> - **Schwellen wörtlich:** Ich vergleiche jedes Ergebnis mit der Schwelle, die ihr am 02.11. committet habt (der Git-Verlauf zeigt: Karten vor den Ergebnissen).
->
-> **Abschnitt 1 von 4 – vorgeschlagen als *widerlegt***
->
-> | ID | Aussage | bisher | Vorschlag | Ergebnis gegen Schwelle | Bedenken |
-> |---|---|---|---|---|---|
-> | A35 | Soziale Einrichtungen in Kiel, die abends Gäste haben, nehmen übrig gebliebenes Mensa-Essen an mehreren Abenden pro Woche an. | Annahme | **widerlegt** | T2: 2 von 4 Einrichtungen; Schwelle „mindestens 3 von 4“ → nicht erreicht | Voraussetzung T1 offen (s. o.) |
-> | A36 | Die Einrichtungen holen das Essen an den meisten Tagen selbst ab. | Annahme | **widerlegt** | T3: Tafel 2 von 5 Tagen; Schwelle „jede an mind. 4 von 5“ → nicht erreicht | Tagesstätte nicht notiert; Voraussetzung T1 offen |
-> | A5 | Das Studierendenwerk würde für so einen Service bezahlen. | Annahme | **widerlegt** | T4: „Bezahlen können wir dafür aber nichts, höchstens Verpackungen stellen.“ Schwelle: konkrete Geldleistung → nicht erreicht | eine Aussage der Organisation über sich selbst – zählt |
->
-> Bitte entscheidet jede Zeile einzeln.
+> ❓ **P6** – **Zahl aus Block 4**: Meine Schwelle für T1 übernimmt die „drei Abende“, die in Block 4 nur als Vorschlag von Lena stehen. Hat das ganze Team das beschlossen?
 
-**Lena:** Hm. 2 von 4 ist doch auch gut, können wir das nicht als belegt nehmen?
+**Lena:** P1: Nein, parallel. Die Freigabe dauert bestimmt Wochen, dann sind wir im Januar noch nicht weiter. Wir machen die Probewoche gleichzeitig.
+P2: Das Jugendzentrum fragen wir trotzdem. Die kennen uns schon, und vielleicht sagen sie ja doch ja, wenn sie es mal probieren können.
+P3: Ohne Betrag, ok.
+P4: Weiß ich nicht. Förderzusage zählt, ok.
+P5: Ich hab so 4 Stunden die Woche. Ahmet und Jule ähnlich, glaub ich. Die Probewoche schaffen wir, wenn die Einrichtungen selbst abholen.
+P6: Ich frag kurz in der Gruppe. … Ahmet und Jule sagen ja: drei Abende.
 
-**Agent:**
-> Ich verstehe den Wunsch – zwei Einrichtungen haben wirklich mitgemacht, das ist ein Ergebnis. Aber die Schwelle „3 von 4“ habt ihr zu dritt **vor** dem Test beschlossen und committet. Wenn wir sie jetzt senken, passt sie zufällig genau zum Ergebnis – dann ist das Ergebnis nur noch ein Signal, kein Beleg. Eine Schwelle wird nie gelockert, damit sie besteht.
->
-> Was ihr stattdessen festhalten könnt: Die zwei, die angenommen haben, haben etwas gemeinsam – beide haben abends Gäste und kochen abends selbst nicht. Das schlage ich unten als neue, engere Annahme vor (A49). Die könnt ihr in der nächsten Runde mit eigener Schwelle testen.
+**Agent:** Ich halte fest: P1 und P2 entscheidet ihr anders als empfohlen – beides mit eurem Grund und meiner Empfehlung als Alternative in `DECISIONS.md`. Zu P5: Die Probewoche ist nur machbar, wenn A37 stimmt; T2 zählt deshalb auch die Tage, an denen ihr selbst liefert. Die drei Abende stehen jetzt als Beschluss in Block 4 (bestätigt von euch dreien, laut Lena).
 
-**Lena:** Ok, verstehe. Dann widerlegt, aber die zwei, die mitgemacht haben, sind ja auch was. A35 widerlegt ja, A36 widerlegt ja, A5 widerlegt ja.
+**Karten (Entwurf, Schwellen vorgeschlagen):**
 
-**Agent:**
-> **Abschnitt 2 von 4 – vorgeschlagen als *belegt***
->
-> | ID | Aussage | bisher | Vorschlag | Beleg | Bedenken |
-> |---|---|---|---|---|---|
-> | A42 | Eine Stiftung fördert das Projekt, wenn das Studierendenwerk nicht zahlt. | Annahme | **belegt** | T5: 1 von 2 bestätigt schriftlich, mit Betrag (bis 5.000 €) und Frist (März); Schwelle erreicht | Die Schwelle misst Förderbarkeit, keine Zusage – der Antrag ist nicht gestellt. Vorbehalt kommt in die Quelle. |
-> | A44 (neu) | Die Tafel-Ausgabestelle aus I1 und die Tagesstätte aus I2 haben in der Probewoche an mindestens drei von fünf Tagen abends Mensa-Essen angenommen. | – | **belegt** | T2 (Beobachtung) | – |
-> | A45 (neu) | Das Jugendzentrum aus I4 hat das Essen in der Probewoche abgelehnt: „passt nicht zu uns“. | – | **belegt** | T2 | – |
-> | A46 (neu) | Die Tafel-Ausgabestelle aus I1 konnte in der Probewoche nur an zwei von fünf Tagen selbst abholen; an den anderen Tagen hat das Team geliefert. | – | **belegt** | T3 | – |
-> | A47 (neu) | Das Studierendenwerk kann für den Service nichts bezahlen, höchstens Verpackungen stellen. | – | **belegt** | T4 | Aussage über sich selbst |
+| Karte | Annahme | Test | Mit wem | Schwelle (Vorschlag) | Begründung |
+|---|---|---|---|---|---|
+| T1 | A36 | Probe-Lieferung, eine Woche Mo–Fr | 4 Einrichtungen (Tafel-Ausgabestelle I1, Tagesstätte I2, Jugendzentrum I4, eine weitere mit Abendgästen) | mindestens **3 von 4** sagen zu und nehmen an mindestens 3 von 5 Tagen an | A36 spricht von Einrichtungen allgemein: eine Mehrheit der Angefragten; „3 Tage“ = euer Kriterium „regelmäßig“ |
+| T2 | A37 | Selbst abholen in derselben Woche | die Zusagenden (mind. 2) | mindestens 2 holen an mindestens 4 von 5 Tagen selbst ab | eure Lösung: ihr „springt nur ein“ |
+| T3 | A35 | Gespräch Studierendenwerk | Abteilungsleitung + Küchenleiter I3 | schriftliche Freigabe mit Haftungsregel | I3 nennt genau das als Bedingung (A25) |
+| T4 | A5 | dasselbe Gespräch, ohne Betrag | dieselben | Zusage, Geld zu zahlen (Betrag offen) | Meinung („fänden wir gut“) zählt nicht |
+| T5 | A39 | Mail-Anfrage | 2 Stiftungen | mindestens 1 von 2 sagt Förderung zu | „förderfähig“ zählt nicht |
+| T6 | A38 | Besuch vor Ort | Tafel-Ausgabestelle, Tagesstätte | mindestens 2 zeigen Kühlplatz und Aufwärmmöglichkeit | Lösung setzt Kühlen und Aufwärmen dort voraus |
 
-**Lena:** A42 ja, mit dem Vorbehalt. A44 ja, A45 ja, A46 ja, A47 ja.
+Alle bis **2026-12-18**. Sagt das Jugendzentrum ab wie in I4, braucht T1 alle drei anderen. Festlegen tut ihr – passen die Schwellen?
 
-**Agent:**
-> **Abschnitt 3 von 4 – vorgeschlagen als *belegt***
->
-> | ID | Aussage | bisher | Vorschlag | Beleg | Bedenken |
-> |---|---|---|---|---|---|
-> | A48 (neu) | Eine der zwei angefragten Stiftungen fördert Ehrenamtsprojekte mit bis zu 5.000 €; Antrag bis März. | – | **belegt** | T5 | Aussage der Stiftung über sich selbst |
+**Lena:** Ok, 3 von 4. Die anderen passen auch.
 
-**Lena:** A48 ja.
-
-**Agent:**
-> **Abschnitt 4 von 4 – Status bleibt, neue Annahme**
->
-> | ID | Aussage | Status | Begründung |
-> |---|---|---|---|
-> | A37 | Das Studierendenwerk gibt das Essen frei und klärt die Haftung. | bleibt *Annahme*; T1 bleibt *läuft*, *Ausgewertet: teilweise* | „machen wir gern mit, wenn …“ ist eine Absicht unter Bedingung |
-> | A49 (neu) | Einrichtungen, die abends Gäste haben und abends selbst nicht kochen (wie Tafel-Ausgabestelle und Tagesstätte), nehmen übrig gebliebenes Mensa-Essen an mehreren Abenden pro Woche an. | *Annahme*, „gestützt durch T2“ | zwei von zwei Einrichtungen dieser Art haben angenommen – das ist ein starker Hinweis, aber ohne eigene Schwelle kein Beleg |
-
-**Lena:** passt.
-
-*Agent schreibt: Ergebnisse wörtlich mit Vergleich gegen die Schwelle in T1–T5 (T1: Status läuft, Ausgewertet teilweise; T2–T5: abgeschlossen, ja); Register (A35, A36, A5 widerlegt; A42 belegt mit Vorbehalt; A44–A48 belegt; A49 Annahme; Quelle von A37); `SIGNALS.md` (Testrunde; Wunsch, die Schwelle zu senken); `DECISIONS.md` (Schwelle T2 bleibt); Canvas Block 5, 6 (Stand ersetzt), 10 und je eine Zeile `⚠️ [A…] widerlegt (T…) – prüfen` in den Blöcken 2, 3, 6, 7 und 9. `MODEL.md` bleibt unverändert.*
+*(trägt ein: sechs Karten in `TESTS.md`, Status *geplant*, *Ausgewertet: nein*; Test-IDs in der Spalte *Test* des Registers; Block 9 Liste, Block 4 „drei Abende“; vier Einträge in `DECISIONS.md`)*
 
 ```
 $ python3 .claude/skills/evidence-checks/scripts/check_project.py
 OK      verweise      alle Verweise stehen im Register
-OK      status        49 Einträge mit gültigem Status und Quelle
-OK      kritische     1 offene kritische Annahmen haben eine Testkarte mit Schwelle
-OK      schwellen     5 Testkarten geprüft
+OK      status        44 Einträge mit gültigem Status und Quelle
+OK      kritische     6 offene kritische Annahmen haben eine Testkarte mit Schwelle
+OK      schwellen     6 Testkarten geprüft
 OK      eine-annahme  jede Karte prüft eine Annahme
-OFFEN   ergebnisse    läuft (Bedingung offen): T1
-OFFEN   widerlegt     widerlegte oder ersetzte Annahmen in MODEL.md: A35, A36, A5 – prüfen, ob das Feld noch darauf aufbaut
+OK      ergebnisse    alle Ergebnisse ausgewertet, keine Karte überfällig
+OK      widerlegt     keine widerlegte Annahme in MODEL.md
 OK      interviews    4 von mindestens 3 Interviews ausgewertet (4 notiert)
 ```
 
-**Agent:**
-> Keine Fehler. Die zwei OFFEN sind gewollt: T1 wartet auf die Haftungsregel, und drei Felder in `MODEL.md` bauen auf widerlegten Annahmen auf – das ändere ich hier nicht, das klärt ihr im Review.
->
-> Ich schlage vor zu committen, dann `/review-model`.
+*kritische* und *eine-annahme* sind OK. **Bitte committet die Karten jetzt**, bevor ihr testet: So bleibt sichtbar, dass die Schwellen vor den Ergebnissen feststanden. Dann seid ihr dran: testen, Ergebnisse in `TESTS.md` notieren oder hier einfügen, dann `/log-evidence`.
 
-*Commit `11 · log-evidence · Testrunde ausgewertet: A35, A36, A5 widerlegt, A42 belegt, T1 läuft`.*
+→ Commit `10 · to-tests · Testkarten T1–T6 mit Schwellen, vor dem Testen committet`
+
+*(Das Team testet bis 2026-12-18.)*
 
 ---
 
-## 12 · `/review-model` (2026-11-18)
+## 11 · `/log-evidence` (2026-12-19)
 
-**Lena:** /review-model
+**Lena:** `/log-evidence` – Hier unsere Ergebnisse:
+- T1 und T2: Probe-Abholung bei Einrichtungen: Vier Einrichtungen wurde angeboten, eine Woche lang abends übrig gebliebenes Mensa-Essen zu bringen. Zwei haben zugesagt und es an mindestens drei Tagen angenommen (Tafel-Ausgabestelle, Tagesstätte). Eine hat abgelehnt (Jugendzentrum: „passt nicht zu uns“), eine hat nicht geantwortet. Die Tafel konnte nur zwei von fünf Tagen selbst abholen; an den anderen Tagen hat das Team geliefert.
+- T3 und T4: Gespräch mit dem Studierendenwerk (Abteilungsleitung Hochschulgastronomie): „Finden wir gut, machen wir gern mit, wenn die Haftung geklärt ist. Bezahlen können wir dafür aber nichts, höchstens Verpackungen stellen.“
+- T5: Anfrage bei zwei Stiftungen: Eine hat geantwortet: Förderung für Ehrenamtsprojekte bis 5.000 € möglich, Antrag bis März. Die andere hat nicht geantwortet.
+- T6: Den Test haben wir nicht gemacht.
 
-*Agent liest alle Projektdateien und die letzten Einträge in `SIGNALS.md`, führt `check_project.py` aus, lädt `evidence-checks` und `assumptions`. Sub-Agenten stehen in dieser Umgebung nicht zur Verfügung; der Agent prüft die zwei Achsen nacheinander. Für die Reihenfolge von Schwelle und Ergebnis liest er den Git-Verlauf: `git log -- TESTS.md` zeigt die Karten im Commit vom 02.11., die Ergebnisse im Commit vom 16.11.*
+**Agent:** *(liest `ASSUMPTIONS.md`, `INTERVIEWS.md`, `TESTS.md`, `PROBLEM.md`, `CANVAS.md`, `SIGNALS.md`; lädt `assumptions` und `evidence-checks`)*
+Ich übertrage eure Ergebnisse wörtlich in das Feld *Ergebnis*: Probe-Abholung → T1 und T2, Gespräch → T3 und T4, Stiftungen → T5. T6 bleibt ohne Ergebnis. Stimmt die Zuordnung?
 
-**Agent:**
-> Bevor ich den Bericht schreibe, eine Frage zu Achse 2: Ahmet wollte bis 13.11. die Kosten schätzen (Kühlboxen, Verpackungen, Fahrten) und wie hoch eine Förderung sein müsste. Gibt es die Zahlen?
+**Lena:** Ja.
 
-**Lena:** Haben wir noch nicht rausgefunden. Ahmet hatte keine Zeit.
+**Agent:** Zwei Rückfragen:
+1. **T2** zählt pro Einrichtung, an wie vielen Tagen sie selbst abgeholt hat. Für die Tafel steht es da (2 von 5). Und für die Tagesstätte?
+2. **T6** ist bis 2026-12-18 angesetzt und hat kein Ergebnis. Bleibt der Test geplant – bis wann?
 
-**Agent:**
-> Ok, dann ist das ein Befund, keine Rechnung von mir. Hier der Bericht. *Blockierend heißt: Das solltet ihr klären, bevor ihr darauf weiterbaut – es heißt nicht, dass ihr aufhören müsst.*
->
-> **Achse 1: Beleg**
->
-> | # | Befund | Art | Beleg | Vorschlag |
-> |---|---|---|---|---|
-> | 1 | Drei kritische Annahmen sind widerlegt und tragen noch Felder in `MODEL.md` (Lösung, Aktivitäten, Kund:innengruppen, Einnahmen). | **blockierend** | A35 (T2), A36 (T3), A5 (T4); Check *widerlegt* | Modell mit `/to-model` anpassen |
-> | 2 | Die Freigabe ist offen, und die Probewoche lief, obwohl ihre Voraussetzung T1 nicht bestanden war. | **blockierend** | A37, T1 „wenn die Haftung geklärt ist“ | Haftungsregel klären, bevor ihr regelmäßig abholt |
-> | 3 | A42 ist belegt, aber die Schwelle von T5 maß nur Förderbarkeit – kein Euro ist zugesagt. | Hinweis | T5, A48 | Nächste Karte: Antrag bewilligt |
-> | 4 | Zahlungsbereitschaft wurde im Gespräch erfragt, nicht durch ein Angebot geprüft. Für die Widerlegung reicht das (Aussage über sich selbst), für ein Ja hätte es nicht gereicht. | Hinweis | T4, `DECISIONS.md` 2026-11-02 | – |
-> | 5 | In T3 fehlt die Messgröße für die Tagesstätte. | Hinweis | T3 | Bei der nächsten Probe pro Tag und Einrichtung notieren |
-> | 6 | Canvas und Modell sagen „Studierendenwerk zahlt“, das ist widerlegt. | **blockierend** | Block 2, Block 7, `MODEL.md` Feld 6 und 9; A5 | mit `/to-model` auflösen |
-> | 7 | Das Kernproblem [A6] und die Ursache [A7] sind weiter nur Annahmen; Gäste hat niemand befragt. | Hinweis | `PROBLEM.md`, *Noch offen* | Gäste über die Einrichtungen befragen |
->
-> Schwellen standen vor den Ergebnissen (Git-Verlauf). Belegte Aussagen stimmen mit Notizen und Ergebnissen überein. Die meisten Felder von `MODEL.md` beruhen jetzt auf A37 (Freigabe, offen) und A42 (Geld, nur förderbar).
->
-> **Achse 2: Wirkung**
->
-> | # | Befund | Art | Beleg | Vorschlag |
-> |---|---|---|---|---|
-> | 8 | Das Modell dient der Vision: Zwei Einrichtungen ohne eigenes Abendessen haben an mindestens drei Abenden Essen angenommen. Ob es bei den Gästen ankommt, wisst ihr nicht. | Hinweis | A44; keine Daten zu Gästen | Gäste fragen oder Portionen zählen |
-> | 9 | Trägt es sich? Es fehlen: Kosten pro Monat, Höhe der nötigen Förderung, ob 5.000 € reichen. Wer zahlt, ist nicht belegt (Studierendenwerk widerlegt, Stiftung nur förderbar). | **blockierend** | A5, A42, A43, A48; offene Frage überfällig | Kosten schätzen, bevor ihr einen Antrag schreibt |
-> | 10 | Wer fährt? Die Tafel holt an 3 von 5 Tagen nicht selbst ab; ihr habt zusammen etwa 12 Stunden pro Woche. | **blockierend** | A36, A46; `DECISIONS.md` 2026-11-02 | Liefern als eigene Aktivität planen und testen, wer fährt |
-> | 11 | Das Kriterium für die Probewoche (3 von 4) ist nicht erfüllt. | Hinweis | Block 4, T2 | – |
-> | 12 | Nutzer:innen/Kund:innen: Das Studierendenwerk ist jetzt eher Partner (Freigabe, Verpackungen) als Kund:in; Kund:in wäre die Stiftung. Fall (b) bleibt. | Hinweis | A47, A48 | in `/to-model` in Block 2 und Feld 6 umstellen |
->
-> **Drei Wege**
->
-> - **Weiter testen** – steht nicht zur Wahl, ohne dass ihr erklärt, warum drei Widerlegungen nichts ändern.
-> - **Anpassen** – geht hier, weil es für jede widerlegte kritische Annahme eine engere Ersatz-Annahme gibt, die eure eigenen Tests stützen: A49 statt A35 (T2: beide Einrichtungen ohne Abendessen nahmen an); die Stiftung statt des Studierendenwerks als Geldgeber (T5); Liefern durch das Team an Tagen ohne Abholung (T3, so ist es in der Probewoche gelaufen). *Dafür:* Die Richtung trägt. *Dagegen:* Geld und Fahrten sind nicht gelöst, nur verschoben. → danach `/to-model`, dann `/to-tests`.
-> - **Neu ansetzen (Pivot)** – *Dafür:* Drei von fünf kritischen Annahmen sind gefallen. *Dagegen:* Für jede gibt es eine gestützte Ersatz-Annahme. → `/grill-solution`.
->
-> **Entscheidungen** (der Weg zuletzt)
->
-> **E1 – Stiftung (A42).** *Was und wo:* A42 ist belegt, aber T5 maß nur Förderbarkeit. *Warum wichtig:* Euer Modell hängt jetzt am Geld der Stiftung. *Einschränkung:* Antrag bis März. *Optionen:* (a) als Nächstes testen, ob der Antrag bewilligt wird *(Empfehlung)* – dann wisst ihr, ob Geld kommt; (b) A42 als ausreichend belegt ansehen – dann plant ihr mit Geld, das niemand zugesagt hat.
->
-> **E2 – Fahrten (A36 widerlegt).** *Was und wo:* Die Tafel holt nur an 2 von 5 Tagen selbst ab. *Warum wichtig:* Ohne Fahrten keine Wirkung; eure Zeit ist begrenzt. *Optionen:* (a) Ihr liefert an Tagen ohne Abholung und testet in der nächsten Runde, wer diese Fahrten dauerhaft übernimmt *(Empfehlung)*; (b) nur Einrichtungen beliefern, die selbst abholen – dann fällt die Tafel weg; (c) nur an Abholtagen – die Tafel bekäme an 3 von 5 Tagen nichts.
->
-> **E3 – Nutzer:innen.** *Was und wo:* Angenommen haben nur Einrichtungen ohne eigenes Abendessen (A44); abgelehnt hat das Jugendzentrum, das selbst kocht (A45). *Optionen:* (a) nächste Runde nur Einrichtungen wie in A49 *(Empfehlung)*; (b) weiter alle sozialen Einrichtungen.
->
-> **E4 – Weg.** (a) **Anpassen** *(Empfehlung)*; (b) Neu ansetzen; (c) Weiter testen – nur mit Begründung, warum die Widerlegungen nichts ändern.
+**Lena:** 1: Weiß ich nicht, haben wir nicht aufgeschrieben. 2: Machen wir im Januar, bis 15. Januar.
 
-**Lena:** E1 a. E2 a. E3 a. E4: Anpassen. Die Richtung stimmt, zwei Einrichtungen wollen es ja. Nur das Geld und das Fahren müssen anders.
+**Agent:** Reihenfolge der Schwellen: Laut Git-Verlauf stehen alle sechs Schwellen seit dem Commit vom 2026-11-28 in `TESTS.md`, vor den Ergebnissen. ✔
+Voraussetzungen: T1–T5 hatten keine; die Probewoche lief auf eure Entscheidung vor der Freigabe (T3) und ohne Kühl-Check (T6). Das hat das Ergebnis von T1 nicht verursacht, steht aber als Vorbehalt in der Quelle.
 
-*Agent trägt ein: vier Entscheidungen in `DECISIONS.md`, Block 11 (Weg, was sich ändert, was als Nächstes getestet wird), Block 8 (Stand der Checks), Offene Fragen (Kosten überfällig, neuer Termin), einen Eintrag in `SIGNALS.md` (Quelle *Review*). `MODEL.md` bleibt unverändert – das macht `/to-model`.*
+### Abschnitt 1 von 3 – vorgeschlagen *widerlegt* (einzeln zu bestätigen)
+
+| Annahme | bisher | Vorschlag | Beleg (Ergebnis gegen Schwelle) | Bedenken |
+|---|---|---|---|---|
+| A36 Einrichtungen mit Abendgästen nehmen regelmäßig an | Annahme | **widerlegt** | T1: 2 von 4 an ≥ 3 von 5 Tagen; Schwelle 3 von 4 | Das Jugendzentrum hat keine Abendgäste (A27) und war auf euren Wunsch dabei; „keine Antwort“ ist kein Nein; Probewoche vor der Freigabe |
+| A37 Einrichtungen holen selbst ab | Annahme | **widerlegt** | T2: Tafel 2 von 5 Tagen; Schwelle 2 Einrichtungen an 4 von 5 Tagen – mit nur zwei Zusagenden nicht mehr erreichbar | Tagesstätte nicht notiert (ändert das Ergebnis nicht) |
+| A5 Studierendenwerk zahlt | Annahme | **widerlegt** | T4: „Bezahlen können wir dafür aber nichts“ – Aussage der Organisation über sich selbst | ohne Betrag gefragt; ein Nein gilt trotzdem |
+
+**Lena:** 2 von 4 ist doch auch gut, können wir das nicht als belegt nehmen?
+
+**Agent:** Ich verstehe, dass es sich nach Erfolg anfühlt – zwei Einrichtungen haben wirklich angenommen. Aber die Schwelle „3 von 4“ habt ihr am 2026-11-28 festgelegt, *bevor* ihr getestet habt; genau dafür habt ihr die Karten committet. Senkt ihr sie jetzt, passt sie zufällig zum Ergebnis, und das Ergebnis ist nur noch ein Signal, kein Beleg. Was die zwei Zusagen zeigen, verliert ihr nicht: Es kommt als eigene, belegte Zeile ins Register (A45, Abschnitt 2). Ihr habt drei Möglichkeiten:
+- A36 *widerlegt* (Vorschlag, nach eurer Schwelle);
+- A36 bleibt *Annahme* und ihr testet neu, z. B. nur mit Einrichtungen mit Abendgästen – das wäre ein neuer Test mit neuer Schwelle, vorher festgelegt;
+- A36 *belegt* mit „2 von 4“ – das geht nicht, weil die Schwelle erst nach dem Ergebnis käme.
+
+**Lena:** Ok, verstehe. Die Schwelle haben wir ja selbst vorher festgelegt. Dann widerlegt. A36 widerlegt, A37 widerlegt, A5 widerlegt.
+
+### Abschnitt 2 von 3 – neue Zeilen, vorgeschlagen *belegt* (ohne Bedenken, kompakt)
+
+- **A45** In der Probewoche haben die Tafel-Ausgabestelle aus I1 und die Tagesstätte aus I2 an mindestens drei von fünf Tagen Mensa-Essen angenommen. (T1)
+- **A46** Die Tafel-Ausgabestelle aus I1 konnte nur an zwei von fünf Tagen selbst abholen; an den anderen Tagen hat das Team geliefert. (T2)
+- **A47** Eine der zwei angefragten Stiftungen fördert Ehrenamtsprojekte mit bis zu 5.000 €; Antrag bis März. (T5, Auskunft der Stiftung über sich selbst)
+
+**Lena:** A45, A46, A47 ja.
+
+### Abschnitt 3 von 3 – ohne Statusänderung
+
+| Was | Vorschlag |
+|---|---|
+| A35 Freigabe und Haftung | bleibt *Annahme*: „machen wir gern mit, wenn die Haftung geklärt ist“ ist eine Absicht unter Bedingung. T3 bleibt *läuft*, *Ausgewertet: teilweise*. |
+| A39 Stiftung fördert | bleibt *Annahme*: „förderfähig“ ist keine Zusage. T5 *läuft* (Antrag), *teilweise*. |
+| A48 neu: Studierendenwerk würde höchstens Verpackungen stellen | *Annahme* (Hinweis aus T4, keine Zusage) |
+| A27 Jugendzentrum | Quelle ergänzt: „T1: Probewoche abgelehnt („passt nicht zu uns“)“ |
+| A40 Team schafft Absprachen und Einspringen (nicht kritisch) | Quelle ergänzt: Hinweis aus T2 – das Team lieferte an 3 von 5 Tagen (A46). Kein Status. |
+| T6 | ohne Ergebnis, *geplant*, neu bis 2027-01-15 |
+| Problembaum | unter „Abholen ist schwierig [A17]“: „in der Probewoche nur an 2 von 5 Tagen selbst abgeholt [A46]“ |
+
+**Lena:** Passt.
+
+*(schreibt: Register, `TESTS.md` (Ergebnis, Status, Ausgewertet), Problembaum, `SIGNALS.md` (Test), Canvas Block 5, 6 (neuer Stand), 10; ⚠️-Zeilen für A36, A37, A5 in Block 2, 3, 6, 7, 9; `MODEL.md` bleibt unverändert; Entscheidung in `DECISIONS.md`)*
 
 ```
 $ python3 .claude/skills/evidence-checks/scripts/check_project.py
 OK      verweise      alle Verweise stehen im Register
-OK      status        49 Einträge mit gültigem Status und Quelle
-OK      kritische     1 offene kritische Annahmen haben eine Testkarte mit Schwelle
-OK      schwellen     5 Testkarten geprüft
+OK      status        48 Einträge mit gültigem Status und Quelle
+OK      kritische     3 offene kritische Annahmen haben eine Testkarte mit Schwelle
+OK      schwellen     6 Testkarten geprüft
 OK      eine-annahme  jede Karte prüft eine Annahme
-OFFEN   ergebnisse    läuft (Bedingung offen): T1
-OFFEN   widerlegt     widerlegte oder ersetzte Annahmen in MODEL.md: A35, A36, A5 – prüfen, ob das Feld noch darauf aufbaut
+OFFEN   reihenfolge   Ergebnis, obwohl die Voraussetzung noch nicht abgeschlossen ist: T1 (vor T3), T1 (vor T6), T1 (vor T3), T1 (vor T6), T4 (vor T3) – Vorbehalt in der Quelle nennen (/log-evidence)
+OFFEN   ergebnisse    läuft (Bedingung offen): T3, T5
+OFFEN   widerlegt     widerlegte oder ersetzte Annahmen in MODEL.md: A36, A37, A5 – prüfen, ob das Feld noch darauf aufbaut
 OK      interviews    4 von mindestens 3 Interviews ausgewertet (4 notiert)
 ```
 
-**Agent:**
-> Der Weg steht. Ich schlage vor zu committen, dann `/model-retro` – und danach `/to-model`, das zum Weg „Anpassen“ gehört.
+**Agent:** Keine FEHLER.
+- *reihenfolge*: Für T1 stimmt der Hinweis – die Probewoche lief vor T3 und T6; der Vorbehalt steht in der Quelle von A36. Für T4 ist es ein Fehlalarm: Im Feld *Voraussetzung* steht „keine (gleiches Gespräch wie T3)“, und das Skript liest jede T-Nummer im Feld als Voraussetzung. T1 erscheint doppelt aus demselben Grund. Ich ändere die Karten nach dem Test nicht; das notiere ich für die Retro.
+- *widerlegt*: `MODEL.md` baut noch auf A36, A37, A5 – das klärt `/review-model` mit euch.
+- *ergebnisse*: T3 und T5 laufen. (Mit dem heutigen Datum des Projekts wäre T6 ohne neues Datum überfällig gewesen; es steht jetzt auf 2027-01-15.)
 
-*Commit `12 · review-model · Zwei-Achsen-Review, Weg: Anpassen`.*
+Schlage vor zu committen, dann `/review-model`.
+
+→ Commit `11 · log-evidence · Testergebnisse T1–T5 ausgewertet, A36 A37 A5 widerlegt, Schwelle nicht nachträglich gesenkt`
 
 ---
 
-## 13 · `/model-retro` (2026-11-23)
+## 12 · `/review-model` (2026-12-20)
 
-**Lena:** /model-retro
+**Lena:** `/review-model`
 
-*Agent liest `SIGNALS.md`, `DECISIONS.md`, `CANVAS.md`, `ASSUMPTIONS.md`, `TESTS.md` und die Einträge des Reviews; lädt `assumptions` und `evidence-checks`; sieht sich `git log` und die Check-Ausgabe an.*
+**Agent:** *(liest alle Projektdateien und die letzten Einträge in `SIGNALS.md`; lädt `evidence-checks` und `assumptions`; führt die zwei Achsen nacheinander aus, nicht als eigene Sub-Agenten)*
+Blockierend heißt: Das solltet ihr klären, bevor ihr darauf weiterbaut – es heißt nicht, dass ihr aufhören müsst.
 
-**Agent:**
-> Wir machen aus dem, was passiert ist, die nächste Runde besser – für euer Projekt und für das Skillset. Eine Runde Fragen:
+### Achse 1: Beleg
+
+`check_project.py`: keine FEHLER (OFFEN: *reihenfolge*, *ergebnisse*, *widerlegt*).
+
+| # | Befund | Beleg | Vorschlag |
+|---|---|---|---|
+| B1 | **blockierend** – `MODEL.md` baut auf drei widerlegten kritischen Annahmen: Lösung und Aktivitäten auf A37, Lösung und Kund:innengruppen auf A36, Kund:innengruppen und Einnahmen auf A5. | Register; Check *widerlegt*; Block 2, 3, 7 mit ⚠️ | Weg wählen (unten), dann `/to-model` |
+| B2 | **blockierend** – Freigabe [A35] offen: „machen wir gern mit, wenn die Haftung geklärt ist“ ist eine Absicht unter Bedingung. Ohne sie gibt es kein Essen. | T3 *läuft* | Haftungsfrage aktiv klären (F2) |
+| B3 | Hinweis – Die Probewoche lief vor T3 und ohne T6, auf eure Entscheidung; Vorbehalt steht in A36. Der Check meldet zusätzlich T4 – ein Fehlalarm (T-Nummer im Text von *Voraussetzung*). | Check *reihenfolge*; `DECISIONS.md` 2026-11-28 | für die Retro |
+| B4 | Hinweis – Messlücke in T2: Abholtage der Tagesstätte nicht notiert. | `TESTS.md` T2 | für die Retro |
+| B5 | Hinweis – [A38] kritisch, T6 nicht gemacht (neu bis 2027-01-15). | `TESTS.md` T6 | so lassen |
+
+Stand: kritisch **belegt** – keine; **widerlegt** – A36, A37, A5; **offen** – A35, A38, A39. Die meisten Felder von `MODEL.md` beruhen auf A36, A37 und A40.
+
+### Achse 2: Wirkung
+
+| # | Befund | Beleg | Vorschlag |
+|---|---|---|---|
+| W1 | **blockierend** – Trägt es sich? Niemand zahlt belegt: A5 widerlegt; A39 offen (A47: förderfähig bis 5.000 €, Antrag bis März). Ob das die Kosten deckt, kann ich nicht sagen: Es fehlen die Kosten pro Woche (offene Frage, Ahmet, war bis 2026-12-11) und ein Förderbetrag. | Register, Block 7, *Offene Fragen* | Weg wählen (F4) |
+| W2 | **blockierend** – Wer fährt? A37 widerlegt; das Team lieferte an 3 von 5 Tagen [A46]. [A40] (schafft das Team das) ist nicht kritisch und wurde nicht gemessen, [A44] (foodsharing fährt) ist ungetestet. | `DECISIONS.md` 2026-11-26, Register | F3 |
+| W3 | Hinweis – Wirkung bei den Gästen ist nicht gemessen: T1 zählt „angenommen“, nicht, ob abends etwas Warmes gegessen wurde. Block 4 („an drei Abenden etwas Warmes auf dem Tisch“) ist damit für eine Woche vielleicht erfüllt – wissen könnt ihr es nicht. | Block 4, T1 | beim nächsten Test mitzählen |
+| W4 | Hinweis – Ob die Tafel-Ausgabestelle abends Gäste hat, wisst ihr nicht; ihr bekannt ist eine Ausgabe zweimal pro Woche [A16]. A45 ist deshalb nur bedingt die Gruppe aus A36. | A16, A45 | F1 |
+| W5 | Hinweis – Vision und Zielgruppe passen noch zu Block 1 und `PROBLEM.md`; Nutzer:innen, Kund:innen und Fall in Block 2 stimmen mit `MODEL.md` überein, außer dass A5 widerlegt ist. | Block 1, 2, `MODEL.md` | – |
+
+### Drei Wege
+
+- **Weiter testen** – steht nicht zur Wahl: Drei Annahmen sind widerlegt, und ihr müsstet erklären, warum das nichts ändert.
+- **Anpassen** – für A36 gibt es eine engere, gestützte Ersatz-Annahme (A45: Tafel-Ausgabestelle und Tagesstätte nahmen an), für das Fahren eine Beobachtung (A46). Für A5 (wer zahlt) **nicht**: A47 zeigt nur, dass eine Stiftung fördern *kann*. Damit ist „Anpassen“ nach der Regel des Reviews kein Weg, solange „wer zahlt“ offen ist.
+- **Neu ansetzen (Pivot)** – bei „wer zahlt“: Problem, Vision und die zwei Einrichtungen bleiben; mit `/grill-solution` klärt ihr Kund:innen und Einnahmen neu (z. B. Förderung, Sachleistungen wie Verpackungen [A48], Ehrenamt). Dagegen: noch eine Runde, bevor wieder getestet wird.
+
+### Entscheidungen
+
+> ❓ **F1** – **Zielgruppe nach T1** (A36 widerlegt, A45 belegt; W4)
+> – **(Empfehlung)** Mit Tafel-Ausgabestelle und Tagesstätte weiter; klären, ob die Tafel abends Gäste hat. Folge: kleine, gestützte Gruppe.
+> – Neue Einrichtungen mit Abendgästen suchen, T1 wiederholen. Folge: mehr Aufwand, vielleicht breitere Gruppe.
+> – Beides.
 >
+> ❓ **F2** – **Freigabe** (B2)
+> – **(Empfehlung)** Beim Studierendenwerk nachfragen, welche Haftungsregel es braucht; T3 läuft weiter. Wer, bis wann?
+> – Abwarten.
+>
+> ❓ **F3** – **Wer fährt?** (W2; A40 hattet ihr am 2026-11-26 nicht als kritisch markiert)
+> – **(Empfehlung)** A40 jetzt als kritisch markieren und im nächsten Test messen (Stunden, Fahrten); foodsharing als Fahrer:innen [A44] mit testen.
+> – Das Team fährt weiter, ohne Test.
+> – Die Einrichtungen bitten, öfter selbst abzuholen.
+>
+> ❓ **F4** – **Weg**
+> – **(Empfehlung)** Neu ansetzen bei „wer zahlt“ → `/grill-solution`, dann `/to-model`, `/to-tests`.
+> – Anpassen – nur, wenn ihr eine gestützte Ersatz-Annahme für A5 nennt.
+> – Ganz neu beim Problem → `/grill-problem` (das Problem selbst ist nicht widerlegt).
+
+**Lena:** F1: Mit den beiden weiter. F2: Ahmet fragt nach, was die genau brauchen, bis Mitte Januar. F3: Ok, das mit der Zeit hätten wir doch testen sollen. Wir sind dreimal gefahren, das war echt viel. Also ja, A40 kritisch. F4: Ok, dann neu ansetzen bei der Frage, wer zahlt. Die Einrichtungen bleiben.
+
+**Agent:** *(trägt ein: vier Einträge in `DECISIONS.md`; A40 *Kritisch: ja*; Block 6 aktualisiert; Block 8 Stand der Checks; Block 11 Weg und nächste Schritte; `SIGNALS.md` Eintrag *Review*; `MODEL.md` bleibt unverändert)*
+
+```
+$ python3 .claude/skills/evidence-checks/scripts/check_project.py
+OK      verweise      alle Verweise stehen im Register
+OK      status        48 Einträge mit gültigem Status und Quelle
+OFFEN   kritische     A40: keine Testkarte
+OK      schwellen     6 Testkarten geprüft
+OK      eine-annahme  jede Karte prüft eine Annahme
+OFFEN   reihenfolge   Ergebnis, obwohl die Voraussetzung noch nicht abgeschlossen ist: T1 (vor T3), T1 (vor T6), T1 (vor T3), T1 (vor T6), T4 (vor T3) – Vorbehalt in der Quelle nennen (/log-evidence)
+OFFEN   ergebnisse    läuft (Bedingung offen): T3, T5
+OFFEN   widerlegt     widerlegte oder ersetzte Annahmen in MODEL.md: A36, A37, A5 – prüfen, ob das Feld noch darauf aufbaut
+OK      interviews    4 von mindestens 3 Interviews ausgewertet (4 notiert)
+```
+
+Der Weg ist entschieden. Schlage vor zu committen, dann `/model-retro`, danach `/grill-solution`.
+
+→ Commit `12 · review-model · Zwei-Achsen-Review, Weg: neu ansetzen bei „Wer zahlt?“, A40 jetzt kritisch`
+
+---
+
+## 13 · `/model-retro` (2026-12-21)
+
+**Lena:** `/model-retro`
+
+**Agent:** *(liest `SIGNALS.md`, `DECISIONS.md`, `CANVAS.md`, `ASSUMPTIONS.md`, `TESTS.md` und die Einträge von `/review-model`; lädt `assumptions` und `evidence-checks`)*
+
+### 1. Signale sammeln – eine Runde
+
 > 1. Was lief anders als geplant?
 > 2. Was hat euch überrascht?
 > 3. Wo habt ihr festgesteckt?
-> 4. Welche Entscheidung hat sich im Nachhinein als voreilig erwiesen?
-> 5. Wo habe ich etwas getan oder vorgeschlagen, das nicht gepasst hat?
+> 4. Welche Entscheidung war im Nachhinein voreilig?
+> 5. Wo hat der Agent etwas getan oder vorgeschlagen, das nicht gepasst hat?
 
-**Lena:** 1. Die Tafel konnte nicht abholen, wir sind dreimal gefahren, das hat viel Zeit gekostet. 2. Dass das Studierendenwerk nichts zahlt, obwohl die das gut finden. 3. Bei den Kosten, Ahmet kam nicht dazu. 4. Dass wir der Tagesstätte die Idee erzählt haben. Und die Probewoche vor der Haftung. 5. Das Angebot mit Preis ging nicht, wir hatten ja keinen Preis. Und die Tabellen bei log-evidence waren ganz schön lang.
+**Lena:** 1: Wir mussten dreimal zur Tafel fahren. Das war echt viel. 2: Dass das Studierendenwerk die Idee gut findet, aber nichts zahlt. 3: Bei der Schwelle. 2 von 4 hat sich wie ein Erfolg angefühlt. 4: Das Jugendzentrum zu fragen. Die hatten im Interview ja schon gesagt, dass es nicht passt. 5: Eigentlich nichts. Die sechs Testkarten waren viel auf einmal.
 
-**Agent:**
-> Danke. Dazu kommt, was ich selbst nachsehen kann: die Check-Ausgabe (T1 läuft, widerlegte Annahmen im Modell), der Git-Verlauf (Karten am 02.11. vor den Ergebnissen am 16.11. – das hat funktioniert) und die Signale aus `SIGNALS.md`. Zu jedem Signal zuerst die Ursache – und die Frage, **warum kein Check es gefunden hat**:
->
-> | Signal | Ursache | Warum hat kein Check es gefunden? |
-> |---|---|---|
-> | Probewoche vor der Freigabe (T2/T3 vor T1) | Ein „gern, wenn …“ wurde als Startsignal gelesen | `check_project.py` prüft nur, ob es die Voraussetzung **gibt**, nicht, ob sie **bestanden** ist, bevor ein Ergebnis kommt |
-> | A42 „Stiftung fördert“ belegt, obwohl nichts zugesagt ist | Die Schwelle von T5 maß Förderbarkeit, nicht das, was A42 sagt | `/to-tests` hat die niedrige Schwelle genannt, aber kein Check vergleicht Schwelle und Wortlaut der Annahme – das kann nur ein Mensch |
-> | Pitch in I2 | Gegen den Leitfaden; die Begeisterung im Gespräch | Gefunden – aber erst beim Auswerten, also nachdem die Antwort schon verbraucht war |
-> | Frage A-3 (warum es abends so ist) nie beantwortet | Nicht gestellt oder nicht notiert | Kein Check vergleicht Leitfragen und Notizen; `/log-evidence` hat es nur zufällig bemerkt |
-> | Tagesstätte in T3 ohne Zahl | Keine Liste pro Tag und Einrichtung | Die Messgröße steht auf der Karte, aber niemand hatte ein Blatt dafür |
-> | Kosten fehlen (fällig 13.11.) | Keine Zeit; niemand hat nachgehalten | `check_project.py` liest die Offenen Fragen nicht |
-> | Mein Vorschlag „Angebot mit Preis“ | Ich habe einen Test vorgeschlagen, für den eine Zahl fehlte, die selbst noch offene Frage war | `/to-tests` hat keine Prüfung dafür |
-> | Wunsch, die Schwelle zu senken | Ihr wolltet ein Erfolgserlebnis – verständlich | Die Regel „nie einen Check lockern“ hat gegriffen – hier ist nichts zu tun |
->
-> **Vorschläge** (nummeriert, mit Beleg und Empfehlung):
->
-> *Jetzt korrigieren*
-> 1. **A42** sagt „Eine Stiftung fördert das Projekt“, T5 zeigt nur, dass sie fördern **kann**. ➡️ A42 zurück auf *Annahme*, Quelle „ersetzt durch A48; Bewilligung offen“. (Beleg: T5, A48.) Das weicht vom Review ab, wo A42 mit Vorbehalt belegt blieb.
->
-> *Checks für euer Projekt (Block 8, durch das Team)*
-> 2. Vor jedem Interview *Nicht fragen* vorlesen; danach jede Leitfrage abhaken oder als „nicht gestellt“ notieren. (I2, A-3)
-> 3. Strichliste pro Tag und Einrichtung bei jeder Probe. (T3)
-> 4. Ein Test startet erst, wenn seine Voraussetzung abgeschlossen ist – sonst bewusst entscheiden und festhalten. (T1/T2)
-> 5. Eine Schwelle misst, was die Annahme sagt. (T5)
-> 6. Offene Fragen mit Termin bei jedem `/ask-model` durchgehen. (Kosten)
->
-> *Canvas und Modell*
-> 7. Block 2, Block 7 und `MODEL.md` (Felder 3, 4, 6, 9) bauen auf widerlegten Annahmen – das ist schon als nächster Schritt `/to-model` entschieden; hier keine zusätzliche Änderung.
->
-> *Skill-Regeln* (in `SKILL-PROPOSALS.md`, jeweils ein Satz und das Diff)
-> 8. **Check `reihenfolge` in `check_project.py`:** meldet ein Ergebnis auf einer Karte, deren Voraussetzung noch nicht abgeschlossen ist. Hätte die Probewoche am 16.11. automatisch markiert. *(Lieber ein Check als eine Regel.)*
-> 9. **`to-tests`:** Ein Angebot mit Preis nur vorschlagen, wenn Preis oder Kosten keine offene Frage mehr sind.
-> 10. **`to-interview-guide`:** In der Notizvorlage eine eigene Zeile „nach Vorstellung der Idee: …“, damit Feedback getrennt bleibt.
->
-> Ihr müsst die Diffs nicht verstehen; der Satz reicht für die Entscheidung. Welche übernehmt ihr?
+**Agent:** Dazu ergänze ich, was ich selbst sehe: die Messlücke in T2 (Tagesstätte), T6 ohne Platz für „nicht gemacht“, den Fehlalarm des Checks *reihenfolge* bei T4, und dass die Wirkung bei den Gästen nicht gemessen wurde.
 
-**Lena:** 1 ja – stimmt, die haben ja noch nichts zugesagt. 2 bis 6 ja. 7 ok. 8 und 9 ja. 10 nein: Das mit dem Pitch war unser Fehler, nicht der vom Skill. Im Leitfaden stand ja, dass wir die Idee nicht erzählen sollen.
+### 2. Jedes Signal erklärt
 
-**Agent:**
-> Verstanden – Nummer 10 lasse ich weg; dafür steht euer eigener Check (Nr. 2) in Block 8. Ich habe den Check aus Nr. 8 an einer Kopie des Skripts gegen euer Projekt laufen lassen; er meldet:
->
-> ```
-> OFFEN   reihenfolge   Ergebnis, obwohl die Voraussetzung noch nicht abgeschlossen ist: T2 (vor T1), T3 (vor T1) – Vorbehalt in der Quelle nennen (/log-evidence)
-> ```
->
-> Die installierten Skills ändere ich nicht; die Vorschläge stehen in `SKILL-PROPOSALS.md`. Wenn ihr wollt, reicht die Datei als Issue im Repository des Skillsets ein (https://github.com/opencampus-sh/agentic-business-model-canvas) – sie enthält nichts aus eurem Projekt.
+| Signal | Ursache | Warum hat kein Check es gefunden? |
+|---|---|---|
+| Team fuhr an 3 von 5 Tagen [A46] | A37 trug die Lösung, obwohl I1 Abholen als Problem nannte [A17]; A40 (eure Zeit) habt ihr nicht als kritisch markiert. | Kein Check verlangt, die Arbeit des Teams mitzuzählen. |
+| Studierendenwerk zahlt nicht [A5] | A5 kam aus dem Notion-Export und war bis zum Test ungeprüft. | Der Test hat es gefunden – so soll es sein. |
+| Schwelle senken wollen | Zwei Zusagen fühlten sich nach Erfolg an. | Die Regel hat gegriffen (Karten vorher committet). |
+| Jugendzentrum in T1 | Ich hatte es gemeldet; ihr habt anders entschieden. | Der Review-Check hat gegriffen; die Entscheidung lag bei euch. |
+| T2: Tagesstätte nicht notiert | Keine Liste für die Messgröße während der Woche. | Fällt erst beim Auswerten auf. |
+| T6 nicht gemacht | Die Karte kennt keinen solchen Status. | Das Skript meldet sie erst, wenn sie überfällig ist. |
+| Fehlalarm *reihenfolge* (T4, T1 doppelt) | Das Skript liest jede T-Nummer im Feld *Voraussetzung*. | – (der Check selbst ist ungenau) |
+| Wirkung bei Gästen nicht gemessen | T1 zählt „angenommen“, nicht „abends gegessen“. | Kein Check fragt nach der Wirkung bei den Betroffenen. |
+| Sechs Karten auf einmal | sechs kritische Annahmen | – |
 
-**Lena:** Ok, das macht Jule später.
+### 3. Vorschläge
 
-*Agent wendet an: A42 im Register; Block 8 (fünf eigene Checks), Block 11 (Retro-Ergebnis, nächste Runde) und Block 6 im Canvas; Status bei jedem Signal in `SIGNALS.md` plus vier neue Signale; `SKILL-PROPOSALS.md`; Entscheidung in `DECISIONS.md` (inkl. abgelehntem Vorschlag Nr. 10).*
+1. **Jetzt korrigieren:** Status der alten Signale setzen (2026-10-23 ×2, 2026-12-19, 2026-12-20); Kostenfrage in *Offene Fragen* ist seit 2026-12-11 überfällig – neues Datum? *(Empfehlung: übernehmen)*
+2. **Check (durch das Team, Block 8):** *Team-Zeit mitzählen* – in jedem Probelauf zählt ihr, wie oft ihr fahrt und wie viele Stunden es braucht. *(Empfehlung)*
+3. **Check (durch das Team, Block 8):** *Strichliste je Messgröße* – vor dem Test steht in der Karte eine leere Liste je Messgröße und Einrichtung. *(Empfehlung)*
+4. **Check (durch das Team, Block 8):** *Wirkung mitzählen* – jeder Probelauf zählt, an wie vielen Abenden das Essen bei den Gästen ankam. *(Empfehlung)*
+5. **Canvas und Modell:** Block 2, 3, 7 und `MODEL.md` bauen auf A36, A37, A5 – das ändert die nächste Runde (`/grill-solution`, `/to-model`), nicht die Retro.
+6. **Skill-Regel 1 (`check_project.py`):** Ein Feld *Voraussetzung*, das mit „keine“ beginnt, ist keine Voraussetzung; jede Karte nur einmal melden. *(Empfehlung)*
+7. **Skill-Regel 2 (Vorlage `TESTS.md`, `/log-evidence`):** Status „nicht durchgeführt (mit Grund)“; `/log-evidence` fragt nach Grund und neuem Datum. *(Empfehlung)*
+8. **Skill-Regel 3 (`/to-tests`):** Behält das Team Teilnehmende, die nicht zur Gruppe der Annahme gehören, zählt die Schwelle nur die passenden. *(Vorschlag; die Entscheidung von 2026-11-28 bleibt eure.)*
+
+Jede Skill-Regel kommt mit einem Satz in einfacher Sprache und dem Diff in `SKILL-PROPOSALS.md`; ihr könnt sie als Issue im Repository des Skillsets einreichen, ohne Inhalte eures Projekts. Das Diff müsst ihr nicht verstehen – der Satz reicht.
+
+**Lena:** 1 ja, Kosten macht Ahmet bis 15. Januar. 2, 3, 4 ja – die Liste hätte uns echt geholfen. 5 ok. 6 und 7 ja, Jule reicht das ein. 8 nicht – das war unser Fehler, nicht der vom Skill. Du hattest es ja gesagt.
+
+### 4. Anwenden
+
+*(schreibt: neun Signale vom 2026-12-21 und den Status aller Signale in `SIGNALS.md`; Block 8 drei Projekt-Checks; Block 11 Retro und nächste Runde; Kostenfrage neu bis 2027-01-15; `SKILL-PROPOSALS.md` mit Vorschlägen 1 und 2 (Diffs mit `git apply --check` geprüft); Entscheidung in `DECISIONS.md`)*
 
 ```
 $ python3 .claude/skills/evidence-checks/scripts/check_project.py
 OK      verweise      alle Verweise stehen im Register
-OK      status        49 Einträge mit gültigem Status und Quelle
-OK      kritische     2 offene kritische Annahmen haben eine Testkarte mit Schwelle
-OK      schwellen     5 Testkarten geprüft
+OK      status        48 Einträge mit gültigem Status und Quelle
+OFFEN   kritische     A40: keine Testkarte
+OK      schwellen     6 Testkarten geprüft
 OK      eine-annahme  jede Karte prüft eine Annahme
-OFFEN   ergebnisse    läuft (Bedingung offen): T1
-OFFEN   widerlegt     widerlegte oder ersetzte Annahmen in MODEL.md: A35, A36, A42, A5 – prüfen, ob das Feld noch darauf aufbaut
+OFFEN   reihenfolge   Ergebnis, obwohl die Voraussetzung noch nicht abgeschlossen ist: T1 (vor T3), T1 (vor T6), T1 (vor T3), T1 (vor T6), T4 (vor T3) – Vorbehalt in der Quelle nennen (/log-evidence)
+OFFEN   ergebnisse    läuft (Bedingung offen): T3, T5
+OFFEN   widerlegt     widerlegte oder ersetzte Annahmen in MODEL.md: A36, A37, A5 – prüfen, ob das Feld noch darauf aufbaut
 OK      interviews    4 von mindestens 3 Interviews ausgewertet (4 notiert)
 ```
 
-**Agent:**
-> Keine Fehler. Ich schlage vor zu committen. Als Nächstes – wie `/ask-model` es täte: zuerst die Kosten (Ahmet, bis 27.11.), dann `/to-model`, um das Modell an den Weg „Anpassen“ anzupassen, danach `/to-tests` für die nächste Runde.
+Keine FEHLER; jedes Signal hat einen Status. Schlage vor zu committen. Nächster Schritt, wie `/ask-model` ihn empfehlen würde: Block 11 nennt „neu ansetzen bei *Wer zahlt?*“ → **`/grill-solution`**.
 
-*Commit `13 · model-retro · A42 korrigiert, fünf eigene Checks, zwei Vorschläge fürs Skillset`.*
+→ Commit `13 · model-retro · Signale erklärt, drei Checks für das Projekt, zwei Vorschläge für das Skillset`
 
 ---
 
-## Entscheidungen im Überblick (Lenas Ablehnungen und Lehrmomente)
+## Entscheidungen im Überblick (Lenas Ablehnungen und Lehrmomente, Schritte 8–13)
 
-| Wo | Moment |
-|---|---|
-| `/setup-model` | Bisherige Ergebnisse werden nur als *Annahme* übernommen; fast gleiche Aussagen werden eine Zeile. |
-| `/grill-problem` | Kernproblem: das fehlende warme Abendessen, nicht die Verschwendung. Warum-Kette endet nach einem Schritt mit „Weiß ich nicht“ → *Noch offen*. |
-| `/to-interview-guide` | „Würdet ihr das Essen abgeben?“ wird zu „Hat schon mal jemand gefragt …?“ umformuliert. |
-| `/log-evidence` (1) | Pitch in I2 erkannt: „Ja klar, sofort“ ist Feedback, kein Beleg. A1 („viel weggeworfen“) wird ersetzt statt verbogen. **Lena lehnt** einen *belegt*-Vorschlag (Snacks im Jugendzentrum) ab. |
-| `/grill-solution` | „Kannst du das Canvas nicht einfach für uns ausfüllen?“ – Agent lehnt in einem Satz ab und bietet Ordnen an. Nutzer:innen vs. Kund:innen geklärt. |
-| `/to-model` | „Ist ja nicht viel“ wird offene Frage, keine Zahl. |
-| `/to-tests` | Schwelle „3 von 4“ vom ganzen Team bestätigt. **Lena lehnt** das empfohlene Preisangebot ab (kein Preis, keine Freigabe). |
-| `/log-evidence` (2) | „2 von 4 ist doch auch gut …?“ – die Schwelle bleibt; daraus wird die engere Annahme A49. |
-| `/review-model` | Anpassen nur, weil jede widerlegte kritische Annahme eine durch eigene Tests gestützte Ersatz-Annahme hat. |
-| `/model-retro` | A42 wird zurückgestuft. **Lena lehnt** Skill-Vorschlag Nr. 10 ab („unser Fehler, nicht der vom Skill“). |
+| # | Skill | Zitat | Warum es zählt |
+|---|---|---|---|
+| 1 | /grill-solution | Lena: „Kannst du das Canvas nicht einfach für uns ausfüllen?“ – Agent: „Das mache ich nicht: Es entstünden lauter Sätze, die wie Wissen aussehen, aber nur meine Annahmen über eure Idee sind.“ | Der häufigste Weg, wie ungeprüfte Annahmen ins Canvas kommen. Das Team schreibt danach die Lösung in eigenen Worten. |
+| 2 | /grill-solution | Lena: „Regelmäßig heißt … dreimal die Woche? Das muss ich noch mit Ahmet und Jule klären.“ – Agent schreibt die Zahl als Vorschlag und offene Frage, nicht als Kriterium. | Erfolgskriterien sind Entscheidungen des ganzen Teams; eine halb gesagte Zahl ist noch keine. In /to-tests wird sie ausdrücklich bestätigt. |
+| 3 | /grill-solution | Agent: „Die Einrichtungen holen ab – I1 sagt allerdings ‚Abholen ist unser Problem‘ [A17].“ | Der Agent bewertet die Idee nicht, zeigt aber, worauf sie beruht. Genau diese Annahme (A37) wird später widerlegt. |
+| 4 | /to-model | Lena: „A40 nicht – ob wir Zeit haben, wissen wir doch selbst. Das müssen wir nicht testen.“ | **Abgelehnte Empfehlung.** Das Team entscheidet, was kritisch ist – auch gegen den Agenten. Nach der Probewoche (Team fuhr 3 von 5 Tagen) markiert das Team A40 selbst als kritisch. |
+| 5 | /to-tests | Lena: „Das Jugendzentrum fragen wir trotzdem. Die kennen uns schon, und vielleicht sagen sie ja doch ja, wenn sie es mal probieren können.“ | **Abgelehnte Empfehlung**, mit einem Grund, der für Einsteiger:innen natürlich klingt. Die Folge ist vorher benannt („dann müssen alle drei anderen zusagen“) und tritt ein. In der Retro: „Das war unser Fehler, nicht der vom Skill.“ |
+| 6 | /to-tests | Lena: „Die Freigabe dauert bestimmt Wochen, dann sind wir im Januar noch nicht weiter. Wir machen die Probewoche gleichzeitig.“ | **Abgelehnte Empfehlung** (Reihenfolge). Der Agent hält fest, was das Ergebnis dann *nicht* zeigt; der Vorbehalt landet in der Quelle von A36. |
+| 7 | /to-tests | Agent: „Bitte committet die Karten jetzt, bevor ihr testet.“ | Der Git-Verlauf beweist später, dass die Schwelle vor dem Ergebnis feststand. |
+| 8 | /log-evidence | Lena: „2 von 4 ist doch auch gut, können wir das nicht als belegt nehmen?“ – Agent: „Senkt ihr sie jetzt, passt sie zufällig zum Ergebnis, und das Ergebnis ist nur noch ein Signal, kein Beleg.“ | Kern von Einheit 5: nie einen Check lockern, damit er besteht. Was die zwei Zusagen zeigen, geht nicht verloren (A45). |
+| 9 | /log-evidence | T4: „Bezahlen können wir dafür aber nichts“ → A5 *widerlegt*, obwohl ohne Betrag gefragt; „machen wir gern mit, wenn …“ → A35 bleibt *Annahme*. | Aussagen über sich selbst zählen; Absichten unter Bedingungen nicht. Asymmetrie: Ein Nein gilt auch ohne Preis. |
+| 10 | /log-evidence | Lena: „Weiß ich nicht, haben wir nicht aufgeschrieben.“ (Abholtage der Tagesstätte) | Ehrliche Lücke statt nachträglicher Schätzung; wird in der Retro zum Check *Strichliste je Messgröße*. |
+| 11 | /review-model | Agent: „Für A5 gibt es keine gestützte Ersatz-Annahme – A47 zeigt nur, dass eine Stiftung fördern *kann*. Damit ist ‚Anpassen‘ kein Weg.“ | Pivot heißt nicht alles wegwerfen: neu ansetzen nur bei „Wer zahlt?“, Problem und Einrichtungen bleiben. |
+| 12 | /review-model | Lena: „Ok, das mit der Zeit hätten wir doch testen sollen. Wir sind dreimal gefahren, das war echt viel.“ | Die abgelehnte Empfehlung aus /to-model kommt zurück – nicht als Vorwurf, sondern als Entscheidung des Teams mit neuem Wissen. |
+| 13 | /model-retro | Agent: „Warum hat kein Check es gefunden?“ – drei Projekt-Checks (Team-Zeit, Strichliste, Wirkung) und zwei Skill-Vorschläge. | Aus Überraschungen werden Checks; aus einer Ungenauigkeit des Skripts ein Vorschlag fürs Skillset. |

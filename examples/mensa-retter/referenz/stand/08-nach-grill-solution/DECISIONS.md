@@ -12,52 +12,44 @@ Ein Eintrag pro Entscheidung, die neueste oben. Das Team entscheidet; der Agent 
 - **Canvas:** betroffene Blöcke
 -->
 
-## 2026-10-28: Kritische Annahmen
+## 2026-11-24: Kritische Annahmen
 
-- **Kontext:** `/grill-solution`, letzte Runde. Der Agent schlug vier Annahmen als kritisch vor, mit Begründung.
-- **Entscheidung:** Kritisch sind A35 (Einrichtungen nehmen an), A37 (Freigabe durch das Studierendenwerk), A36 (Einrichtungen holen selbst ab) und A5 (Studierendenwerk zahlt).
-- **Begründung:** Ohne Abnehmer, ohne Freigabe oder ohne Geld fällt die Idee; ohne Selbstabholung schafft das Team die Fahrten nicht („Wir haben jede:r nur ein paar Stunden pro Woche.“ – Lena). A30 (Kühlkette) ist eine Bedingung, die mit A36 und A37 mitgetestet wird.
-- **Alternativen:** A30 zusätzlich als kritisch (verworfen, s. o.).
+- **Kontext:** `/grill-solution`, letzte Runde. Der Agent schlug vier Annahmen als kritisch vor, jeweils mit Begründung.
+- **Entscheidung:** Kritisch sind [A36] (Einrichtungen nehmen regelmäßig an), [A35] (Freigabe und Haftung), [A37] (Einrichtungen holen selbst ab) und [A5] (Studierendenwerk zahlt).
+- **Begründung:** Vorschlag des Agenten, vom Team übernommen („ok, passt, die vier“, Lena). Auf A36 baut alles auf; ohne A35 gibt es kein Essen; A37 trägt die Lösung („springen nur ein“), und I1 sagt, Abholen ist dort das Problem (A17); ohne A5 oder eine andere Quelle zahlt niemand.
+- **Alternativen:** [A39] (Stiftung) statt [A5] als kritisch; [A38] (Kühlen) zusätzlich – das Team ließ beide vorerst offen.
 - **Canvas:** 6
 
-## 2026-10-28: Lösungs-Hypothesen
-
-- **Kontext:** `/grill-solution`.
-- **Entscheidung:** A35, A36, A37, A5 und A30 sind die Lösungs-Hypothesen.
-- **Begründung:** Formulierung vom Agenten vorgeschlagen, vom Team übernommen.
-- **Alternativen:** –
-- **Canvas:** 3
-
-## 2026-10-28: Erfolgskriterien (ohne Zahlen)
+## 2026-11-24: Erfolgskriterien
 
 - **Kontext:** `/grill-solution`, Block 4.
-- **Entscheidung:** Erfolg heißt: Einrichtungen, die abends Gäste haben, bekommen regelmäßig abends etwas Warmes. Das Modell trägt, wenn die Mensa mitmacht, die Abholung klappt und jemand die Kosten trägt. Zahlen (wie viele Einrichtungen, wie oft) sind noch offen.
-- **Begründung:** „Das müssen wir im Team besprechen.“ (Lena)
-- **Alternativen:** –
+- **Entscheidung:** Das Problem wird kleiner, wenn in mindestens zwei Einrichtungen abends regelmäßig etwas Warmes auf dem Tisch steht. Das Modell trägt, wenn die Mensa mitmacht und jemand anderes als die Einrichtungen Verpackung und Fahrten bezahlt. Wie oft „regelmäßig“ ist, ist offen (Vorschlag Lena: drei Abende pro Woche; mit Ahmet und Jule zu klären).
+- **Begründung:** Eigene Worte des Teams (Lena).
+- **Alternativen:** Erfolg an geretteten Portionen messen (vom Agenten als Art genannt; Lena: „Uns geht's um die Leute, nicht um die Portionen“).
 - **Canvas:** 4
 
-## 2026-10-28: Nutzer:innen und Kund:innen sind verschieden
+## 2026-11-24: Nutzer:innen, Kund:innen und Fall
 
-- **Kontext:** Lena nannte die Einrichtungen zuerst „unsere Kunden“. Kund:innen sind aber, wer zahlt oder ermöglicht; die Tagesstätte aus I2 kann nicht zahlen (A22).
-- **Entscheidung:** Nutzer:innen sind die Einrichtungen, die Wirkung entsteht bei ihren Gästen; das Studierendenwerk ermöglicht (Freigabe, A37) und soll zahlen (A5). Fall: eine dritte Partei zahlt.
-- **Begründung:** A22; Notion-Hypothese A5.
-- **Alternativen:** Einrichtungen zahlen (für I2 widerspricht A22); eine Stiftung zahlt (offen, kommt in `/to-model`).
+- **Kontext:** `/grill-solution`, Block 2.
+- **Entscheidung:** Nutzer:innen sind die Mitarbeitenden der Einrichtungen mit Abendgästen; die Wirkung entsteht bei deren Gästen. Kund:innen (zahlen oder ermöglichen) sind das Studierendenwerk und, falls es nicht zahlt, eine Stiftung. Fall: verschieden (eine dritte Partei zahlt). [A4] ist ersetzt durch die engere [A36].
+- **Begründung:** „Die Einrichtungen sicher nicht, die haben nichts.“ (Lena; vgl. A22) Fall: Empfehlung des Agenten, vom Team übernommen.
+- **Alternativen:** Einrichtungen zahlen einen kleinen Beitrag (I2 kann nicht, A22); Gäste zahlen (nicht gewollt).
 - **Canvas:** 2
 
-## 2026-10-28: Lösung – Abholen, kühlen, abends bringen, ohne App
+## 2026-11-24: Lösung – Einrichtungen holen ab, wir organisieren
 
-- **Kontext:** `/grill-solution`; Fazit aus `/map-solutions`.
-- **Entscheidung:** Wir holen nachmittags übrig gebliebenes Essen in der Mensa ab, kühlen es und bringen es abends zu Einrichtungen, die abends Gäste haben – oder sie holen es selbst ab. Erstmal mit einer Messenger-Gruppe.
-- **Begründung:** Lücke aus `SOLUTIONS.md`; die Interviews nennen Abholung und Kühlkette als Hürde, keine fehlende Vermittlung.
-- **Alternativen:** eigene App (A3, verworfen); nur bei foodsharing mitmachen (verworfen: „Mit foodsharing reden wir, aber erstmal probieren wir es selbst.“).
+- **Kontext:** `/grill-solution`, Block 3. Lücke aus `SOLUTIONS.md`: warmes Essen am Abend aus der Mensa zu Einrichtungen mit Abendgästen.
+- **Entscheidung:** Lösung in den Worten des Teams (Block 3): Die Einrichtungen holen die Reste nach der Ausgabe in der Mensa ab und machen sie abends warm; das Team macht die Absprachen und springt ein, wenn keiner fahren kann. Wertangebot je Gruppe in eigenen Worten.
+- **Begründung:** „Jeden Abend selbst fahren schaffen wir nicht.“ (Lena)
+- **Alternativen:** Das Team liefert jeden Abend selbst (zu viel Zeit, Lena); eigene App (verworfen am 2026-10-26).
 - **Canvas:** 3
 
-## 2026-10-28: Vision
+## 2026-11-24: Vision und gewünschte Veränderung
 
 - **Kontext:** `/grill-solution`, Block 1.
-- **Entscheidung:** „Dass niemand in Kiel abends hungrig bleiben muss.“
-- **Begründung:** Formulierung des Teams (Lena).
-- **Alternativen:** –
+- **Entscheidung:** Vision: „Dass niemand in Kiel abends hungrig bleiben muss.“ Veränderung: Gäste sozialer Einrichtungen bekommen abends etwas Warmes; weniger Essen in der Biogasanlage ist eine Nebenwirkung, nicht das Ziel.
+- **Begründung:** Eigene Worte des Teams (Lena). Die Biogasanlage steht als Nebenwirkung, weil die Verschwendung laut Entscheidung vom 2026-10-07 der Anlass ist, nicht das Kernproblem.
+- **Alternativen:** weniger Verschwendung als gleichrangiges Ziel (verworfen, siehe 2026-10-07); Biogas ganz weglassen.
 - **Canvas:** 1
 
 ## 2026-10-26: Fazit der Recherche zu bestehenden Lösungen

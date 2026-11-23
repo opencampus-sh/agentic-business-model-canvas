@@ -1,9 +1,11 @@
-d089a10 2026-11-23 13 · model-retro · A42 korrigiert, fünf eigene Checks, zwei Vorschläge fürs Skillset
-87de9ed 2026-11-18 12 · review-model · Zwei-Achsen-Review, Weg: Anpassen
-12f16d9 2026-11-16 11 · log-evidence · Testrunde ausgewertet: A35, A36, A5 widerlegt, A42 belegt, T1 läuft
-2c8f4c8 2026-11-02 10 · to-tests · Testkarten T1–T5 mit Schwellen, vor dem Testen committet
-20694da 2026-10-30 9 · to-model · Social Business Model Canvas, Stiftung als Plan B, Beträge offen
-fce4bfb 2026-10-28 8 · grill-solution · Vision, Lösung ohne App, Nutzer:innen/Kund:innen, vier kritische Annahmen
+ce5a66a 2026-12-21 13 · model-retro · Signale erklärt, drei Checks für das Projekt, zwei Vorschläge für das Skillset
+d21ad6d 2026-12-20 12 · review-model · Zwei-Achsen-Review, Weg: neu ansetzen bei „Wer zahlt?“, A40 jetzt kritisch
+c773ec1 2026-12-19 11 · log-evidence · Testergebnisse T1–T5 ausgewertet, A36 A37 A5 widerlegt, Schwelle nicht nachträglich gesenkt
+045636a 2026-11-28 10 · to-tests · Testkarten T1–T6 mit Schwellen, vor dem Testen committet
+7b1f684 2026-11-26 9 · to-model · Social Business Model Canvas in zehn Feldern, A38 und A39 kritisch, A40 vom Team nicht
+d44cb5a 2026-11-24 8 · grill-solution · Vision, Lösung, Nutzer:innen und Kund:innen, Wertangebot, Erfolgskriterien, vier kritische Annahmen
+a558a5d 2026-11-23 Einschätzungen zu realen Initiativen entfernt (nicht Teil der Übung)
+6b0e720 2026-11-23 Skills auf den aktuellen Stand gebracht (nicht Teil der Übung)
 2965d26 2026-10-26 7 · map-solutions · Tafel, foodsharing und SattMissions-Mobil mit SWOT, Fazit des Teams
 846d345 2026-10-23 6 · ask-model · Wegweiser empfiehlt /map-solutions (keine Dateiänderung)
 c225eec 2026-10-23 5 · log-evidence · Interviews I1–I4 ausgewertet, A1 ersetzt, 12 Aussagen belegt

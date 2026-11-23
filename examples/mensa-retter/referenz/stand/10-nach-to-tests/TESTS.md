@@ -21,69 +21,82 @@ Karte T?: <kurzer Titel>   ← als Überschrift: ### T1: <Titel>
 
 Bevor ihr testet: Karten committen (falls Git), damit sichtbar bleibt, dass die Schwelle vorher feststand.
 
-Reihenfolge: T1 zuerst (Gespräch mit dem Studierendenwerk), dann die Probewoche mit T2 und T3; T4 im selben Gespräch wie T1; T5 parallel.
+Testplan vom 2026-11-28 (`/to-tests`). Reihenfolge und Auswahl hat das Team entschieden (siehe `DECISIONS.md`, 2026-11-28).
 
-### T1: Freigabe durch das Studierendenwerk
-
-- **Annahme:** A37
-- **Voraussetzung:** keine
-- **Test:** Gespräch mit der Abteilungsleitung Hochschulgastronomie des Studierendenwerks (mit dem Küchenleiter aus I3): Wir bitten um die Freigabe, übrig gebliebenes Essen abzuholen, zuerst für eine Probewoche, und fragen, wie die Haftung geregelt wird.
-- **Mit wem:** Abteilungsleitung Hochschulgastronomie und Küchenleiter (2 Personen)
-- **Bis wann:** 2026-11-06
-- **Messgröße:** Freigabe ja/nein; Haftung geregelt ja/nein
-- **Schwelle:** Das Studierendenwerk sagt die Freigabe zu, ohne offene Bedingung (die Haftung ist geregelt).
-- **Ergebnis:**
-- **Status:** geplant
-- **Ausgewertet:** nein
-
-### T2: Einrichtungen nehmen das Essen an (Probewoche)
-
-- **Annahme:** A35
-- **Voraussetzung:** T1
-- **Test:** Probewoche: Wir bieten vier Einrichtungen an, eine Woche lang (fünf Werktage) abends übrig gebliebenes Mensa-Essen zu bekommen, und zählen, wer es annimmt.
-- **Mit wem:** 4 Einrichtungen (Tafel-Ausgabestelle aus I1, Tagesstätte aus I2, Jugendzentrum aus I4, eine weitere Einrichtung mit Abendgästen)
-- **Bis wann:** 2026-11-13
-- **Messgröße:** Anzahl der Einrichtungen, die an mindestens 3 von 5 Tagen Essen annehmen
-- **Schwelle:** Mindestens 3 von 4 Einrichtungen nehmen an mindestens 3 von 5 Tagen Essen an (vom ganzen Team beschlossen, siehe `DECISIONS.md`).
-- **Ergebnis:**
-- **Status:** geplant
-- **Ausgewertet:** nein
-
-### T3: Einrichtungen holen selbst ab (Probewoche)
+### T1: Probewoche – nehmen Einrichtungen das Essen an?
 
 - **Annahme:** A36
-- **Voraussetzung:** T1
-- **Test:** In derselben Probewoche wie T2: Wir bitten jede Einrichtung, die Essen annimmt, es selbst in der Mensa abzuholen, und schreiben pro Tag auf, wer abgeholt hat (Einrichtung oder Team).
-- **Mit wem:** alle Einrichtungen, die in T2 Essen annehmen (mindestens 2)
-- **Bis wann:** 2026-11-13
-- **Messgröße:** pro Einrichtung: an wie vielen von 5 Tagen sie selbst abgeholt hat
-- **Schwelle:** Jede Einrichtung, die Essen annimmt, holt an mindestens 4 von 5 Tagen selbst ab.
+- **Voraussetzung:** keine (Entscheidung des Teams: parallel zu T3 und T6; vorgeschlagen war, T3 und T6 vorher abzuschließen)
+- **Test:** Probe-Lieferung: Eine Woche lang (Mo–Fr) übrig gebliebenes Mensa-Essen für den Abend anbieten; jeden Tag notieren, ob die Einrichtung es annimmt.
+- **Mit wem:** vier Einrichtungen: Tafel-Ausgabestelle (I1), Tagesstätte (I2), Jugendzentrum (I4), eine weitere Einrichtung mit Abendgästen (sucht Jule)
+- **Bis wann:** 2026-12-18
+- **Messgröße:** Zahl der Einrichtungen, die zusagen und an mindestens 3 von 5 Tagen Essen annehmen
+- **Schwelle:** mindestens 3 von 4 Einrichtungen sagen zu und nehmen an mindestens 3 von 5 Tagen Essen an
 - **Ergebnis:**
 - **Status:** geplant
 - **Ausgewertet:** nein
 
-### T4: Studierendenwerk zahlt
+### T2: Holen die Einrichtungen selbst ab?
+
+- **Annahme:** A37
+- **Voraussetzung:** keine (läuft in derselben Probewoche wie T1)
+- **Test:** In der Probewoche aus T1 holen die Einrichtungen das Essen selbst in der Mensa ab; das Team fährt nur, wenn keiner kann.
+- **Mit wem:** die Einrichtungen, die in T1 zusagen (mindestens zwei)
+- **Bis wann:** 2026-12-18
+- **Messgröße:** pro Einrichtung: an wie vielen von 5 Tagen sie selbst abgeholt hat; an wie vielen Tagen das Team geliefert hat
+- **Schwelle:** mindestens 2 Einrichtungen holen an mindestens 4 von 5 Tagen selbst ab
+- **Ergebnis:**
+- **Status:** geplant
+- **Ausgewertet:** nein
+
+### T3: Gibt das Studierendenwerk die Abholung frei?
+
+- **Annahme:** A35
+- **Voraussetzung:** keine
+- **Test:** Gespräch mit dem Studierendenwerk mit der Bitte um Freigabe der Abholung und eine Haftungsregel (Zugang über den Küchenleiter aus I3).
+- **Mit wem:** Abteilungsleitung Hochschulgastronomie des Studierendenwerks und der Küchenleiter aus I3 (zwei Personen)
+- **Bis wann:** 2026-12-18
+- **Messgröße:** schriftliche Freigabe mit Haftungsregel: ja oder nein
+- **Schwelle:** das Studierendenwerk gibt die Abholung schriftlich frei und nennt eine Haftungsregel
+- **Ergebnis:**
+- **Status:** geplant
+- **Ausgewertet:** nein
+
+### T4: Zahlt das Studierendenwerk?
 
 - **Annahme:** A5
-- **Voraussetzung:** keine
-- **Test:** Im Gespräch aus T1 fragen wir konkret, ob das Studierendenwerk einen Teil der Kosten übernimmt (Pauschale, Material oder Fahrtkosten), und notieren die Antwort wörtlich. (Ein schriftliches Angebot mit Preis hat das Team abgelehnt, siehe `DECISIONS.md`.)
-- **Mit wem:** Abteilungsleitung Hochschulgastronomie und Küchenleiter (2 Personen)
-- **Bis wann:** 2026-11-06
-- **Messgröße:** Zusage einer Geldleistung ja/nein, mit Art und Größenordnung
-- **Schwelle:** Das Studierendenwerk sagt eine konkrete Geldleistung zu (Pauschale oder Übernahme von Kosten) und nennt Art und Größenordnung.
+- **Voraussetzung:** keine (gleiches Gespräch wie T3)
+- **Test:** Im Gespräch aus T3 fragen, ob das Studierendenwerk für den Service Geld bezahlt – ohne Betrag, weil die Kosten noch offen sind (Entscheidung des Teams). Eine Zusage zeigt nicht, ob der Betrag die Kosten deckt.
+- **Mit wem:** Abteilungsleitung Hochschulgastronomie des Studierendenwerks und der Küchenleiter aus I3 (zwei Personen)
+- **Bis wann:** 2026-12-18
+- **Messgröße:** Zusage, Geld für den Service zu zahlen: ja oder nein
+- **Schwelle:** das Studierendenwerk sagt zu, Geld für den Service zu zahlen (Betrag offen)
 - **Ergebnis:**
 - **Status:** geplant
 - **Ausgewertet:** nein
 
-### T5: Eine Stiftung fördert das Projekt
+### T5: Fördert eine Stiftung das Projekt?
 
-- **Annahme:** A42
+- **Annahme:** A39
 - **Voraussetzung:** keine
-- **Test:** Schriftliche Anfrage mit einer halben Seite Projektbeschreibung an zwei Stiftungen, die Projekte in Kiel bzw. Schleswig-Holstein fördern.
-- **Mit wem:** 2 Stiftungen
-- **Bis wann:** 2026-11-13
-- **Messgröße:** Antworten; ob die Stiftung bestätigt, dass ein Projekt wie unseres gefördert werden kann, mit Betrag und Frist
-- **Schwelle:** Mindestens eine von zwei Stiftungen bestätigt schriftlich, dass sie ein Projekt wie unseres fördern kann, und nennt einen Betrag und eine Frist.
+- **Test:** Anfrage per Mail mit kurzer Projektbeschreibung an zwei Stiftungen.
+- **Mit wem:** zwei Stiftungen (sucht Lena)
+- **Bis wann:** 2026-12-18
+- **Messgröße:** schriftliche Förderzusage mit Betrag: ja oder nein
+- **Schwelle:** mindestens 1 von 2 Stiftungen sagt eine Förderung zu (nicht nur „förderfähig“)
+- **Ergebnis:**
+- **Status:** geplant
+- **Ausgewertet:** nein
+
+### T6: Können die Einrichtungen kühlen und aufwärmen?
+
+- **Annahme:** A38
+- **Voraussetzung:** keine
+- **Test:** Besuch vor Ort: Die Einrichtungen zeigen, wo sie das Essen bis zum Abend kühlen und wie sie es aufwärmen.
+- **Mit wem:** Tafel-Ausgabestelle (I1) und Tagesstätte (I2)
+- **Bis wann:** 2026-12-18
+- **Messgröße:** Zahl der Einrichtungen mit Kühlplatz und Aufwärmmöglichkeit für die Menge, die sie nehmen wollen
+- **Schwelle:** mindestens 2 Einrichtungen zeigen Kühlplatz und Aufwärmmöglichkeit
 - **Ergebnis:**
 - **Status:** geplant
 - **Ausgewertet:** nein
