@@ -11,6 +11,13 @@ Everything that shows how the work is going: dry runs and checks before somethin
 - **Status:** open | fixed in <commit/file> | turned into check <name>
 -->
 
+## 2026-11-23 · alle Skills · Recherche für den Kurs
+
+- **What happened:** Skills werden je nach Agent anders aufgerufen: Claude Code mit `/name` (als Plugin `/agentic-business-model-canvas:name`), OpenCode automatisch oder mit `@name` (kein Slash-Befehl), Codex mit `$name` oder `/skills`. README, Skills und `ask-model` schreiben überall `/name`. `disable-model-invocation: true` ist ein Claude-Code-Feld; OpenCode bewirbt Skills nur mit `description` und lädt sie dann ggf. automatisch.
+- **Who:** Recherche (Agent), für Persona Lena mit OpenCode oder Codex
+- **Severity:** friction
+- **Status:** open – README und Kurs zeigen die drei Aufrufformen; prüfen, ob OpenCode/Codex die Skills ungewollt automatisch laden (Dry-Run mit OpenCode)
+
 ## 2026-11-22 · Korrekturen · dry run (gezielt, zweiter Lauf)
 
 - **What happened:** frisches Projekt, Lena fügt alles in den Chat ein, gibt eigene Worte, sagt „Weiß ich nicht“ und pauschal „passt“. Alle neun Korrekturen bestanden (CLAUDE.md und Import; Runden und eigene Worte; Chat-Notizen wörtlich übertragen, Freigabe in Abschnitten, pauschales „passt“ setzt nichts; Ziele ohne ID, vorläufige Zahl als offene Frage; `/to-model` in Runden, nur Arten als Optionen; eine Annahme pro Karte, Commit vor dem Test; Schwellensenkung abgelehnt, bedingte Ergebnisse offen, Widerlegtes markiert statt editiert; Review ohne freies „Weiter testen“; Commit-Angebote). 13 neue Befunde (0 blocker, 6 mittel, 7 niedrig): Status bei fehlender Voraussetzung; Karten auf *läuft* gehen verloren; teilweise widersprochene Annahmen lassen sich nicht ersetzen; neue *belegt*-Zeilen und Einzelbestätigung; Anpassen vs. Pivot bei kritischer Annahme; wo markieren; u. a.
