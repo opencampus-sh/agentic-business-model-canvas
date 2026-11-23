@@ -2,7 +2,7 @@
 
 Ein Canvas, ein Prozess und Agent-Skills, mit denen Teams ihr Impact-Startup von der Problemanalyse bis zum getesteten Geschäftsmodell entwickeln – mit einem Coding-Agenten, ohne ihm die Entscheidungen zu überlassen.
 
-> Status: **v0.1, Entwurf.** Entwickelt für den Kurs „[Become a Changemaker](https://opencampus.gitbook.io/changemaker/)“ von opencampus.sh. Gebaut mit dem [Agentic Skillset Builder](https://github.com/steffen74/agentic-skillset-builder); gleiche Canvas-Grammatik und Skill-Konventionen wie [Agentic Data Science](https://github.com/steffen74/agentic-data-science) und [Agentic Course Creation](https://github.com/steffen74/agentic-course-creation).
+> Status: **v0.9, erste öffentliche Fassung** (1.0 nach den Rückmeldungen der Kursleitung). Entwickelt für den Kurs „[Become a Changemaker](https://opencampus.gitbook.io/changemaker/)“ von opencampus.sh. Gebaut mit dem [Agentic Skillset Builder](https://github.com/steffen74/agentic-skillset-builder); gleiche Canvas-Grammatik und Skill-Konventionen wie [Agentic Data Science](https://github.com/steffen74/agentic-data-science) und [Agentic Course Creation](https://github.com/steffen74/agentic-course-creation).
 
 ## Warum
 

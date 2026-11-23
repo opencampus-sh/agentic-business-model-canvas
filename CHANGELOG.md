@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 0.9.0 (2026-11-23)
+
+Erste öffentliche Fassung, vor 1.0 noch offen für Rückmeldungen der Kursleitung von „Become a Changemaker“. Dazu gehören der Selbstlernkurs in `course/docs/` mit dem fiktiven Beispielfall Mensa-Retter und die Website auf GitHub Pages.
+
+
 - Ein Test, der nicht gemacht wurde, bekommt den Status *nicht durchgeführt* mit *Grund*; `/log-evidence` fragt nach Grund und neuem Datum, `check_project.py` meldet solche Karten nicht als überfällig, aber die kritische Annahme als offen.
 - `/to-tests` schlägt eine Reihenfolge vor, wenn die Karten nicht in die Zeit des Teams passen; das Team wählt, welche jetzt dran sind.
 - Ersetzte Annahmen werden überall ersetzt (`assumptions`, `/grill-solution`); `check_project.py` meldet ersetzte IDs in `PROBLEM.md`. `/review-model` trägt Änderungen an *Kritisch* auch in Block 6 ein.

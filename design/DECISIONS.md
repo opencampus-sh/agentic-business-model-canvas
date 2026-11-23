@@ -12,6 +12,14 @@ One entry per decision, newest first. People decide; the agent proposes and reco
 - **Canvas:** block(s) affected
 -->
 
+## 2026-11-23: Release 0.9.0 statt 0.1.0
+
+- **Context:** Erster Release; Fragen an die Kursleitung (`QUESTIONS-COURSE-LEAD.md`) sind noch offen.
+- **Decision:** Veröffentlichen als 0.9.0; 1.0 erst nach den Rückmeldungen der Kursleitung. Die Korrekturen L1–L4 gehen ohne eigenen Dry-Run mit; sie kamen aus dem zweiten Referenzlauf, der Check läuft gegen alle Stände.
+- **Reason:** Die Skills sind zweimal im Dry-Run und im Referenzlauf erprobt; der Kurs braucht öffentliche Links und Downloads.
+- **Alternatives:** 0.1.0 (unterschätzt den Stand); erst ein Dry-Run für L1–L4 (verzögert den Kurs).
+- **Canvas:** –
+
 ## 2026-11-23: Lücken aus dem zweiten Referenzlauf (L1–L4)
 
 - **Context:** Der zweite Referenzlauf (Stände 08–13) zeigte Lücken in den Skills; der Maintainer hat L1–L4 wie empfohlen entschieden.

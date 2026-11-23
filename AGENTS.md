@@ -16,7 +16,7 @@ Instructions for agents working on this repository (the skills themselves, not a
 - Language: de
 - Design files: `design/` (personas, sources, skill map, decisions, signals)
 - Canvas template: `skills/setup-model/templates/CANVAS.md`
-- Printed canvas: `canvas/agentic-business-model-canvas.svg` and `.pdf`, made with `python3 skills/show-canvas/scripts/render_canvas.py skills/setup-model/templates/CANVAS.md --print --lang de --out canvas/agentic-business-model-canvas.svg --pdf canvas/agentic-business-model-canvas.pdf --subtitle "Der Agent fragt und prüft, das Team entscheidet – getestet wird, bevor es zählt." --footer "Agentic Business Model Canvas v0.1 · CC BY 4.0 · github.com/opencampus-sh/agentic-business-model-canvas"`
+- Printed canvas: `canvas/agentic-business-model-canvas.svg` and `.pdf`, made with `python3 skills/show-canvas/scripts/render_canvas.py skills/setup-model/templates/CANVAS.md --print --lang de --out canvas/agentic-business-model-canvas.svg --pdf canvas/agentic-business-model-canvas.pdf --subtitle "Der Agent fragt und prüft, das Team entscheidet – getestet wird, bevor es zählt." --footer "Agentic Business Model Canvas v0.9 · CC BY 4.0 · github.com/opencampus-sh/agentic-business-model-canvas"`
 - Example case: `examples/mensa-retter/`
 - Checks: `python3 scripts/check_skillset.py`
 - Other skillsets in: `course/planning/`
