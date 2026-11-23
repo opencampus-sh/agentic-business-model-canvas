@@ -1,7 +1,7 @@
 # Einheit 1 · Das Problem schärfen
 
 **Ziel:** Ihr beschreibt euer Problem in euren eigenen Worten – mit Ursachen, Folgen und Zielgruppe –, und der Agent hilft beim Ordnen, ohne es für euch zu formulieren.
-**Zeit:** ca. 75 Minuten. **Vorher:** [Einheit 0](0-einrichten.md); im Handbuch [Problemanalyse](https://opencampus.gitbook.io/changemaker/impact-startup/problemanalyse-am-anfang-steht-das-problem) mit 5 Whys, Folgen und Problembaum.
+**Zeit:** ca. 70 Minuten. **Vorher:** [Einheit 0](0-einrichten.md); im Handbuch [Problemanalyse](https://opencampus.gitbook.io/changemaker/impact-startup/problemanalyse-am-anfang-steht-das-problem) mit 5 Whys, Folgen und Problembaum.
 
 ## Lesen: Wie `/grill-problem` mit euch arbeitet
 
@@ -15,7 +15,7 @@
 
 Drei Dinge sind wichtig:
 
-1. **Eigene Worte zuerst.** Bei Problem, Ursachen und Zielgruppe fragt der Agent zuerst nach euren Worten. Schreibt etwas Kurzes, auch wenn es holprig ist. Übernehmt ihr seinen Vorschlag unverändert, notiert er das im Entscheidungslog – damit später sichtbar ist, wessen Worte im Canvas stehen.
+1. **Eigene Worte zuerst.** Beim Kernproblem fragt der Agent zuerst nach euren Worten; in Einheit 4 genauso bei Vision, Lösung und Wertangebot. Erst wenn ihr keine findet, macht er einen Vorschlag. Schreibt etwas Kurzes, auch wenn es holprig ist. Übernehmt ihr seinen Vorschlag unverändert, notiert er das im Entscheidungslog – damit später sichtbar ist, wessen Worte im Canvas stehen.
 2. **„Weiß ich nicht“ ist eine gute Antwort.** Der Agent schreibt den Punkt dann unter *Noch offen* in `PROBLEM.md`. Genau diese Punkte klärt ihr in den Interviews. Ein erfundener Grund wäre schlimmer als ein offener.
 3. **Das Problem ist keine fehlende Lösung.** „Es gibt keine App für …“ beschreibt eure Idee, nicht das Problem. Der Agent fragt dann zurück: Was passiert den Menschen, solange es sie nicht gibt?
 
@@ -26,6 +26,8 @@ Am Ende stehen Kernproblem, Ursachen, Folgen, Problembaum und Problem-Hypothesen
 ## Üben
 
 Du übst am Fall Mensa-Retter. Das fiktive Team hat sein Projekt schon angelegt und dabei seine Notion-Seite übernommen: Im Register stehen A1 bis A5, alle mit Status *Annahme*.
+
+Die Übungsordner enthalten nur die Projektdateien, keine Skills. Die Skills müssen deshalb für alle Ordner installiert sein – mit dem Plugin aus [Einheit 0](0-einrichten.md) ist das so (mit `npx skills`: nur mit `-g`).
 
 ### Startzustand
 
@@ -67,8 +69,8 @@ Lieber mit der Maus? Lade die Datei über den Link herunter und entpacke sie per
     - Was wisst ihr wirklich? – „Ich hab in der Mensa gesehen, dass nach 14 Uhr Essen in große Tonnen kommt. Wie viel, weiß ich nicht.“
     - Problembaum und Problem-Hypothesen – bestätigen. Offene Punkte – „Wir alle drei, in den Interviews, bis Ende Oktober.“
 3. **Probier eigene Worte.** Schreib mindestens das Kernproblem selbst, auch wenn es holprig ist. Und teste einmal, was passiert, wenn du als Kernproblem schreibst: „Es fehlt eine App, die Mensen und Einrichtungen verbindet.“
-4. Bestätige am Ende die Blöcke 1 und 2. Fragt der Agent nach einem Commit, kannst du sagen: „Nein, das ist nur eine Übung.“
-5. Öffne `PROBLEM.md` und lies sie einmal ganz.
+4. Bestätige am Ende die Blöcke 1 und 2. In den Übungsordnern gibt es kein Git; fragt der Agent nach einem Commit, antworte „Nein“.
+5. Lies `PROBLEM.md` einmal ganz. Schreib dem Agenten „Zeig mir `PROBLEM.md`“ oder öffne die Datei mit einem Texteditor (siehe [Einheit 0](0-einrichten.md), „Dateien öffnen“).
 
 ### So sieht es aus
 
@@ -100,7 +102,7 @@ Die Lösung: [Stand 03-nach-grill-problem](https://github.com/opencampus-sh/agen
 Dein Ergebnis wird anders aussehen: andere Sätze, vielleicht andere Nummern. Das ist in Ordnung. Wichtig ist, dass die Regeln eingehalten sind:
 
 - [ ] Steht das Kernproblem in euren Worten und aus Sicht der Menschen – nicht als fehlende App?
-- [ ] Hat jede Aussage in `PROBLEM.md` eine ID wie `[A6]`, und steht diese ID in `ASSUMPTIONS.md`?
+- [ ] Hat jede Aussage in `PROBLEM.md` eine ID wie `[A6]`, und steht diese ID in `ASSUMPTIONS.md`? (Die Punkte unter *Noch offen* sind Fragen, keine Aussagen; sie haben keine ID.)
 - [ ] Steht „Weiß ich nicht“ unter *Noch offen* – statt eines erfundenen Grundes?
 - [ ] Ist fast alles *Annahme*? Hat alles, was der Agent recherchiert hat, den Status *recherchiert* und einen Link?
 - [ ] Steht in `DECISIONS.md`, was ihr entschieden habt – und ob eine Formulierung vom Agenten stammt?
@@ -113,8 +115,8 @@ Dein Ergebnis wird anders aussehen: andere Sätze, vielleicht andere Nummern. Da
 ??? question "2. Beim dritten „Warum?“ wisst ihr nicht weiter. Was tut ihr?"
     „Weiß ich nicht“ sagen. Der Punkt kommt unter *Noch offen* in `PROBLEM.md` und wird in den Interviews geprüft.
 
-??? question "3. Der Agent schlägt eine Formulierung für die Zielgruppe vor, die gut klingt. Ihr sagt „ok, passt“. Was passiert, und was wäre besser?"
-    Der Agent übernimmt sie und notiert im Entscheidungslog, dass die Formulierung von ihm stammt. Besser: erst eigene Worte, dann den Vorschlag vergleichen und bewusst übernehmen oder ändern.
+??? question "3. Ihr findet für das Kernproblem keine Worte, und der Agent schlägt eine Formulierung vor, die gut klingt. Ihr sagt „ok, passt“. Was passiert, und was wäre besser?"
+    Der Agent übernimmt sie und notiert im Entscheidungslog, dass die Formulierung von ihm stammt. Besser: Schreibt trotzdem ein paar eigene, holprige Worte. Vergleicht sie dann mit dem Vorschlag und übernehmt ihn bewusst – oder ändert ihn.
 
 ??? question "4. Welchen Status haben die Aussagen in `PROBLEM.md` nach dieser Einheit fast alle – und warum?"
     *Annahme*. Ihr habt noch mit niemandem gesprochen; belegt wird erst durch eure Interviews und Tests.

@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Unter Windows rufen `/show-canvas` und die Checks Python als `python` oder `py` auf.
 - Ohne Python: `/show-canvas` zeigt das Canvas als Text, und die Checks aus `evidence-checks` macht der Agent als Handprüfung (gefunden im Walk-through des Kurses).
 - Korrekturen aus dem Dry-Run vom 2026-11-22 (Fall Mensa-Retter):
   - Eigene Worte zuerst: Bei Problem, Vision, Lösung, Wertangebot und Fazit fragen die Skills zuerst nach den Worten des Teams; übernommene Agent-Formulierungen werden in `DECISIONS.md` vermerkt.

@@ -49,6 +49,8 @@ python3 <Pfad dieses Skills>/scripts/check_project.py            # im Projektord
 python3 <Pfad dieses Skills>/scripts/check_project.py <Ordner>
 ```
 
-**Ohne Python:** Ist `python3` nicht verfügbar, prüf die automatischen Regeln des Katalogs selbst anhand der Dateien, sag ausdrücklich, dass es eine Handprüfung ist, und biete an, beim Installieren von Python 3 zu helfen (Windows: `winget install Python.Python.3.12`; macOS: die Abfrage zu den Command Line Tools bestätigen).
+Unter Windows heißt Python meist `python` (oder `py`) statt `python3`; nimm, was läuft.
+
+**Ohne Python:** Ist kein Python verfügbar, prüf die automatischen Regeln des Katalogs selbst anhand der Dateien, sag ausdrücklich, dass es eine Handprüfung ist, und biete an, beim Installieren von Python 3 zu helfen (Windows: `winget install Python.Python.3.12`; macOS: die Abfrage zu den Command Line Tools bestätigen).
 
 Es liest `ASSUMPTIONS.md`, `CANVAS.md`, `PROBLEM.md`, `MODEL.md`, `INTERVIEWS.md` und `TESTS.md` und meldet jede Prüfung als **OK**, **OFFEN** (noch nicht so weit, z. B. weniger als drei Interviews) oder **FEHLER** (eine Regel ist verletzt). Bei einem FEHLER endet es mit Exit-Code 1. Formate, die es erwartet: Register als Tabelle mit den Spalten `ID | Aussage | Kategorie | Status | Quelle | Kritisch | Test`; Interviews als `### I1 · …` mit der Zeile `- **Ausgewertet:** ja`; Testkarten als `### T1: …` mit den Zeilen `- **Annahme:**`, `- **Voraussetzung:**`, `- **Bis wann:**`, `- **Schwelle:**`, `- **Ergebnis:**`, `- **Ausgewertet:**`.

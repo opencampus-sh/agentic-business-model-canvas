@@ -8,16 +8,22 @@ Ein Selbstlernkurs für Teams im Kurs „[Become a Changemaker](https://opencamp
 - Kapitel 1 des Handbuchs „Become a Changemaker“ gelesen;
 - einen Zugang für einen KI-Agenten – wie du dazu kommst, steht in [Einheit 0](0-einrichten.md).
 
-Du brauchst **keine** Erfahrung mit dem Terminal, mit Git oder mit Programmieren.
+Du brauchst **keine** Erfahrung mit dem Terminal, mit Git oder mit Programmieren. Python und Git installierst du in Einheit 0, mit Hilfe des Agenten.
+
+## Wo du den Kurs liest
+
+Lies den Kurs auf dieser Website, sobald sie veröffentlicht ist: Dort lassen sich die Lösungen aufklappen, und die Anleitungen für macOS, Windows und Linux stehen in Reitern. Bis dahin liegen die Seiten im [Repository](https://github.com/opencampus-sh/agentic-business-model-canvas/tree/main/course/docs). Dort siehst du sie als einfachen Text, mit den Lösungen gleich darunter.
+
+Neben dem Kurs liest du im Handbuch „Become a Changemaker“ die Kapitel 2 und 3 (für die Einheiten 1 und 2) und später die Kapitel, die die Einheiten 4 und 5 verlinken. Jede Einheit sagt unter **Vorher**, was sie braucht. Diese Lesezeit ist in den Zeiten unten nicht eingerechnet.
 
 ## Wie der Kurs aufgebaut ist
 
 | Einheit | Thema | Zeit |
 |---|---|---|
-| [0](0-einrichten.md) | Einrichten und das Canvas lesen | ca. 55 min |
-| [1](1-problem.md) | Das Problem schärfen | ca. 75 min |
+| [0](0-einrichten.md) | Einrichten und das Canvas lesen | ca. 65 min |
+| [1](1-problem.md) | Das Problem schärfen | ca. 70 min |
 | [2](2-interviews.md) | Interviews vorbereiten und auswerten | ca. 75 min |
-| [3](3-annahme-oder-beleg.md) | Annahme oder Beleg? | ca. 60 min |
+| [3](3-annahme-oder-beleg.md) | Annahme oder Beleg? | ca. 55 min |
 | [4](4-loesung-und-modell.md) | Von der Lösung zum Modell | ca. 80 min |
 | [5](5-testen-und-entscheiden.md) | Testen und entscheiden | ca. 75 min |
 

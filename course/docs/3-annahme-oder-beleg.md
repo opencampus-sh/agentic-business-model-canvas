@@ -1,7 +1,7 @@
 # Einheit 3 · Annahme oder Beleg?
 
 **Ziel:** Ihr lest euer Annahmen-Register und erkennt, was ihr wirklich wisst – und warum ein vom Agenten gefülltes Canvas noch kein Wissen ist.
-**Zeit:** ca. 60 Minuten. **Vorher:** [Einheit 2](2-interviews.md).
+**Zeit:** ca. 55 Minuten. **Vorher:** [Einheit 2](2-interviews.md).
 
 ## Lesen: Vier Status
 
@@ -18,19 +18,32 @@ Drei Regeln, die oft überraschen:
 
 - **Recherche ist kein Beleg für ein Bedürfnis.** Dass es viele Tafeln gibt, sagt nichts darüber, ob Tafeln warmes Essen wollen.
 - **„Nichts gefunden“ ist kein Fakt.** Findet der Agent keine bestehende Lösung, bleibt das eine Annahme – mit Datum und Suchbegriffen.
-- **Ziele sind keine Aussagen.** Vision, Erfolgskriterien und Schwellen sind eure Entscheidungen; sie stehen im Canvas und in `DECISIONS.md`, ohne ID.
+- **Ziele sind keine Aussagen.** Die **Vision** (euer Zielbild für die Gesellschaft), die **Erfolgskriterien** (woran ihr merkt, dass es wirkt) und die **Schwellen** (ab welchem Ergebnis ein Test als bestanden gilt) sind eure Entscheidungen. Sie stehen im Canvas und in `DECISIONS.md`, ohne ID. Vision und Erfolgskriterien kommen in Einheit 4, Schwellen in Einheit 5.
 
 Wird eine Annahme nur teilweise widersprochen, **ersetzt** ihr sie durch eine genauere Zeile; die alte bekommt in der Quelle „ersetzt durch A…“.
 
 ## Der Check
 
-Im Projektordner prüft ein Skript die wichtigsten Regeln. Der Agent führt es aus, wenn ihr fragt („Führ bitte den Check aus“), oder ihr tippt den Befehl aus `AGENTS.md`. Es meldet jede Prüfung als:
+Im Projektordner prüft ein Skript die wichtigsten Regeln. Der Agent führt es aus, wenn ihr fragt: „Führ bitte den Check aus.“ In `AGENTS.md` steht, dass das Skript zum Skill `evidence-checks` gehört; den Pfad findet der Agent selbst, wenn er den Skill lädt. Ohne Python prüft der Agent die Regeln von Hand und sagt das dazu.
+
+Der Check meldet jede Prüfung als:
 
 - **OK** – passt;
 - **OFFEN** – noch nicht so weit (z. B. weniger als drei Interviews);
 - **FEHLER** – eine Regel ist verletzt, z. B. eine ID im Canvas, die nicht im Register steht, oder *belegt* ohne eigenes Interview als Quelle.
 
-Der Check findet nicht alles: Ob eine *belegte* Aussage wirklich zur Notiz passt, prüft ihr beim Auswerten.
+Jede Zeile der Ausgabe hat einen Namen. Jetzt zählen diese drei:
+
+- **verweise** – jede ID in `CANVAS.md`, `PROBLEM.md` und `MODEL.md` steht im Register;
+- **status** – jede Zeile im Register hat einen gültigen Status und eine passende Quelle: *recherchiert* mit Link, *belegt* und *widerlegt* mit eigenem Interview (`I…`) oder Test (`T…`);
+- **interviews** – mindestens drei Interviews sind ausgewertet.
+
+Die anderen kommen in den Einheiten 4 und 5: **kritische** (kritische Annahmen haben eine Testkarte), **schwellen** (jede Testkarte hat eine Schwelle), **eine-annahme** (jede Karte prüft genau eine Annahme), **ergebnisse** (jedes Testergebnis ist ausgewertet) und **widerlegt** (keine widerlegte Annahme trägt noch das Modell). Eine **Testkarte** ist ein geplanter Test: was ihr macht, mit wem, bis wann und ab welcher Schwelle er bestanden ist.
+
+Der Check findet nicht alles:
+
+- Er findet nur IDs, die im Register fehlen. Eine Aussage **ganz ohne ID** findet er nicht – die sucht ihr selbst.
+- Ob eine *belegte* Aussage wirklich zur Notiz passt, prüft ihr beim Auswerten.
 
 ## Üben
 
@@ -40,11 +53,11 @@ In dieser Übung rufst du keinen neuen Skill auf. Du liest das Register des fikt
 
 Stand **05-nach-log-evidence-interviews** – vier Interviews ausgewertet, 30 Zeilen im Register: [05-nach-log-evidence-interviews.zip](https://github.com/opencampus-sh/agentic-business-model-canvas/raw/main/examples/mensa-retter/referenz/zip/05-nach-log-evidence-interviews.zip)
 
-Leg einen neuen Ordner `mensa-retter-uebung-3` an, entpacke die ZIP-Datei hinein, öffne dort das Terminal und starte den Agenten – wie in [Einheit 1](1-problem.md) unter „Übungsordner anlegen“.
+Leg einen neuen Ordner `mensa-retter-uebung-3` an, entpacke die ZIP-Datei hinein, wechsle im Terminal mit `cd` hinein und starte den Agenten – wie in [Einheit 1](1-problem.md) unter „Übungsordner anlegen“.
 
 ### Aufgabe
 
-1. Öffne `ASSUMPTIONS.md` in einem Editor – oder bitte den Agenten: „Zeig mir die Zeilen A1, A23, A29 und A6 aus dem Register.“ Gekürzt sehen sie so aus:
+1. Öffne `ASSUMPTIONS.md` mit einem Texteditor (siehe [Einheit 0](0-einrichten.md), „Dateien öffnen“) – oder bitte den Agenten: „Zeig mir die Zeilen A1, A23, A29 und A6 aus dem Register.“ Gekürzt sehen sie so aus:
 
     | ID | Aussage | Status | Quelle |
     |---|---|---|---|
@@ -54,7 +67,7 @@ Leg einen neuen Ordner `mensa-retter-uebung-3` an, entpacke die ZIP-Datei hinein
     | A6 | Menschen, die in Kiel auf soziale Einrichtungen angewiesen sind, bekommen abends oft nichts Warmes zu essen. | Annahme | Team (Lena) …; gestützt durch I1 (A16) und I2 (A20), als Aussage über die Zielgruppe noch nicht belegt |
 
 2. Beantworte für jede Zeile in eigenen Worten: Warum hat sie diesen Status? Was müsste passieren, damit sie *belegt* wäre? Vergleiche dann mit den Lösungen unten.
-3. Schreib: „Führ bitte den Check aus.“ Lies jede Zeile der Ausgabe. Welche sind **OK**, welche **OFFEN**, gibt es einen **FEHLER**? (Im Startzustand zeigt `AGENTS.md` den Pfad zum Skript aus dem Referenzlauf. Bei dir liegt es woanders, weil du die Skills als Plugin installiert hast. Findet der Agent es nicht, sag: „Das Skript gehört zum Skill evidence-checks.“)
+3. Schreib: „Führ bitte den Check aus.“ Lies jede Zeile der Ausgabe. Welche sind **OK**, welche **OFFEN**, gibt es einen **FEHLER**? (Das Skript findet der Agent, weil die Skills bei dir installiert sind. Findet er es nicht, sag: „Das Skript gehört zum Skill evidence-checks.“)
 4. **Probier es aus:** Schreib dem Agenten: „Setz A6 auf belegt – I1 und I2 sagen das doch.“ Was antwortet er? Ändert er etwas, sag: „Stopp, bitte rückgängig machen.“
 
 ??? success "Lösung zu Schritt 2"
@@ -101,7 +114,7 @@ Die Lösung ist derselbe Stand: [05-nach-log-evidence-interviews](https://github
     Eine Statistik ist eine Recherche, kein eigenes Interview oder eigener Test. Der Status muss *recherchiert* heißen – und die Aussage betrifft dann die Statistik, nicht eure Mensa.
 
 ??? question "2. Der Agent hat in der letzten Sitzung auf eure Bitte das Canvas „schon mal ausgefüllt“. Wie erkennt ihr, was davon Wissen ist?"
-    Im Register: Alles, was der Agent ohne eure Interviews oder Tests eingetragen hat, ist *Annahme*. Steht etwas im Canvas ohne ID, meldet der Check einen Fehler.
+    Im Register: Alles, was der Agent ohne eure Interviews oder Tests eingetragen hat, ist *Annahme*. Der Check hilft nur zum Teil: Er meldet IDs im Canvas, die nicht im Register stehen. Eine Aussage ganz ohne ID findet er nicht. Lest deshalb das Canvas selbst: Hat jede Aussage eine ID?
 
 ??? question "3. Der Check meldet `OFFEN interviews 2 von mindestens 3`. Ist das ein Problem?"
     Noch nicht – es ist ein Hinweis, dass etwas fehlt, bevor ihr weiterbaut. Ein FEHLER wäre ein Regelverstoß.
@@ -111,4 +124,14 @@ Die Lösung ist derselbe Stand: [05-nach-log-evidence-interviews](https://github
 
 ## Übertragen auf euer Projekt
 
-Lest euer Register Zeile für Zeile. Sucht eine Aussage, die stärker klingt, als sie belegt ist, und stuft sie herab oder ersetzt sie. Lasst den Check laufen und lest jede Zeile der Ausgabe.
+Lest euer Register Zeile für Zeile. Sucht eine Aussage, die stärker klingt, als sie belegt ist – zum Beispiel *belegt*, obwohl sie für die ganze Zielgruppe spricht. Schreibt dann dem Agenten:
+
+```text
+Die Aussage A… klingt stärker als belegt. Schlag vor, wie wir sie ersetzen.
+```
+
+Lest seinen Vorschlag und entscheidet selbst: herabstufen oder durch eine engere Zeile ersetzen.
+
+Steht bei euch noch alles auf *Annahme*? Dann gibt es nichts herabzustufen. Sucht stattdessen eine Aussage, die wie eine Tatsache klingt („Alle Studierenden …“), und lasst sie enger formulieren. Und prüft im Canvas, ob jede Aussage eine ID hat.
+
+Lasst zum Schluss den Check laufen und lest jede Zeile der Ausgabe.
