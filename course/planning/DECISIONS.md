@@ -12,6 +12,14 @@ Ein Eintrag pro Entscheidung, die neueste oben. Das Team entscheidet; der Agent 
 - **Canvas:** betroffene Blöcke
 -->
 
+## 2026-11-23: Übungsmaterial, Transfer, Installationswege
+
+- **Kontext:** Stop-Points von `/map-resources` und `/to-course-plan` (D1–D4).
+- **Entscheidung:** (D1) Ein dritter, vollständiger Referenzlauf mit den aktuellen Skills liefert Start- und Lösungszustände pro Einheit (ein Commit pro Skill). (D2) Eigene Interviews und Tests liegen außerhalb des Kurses; der Transfer umfasst Leitfaden und Testkarte, die Auswertung echter Belege folgt im Changemaker-Kurs. (D3) Quelle der Installationsbefehle ist das README; ein Check vergleicht die Kursseite damit. (D4) Für Claude Code ist der Plugin-Weg (ohne Node.js) der Hauptweg in Einheit 0; `npx skills` für OpenCode und Codex.
+- **Begründung:** Übungen sollen das Verhalten der aktuellen Skills zeigen; ein 7-Stunden-Kurs darf nicht wochenlang auf Interviews warten; eine Quelle pro Fakt; eine Installation weniger für Lena.
+- **Alternativen:** Material aus beiden Dry-Runs zusammensetzen; echte Interviews im Kurs; `npx skills` für alle.
+- **Canvas:** 7, 9
+
 ## 2026-11-23: Lernende, Lernziele, Nachweis und Vorwissen
 
 - **Kontext:** `/grill-course`, Runde 1 (F1–F5).
